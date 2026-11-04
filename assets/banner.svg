@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <radialGradient id="bgG" cx="30%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" rx="16" fill="url(#bgG)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="55" x2="900" y2="55" stroke="#334155" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="110" x2="900" y2="110" stroke="#334155" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="165" x2="900" y2="165" stroke="#334155" stroke-width="0.5" opacity="0.4"/>
+  <line x1="225" y1="0" x2="225" y2="220" stroke="#334155" stroke-width="0.5" opacity="0.4"/>
+  <line x1="450" y1="0" x2="450" y2="220" stroke="#334155" stroke-width="0.5" opacity="0.4"/>
+  <line x1="675" y1="0" x2="675" y2="220" stroke="#334155" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Neural dots (right side decoration) -->
+  <circle cx="720" cy="55" r="5" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="780" cy="90" r="5" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="840" cy="55" r="5" fill="#10b981" opacity="0.5"/>
+  <circle cx="840" cy="145" r="5" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="780" cy="165" r="5" fill="#10b981" opacity="0.5"/>
+  <circle cx="720" cy="145" r="5" fill="#38bdf8" opacity="0.4"/>
+  <circle cx="860" cy="110" r="4" fill="#7dd3fc" opacity="0.4"/>
+  <line x1="720" y1="55" x2="780" y2="90" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/>
+  <line x1="780" y1="90" x2="840" y2="55" stroke="#38bdf8" stroke-width="1.2" opacity="0.3"/>
+  <line x1="720" y1="55" x2="720" y2="145" stroke="#38bdf8" stroke-width="1.2" opacity="0.2"/>
+  <line x1="720" y1="145" x2="780" y2="165" stroke="#10b981" stroke-width="1.2" opacity="0.3"/>
+  <line x1="780" y1="165" x2="840" y2="145" stroke="#10b981" stroke-width="1.2" opacity="0.3"/>
+  <line x1="840" y1="55" x2="840" y2="145" stroke="#38bdf8" stroke-width="1.2" opacity="0.2"/>
+  <line x1="780" y1="90" x2="780" y2="165" stroke="#38bdf8" stroke-width="1" opacity="0.15"/>
+  <line x1="840" y1="145" x2="860" y2="110" stroke="#7dd3fc" stroke-width="1" opacity="0.25"/>
+
+  <!-- Icon group (left) -->
+  <!-- Book icon -->
+  <rect x="38" y="70" width="60" height="80" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="98" y="70" width="60" height="80" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="94" y="68" width="10" height="84" rx="2" fill="#38bdf8" opacity="0.8"/>
+  <!-- Book text lines -->
+  <line x1="50" y1="92" x2="88" y2="92" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <line x1="50" y1="104" x2="88" y2="104" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <line x1="50" y1="116" x2="80" y2="116" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <line x1="110" y1="92" x2="148" y2="92" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <line x1="110" y1="104" x2="148" y2="104" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <line x1="110" y1="116" x2="140" y2="116" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <!-- Graduation cap on top of book -->
+  <ellipse cx="99" cy="73" rx="38" ry="8" fill="#38bdf8" filter="url(#glow)" opacity="0.9"/>
+  <rect x="78" y="48" width="42" height="28" rx="4" fill="#0ea5e9"/>
+  <!-- Tassel -->
+  <line x1="99" y1="73" x2="128" y2="73" stroke="#fbbf24" stroke-width="2.5"/>
+  <line x1="128" y1="73" x2="128" y2="93" stroke="#fbbf24" stroke-width="2.5"/>
+  <circle cx="128" cy="93" r="5" fill="#f59e0b"/>
+
+  <!-- OFFLINE pill -->
+  <rect x="38" y="162" width="80" height="22" rx="11" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+  <circle cx="52" cy="173" r="5" fill="#10b981"/>
+  <text x="62" y="177" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#34d399">OFFLINE</text>
+
+  <!-- EDGE AI pill -->
+  <rect x="128" y="162" width="72" height="22" rx="11" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="145" y="177" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#38bdf8">EDGE AI</text>
+
+  <!-- Main title -->
+  <text x="225" y="82" font-family="Arial,sans-serif" font-size="32" font-weight="900" fill="#f8fafc" filter="url(#textGlow)">🎓 Offline Smart Learning</text>
+  <text x="225" y="122" font-family="Arial,sans-serif" font-size="32" font-weight="900" fill="#38bdf8" filter="url(#textGlow)">Assistant</text>
+
+  <!-- Tagline -->
+  <text x="225" y="152" font-family="Arial,sans-serif" font-size="15" fill="#94a3b8">Train on PDFs &amp; JSON • Answer Questions Offline • 2.2 MB Edge Model</text>
+
+  <!-- Bottom badges row -->
+  <rect x="225" y="170" width="90" height="24" rx="12" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2"/>
+  <text x="258" y="186" font-family="Arial,sans-serif" font-size="12" fill="#a5b4fc" text-anchor="middle">PyTorch</text>
+
+  <rect x="325" y="170" width="105" height="24" rx="12" fill="#1a2e1a" stroke="#4ade80" stroke-width="1.2"/>
+  <text x="379" y="186" font-family="Arial,sans-serif" font-size="12" fill="#86efac" text-anchor="middle">Raspberry Pi</text>
+
+  <rect x="440" y="170" width="115" height="24" rx="12" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="500" y="186" font-family="Arial,sans-serif" font-size="12" fill="#7dd3fc" text-anchor="middle">Zero APIs • 0.7ms</text>
+
+  <rect x="565" y="170" width="90" height="24" rx="12" fill="#2d1a1a" stroke="#f87171" stroke-width="1.2"/>
+  <text x="612" y="186" font-family="Arial,sans-serif" font-size="12" fill="#fca5a5" text-anchor="middle">ExecuTorch</text>
+</svg>
