@@ -32,10 +32,29 @@ from data_loader import (
 from model import EdgeNeuralQAModel
 
 
+def resolve_paths(paths: Optional[List[str]], extension: str, default_dir: Optional[str] = None) -> List[str]:
+    """Resolves individual files or directories into a flat list of matching files."""
+    resolved = []
+    target_paths = list(paths) if paths else []
+
+    if not target_paths and default_dir and os.path.exists(default_dir):
+        target_paths = [default_dir]
+
+    for p in target_paths:
+        if os.path.isdir(p):
+            for root, _, files in os.walk(p):
+                for f in sorted(files):
+                    if f.lower().endswith(extension):
+                        resolved.append(os.path.join(root, f))
+        elif os.path.isfile(p) and p.lower().endswith(extension):
+            resolved.append(p)
+    return resolved
+
+
 def train_offline_model(
     pdf_paths: Optional[List[str]] = None,
     json_paths: Optional[List[str]] = None,
-    save_path: str = "offline_knowledge_model.pth",
+    save_path: str = "models/offline_knowledge_model.pth",
     epochs: int = 15,
     batch_size: int = 8,
     lr: float = 0.001,
@@ -46,6 +65,7 @@ def train_offline_model(
     """
     Trains the offline neural model on supplied PDF textbooks and JSON datasets,
     compresses parameters into a .pth checkpoint, and returns training summary.
+    Defaults to scanning `data/pdf_textbooks/` and `data/json_curriculum/`.
     """
     print("\n" + "=" * 68)
     print("      OFFLINE NEURAL MODEL TRAINING (PDF & JSON CURRICULUM)")
@@ -53,27 +73,29 @@ def train_offline_model(
 
     all_chunks: List[KnowledgeChunk] = []
 
+    # Auto-resolve directories
+    effective_pdfs = resolve_paths(pdf_paths, ".pdf", default_dir="data/pdf_textbooks")
+    effective_jsons = resolve_paths(json_paths, ".json", default_dir="data/json_curriculum")
+
     # 1. Ingest PDF files
-    if pdf_paths:
-        for p in pdf_paths:
-            if os.path.exists(p):
-                print(f"[Data Ingestion] Extracting textbook knowledge from PDF: {os.path.basename(p)}")
-                pdf_chunks = extract_text_from_pdf(p)
-                all_chunks.extend(pdf_chunks)
-                print(f"  -> Extracted {len(pdf_chunks)} contextual knowledge chunks.")
-            else:
-                print(f"[Warning] PDF file not found: {p}")
+    if effective_pdfs:
+        for p in effective_pdfs:
+            print(f"[Data Ingestion] Extracting textbook knowledge from PDF: {os.path.basename(p)}")
+            pdf_chunks = extract_text_from_pdf(p)
+            all_chunks.extend(pdf_chunks)
+            print(f"  -> Extracted {len(pdf_chunks)} contextual knowledge chunks from {os.path.basename(p)}.")
+    else:
+        print("[Data Ingestion] No PDF files found in data/pdf_textbooks/")
 
     # 2. Ingest JSON files
-    if json_paths:
-        for j in json_paths:
-            if os.path.exists(j):
-                print(f"[Data Ingestion] Loading structured Q&A / notes from JSON: {os.path.basename(j)}")
-                json_chunks = load_qa_from_json(j)
-                all_chunks.extend(json_chunks)
-                print(f"  -> Loaded {len(json_chunks)} Q&A / curriculum entries.")
-            else:
-                print(f"[Warning] JSON file not found: {j}")
+    if effective_jsons:
+        for j in effective_jsons:
+            print(f"[Data Ingestion] Loading structured Q&A / notes from JSON: {os.path.basename(j)}")
+            json_chunks = load_qa_from_json(j)
+            all_chunks.extend(json_chunks)
+            print(f"  -> Loaded {len(json_chunks)} Q&A / curriculum entries from {os.path.basename(j)}.")
+    else:
+        print("[Data Ingestion] No JSON files found in data/json_curriculum/")
 
     if not all_chunks:
         raise ValueError("No valid knowledge chunks extracted. Please provide at least one valid PDF or JSON file.")

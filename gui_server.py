@@ -291,14 +291,29 @@ HTML_PAGE = """<!DOCTYPE html>
         <h2>⚙️ Multi-Source Curriculum Training (PDF + JSON)</h2>
         <p>Train across multiple textbook PDFs and JSON Q&A files simultaneously. Customize epochs and target <code>.pth</code> filename.</p>
 
+        <!-- One-Click Folder Train -->
+        <div style="background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.3); border-radius: 10px; padding: 16px 18px; margin-bottom: 20px;">
+          <div style="font-size: 1rem; font-weight: bold; color: #34d399; margin-bottom: 6px;">📁 One-Click Folder Training</div>
+          <p style="margin-bottom: 12px;">Drop PDFs into <code>data/pdf_textbooks/</code> and JSON files into <code>data/json_curriculum/</code>, then hit the button below — no config needed!</p>
+          <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <button class="btn btn-accent" onclick="trainFromFolders()">
+              <span>⚡ Train from data/ Folders</span>
+              <div class="loader" id="folder-train-loader"></div>
+            </button>
+            <span id="folder-train-status" style="font-size: 0.85rem; color: var(--text-muted);">Scans data/pdf_textbooks/ + data/json_curriculum/ automatically.</span>
+          </div>
+        </div>
+
+        <div style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 14px; border-top: 1px solid var(--border); padding-top: 14px;">— or specify individual file paths below —</div>
+
         <div class="form-group">
           <label>PDF Textbook File Paths (comma-separated):</label>
-          <input type="text" id="train-pdf" value="sample_data/science_textbook.pdf">
+          <input type="text" id="train-pdf" value="data/pdf_textbooks/science_textbook.pdf">
         </div>
 
         <div class="form-group">
           <label>JSON Curriculum Q&A File Paths:</label>
-          <input type="text" id="train-json" value="sample_data/curriculum_qa.json">
+          <input type="text" id="train-json" value="data/json_curriculum/curriculum_qa.json">
         </div>
 
         <div style="display: flex; gap: 16px;">
@@ -604,6 +619,41 @@ HTML_PAGE = """<!DOCTYPE html>
       await fetch('/api/generate-samples');
       alert('Sample PDF & JSON curriculum files created in sample_data/!');
     }
+
+    async function trainFromFolders() {
+      const loader = document.getElementById('folder-train-loader');
+      const statusEl = document.getElementById('folder-train-status');
+      const resBox = document.getElementById('train-result');
+      loader.style.display = 'inline-block';
+      statusEl.innerText = 'Scanning data/pdf_textbooks/ and data/json_curriculum/ ...';
+
+      try {
+        const resp = await fetch('/api/train-from-folders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ save_path: 'models/folder_trained_model.pth', epochs: 12 })
+        });
+        const data = await resp.json();
+        if (data.error) {
+          statusEl.innerText = 'Error: ' + data.error;
+          alert('Training error: ' + data.error);
+          return;
+        }
+        document.getElementById('train-size').innerText = data.file_size_mb.toFixed(2) + ' MB';
+        document.getElementById('train-params').innerText = data.total_params.toLocaleString();
+        document.getElementById('train-chunks').innerText = data.num_chunks;
+        document.getElementById('train-loss').innerText = data.final_loss.toFixed(3);
+        document.getElementById('train-time').innerText = data.training_time_s.toFixed(2) + 's';
+        document.getElementById('bar-model-name').innerText = data.save_path;
+        statusEl.innerText = '✅ Trained from folders in ' + data.training_time_s.toFixed(1) + 's!';
+        resBox.style.display = 'block';
+      } catch (err) {
+        statusEl.innerText = 'Failed: ' + err;
+        alert('Failed: ' + err);
+      } finally {
+        loader.style.display = 'none';
+      }
+    }
   </script>
 </body>
 </html>
@@ -749,6 +799,42 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 "inference_time_ms": response.inference_time_ms,
                 "offline_verified": True,
             })
+
+        elif path == "/api/train-from-folders":
+            # Auto-scan the drop-zone directories and train
+            save_path = payload.get("save_path", "models/folder_trained_model.pth")
+            epochs = payload.get("epochs", 12)
+            pdf_dir = "data/pdf_textbooks"
+            json_dir = "data/json_curriculum"
+
+            try:
+                from trainer import train_offline_model, resolve_paths
+                pdf_paths = resolve_paths([], ".pdf", pdf_dir)
+                json_paths = resolve_paths([], ".json", json_dir)
+                if not pdf_paths and not json_paths:
+                    self._send_json({"error": f"No PDF or JSON files found in {pdf_dir}/ or {json_dir}/. Please add files there first."}, status=400)
+                    return
+                stats = train_offline_model(
+                    pdf_paths=pdf_paths,
+                    json_paths=json_paths,
+                    save_path=save_path,
+                    epochs=epochs,
+                )
+                file_size_mb = os.path.getsize(save_path) / (1024.0 * 1024.0)
+                get_qa_runner(save_path)
+                self._send_json({
+                    "success": True,
+                    "save_path": save_path,
+                    "file_size_mb": file_size_mb,
+                    "total_params": stats["total_params"],
+                    "num_chunks": stats["num_chunks"],
+                    "final_loss": stats["final_loss"],
+                    "training_time_s": stats["training_time_s"],
+                    "pdf_files": pdf_paths,
+                    "json_files": json_paths,
+                })
+            except Exception as e:
+                self._send_json({"error": str(e)}, status=400)
 
         elif path == "/api/train":
             pdf_paths = payload.get("pdf_paths", [])

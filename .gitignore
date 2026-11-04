@@ -13,3 +13,6 @@ cmake-out/
 build/
 
 .vercel
+
+# Student-uploaded PDFs (not committed to git)
+uploads/

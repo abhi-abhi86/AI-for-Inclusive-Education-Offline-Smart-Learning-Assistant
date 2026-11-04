@@ -203,6 +203,30 @@ class OfflineLearningAssistantDesktopApp:
         self.lbl_auto_status = tk.Label(quick_btn_frame, text="Ready.", font=("Helvetica", 9), fg="#64748b")
         self.lbl_auto_status.pack(side="left", padx=12)
 
+        # One-Click Folder Training
+        folder_frame = tk.LabelFrame(self.train_tab, text=" ⚡ One-Click Folder Training ", font=("Helvetica", 10, "bold"), padx=12, pady=10, fg="#059669")
+        folder_frame.pack(fill="x", pady=4)
+
+        tk.Label(folder_frame, text="Drop PDFs → data/pdf_textbooks/   |   Drop JSON → data/json_curriculum/   Then click:").pack(anchor="w", pady=2)
+
+        folder_btn_row = tk.Frame(folder_frame)
+        folder_btn_row.pack(fill="x", pady=4)
+
+        self.btn_folder_train = tk.Button(
+            folder_btn_row,
+            text="⚡ Train from data/ Folders",
+            font=("Helvetica", 10, "bold"),
+            bg="#059669",
+            fg="white",
+            padx=14,
+            pady=6,
+            command=self._on_folder_train,
+        )
+        self.btn_folder_train.pack(side="left")
+
+        self.lbl_folder_status = tk.Label(folder_btn_row, text="Scans data/pdf_textbooks/ and data/json_curriculum/ automatically.", font=("Helvetica", 9), fg="#64748b")
+        self.lbl_folder_status.pack(side="left", padx=12)
+
         # Advanced Manual Training Card
         input_frame = tk.LabelFrame(self.train_tab, text=" Advanced Multi-Source Training (PDF & JSON) ", font=("Helvetica", 10, "bold"), padx=12, pady=10)
         input_frame.pack(fill="x", pady=6)
@@ -210,14 +234,14 @@ class OfflineLearningAssistantDesktopApp:
         # PDF file selector
         tk.Label(input_frame, text="PDF Textbooks:").grid(row=0, column=0, sticky="w", pady=4)
         self.entry_pdf = tk.Entry(input_frame, font=("Helvetica", 10), width=48)
-        self.entry_pdf.insert(0, "sample_data/science_textbook.pdf")
+        self.entry_pdf.insert(0, "data/pdf_textbooks/science_textbook.pdf")
         self.entry_pdf.grid(row=0, column=1, padx=6, pady=4, sticky="ew")
         tk.Button(input_frame, text="Browse...", command=self._browse_pdf).grid(row=0, column=2, padx=4)
 
         # JSON file selector
         tk.Label(input_frame, text="JSON Q&A / Curriculum:").grid(row=1, column=0, sticky="w", pady=4)
         self.entry_json = tk.Entry(input_frame, font=("Helvetica", 10), width=48)
-        self.entry_json.insert(0, "sample_data/curriculum_qa.json")
+        self.entry_json.insert(0, "data/json_curriculum/curriculum_qa.json")
         self.entry_json.grid(row=1, column=1, padx=6, pady=4, sticky="ew")
         tk.Button(input_frame, text="Browse...", command=self._browse_json).grid(row=1, column=2, padx=4)
 
@@ -255,10 +279,50 @@ class OfflineLearningAssistantDesktopApp:
         self.train_log.pack(fill="both", expand=True)
 
     def _browse_pdf(self):
-        path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf"), ("All files", "*.*")])
+        path = filedialog.askopenfilename(
+            initialdir=os.path.abspath("data/pdf_textbooks"),
+            filetypes=[("PDF files", "*.pdf"), ("All files", "*.*")]
+        )
         if path:
             self.entry_pdf.delete(0, tk.END)
             self.entry_pdf.insert(0, path)
+
+    def _on_folder_train(self):
+        """Train automatically from the data/pdf_textbooks/ and data/json_curriculum/ drop-zones."""
+        self.lbl_folder_status.config(text="Scanning data/pdf_textbooks/ and data/json_curriculum/ ...", fg="#0284c7")
+        self.btn_folder_train.config(state="disabled")
+        save_path = "models/folder_trained_model.pth"
+
+        def run_thread():
+            try:
+                from trainer import train_offline_model, resolve_paths
+                pdf_paths = resolve_paths([], ".pdf", "data/pdf_textbooks")
+                json_paths = resolve_paths([], ".json", "data/json_curriculum")
+                if not pdf_paths and not json_paths:
+                    self.lbl_folder_status.config(text="No files found! Add PDFs/JSON to data/ folders first.", fg="#dc2626")
+                    return
+                stats = train_offline_model(pdf_paths=pdf_paths, json_paths=json_paths, save_path=save_path, epochs=12)
+                self.default_model_path = save_path
+                self.qa_runner = OfflineQAModelRunner(save_path)
+                file_size_mb = os.path.getsize(save_path) / (1024.0 * 1024.0)
+                self.lbl_folder_status.config(
+                    text=f"✅ Trained from folders! ({file_size_mb:.2f} MB, {stats['num_chunks']} chunks, loss={stats['final_loss']:.4f})",
+                    fg="#059669"
+                )
+                self.notebook.select(self.qa_tab)
+                messagebox.showinfo(
+                    "Folder Training Complete!",
+                    f"Model trained from {len(pdf_paths)} PDF(s) and {len(json_paths)} JSON file(s).\n"
+                    f"Saved: {save_path}\n"
+                    f"Size: {file_size_mb:.2f} MB | Chunks: {stats['num_chunks']}"
+                )
+            except Exception as e:
+                self.lbl_folder_status.config(text=f"Error: {e}", fg="#dc2626")
+                messagebox.showerror("Training Error", str(e))
+            finally:
+                self.btn_folder_train.config(state="normal")
+
+        threading.Thread(target=run_thread, daemon=True).start()
 
     def _on_auto_upload_pdf(self):
         path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf"), ("All files", "*.*")])
@@ -299,7 +363,10 @@ class OfflineLearningAssistantDesktopApp:
         threading.Thread(target=run_thread, daemon=True).start()
 
     def _browse_json(self):
-        path = filedialog.askopenfilename(filetypes=[("JSON files", "*.json"), ("All files", "*.*")])
+        path = filedialog.askopenfilename(
+            initialdir=os.path.abspath("data/json_curriculum"),
+            filetypes=[("JSON files", "*.json"), ("All files", "*.*")]
+        )
         if path:
             self.entry_json.delete(0, tk.END)
             self.entry_json.insert(0, path)

@@ -155,9 +155,9 @@ def main():
     print_header()
 
     if args.subcommand == "train":
+        print(f"{BOLD}[Mode] Training Edge Neural Model on local documents...{RESET}")
         if not args.pdf and not args.json:
-            print("Error: Specify at least one --pdf or --json file to train.", file=sys.stderr)
-            sys.exit(1)
+            print(f"{CYAN}Auto-scanning default folders: 'data/pdf_textbooks/' and 'data/json_curriculum/'...{RESET}")
         cmd_train(args)
     elif args.subcommand == "ask":
         cmd_ask(args)
