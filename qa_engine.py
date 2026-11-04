@@ -10,8 +10,14 @@ import time
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
-import torch
-import torch.nn.functional as F
+try:
+    import torch
+    import torch.nn.functional as F
+    TORCH_AVAILABLE = True
+except ImportError:
+    torch = None
+    F = None
+    TORCH_AVAILABLE = False
 
 from data_loader import Vocabulary
 from model import EdgeNeuralQAModel

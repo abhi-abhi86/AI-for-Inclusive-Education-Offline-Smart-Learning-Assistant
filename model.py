@@ -8,15 +8,26 @@ Zero external APIs required.
 import math
 from typing import Dict, List, Optional, Tuple
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
+try:
+    import torch
+    import torch.nn as nn
+    import torch.nn.functional as F
+    TORCH_AVAILABLE = True
+    _ModuleBase = nn.Module
+except ImportError:
+    torch = None
+    nn = None
+    F = None
+    TORCH_AVAILABLE = False
+    _ModuleBase = object
 
 
-class PositionalEncoding(nn.Module):
+class PositionalEncoding(_ModuleBase):
     """Sinusoidal positional encoding for sequence position awareness."""
 
     def __init__(self, d_model: int, max_len: int = 512):
+        if not TORCH_AVAILABLE:
+            return
         super().__init__()
         pe = torch.zeros(max_len, d_model)
         position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
@@ -33,10 +44,12 @@ class PositionalEncoding(nn.Module):
         return x + self.pe[:, :seq_len, :]
 
 
-class TransformerEncoderBlock(nn.Module):
+class TransformerEncoderBlock(_ModuleBase):
     """Transformer Encoder layer with self-attention, layer norm, and feed-forward."""
 
     def __init__(self, d_model: int, nhead: int, dim_feedforward: int, dropout: float = 0.1):
+        if not TORCH_AVAILABLE:
+            return
         super().__init__()
         self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout, batch_first=True)
         self.linear1 = nn.Linear(d_model, dim_feedforward)
@@ -62,7 +75,7 @@ class TransformerEncoderBlock(nn.Module):
         return src
 
 
-class EdgeNeuralQAModel(nn.Module):
+class EdgeNeuralQAModel(_ModuleBase):
     """
     Edge Neural QA Model:
     1. Encodes text passages and questions into shared semantic vector space.

@@ -11,8 +11,14 @@ from collections import Counter
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
-import torch
-from torch.utils.data import Dataset
+try:
+    import torch
+    from torch.utils.data import Dataset
+    TORCH_AVAILABLE = True
+except ImportError:
+    torch = None
+    Dataset = object
+    TORCH_AVAILABLE = False
 
 try:
     import pypdf

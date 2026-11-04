@@ -9,10 +9,18 @@ import os
 import time
 from typing import Dict, List, Optional
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.utils.data import DataLoader
+try:
+    import torch
+    import torch.nn as nn
+    import torch.nn.functional as F
+    from torch.utils.data import DataLoader
+    TORCH_AVAILABLE = True
+except ImportError:
+    torch = None
+    nn = None
+    F = None
+    DataLoader = None
+    TORCH_AVAILABLE = False
 
 from data_loader import (
     KnowledgeChunk,
