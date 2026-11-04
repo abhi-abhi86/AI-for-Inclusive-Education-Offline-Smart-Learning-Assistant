@@ -4,6 +4,8 @@ Extracts curriculum knowledge from PDFs (textbooks, notes) and JSON files (Q&A, 
 builds local vocabulary, and creates PyTorch training datasets.
 """
 
+from __future__ import annotations
+
 import json
 import os
 import re

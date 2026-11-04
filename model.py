@@ -5,6 +5,8 @@ Trained offline on PDF and JSON data, compressed into a .pth checkpoint.
 Zero external APIs required.
 """
 
+from __future__ import annotations
+
 import math
 from typing import Dict, List, Optional, Tuple
 

@@ -21,12 +21,10 @@ from typing import Dict, List, Optional
 
 from generate_sample_data import create_sample_curriculum_json, create_sample_textbook_pdf
 from prompt_templates import parse_learning_aid, validate_passage
-from qa_engine import OfflineQAModelRunner
-from trainer import train_offline_model
 
 # Global runner state
 CURRENT_MODEL_PATH = "models/demo_curriculum_model.pth"
-QA_RUNNER: Optional[OfflineQAModelRunner] = None
+QA_RUNNER = None
 RUNNER_LOCK = threading.Lock()
 ACTIVE_TOPICS: List[str] = [
     "What is the function of stomata in plant leaves?",
@@ -36,13 +34,17 @@ ACTIVE_TOPICS: List[str] = [
 ]
 
 
-def get_qa_runner(model_path: str = CURRENT_MODEL_PATH) -> Optional[OfflineQAModelRunner]:
+def get_qa_runner(model_path: str = CURRENT_MODEL_PATH):
     global QA_RUNNER, CURRENT_MODEL_PATH
     with RUNNER_LOCK:
         if QA_RUNNER is None or CURRENT_MODEL_PATH != model_path:
             if os.path.exists(model_path):
-                CURRENT_MODEL_PATH = model_path
-                QA_RUNNER = OfflineQAModelRunner(model_path)
+                try:
+                    from qa_engine import OfflineQAModelRunner
+                    CURRENT_MODEL_PATH = model_path
+                    QA_RUNNER = OfflineQAModelRunner(model_path)
+                except Exception as e:
+                    QA_RUNNER = None
             else:
                 QA_RUNNER = None
         return QA_RUNNER
@@ -687,6 +689,7 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
 
             try:
                 # Auto-train the PyTorch neural model on this uploaded PDF
+                from trainer import train_offline_model
                 stats = train_offline_model(
                     pdf_paths=[saved_pdf_path],
                     save_path=save_model_path,
@@ -754,6 +757,7 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
             epochs = payload.get("epochs", 12)
 
             try:
+                from trainer import train_offline_model
                 stats = train_offline_model(
                     pdf_paths=pdf_paths,
                     json_paths=json_paths,
