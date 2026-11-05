@@ -10,7 +10,9 @@
 
 <p align="center">
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.15%2B-ee4c2c.svg" alt="PyTorch"/></a>
-  <img src="https://img.shields.io/badge/Weights-Compressed%20.pth-blue.svg" alt="Model Format"/></p>
+  <img src="https://img.shields.io/badge/Weights-Compressed%20.pth-blue.svg" alt="Model Format"/>
+  <a href="https://ai-inclusive-education-offline-assi.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-Vercel%20Cloud-success.svg?style=flat&logo=vercel" alt="Live Demo"/></a>
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Network-100%25%20Offline%20(Zero%20APIs)-brightgreen.svg" alt="Offline First"/>
   <img src="https://img.shields.io/badge/Ingestion-PDF%20%7C%20JSON-orange.svg" alt="Data Sources"/>
@@ -18,6 +20,10 @@
   <img src="https://img.shields.io/badge/Model%20Size-2.2%20MB-teal.svg" alt="Model Size"/>
   <img src="https://img.shields.io/badge/Inference-0.7ms%20CPU-blue.svg" alt="Inference Speed"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"/>
+</p>
+
+<p align="center">
+  🌐 <b>Live Hosted Web App:</b> <a href="https://ai-inclusive-education-offline-assi.vercel.app"><b>https://ai-inclusive-education-offline-assi.vercel.app</b></a>
 </p>
 
 ---
