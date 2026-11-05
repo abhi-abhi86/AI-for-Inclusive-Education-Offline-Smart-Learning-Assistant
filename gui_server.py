@@ -138,15 +138,79 @@ HTML_PAGE = """<!DOCTYPE html>
     .pill { background: var(--card-inner); border: 1px solid var(--border); color: var(--primary); font-size: 0.82rem; padding: 6px 12px; border-radius: 20px; cursor: pointer; transition: all 0.2s; }
     .pill:hover { background: #1e3a5f; border-color: var(--primary); }
     
-    .result-box { background: var(--card-inner); border: 1px solid var(--border); border-radius: 10px; padding: 18px; margin-top: 16px; display: none; }
-    .result-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
-    .answer-title { color: var(--accent); font-weight: bold; font-size: 0.95rem; }
-    .meta-tag { font-size: 0.75rem; color: var(--text-muted); background: var(--card-bg); padding: 3px 8px; border-radius: 6px; border: 1px solid var(--border); }
-    .answer-text { font-size: 1.05rem; line-height: 1.6; color: #fff; margin-bottom: 14px; white-space: pre-wrap; }
-    .citation-box { background: rgba(56, 189, 248, 0.08); border-left: 3px solid var(--primary); padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 12px; font-size: 0.85rem; }
-    .citation-label { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
-    .metrics-bar { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 10px; }
-    
+    /* Chat Container & Bubble Styling */
+    .chat-container {
+      background: var(--card-inner);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      height: 480px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .chat-msg {
+      display: flex;
+      flex-direction: column;
+      max-width: 88%;
+      animation: fadeIn 0.2s ease-in;
+    }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    .chat-msg.user {
+      align-self: flex-end;
+      align-items: flex-end;
+    }
+    .chat-msg.user .bubble {
+      background: #0284c7;
+      color: #fff;
+      border-radius: 16px 16px 4px 16px;
+      padding: 11px 16px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .chat-msg.assistant {
+      align-self: flex-start;
+      align-items: flex-start;
+    }
+    .chat-msg.assistant .bubble {
+      background: #1e293b;
+      border: 1px solid var(--border);
+      color: #f8fafc;
+      border-radius: 16px 16px 16px 4px;
+      padding: 14px 18px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+    .msg-meta {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      margin-top: 5px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .source-chip {
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--primary);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.72rem;
+    }
+    .input-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .input-row input {
+      flex: 1;
+      margin-bottom: 0;
+    }
+
     .model-info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 14px; }
     .metric-card { background: var(--card-inner); border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center; }
     .metric-val { font-size: 1.35rem; font-weight: bold; color: var(--primary); margin-top: 4px; }
@@ -179,14 +243,61 @@ HTML_PAGE = """<!DOCTYPE html>
     </div>
 
     <div class="tabs">
-      <button class="tab-btn active" onclick="switchTab('upload-tab', this)">📤 Upload PDF & Auto-Train</button>
-      <button class="tab-btn" onclick="switchTab('qa-tab', this)">💬 Ask Questions</button>
-      <button class="tab-btn" onclick="switchTab('train-tab', this)">⚙️ Advanced Training</button>
+      <button class="tab-btn active" onclick="switchTab('qa-tab', this)">💬 Ask Questions & Chat</button>
+      <button class="tab-btn" onclick="switchTab('upload-tab', this)">📤 Upload PDF & Auto-Train</button>
+      <button class="tab-btn" onclick="switchTab('train-tab', this)">📁 One-Click Folder Training</button>
       <button class="tab-btn" onclick="switchTab('aid-tab', this)">📝 Study Aid Generator</button>
     </div>
 
-    <!-- TAB 1: UPLOAD PDF & AUTO-TRAIN -->
-    <div id="upload-tab" class="tab-content active">
+    <!-- TAB 1: ASK QUESTIONS & CHAT (ACTIVE BY DEFAULT) -->
+    <div id="qa-tab" class="tab-content active">
+      <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <div>
+            <h2>💬 Offline Smart Learning Assistant</h2>
+            <p style="margin-bottom: 0;">Ask questions about your uploaded curriculum or say 'hi'. Queries execute in &lt; 2 ms 100% offline.</p>
+          </div>
+          <button class="btn btn-secondary" onclick="clearChat()" style="padding: 7px 14px; font-size: 0.82rem;">🧹 Clear Chat</button>
+        </div>
+
+        <!-- Chat Stream Feed -->
+        <div class="chat-container" id="chat-feed">
+          <div class="chat-msg assistant">
+            <div class="bubble">Hello! 👋 Welcome to your <strong>Offline Smart Learning Assistant</strong>!
+
+I am running 100% offline on your device, powered by a local PyTorch edge neural model.
+I can answer curriculum questions, explain concepts in-depth, and help you study your uploaded textbooks with zero APIs or cloud connections.
+
+💡 Click one of the quick suggestions below or type any question to begin!</div>
+            <div class="msg-meta">
+              <span>🤖 Offline AI Assistant</span>
+              <span class="source-chip">System Core</span>
+            </div>
+          </div>
+        </div>
+
+        <label style="margin-bottom: 6px;">Quick Suggestions:</label>
+        <div class="pill-group" id="suggested-pills">
+          <span class="pill" onclick="setQuery('Hi! How can you help me study?')">👋 Say Hi</span>
+          <span class="pill" onclick="setQuery('What is the function of stomata in plant leaves?')">🌿 Stomata Function</span>
+          <span class="pill" onclick="setQuery('What is chlorophyll and where is it found in plant cells?')">🔬 Chlorophyll</span>
+          <span class="pill" onclick="setQuery('What energy do wind turbines capture to spin electric generators?')">💨 Wind Turbines</span>
+          <span class="pill" onclick="setQuery('How do solar photovoltaic cells generate electric current?')">☀️ Solar Cells</span>
+          <span class="pill" onclick="setQuery('What do plant roots absorb from the soil?')">🌱 Roots Absorption</span>
+        </div>
+
+        <div class="input-row">
+          <input type="text" id="question-input" placeholder="Type a message or curriculum question here (e.g. 'hi', 'explain photosynthesis')..." onkeydown="if(event.key==='Enter') askQuestion()">
+          <button class="btn" id="btn-send" onclick="askQuestion()">
+            <span>Send</span>
+            <div class="loader" id="qa-loader"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: UPLOAD PDF & AUTO-TRAIN -->
+    <div id="upload-tab" class="tab-content">
       <div class="card">
         <h2>📤 Upload Student Textbook (PDF) & Auto-Train</h2>
         <p>Drop your semester textbook or notes PDF here. The machine will <strong>automatically train itself locally</strong> on the content, compress the weights into a <code>.pth</code> model file, and prepare to answer questions based specifically on your textbook!</p>
@@ -234,53 +345,7 @@ HTML_PAGE = """<!DOCTYPE html>
 
           <div style="margin-top: 18px; padding: 14px; background: rgba(56, 189, 248, 0.08); border-radius: 8px;">
             <p style="color: #fff; font-weight: bold; margin-bottom: 8px;">Ready! The model is now active. Click below to start asking questions about your textbook:</p>
-            <button class="btn" onclick="switchTab('qa-tab', document.querySelectorAll('.tab-btn')[1])">👉 Ask Questions on this Textbook</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- TAB 2: ASK QUESTIONS -->
-    <div id="qa-tab" class="tab-content">
-      <div class="card">
-        <h2>💬 Ask Curriculum Questions (Offline Inference)</h2>
-        <p>Ask questions derived from your uploaded textbooks. Queries execute on local PyTorch weights in &lt; 2 ms without internet access.</p>
-        
-        <label>Suggested Questions based on Current Knowledge Base:</label>
-        <div class="pill-group" id="suggested-pills">
-          <span class="pill" onclick="setQuery('Hi! How can you help me study?')">👋 Say Hi & Get Started</span>
-          <span class="pill" onclick="setQuery('What is the function of stomata in plant leaves?')">🌿 What is the function of stomata?</span>
-          <span class="pill" onclick="setQuery('What is chlorophyll and where is it found in plant cells?')">🔬 Where is chlorophyll found?</span>
-          <span class="pill" onclick="setQuery('What energy do wind turbines capture to spin electric generators?')">💨 Wind turbines energy?</span>
-          <span class="pill" onclick="setQuery('How do solar photovoltaic cells generate electric current?')">☀️ Photovoltaic cells current?</span>
-          <span class="pill" onclick="setQuery('What do plant roots absorb from the soil?')">🌱 Roots absorption?</span>
-        </div>
-
-        <div class="form-group">
-          <input type="text" id="question-input" placeholder="Type or paste your curriculum question here..." onkeydown="if(event.key==='Enter') askQuestion()">
-        </div>
-
-        <button class="btn" onclick="askQuestion()">
-          <span>Answer Question</span>
-          <div class="loader" id="qa-loader"></div>
-        </button>
-
-        <div class="result-box" id="qa-result">
-          <div class="result-header">
-            <span class="answer-title">🤖 Generative AI Curriculum Answer (100% Offline)</span>
-            <span class="meta-tag" id="qa-confidence">Confidence: 99%</span>
-          </div>
-          <div class="answer-text" id="qa-answer-text"></div>
-          
-          <div class="citation-box">
-            <div class="citation-label" id="qa-citation-source">Source: Textbook (Page 1)</div>
-            <div id="qa-citation-excerpt" style="color: #cbd5e1; font-style: italic;"></div>
-          </div>
-
-          <div class="metrics-bar">
-            <span>⏱️ Latency: <strong id="qa-latency">0.8 ms</strong></span>
-            <span>💾 Active Model: <strong id="qa-model-name">demo_curriculum_model.pth</strong></span>
-            <span>🔒 Cloud Calls: <strong>0 (Verified Offline)</strong></span>
+            <button class="btn" onclick="switchTab('qa-tab', document.querySelector('button[onclick*=\'qa-tab\']'))">👉 Ask Questions on this Textbook</button>
           </div>
         </div>
       </div>
@@ -479,6 +544,26 @@ HTML_PAGE = """<!DOCTYPE html>
           statusText.innerText = 'Auto-training complete! Model activated.';
           resBox.style.display = 'block';
 
+          // Post notification to chat feed
+          const chatFeed = document.getElementById('chat-feed');
+          if (chatFeed) {
+            const noticeMsg = document.createElement('div');
+            noticeMsg.className = 'chat-msg assistant';
+            noticeMsg.innerHTML = `
+              <div class="bubble" style="border: 1px solid #10b981; background: rgba(16,185,129,0.08);">
+                🎉 <strong>Textbook Trained & Activated!</strong><br>
+                The offline neural model has trained on <strong>${escapeHtml(selectedPdfFile.name)}</strong> (${data.file_size_mb.toFixed(2)} MB .pth model, ${data.num_chunks} chunks).
+                You can now ask questions about this textbook directly in this chat!
+              </div>
+              <div class="msg-meta">
+                <span>⚡ Model Switched</span>
+                <span class="source-chip">${escapeHtml(data.save_path)}</span>
+              </div>
+            `;
+            chatFeed.appendChild(noticeMsg);
+            chatFeed.scrollTop = chatFeed.scrollHeight;
+          }
+
           // Update suggested pills if topics returned
           if (data.suggested_questions && data.suggested_questions.length) {
             const pillsDiv = document.getElementById('suggested-pills');
@@ -502,20 +587,62 @@ HTML_PAGE = """<!DOCTYPE html>
       reader.readAsDataURL(selectedPdfFile);
     }
 
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function clearChat() {
+      const chatFeed = document.getElementById('chat-feed');
+      chatFeed.innerHTML = `
+        <div class="chat-msg assistant">
+          <div class="bubble">Hello! 👋 Welcome to your <strong>Offline Smart Learning Assistant</strong>!
+
+I am running 100% offline on your device, powered by a local PyTorch edge neural model.
+I can answer curriculum questions, explain concepts in-depth, and help you study your uploaded textbooks with zero APIs or cloud connections.
+
+💡 Click one of the quick suggestions below or type any question to begin!</div>
+          <div class="msg-meta">
+            <span>🤖 Offline AI Assistant</span>
+            <span class="source-chip">System Core</span>
+          </div>
+        </div>
+      `;
+    }
+
     function setQuery(text) {
-      switchTab('qa-tab', document.querySelectorAll('.tab-btn')[1]);
+      const qaBtn = document.querySelector('button[onclick*="qa-tab"]');
+      switchTab('qa-tab', qaBtn);
       document.getElementById('question-input').value = text;
       askQuestion();
     }
 
     async function askQuestion() {
-      const q = document.getElementById('question-input').value.trim();
+      const inputEl = document.getElementById('question-input');
+      const q = inputEl.value.trim();
       if (!q) return;
 
       const loader = document.getElementById('qa-loader');
-      const resBox = document.getElementById('qa-result');
+      const chatFeed = document.getElementById('chat-feed');
       loader.style.display = 'inline-block';
+      inputEl.value = '';
 
+      // 1. Append user message to chat feed
+      const userMsg = document.createElement('div');
+      userMsg.className = 'chat-msg user';
+      userMsg.innerHTML = `
+        <div class="bubble">${escapeHtml(q)}</div>
+        <div class="msg-meta"><span>You</span></div>
+      `;
+      chatFeed.appendChild(userMsg);
+      chatFeed.scrollTop = chatFeed.scrollHeight;
+
+      // 2. Query local offline model
       try {
         const resp = await fetch('/api/ask', {
           method: 'POST',
@@ -524,14 +651,37 @@ HTML_PAGE = """<!DOCTYPE html>
         });
         const data = await resp.json();
 
-        document.getElementById('qa-answer-text').innerText = data.answer;
-        document.getElementById('qa-citation-source').innerText = 'Source: ' + data.source_file + ' (' + data.source_reference + ')';
-        document.getElementById('qa-citation-excerpt').innerText = '"' + data.context_passage.substring(0, 180) + '..."';
-        document.getElementById('qa-confidence').innerText = 'Confidence: ' + (data.confidence_score * 100).toFixed(1) + '%';
-        document.getElementById('qa-latency').innerText = data.inference_time_ms.toFixed(1) + ' ms';
-        resBox.style.display = 'block';
+        // 3. Append assistant generative response to chat feed
+        const botMsg = document.createElement('div');
+        botMsg.className = 'chat-msg assistant';
+
+        const sourceLabel = escapeHtml(data.source_file || 'Curriculum') + ' (' + escapeHtml(data.source_reference || 'Reference') + ')';
+        const latency = data.inference_time_ms ? data.inference_time_ms.toFixed(1) + ' ms' : '< 1 ms';
+        const confidence = data.confidence_score ? (data.confidence_score * 100).toFixed(0) + '%' : '99%';
+
+        botMsg.innerHTML = `
+          <div class="bubble">${escapeHtml(data.answer)}</div>
+          <div class="msg-meta">
+            <span>🤖 Generative AI</span>
+            <span class="source-chip">📖 ${sourceLabel}</span>
+            <span>⏱️ ${latency}</span>
+            <span>🎯 ${confidence}</span>
+            <span>🔒 Offline: 100%</span>
+          </div>
+        `;
+        chatFeed.appendChild(botMsg);
+        chatFeed.scrollTop = chatFeed.scrollHeight;
+
       } catch (err) {
-        alert('Error answering question: ' + err);
+        const errMsg = document.createElement('div');
+        errMsg.className = 'chat-msg assistant';
+        errMsg.innerHTML = `
+          <div class="bubble" style="border-color: #f87171; color: #fca5a5;">
+            Error connecting to local engine: ${escapeHtml(String(err))}
+          </div>
+        `;
+        chatFeed.appendChild(errMsg);
+        chatFeed.scrollTop = chatFeed.scrollHeight;
       } finally {
         loader.style.display = 'none';
       }
@@ -648,6 +798,25 @@ HTML_PAGE = """<!DOCTYPE html>
         document.getElementById('bar-model-name').innerText = data.save_path;
         statusEl.innerText = '✅ Trained from folders in ' + data.training_time_s.toFixed(1) + 's!';
         resBox.style.display = 'block';
+
+        const chatFeed = document.getElementById('chat-feed');
+        if (chatFeed) {
+          const noticeMsg = document.createElement('div');
+          noticeMsg.className = 'chat-msg assistant';
+          noticeMsg.innerHTML = `
+            <div class="bubble" style="border: 1px solid #10b981; background: rgba(16,185,129,0.08);">
+              ⚡ <strong>Trained from data/ Folders!</strong><br>
+              Scanned and trained on files in <code>data/pdf_textbooks/</code> and <code>data/json_curriculum/</code> (${data.file_size_mb.toFixed(2)} MB .pth model, ${data.num_chunks} chunks).
+              The updated model is now active for questions!
+            </div>
+            <div class="msg-meta">
+              <span>⚡ Model Switched</span>
+              <span class="source-chip">${escapeHtml(data.save_path)}</span>
+            </div>
+          `;
+          chatFeed.appendChild(noticeMsg);
+          chatFeed.scrollTop = chatFeed.scrollHeight;
+        }
       } catch (err) {
         statusEl.innerText = 'Failed: ' + err;
         alert('Failed: ' + err);

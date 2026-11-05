@@ -134,12 +134,35 @@ class OfflineLearningAssistantDesktopApp:
         )
         self.ask_btn.pack(side="right")
 
+        self.clear_btn = tk.Button(
+            entry_frame,
+            text="🧹 Clear",
+            font=("Helvetica", 9),
+            bg="#e2e8f0",
+            padx=8,
+            command=self._on_clear_chat,
+        )
+        self.clear_btn.pack(side="right", padx=(0, 6))
+
         # Output Section
-        output_frame = tk.LabelFrame(self.qa_tab, text=" Output: Generative AI Answer & Citation (100% Offline) ", font=("Helvetica", 10, "bold"), padx=12, pady=8)
+        output_frame = tk.LabelFrame(self.qa_tab, text=" Conversation & Generative AI Answers (100% Offline) ", font=("Helvetica", 10, "bold"), padx=12, pady=8)
         output_frame.pack(fill="both", expand=True, pady=6)
 
-        self.ans_text = tk.Text(output_frame, height=10, font=("Helvetica", 11), wrap="word", bg="#f1f5f9", padx=8, pady=8)
+        self.ans_text = tk.Text(output_frame, height=12, font=("Helvetica", 11), wrap="word", bg="#f8fafc", padx=10, pady=10)
         self.ans_text.pack(fill="both", expand=True, pady=4)
+
+        self.ans_text.tag_configure("user_q", font=("Helvetica", 11, "bold"), foreground="#0284c7")
+        self.ans_text.tag_configure("ai_ans", font=("Helvetica", 11), foreground="#0f172a")
+        self.ans_text.tag_configure("source_tag", font=("Helvetica", 9, "italic"), foreground="#059669")
+        self.ans_text.tag_configure("divider", foreground="#94a3b8")
+
+        self.ans_text.insert(
+            tk.END,
+            "🤖 Welcome to your Offline Smart Learning Assistant!\n"
+            "I run 100% offline on your device, ready to explain concepts from your textbooks.\n"
+            "Type a question above or click any preset pill to begin.\n\n",
+            "ai_ans",
+        )
 
         # Meta info
         meta_frame = tk.Frame(output_frame)
@@ -153,6 +176,14 @@ class OfflineLearningAssistantDesktopApp:
 
         self.lbl_latency = tk.Label(meta_frame, text="Latency: -- ms", font=("Helvetica", 9), fg="#475569")
         self.lbl_latency.pack(side="right")
+
+    def _on_clear_chat(self):
+        self.ans_text.delete("1.0", tk.END)
+        self.ans_text.insert(
+            tk.END,
+            "🤖 Conversation cleared.\nType a question above or click a preset pill to begin.\n\n",
+            "ai_ans",
+        )
 
     def _set_query(self, text):
         self.q_entry.delete(0, tk.END)
@@ -171,8 +202,15 @@ class OfflineLearningAssistantDesktopApp:
                 return
 
         resp = self.qa_runner.answer(query)
-        self.ans_text.delete("1.0", tk.END)
-        self.ans_text.insert(tk.END, f"{resp.answer}\n\n---\n📄 Context Excerpt from PDF:\n\"{resp.context_passage}\"")
+        self.q_entry.delete(0, tk.END)
+
+        # Append question and answer to conversation
+        if self.ans_text.get("1.0", tk.END).strip():
+            self.ans_text.insert(tk.END, "\n" + "—" * 60 + "\n\n", "divider")
+        self.ans_text.insert(tk.END, f"👤 Student: {query}\n\n", "user_q")
+        self.ans_text.insert(tk.END, f"🤖 Assistant:\n{resp.answer}\n\n", "ai_ans")
+        self.ans_text.insert(tk.END, f"📖 Source: {resp.source_file} ({resp.source_reference})\n", "source_tag")
+        self.ans_text.see(tk.END)
 
         self.lbl_source.config(text=f"Source: {resp.source_file} ({resp.source_reference})")
         self.lbl_confidence.config(text=f"Confidence: {resp.confidence_score * 100:.1f}%")
