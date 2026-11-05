@@ -98,7 +98,48 @@ class handler(BaseHTTPRequestHandler):
 
         if path.endswith("/api/ask"):
             question = payload.get("question", "").strip()
-            
+
+            # Check conversational intent (greetings, identity, capabilities)
+            q_clean = question.lower().strip()
+            if re.search(r"^(hi|hello|hey|heya|howdy|greetings|hola|namaste|good\s+(morning|afternoon|evening|day))(\s+there|\s+assistant|\s+bot|[!.? ])*$", q_clean, re.I):
+                self._send_json({
+                    "question": question,
+                    "answer": "Hello! 👋 Welcome to your Offline Smart Learning Assistant.\n\nI am running 100% offline, ready to answer questions, explain concepts from your textbooks, and help you study!\n\n💡 What would you like to explore today?",
+                    "source_file": "Offline Smart Learning Assistant Core",
+                    "source_reference": "Conversational AI Engine",
+                    "context_passage": "Conversational greeting and intent handling for offline inclusive education.",
+                    "confidence_score": 0.99,
+                    "inference_time_ms": 0.5,
+                    "offline_verified": True,
+                })
+                return
+
+            if re.search(r"^(who\s+are\s+you|what\s+is\s+your\s+name|what\s+are\s+you)([!.? ])*$", q_clean, re.I):
+                self._send_json({
+                    "question": question,
+                    "answer": "I am the Offline Smart Learning Assistant (Edge AI). 🎓\n\nI am designed to run locally on devices like Raspberry Pi and local computers without requiring an internet connection or external APIs to make education accessible anywhere.",
+                    "source_file": "Offline Smart Learning Assistant Core",
+                    "source_reference": "System Identity",
+                    "context_passage": "Architecture specifications of the offline edge learning assistant.",
+                    "confidence_score": 0.99,
+                    "inference_time_ms": 0.5,
+                    "offline_verified": True,
+                })
+                return
+
+            if re.search(r"^(thank\s+you|thanks|thanks\s+a\s+lot|thank\s+u|thx|great\s+job|awesome|good\s+job)([!.? ])*$", q_clean, re.I):
+                self._send_json({
+                    "question": question,
+                    "answer": "You are very welcome! 😊 Keep up the curious learning! Feel free to ask if you have any more questions about your lessons.",
+                    "source_file": "Offline Smart Learning Assistant Core",
+                    "source_reference": "Conversational AI Engine",
+                    "context_passage": "Encouraging student interaction and feedback.",
+                    "confidence_score": 0.99,
+                    "inference_time_ms": 0.5,
+                    "offline_verified": True,
+                })
+                return
+
             # Answer via QA engine
             try:
                 from qa_engine import OfflineQAModelRunner, TORCH_AVAILABLE

@@ -105,6 +105,23 @@ class TestNeuralTrainer(unittest.TestCase):
         if os.path.exists(pdf_only_model):
             os.remove(pdf_only_model)
 
+    def test_greeting_and_conversational_intents(self):
+        """Tests that greetings like 'hi', 'who are you', and 'thanks' receive proper conversational responses."""
+        runner = OfflineQAModelRunner(self.model_path)
+        
+        # Test greeting
+        resp_hi = runner.answer("hi")
+        self.assertIn("welcome", resp_hi.answer.lower())
+        self.assertEqual(resp_hi.source_reference, "Conversational AI Engine")
+
+        # Test identity
+        resp_who = runner.answer("who are you")
+        self.assertIn("assistant", resp_who.answer.lower())
+
+        # Test gratitude
+        resp_thanks = runner.answer("thanks a lot")
+        self.assertIn("welcome", resp_thanks.answer.lower())
+
 
 if __name__ == "__main__":
     unittest.main()

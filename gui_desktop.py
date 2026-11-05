@@ -100,6 +100,7 @@ class OfflineLearningAssistantDesktopApp:
         pills_frame.pack(fill="x", pady=4)
 
         presets = [
+            ("👋 Say Hi", "Hi! How can you help me study?"),
             ("🌿 Stomata Function", "What is the function of stomata in plant leaves?"),
             ("🔬 Chlorophyll", "What is chlorophyll and where is it found in plant cells?"),
             ("💨 Wind Turbines", "What energy do wind turbines capture to spin electric generators?"),

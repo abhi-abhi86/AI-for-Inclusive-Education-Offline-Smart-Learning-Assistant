@@ -248,6 +248,7 @@ HTML_PAGE = """<!DOCTYPE html>
         
         <label>Suggested Questions based on Current Knowledge Base:</label>
         <div class="pill-group" id="suggested-pills">
+          <span class="pill" onclick="setQuery('Hi! How can you help me study?')">👋 Say Hi & Get Started</span>
           <span class="pill" onclick="setQuery('What is the function of stomata in plant leaves?')">🌿 What is the function of stomata?</span>
           <span class="pill" onclick="setQuery('What is chlorophyll and where is it found in plant cells?')">🔬 Where is chlorophyll found?</span>
           <span class="pill" onclick="setQuery('What energy do wind turbines capture to spin electric generators?')">💨 Wind turbines energy?</span>

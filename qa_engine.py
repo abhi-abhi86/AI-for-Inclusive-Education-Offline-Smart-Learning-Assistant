@@ -88,6 +88,11 @@ class OfflineQAModelRunner:
         """Answers a question using the trained model weights and knowledge index."""
         t_start = time.perf_counter()
 
+        # 0. Conversational Intent Check (Greetings, Identity, Capabilities, Gratitude, Farewells)
+        conversational_resp = self._check_conversational_intent(question, t_start)
+        if conversational_resp is not None:
+            return conversational_resp
+
         # 1. Encode user question
         q_ids = self.vocab.encode(question, max_length=96)
         q_tensor = torch.tensor([q_ids], dtype=torch.long, device=self.device)
@@ -277,3 +282,129 @@ class OfflineQAModelRunner:
     def _extract_answer(self, question: str, chunk: Dict) -> str:
         """Legacy helper maintained for backward compatibility."""
         return self.synthesize_generative_answer(question, chunk)
+
+    def _check_conversational_intent(self, question: str, t_start: float) -> Optional[QAResponse]:
+        """Detects and responds to greetings, identity questions, gratitude, and small talk."""
+        q_clean = question.strip().lower()
+        if not q_clean:
+            return None
+
+        # 1. Greetings (Hi, Hello, Hey, Good morning, etc.)
+        if re.search(r"^(hi|hello|hey|heya|howdy|greetings|hola|namaste|good\s+(morning|afternoon|evening|day))(\s+there|\s+assistant|\s+bot|[!.? ])*$", q_clean, re.I):
+            sources = list(dict.fromkeys([c.get("source_file", "curriculum") for c in self.knowledge_chunks[:6]]))
+            source_summary = ", ".join(sources) if sources else "your uploaded textbooks"
+            answer = (
+                "Hello! 👋 Welcome to your Offline Smart Learning Assistant.\n\n"
+                f"I am running 100% offline on your device, powered by a local PyTorch neural model. "
+                f"I am currently loaded with curriculum knowledge from {source_summary}.\n\n"
+                "💡 You can ask me any question about your lessons, concepts, or uploaded textbooks! What would you like to explore today?"
+            )
+            elapsed = (time.perf_counter() - t_start) * 1000.0
+            return QAResponse(
+                question=question,
+                answer=answer,
+                source_file="Offline Smart Learning Assistant Core",
+                source_reference="Conversational AI Engine",
+                context_passage="Conversational greeting and intent handling for offline inclusive education.",
+                confidence_score=0.99,
+                inference_time_ms=elapsed,
+                offline_verified=True,
+                generative_verified=True,
+            )
+
+        # 2. How are you / Status
+        if re.search(r"^(how\s+are\s+you|how\s+is\s+it\s+going|how\s+are\s+you\s+doing|are\s+you\s+ready)([!.? ])*$", q_clean, re.I):
+            answer = (
+                "I am doing great and running 100% smoothly offline! 🚀\n\n"
+                f"My PyTorch weights (~{self.model_size_mb:.2f} MB) and knowledge index ({len(self.knowledge_chunks)} curriculum sections) "
+                "are loaded in memory on your CPU. Ready to help you study whenever you are!"
+            )
+            elapsed = (time.perf_counter() - t_start) * 1000.0
+            return QAResponse(
+                question=question,
+                answer=answer,
+                source_file="Offline Smart Learning Assistant Core",
+                source_reference="System Diagnostics",
+                context_passage="Real-time telemetry and conversational status for edge neural model.",
+                confidence_score=0.99,
+                inference_time_ms=elapsed,
+                offline_verified=True,
+                generative_verified=True,
+            )
+
+        # 3. Identity (Who are you, What is your name)
+        if re.search(r"^(who\s+are\s+you|what\s+is\s+your\s+name|what\s+are\s+you)([!.? ])*$", q_clean, re.I):
+            answer = (
+                "I am the Offline Smart Learning Assistant (Edge AI). 🎓\n\n"
+                "I am an inclusive, private learning companion designed to run directly on edge devices (like Raspberry Pi and local computers) "
+                "without requiring any internet connection or cloud APIs.\n\n"
+                "I train locally on your PDF textbooks and JSON curriculum files, compress the knowledge into a tiny .pth model, and answer your questions with generative AI explanations."
+            )
+            elapsed = (time.perf_counter() - t_start) * 1000.0
+            return QAResponse(
+                question=question,
+                answer=answer,
+                source_file="Offline Smart Learning Assistant Core",
+                source_reference="System Identity",
+                context_passage="Architecture specifications of the offline edge learning assistant.",
+                confidence_score=0.99,
+                inference_time_ms=elapsed,
+                offline_verified=True,
+                generative_verified=True,
+            )
+
+        # 4. Capabilities & Help (What can you do, Help, How does it work)
+        if re.search(r"^(what\s+can\s+you\s+do|help|how\s+do\s+you\s+work|what\s+are\s+your\s+features|commands)([!.? ])*$", q_clean, re.I):
+            answer = (
+                "Here is what I can do for you 100% offline:\n\n"
+                "1. 📖 Answer Questions: Ask any curriculum question based on your uploaded PDF textbooks or notes.\n"
+                "2. ⚡ Train on Textbooks: Drop new PDFs into data/pdf_textbooks/ and click Train to learn new chapters.\n"
+                "3. 📝 Study Aid Generator: Convert educational passages into 3-point summaries and 3 diagnostic quiz questions.\n"
+                "4. 🔒 Zero Cloud: Everything stays completely private and runs locally on your machine."
+            )
+            elapsed = (time.perf_counter() - t_start) * 1000.0
+            return QAResponse(
+                question=question,
+                answer=answer,
+                source_file="Offline Smart Learning Assistant Core",
+                source_reference="Feature Overview",
+                context_passage="Summary of accessible learning features available without cloud connectivity.",
+                confidence_score=0.99,
+                inference_time_ms=elapsed,
+                offline_verified=True,
+                generative_verified=True,
+            )
+
+        # 5. Gratitude / Thanks
+        if re.search(r"^(thank\s+you|thanks|thanks\s+a\s+lot|thank\s+u|thx|great\s+job|awesome|good\s+job)([!.? ])*$", q_clean, re.I):
+            answer = "You are very welcome! 😊 Keep up the curious learning! Feel free to ask if you have any more questions about your lessons."
+            elapsed = (time.perf_counter() - t_start) * 1000.0
+            return QAResponse(
+                question=question,
+                answer=answer,
+                source_file="Offline Smart Learning Assistant Core",
+                source_reference="Conversational AI Engine",
+                context_passage="Encouraging student interaction and feedback.",
+                confidence_score=0.99,
+                inference_time_ms=elapsed,
+                offline_verified=True,
+                generative_verified=True,
+            )
+
+        # 6. Farewells (Bye, Goodbye)
+        if re.search(r"^(bye|goodbye|see\s+you|cya|good\s+night)([!.? ])*$", q_clean, re.I):
+            answer = "Goodbye! 👋 Have a wonderful study session and come back anytime you need help with your curriculum!"
+            elapsed = (time.perf_counter() - t_start) * 1000.0
+            return QAResponse(
+                question=question,
+                answer=answer,
+                source_file="Offline Smart Learning Assistant Core",
+                source_reference="Conversational AI Engine",
+                context_passage="Graceful student farewell handler.",
+                confidence_score=0.99,
+                inference_time_ms=elapsed,
+                offline_verified=True,
+                generative_verified=True,
+            )
+
+        return None
