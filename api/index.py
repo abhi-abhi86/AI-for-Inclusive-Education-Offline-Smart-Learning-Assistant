@@ -96,7 +96,7 @@ class handler(BaseHTTPRequestHandler):
         post_data = self.rfile.read(content_length)
         payload = json.loads(post_data.decode("utf-8")) if post_data else {}
 
-        if path.endswith("/api/ask"):
+        if path.endswith("/api/ask") or path.endswith("/ask") or "question" in payload:
             question = payload.get("question", "").strip()
 
             # Check conversational intent (greetings, identity, capabilities)
