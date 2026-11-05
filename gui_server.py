@@ -142,7 +142,7 @@ HTML_PAGE = """<!DOCTYPE html>
     .result-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
     .answer-title { color: var(--accent); font-weight: bold; font-size: 0.95rem; }
     .meta-tag { font-size: 0.75rem; color: var(--text-muted); background: var(--card-bg); padding: 3px 8px; border-radius: 6px; border: 1px solid var(--border); }
-    .answer-text { font-size: 1.1rem; line-height: 1.5; color: #fff; margin-bottom: 14px; }
+    .answer-text { font-size: 1.05rem; line-height: 1.6; color: #fff; margin-bottom: 14px; white-space: pre-wrap; }
     .citation-box { background: rgba(56, 189, 248, 0.08); border-left: 3px solid var(--primary); padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 12px; font-size: 0.85rem; }
     .citation-label { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
     .metrics-bar { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 10px; }
@@ -266,7 +266,7 @@ HTML_PAGE = """<!DOCTYPE html>
 
         <div class="result-box" id="qa-result">
           <div class="result-header">
-            <span class="answer-title">✅ Local Model Answer</span>
+            <span class="answer-title">🤖 Generative AI Curriculum Answer (100% Offline)</span>
             <span class="meta-tag" id="qa-confidence">Confidence: 99%</span>
           </div>
           <div class="answer-text" id="qa-answer-text"></div>
@@ -751,13 +751,19 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 runner = get_qa_runner(save_model_path)
 
                 # Generate dynamic suggested questions based on the uploaded chunks
+                from data_loader import generate_synthetic_qa_from_text
                 suggested_questions = []
-                for chunk in runner.knowledge_chunks[:4]:
+                for chunk in runner.knowledge_chunks[:5]:
                     text = chunk.get("text", "")
-                    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if len(s.strip()) > 15]
-                    if sentences:
-                        s_words = sentences[0].split()[:7]
-                        suggested_questions.append(f"What does the text say about {' '.join(s_words)}?")
+                    pairs = generate_synthetic_qa_from_text(text)
+                    for q_cand, _ in pairs[:2]:
+                        if q_cand not in suggested_questions:
+                            suggested_questions.append(q_cand)
+                if not suggested_questions:
+                    suggested_questions = [
+                        "What is the main topic covered in this textbook?",
+                        "Explain the core mechanisms described in chapter 1?",
+                    ]
 
                 self._send_json({
                     "success": True,

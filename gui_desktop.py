@@ -134,10 +134,10 @@ class OfflineLearningAssistantDesktopApp:
         self.ask_btn.pack(side="right")
 
         # Output Section
-        output_frame = tk.LabelFrame(self.qa_tab, text=" Output: Local Offline Answer & Citation ", font=("Helvetica", 10, "bold"), padx=12, pady=8)
+        output_frame = tk.LabelFrame(self.qa_tab, text=" Output: Generative AI Answer & Citation (100% Offline) ", font=("Helvetica", 10, "bold"), padx=12, pady=8)
         output_frame.pack(fill="both", expand=True, pady=6)
 
-        self.ans_text = tk.Text(output_frame, height=6, font=("Helvetica", 11), wrap="word", bg="#f1f5f9", padx=8, pady=8)
+        self.ans_text = tk.Text(output_frame, height=10, font=("Helvetica", 11), wrap="word", bg="#f1f5f9", padx=8, pady=8)
         self.ans_text.pack(fill="both", expand=True, pady=4)
 
         # Meta info
@@ -171,11 +171,11 @@ class OfflineLearningAssistantDesktopApp:
 
         resp = self.qa_runner.answer(query)
         self.ans_text.delete("1.0", tk.END)
-        self.ans_text.insert(tk.END, f"Direct Answer:\n{resp.answer}\n\nContext Excerpt:\n\"{resp.context_passage}\"")
+        self.ans_text.insert(tk.END, f"{resp.answer}\n\n---\n📄 Context Excerpt from PDF:\n\"{resp.context_passage}\"")
 
         self.lbl_source.config(text=f"Source: {resp.source_file} ({resp.source_reference})")
         self.lbl_confidence.config(text=f"Confidence: {resp.confidence_score * 100:.1f}%")
-        self.lbl_latency.config(text=f"Latency: {resp.inference_time_ms:.1f} ms | Offline: 100%")
+        self.lbl_latency.config(text=f"Latency: {resp.inference_time_ms:.1f} ms | Mode: Generative AI | Offline: 100%")
 
     # ------------------ TAB 2: TRAINING INTERFACE ------------------
     def _build_train_tab(self):

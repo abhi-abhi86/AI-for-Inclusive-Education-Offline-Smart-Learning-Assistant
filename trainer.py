@@ -35,10 +35,11 @@ from model import EdgeNeuralQAModel
 def resolve_paths(paths: Optional[List[str]], extension: str, default_dir: Optional[str] = None) -> List[str]:
     """Resolves individual files or directories into a flat list of matching files."""
     resolved = []
-    target_paths = list(paths) if paths else []
-
-    if not target_paths and default_dir and os.path.exists(default_dir):
-        target_paths = [default_dir]
+    
+    if paths is None:
+        target_paths = [default_dir] if (default_dir and os.path.exists(default_dir)) else []
+    else:
+        target_paths = list(paths)
 
     for p in target_paths:
         if os.path.isdir(p):

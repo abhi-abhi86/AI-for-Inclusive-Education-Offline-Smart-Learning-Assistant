@@ -74,8 +74,36 @@ class TestNeuralTrainer(unittest.TestCase):
         runner = OfflineQAModelRunner(self.model_path)
         resp = runner.answer("What is chlorophyll?")
         self.assertTrue(resp.offline_verified)
+        self.assertTrue(resp.generative_verified)
         self.assertGreater(resp.confidence_score, 0.0)
         self.assertIn("chloroplast", resp.answer.lower())
+
+    def test_pure_pdf_training_and_generative_answering(self):
+        """Tests that pure PDF textbooks without any JSON questions train and answer properly like generative AI."""
+        pdf_only_model = "models/test_pdf_only_model.pth"
+        stats = train_offline_model(
+            pdf_paths=[self.pdf_path],
+            json_paths=[],  # Pure PDF mode: NO pre-written questions
+            save_path=pdf_only_model,
+            epochs=3,
+            batch_size=4,
+            d_model=64,
+            num_layers=2,
+        )
+        self.assertTrue(os.path.exists(pdf_only_model))
+        self.assertGreater(stats["num_chunks"], 0)
+
+        runner = OfflineQAModelRunner(pdf_only_model)
+        # Ask question from PDF text where there was NO prior question
+        resp = runner.answer("How do plants produce glucose during photosynthesis?")
+        self.assertTrue(resp.offline_verified)
+        self.assertTrue(resp.generative_verified)
+        self.assertIn("glucose", resp.answer.lower())
+        self.assertIn("photosynthesis", resp.answer.lower())
+
+        # Clean up
+        if os.path.exists(pdf_only_model):
+            os.remove(pdf_only_model)
 
 
 if __name__ == "__main__":

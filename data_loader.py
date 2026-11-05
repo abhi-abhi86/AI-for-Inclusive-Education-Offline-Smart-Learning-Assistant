@@ -271,6 +271,85 @@ def load_qa_from_json(json_path: str) -> List[KnowledgeChunk]:
     return chunks
 
 
+def generate_synthetic_qa_from_text(text: str) -> List[Tuple[str, str]]:
+    """
+    Synthesizes diverse student curriculum questions directly from raw textbook text
+    when no pre-existing question pairs exist (pure PDF mode).
+    Generates definitions, mechanisms, processes, roles, and components.
+    """
+    clean_lines = [
+        l.strip() for l in text.split("\n")
+        if not re.match(r"^(chapter|\d+|#|page)", l.strip(), re.I) and l.strip()
+    ]
+    clean_text = " ".join(clean_lines)
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", clean_text) if len(s.strip()) > 12]
+
+    qa_pairs: List[Tuple[str, str]] = []
+
+    for s in sentences:
+        # Pattern 1: X is/are [the/a/an] Y (Definition)
+        m_def = re.match(r"^([A-Z][a-zA-Z0-9\s\-]{2,35}?)\s+(?:is|are)\s+(?:the|a|an)\s+(.+)", s, re.I)
+        if m_def:
+            subject = m_def.group(1).strip()
+            qa_pairs.append((f"What is {subject}?", s))
+            qa_pairs.append((f"Explain {subject}?", s))
+            qa_pairs.append((f"Define {subject}?", s))
+
+        # Pattern 2: convert(s) X into Y (Transformation / Mechanism)
+        m_conv = re.search(r"convert(?:s)?\s+([^.]+?)\s+into\s+([^.]+)", s, re.I)
+        if m_conv:
+            inp = m_conv.group(1).strip()
+            out = m_conv.group(2).strip()
+            qa_pairs.append((f"How does conversion of {inp} into {out} work?", s))
+            qa_pairs.append((f"What converts {inp}?", s))
+
+        # Pattern 3: absorb(s) X (Absorption / Intake)
+        m_abs = re.search(r"absorb(?:s)?\s+([^.]+?)(?:\s+from|\s+using|\s+through|\.|\,)", s, re.I)
+        if m_abs:
+            item = m_abs.group(1).strip()
+            qa_pairs.append((f"What absorbs {item}?", s))
+            qa_pairs.append((f"How is {item} absorbed by plants?", s))
+
+        # Pattern 4: called X / known as X (Terminology / Organelles / Features)
+        m_term = re.search(r"(?:called|known as)\s+([a-zA-Z0-9\-]+)", s, re.I)
+        if m_term:
+            term = m_term.group(1).strip()
+            qa_pairs.append((f"What is the function of {term}?", s))
+            qa_pairs.append((f"What are {term}?", s))
+
+        # Pattern 5: capture(s) / harness(es) / generate(s) (Physics & Energy)
+        m_eng = re.search(r"(?:capture|harness|generate|produce)(?:s|es)?\s+([^.]+?)(?:\s+to|\s+from|\.|\,)", s, re.I)
+        if m_eng:
+            action_obj = m_eng.group(1).strip()
+            qa_pairs.append((f"How is {action_obj} harnessed or generated?", s))
+
+        # Pattern 6: Subject + verb general concept probe
+        words = [w for w in re.findall(r"\b[a-zA-Z]{4,}\b", s.lower()) if w not in {
+            "from", "into", "with", "that", "this", "they", "their", "which", "while", "through",
+            "these", "those", "when", "where", "there", "about", "other", "under", "after"
+        }]
+        if words:
+            qa_pairs.append((f"Explain the role of {words[0]} in the curriculum?", s))
+            if len(words) >= 2:
+                qa_pairs.append((f"How does {words[1]} relate to {words[0]}?", s))
+
+    # Fallback probe if regex didn't trigger
+    if not qa_pairs:
+        for s in sentences:
+            probe_words = s.split()[:8]
+            qa_pairs.append((f"Explain {' '.join(probe_words)}?", s))
+
+    # De-duplicate while preserving order
+    seen = set()
+    deduped = []
+    for q, ans in qa_pairs:
+        if q.lower() not in seen:
+            seen.add(q.lower())
+            deduped.append((q, ans))
+
+    return deduped
+
+
 class QATrainingDataset(Dataset):
     """PyTorch Dataset for training the Edge Neural QA Model."""
 
@@ -296,13 +375,10 @@ class QATrainingDataset(Dataset):
                 a_text = chunk.answer
                 self.samples.append((q_text, text, a_text))
             else:
-                # Derive synthetic question-context pairs from sentences
-                sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if len(s.strip()) > 15]
-                for s in sentences:
-                    # Synthetic probe query
-                    probe_words = s.split()[:8]
-                    q_synthetic = f"Explain {' '.join(probe_words)}?"
-                    self.samples.append((q_synthetic, text, s))
+                # Derive realistic synthetic question-context pairs from raw PDF text
+                synthetic_pairs = generate_synthetic_qa_from_text(text)
+                for q_synthetic, target_ans in synthetic_pairs:
+                    self.samples.append((q_synthetic, text, target_ans))
 
     def __len__(self) -> int:
         return len(self.samples)

@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/app_icon.svg" alt="App Icon" width="120" height="120"/>
+  <img src="assets/logo.jpg" alt="Offline Smart Learning Assistant Logo" width="120" height="120"/>
 </p>
 
 <h1 align="center">AI for Inclusive Education: Offline Smart Learning Assistant</h1>
@@ -30,24 +30,25 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 An offline Edge AI learning companion that allows educators and students in low-connectivity regions to:
-1. **Train directly on local PDF textbooks and JSON curriculum files** using a native PyTorch neural network.
-2. **Compress the trained model into a `.pth` file** (low memory footprint, fast edge loading).
-3. **Answer student questions offline** strictly using the trained knowledge base—**with zero external APIs or cloud dependencies**.
+1. **Train directly on raw PDF textbooks and notes**—even with **zero pre-written questions**—using native PyTorch offline backpropagation.
+2. **Compress the trained model into a `.pth` file** (low memory footprint, fast edge loading, ~2.2 MB).
+3. **Answer student questions like Generative AI** (direct answers, in-depth explanations, and key takeaways) strictly using the trained PDF knowledge—**with zero external APIs or cloud dependencies**.
 4. **Generate diagnostic learning aids** (3-point summaries and 3 quiz questions) adhering to the ExecuTorch on Raspberry Pi hackathon challenge.
 
 ---
 
 ## 🌟 Key Capabilities
 
-### 1. Train on PDF & JSON (No Internet, No APIs)
-- **PDF Ingestion**: Extracts text page by page from semester textbooks and course notes.
-- **JSON Ingestion**: Ingests structured Q&A pairs, flashcards, and topic notes.
+### 1. Train Purely on PDFs (No Questions Needed, No APIs)
+- **Automatic Question Synthesis**: Ingests raw chapter text, extracts definitions, mechanisms, and roles, and automatically generates diverse curriculum training pairs.
+- **PDF & JSON Ingestion**: Ingests standard PDF textbooks or optional JSON Q&A pairs.
 - **Local Training**: Uses an attention-based Transformer model (`EdgeNeuralQAModel`) with InfoNCE contrastive representation learning and answer generation.
-- **Compressed `.pth` File**: Packages model weights, vocabulary, and indexed knowledge embeddings into a compressed PyTorch checkpoint (`.pth`), typically **~2MB** for edge deployments.
+- **Compressed `.pth` File**: Packages model weights, vocabulary, and indexed knowledge embeddings into a compressed PyTorch checkpoint (`.pth`), typically **~2.2 MB** for edge deployments.
 
-### 2. High-Precision Offline Question Answering
-- Instant answers (< 1.5 ms latency) on local CPU / Raspberry Pi.
-- Detailed source citation showing the exact PDF page or JSON entry.
+### 2. Generative AI Offline Question Answering
+- **Generative Synthesis**: Formulates complete multi-part responses: direct summary answer, in-depth mechanism explanation, and key curriculum takeaways.
+- **Instant Edge Latency**: Under 2 ms on local CPU / Raspberry Pi.
+- **Detailed Citations**: Cites exact textbook chapter, page number, and source passage.
 - Confidence score and verified 100% offline badge.
 
 ---
