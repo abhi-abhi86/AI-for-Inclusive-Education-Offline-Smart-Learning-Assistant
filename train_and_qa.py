@@ -94,19 +94,23 @@ def cmd_demo(args):
     print("5. Answering sample questions offline without any API\n")
 
     pdf_file = "sample_data/science_textbook.pdf"
-    json_file = "sample_data/curriculum_qa.json"
+    json_files = [
+        "sample_data/curriculum_qa.json",
+        "sample_data/daily_conversations.json",
+        "sample_data/conversational_intents.json",
+    ]
     model_file = "models/demo_curriculum_model.pth"
 
     create_sample_textbook_pdf(pdf_file)
-    create_sample_curriculum_json(json_file)
+    create_sample_curriculum_json("sample_data/curriculum_qa.json")
 
-    # Train model
+    # Train model on curriculum and daily human conversation data
     train_offline_model(
         pdf_paths=[pdf_file],
-        json_paths=[json_file],
+        json_paths=json_files,
         save_path=model_file,
         epochs=12,
-        batch_size=4,
+        batch_size=8,
     )
 
     # Run sample questions
@@ -116,7 +120,9 @@ def cmd_demo(args):
     test_questions = [
         "What is chlorophyll and where is it found in plant cells?",
         "What is the function of stomata in plant leaves?",
-        "How do solar photovoltaic cells generate electric current?",
+        "Tell me a joke!",
+        "How can I study effectively and remember more?",
+        "Why is the sky blue?",
     ]
 
     for q in test_questions:

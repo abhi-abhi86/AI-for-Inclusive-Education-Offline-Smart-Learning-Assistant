@@ -101,9 +101,10 @@ class OfflineLearningAssistantDesktopApp:
 
         presets = [
             ("👋 Say Hi", "Hi! How can you help me study?"),
-            ("🌿 Stomata Function", "What is the function of stomata in plant leaves?"),
+            ("😂 Tell Joke", "Tell me a joke!"),
+            ("🍅 Pomodoro", "What is the Pomodoro technique?"),
+            ("🌿 Stomata", "What is the function of stomata in plant leaves?"),
             ("🔬 Chlorophyll", "What is chlorophyll and where is it found in plant cells?"),
-            ("💨 Wind Turbines", "What energy do wind turbines capture to spin electric generators?"),
             ("☀️ Solar PV", "How do solar photovoltaic cells generate electric current?"),
         ]
         for label, q_text in presets:

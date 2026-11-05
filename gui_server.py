@@ -279,11 +279,12 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
         <label style="margin-bottom: 6px;">Quick Suggestions:</label>
         <div class="pill-group" id="suggested-pills">
           <span class="pill" onclick="setQuery('Hi! How can you help me study?')">👋 Say Hi</span>
-          <span class="pill" onclick="setQuery('What is the function of stomata in plant leaves?')">🌿 Stomata Function</span>
+          <span class="pill" onclick="setQuery('Tell me a joke!')">😂 Tell a Joke</span>
+          <span class="pill" onclick="setQuery('What is the Pomodoro technique?')">🍅 Pomodoro Technique</span>
+          <span class="pill" onclick="setQuery('Give me some motivation to study today.')">🌟 Motivation</span>
+          <span class="pill" onclick="setQuery('Why is the sky blue?')">☀️ Sky Blue</span>
+          <span class="pill" onclick="setQuery('What is the function of stomata in plant leaves?')">🌿 Stomata</span>
           <span class="pill" onclick="setQuery('What is chlorophyll and where is it found in plant cells?')">🔬 Chlorophyll</span>
-          <span class="pill" onclick="setQuery('What energy do wind turbines capture to spin electric generators?')">💨 Wind Turbines</span>
-          <span class="pill" onclick="setQuery('How do solar photovoltaic cells generate electric current?')">☀️ Solar Cells</span>
-          <span class="pill" onclick="setQuery('What do plant roots absorb from the soil?')">🌱 Roots Absorption</span>
         </div>
 
         <div class="input-row">

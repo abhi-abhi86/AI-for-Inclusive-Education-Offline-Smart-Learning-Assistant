@@ -122,6 +122,46 @@ class TestNeuralTrainer(unittest.TestCase):
         resp_thanks = runner.answer("thanks a lot")
         self.assertIn("welcome", resp_thanks.answer.lower())
 
+    def test_daily_human_conversations(self):
+        """Tests that diverse daily human conversations (jokes, study advice, emotions, philosophy) work properly."""
+        conv_model_path = "models/test_conv_model.pth"
+        stats = train_offline_model(
+            pdf_paths=[self.pdf_path],
+            json_paths=["sample_data/daily_conversations.json", self.json_path],
+            save_path=conv_model_path,
+            epochs=2,
+            batch_size=8,
+            d_model=64,
+            num_layers=2,
+        )
+        self.assertTrue(os.path.exists(conv_model_path))
+        runner = OfflineQAModelRunner(conv_model_path)
+
+        # 1. Joke
+        resp_joke = runner.answer("Tell me a joke!")
+        self.assertIn("atom", resp_joke.answer.lower())
+        self.assertTrue(resp_joke.offline_verified)
+
+        # 2. Study advice
+        resp_study = runner.answer("How can I study effectively and remember more?")
+        self.assertIn("recall", resp_study.answer.lower())
+
+        # 3. Emotions & Empathy
+        resp_sad = runner.answer("I am feeling sad today.")
+        self.assertTrue("sorry" in resp_sad.answer.lower() or "gentle" in resp_sad.answer.lower())
+
+        # 4. Curiosity
+        resp_sky = runner.answer("Why is the sky blue?")
+        self.assertIn("scattering", resp_sky.answer.lower())
+
+        # 5. Check size is well under 80 MB
+        size_mb = os.path.getsize(conv_model_path) / (1024.0 * 1024.0)
+        self.assertLess(size_mb, 80.0)
+
+        # Clean up
+        if os.path.exists(conv_model_path):
+            os.remove(conv_model_path)
+
 
 if __name__ == "__main__":
     unittest.main()

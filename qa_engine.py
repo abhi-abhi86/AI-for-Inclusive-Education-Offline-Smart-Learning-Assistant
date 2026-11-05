@@ -146,11 +146,17 @@ class OfflineQAModelRunner:
         confidence = max(0.55, min(0.99, (best_dense_score + 1.0) / 2.0))
         t_elapsed_ms = (time.perf_counter() - t_start) * 1000.0
 
+        source_ref = best_chunk.get("page_or_id") or "Section 1"
+        source_file = best_chunk.get("source_file", "Uploaded Document")
+        if "conversation" in source_file.lower():
+            source_file = "Daily Human Conversation & Life Knowledge"
+            source_ref = "Conversational AI Model"
+
         return QAResponse(
             question=question,
             answer=answer_text,
-            source_file=best_chunk["source_file"],
-            source_reference=best_chunk["page_or_id"],
+            source_file=source_file,
+            source_reference=source_ref,
             context_passage=best_chunk["text"],
             confidence_score=confidence,
             inference_time_ms=t_elapsed_ms,
@@ -260,6 +266,14 @@ class OfflineQAModelRunner:
             m_gen = re.search(r"(?:capture|harness|generate)(?:s)?\s+([^.]+?)(?:\s+to|\s+from|\.|\,)", s, re.I)
             if m_gen:
                 takeaways.append(f"Power Generation: Harnesses {m_gen.group(1).strip()}")
+
+        # If chunk is from conversational dataset, return natural human answer directly
+        is_conversational = (
+            "conversation" in chunk.get("source_file", "").lower()
+            or chunk.get("source_type") == "conversational"
+        )
+        if is_conversational and explicit_ans:
+            return explicit_ans
 
         # Build formatted Generative AI response
         lines = []
@@ -406,5 +420,40 @@ class OfflineQAModelRunner:
                 offline_verified=True,
                 generative_verified=True,
             )
+
+        # 7. Direct Match across Trained Daily Human Conversations
+        q_words = set(re.findall(r"\b[a-z]{3,}\b", q_clean))
+        if q_words:
+            best_chunk = None
+            best_score = 0.0
+            for chunk in self.knowledge_chunks:
+                if not ("conversation" in chunk.get("source_file", "").lower() or chunk.get("source_type") == "conversational"):
+                    continue
+                c_q = (chunk.get("question") or "").lower()
+                c_words = set(re.findall(r"\b[a-z]{3,}\b", c_q))
+                if not c_words:
+                    continue
+                overlap = len(q_words & c_words)
+                if overlap == 0:
+                    continue
+                score = overlap / len(q_words | c_words)
+                if score > 0.45 or (overlap >= 2 and overlap == len(q_words)):
+                    if score > best_score:
+                        best_score = score
+                        best_chunk = chunk
+
+            if best_chunk and best_chunk.get("answer"):
+                elapsed = (time.perf_counter() - t_start) * 1000.0
+                return QAResponse(
+                    question=question,
+                    answer=best_chunk["answer"],
+                    source_file="Daily Human Conversation & Life Knowledge",
+                    source_reference="Conversational AI Engine",
+                    context_passage=best_chunk.get("context") or best_chunk.get("text", ""),
+                    confidence_score=0.98,
+                    inference_time_ms=elapsed,
+                    offline_verified=True,
+                    generative_verified=True,
+                )
 
         return None
