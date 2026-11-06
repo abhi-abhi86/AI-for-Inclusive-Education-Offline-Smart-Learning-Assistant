@@ -215,20 +215,23 @@ class handler(BaseHTTPRequestHandler):
                     "offline_verified": True,
                 })
             except Exception as e:
-                # Lightweight deterministic QA fallback on cloud serverless
-                from engine import OfflineDeterministicEngine
-                eng = OfflineDeterministicEngine()
-                out, telem = eng.generate(question)
+                # PyTorch or model unavailable in serverless — return a clear error.
+                # Do NOT return a fake answer labeled as a document answer.
                 self._send_json({
                     "question": question,
-                    "answer": "Answer based on curriculum: " + out.split("### QUIZ")[0].replace("### SUMMARY", "").strip().split("\n")[0].replace("- **Core Concept**:", "").strip(),
-                    "source_file": "science_textbook.pdf (Curriculum)",
-                    "source_reference": "Section 1",
-                    "context_passage": out[:180],
-                    "confidence_score": 0.96,
-                    "inference_time_ms": 1.2,
-                    "offline_verified": True,
-                })
+                    "answer": (
+                        "The document Q&A model is not available in this hosted environment. "
+                        "Please run the app locally (python gui_server.py) with PyTorch installed "
+                        "for full PDF-based answers."
+                    ),
+                    "source_file": "System — Model Unavailable",
+                    "source_reference": "—",
+                    "context_passage": "",
+                    "confidence_score": 0.0,
+                    "inference_time_ms": 0.0,
+                    "offline_verified": False,
+                    "error": str(e),
+                }, status=503)
 
         elif path.endswith("/api/upload-and-train"):
             filename = payload.get("filename", "textbook.pdf")
@@ -262,18 +265,16 @@ class handler(BaseHTTPRequestHandler):
                     ],
                 })
             except Exception as e:
+                # Training failed — report the real error. Never fake success.
                 self._send_json({
-                    "success": True,
-                    "save_path": "models/uploaded_model.pth",
-                    "file_size_mb": 2.18,
-                    "total_params": 498023,
-                    "num_chunks": 5,
-                    "final_loss": 0.450,
-                    "training_time_s": 0.85,
-                    "suggested_questions": [
-                        f"What are the main concepts in {filename}?",
-                    ],
-                })
+                    "success": False,
+                    "error": f"Training failed: {str(e)}",
+                    "detail": (
+                        "The uploaded PDF could not be processed or trained on. "
+                        "Ensure the PDF contains selectable text (not scanned/image-only). "
+                        "For scanned PDFs, run OCR first (e.g. 'ocrmypdf input.pdf output.pdf')."
+                    ),
+                }, status=500)
 
         elif path.endswith("/api/study-aid"):
             from engine import OfflineDeterministicEngine

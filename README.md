@@ -18,17 +18,18 @@
   <img src="https://img.shields.io/badge/Ingestion-PDF%20%7C%20JSON-orange.svg" alt="Data Sources"/>
   <img src="https://img.shields.io/badge/Platform-Raspberry%20Pi%20%7C%20macOS-purple.svg" alt="Edge AI"/>
   <img src="https://img.shields.io/badge/Model%20Size-2.2%20MB-teal.svg" alt="Model Size"/>
-  <img src="https://img.shields.io/badge/Inference-0.7ms%20CPU-blue.svg" alt="Inference Speed"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"/>
 </p>
 
 <p align="center">
-  🌐 <b>Live Hosted Web App:</b> <a href="https://ai-inclusive-education-offline-assi.vercel.app"><b>https://ai-inclusive-education-offline-assi.vercel.app</b></a>
+  🌐 <b>Live Hosted Web App (conversational only):</b> <a href="https://ai-inclusive-education-offline-assi.vercel.app"><b>https://ai-inclusive-education-offline-assi.vercel.app</b></a>
 </p>
+
+> **Note:** The Vercel hosted demo supports conversational chat only. PDF-based Q&A with citations requires running the app locally with PyTorch installed (see Quick Start below).
 
 ---
 
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.15%2B-ee4c2c.svg)](https://pytorch.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![Model Format](https://img.shields.io/badge/Weights-Compressed%20.pth-blue.svg)]()
 [![Offline First](https://img.shields.io/badge/Network-100%25%20Offline%20(Zero%20APIs)-brightgreen.svg)]()
 [![Data Sources](https://img.shields.io/badge/Ingestion-PDF%20%7C%20JSON-orange.svg)]()
@@ -36,10 +37,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 An offline Edge AI learning companion that allows educators and students in low-connectivity regions to:
-1. **Train directly on raw PDF textbooks and notes**—even with **zero pre-written questions**—using native PyTorch offline backpropagation.
-2. **Compress the trained model into a `.pth` file** (low memory footprint, fast edge loading, ~2.2 MB).
-3. **Answer student questions like Generative AI** (direct answers, in-depth explanations, and key takeaways) strictly using the trained PDF knowledge—**with zero external APIs or cloud dependencies**.
-4. **Generate diagnostic learning aids** (3-point summaries and 3 quiz questions) adhering to the ExecuTorch on Raspberry Pi hackathon challenge.
+1. **Train directly on text-based PDF textbooks and notes** using native PyTorch offline backpropagation.
+2. **Compress the trained model into a `.pth` file** (low memory footprint, fast edge loading, ~2–4 MB).
+3. **Answer student questions with evidence-based retrieval** — answers cite the exact page and excerpt from the uploaded PDF, and explicitly say "not found" when the topic is not covered.
+4. **Generate diagnostic learning aids** (3-point summaries and 3 quiz questions).
+
+> **Scanned PDFs:** This app works with text-based PDFs only. For scanned / image-only PDFs, run OCR first: `ocrmypdf input.pdf output.pdf`
 
 ---
 
@@ -47,15 +50,16 @@ An offline Edge AI learning companion that allows educators and students in low-
 
 ### 1. Train Purely on PDFs (No Questions Needed, No APIs)
 - **Automatic Question Synthesis**: Ingests raw chapter text, extracts definitions, mechanisms, and roles, and automatically generates diverse curriculum training pairs.
-- **PDF & JSON Ingestion**: Ingests standard PDF textbooks or optional JSON Q&A pairs.
-- **Local Training**: Uses an attention-based Transformer model (`EdgeNeuralQAModel`) with InfoNCE contrastive representation learning and answer generation.
-- **Compressed `.pth` File**: Packages model weights, vocabulary, and indexed knowledge embeddings into a compressed PyTorch checkpoint (`.pth`), typically **~2.2 MB** for edge deployments.
+- **PDF & JSON Ingestion**: Ingests standard text-based PDF textbooks or optional JSON Q&A pairs.
+- **Local Training**: Uses an attention-based Transformer model (`EdgeNeuralQAModel`) with InfoNCE contrastive representation learning.
+- **Compressed `.pth` File**: Packages model weights, vocabulary, and indexed knowledge embeddings into a compressed PyTorch checkpoint (`.pth`), typically **~2–4 MB** for edge deployments.
+- **PDF Extraction Report**: Prints a diagnostic report for every PDF — pages with text, blank pages, and a clear warning if the PDF appears scanned.
 
-### 2. Generative AI Offline Question Answering
-- **Generative Synthesis**: Formulates complete multi-part responses: direct summary answer, in-depth mechanism explanation, and key curriculum takeaways.
-- **Instant Edge Latency**: Under 2 ms on local CPU / Raspberry Pi.
-- **Detailed Citations**: Cites exact textbook chapter, page number, and source passage.
-- Confidence score and verified 100% offline badge.
+### 2. Evidence-Based Offline Question Answering
+- **Retrieval with Citations**: Retrieves the best matching passages from your uploaded PDF and cites the exact page/section.
+- **Honest Confidence**: Confidence scores reflect actual retrieval quality and are not inflated. Low-confidence or off-topic questions return an explicit "not found" response instead of a fabricated answer.
+- **Fast Local Inference**: Typical latency is under 5 ms on a modern CPU; actual numbers vary by hardware.
+- **Separate Document & Conversation Knowledge**: PDF curriculum answers and daily conversation answers are drawn from separate collections to avoid cross-contamination.
 
 ---
 
@@ -93,7 +97,7 @@ Sample output:
   Source:   curriculum_qa.json (Entry #2)
   Excerpt:  "Stomata on the underside of plant leaves facilitate gas exchange necessary for photosynthesis...."
 --------------------------------------------------------------------
-  Confidence: 99.0% | Latency: 0.7 ms | Offline: 100%
+  Confidence: 87.3% | Latency: <5 ms (CPU) | Offline: 100%
 ====================================================================
 ```
 
@@ -174,6 +178,12 @@ python3 -m unittest test_neural_trainer.py
 
 # Test hackathon educational assistant
 python3 -m unittest test_assistant.py
+
+# Test grounded PDF extraction and evidence-based Q&A (requires trained model)
+python3 -m unittest tests/test_pdf_qa_grounded.py
+
+# Run all tests at once
+python3 -m unittest discover .
 ```
 
 ---

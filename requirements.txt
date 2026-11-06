@@ -1,3 +1,8 @@
+# Core runtime dependencies
+# Install PyTorch separately using the official instructions:
+#   https://pytorch.org/get-started/locally/
+# Example for CPU-only macOS / Linux:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
 pypdf>=5.0.0
 numpy>=2.0.0
-

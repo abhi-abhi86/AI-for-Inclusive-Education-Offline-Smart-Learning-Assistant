@@ -145,57 +145,161 @@ class Vocabulary:
         return vocab
 
 
-def extract_text_from_pdf(pdf_path: str, chunk_size: int = 120, overlap: int = 25) -> List[KnowledgeChunk]:
-    """Extracts text from PDF page by page and chunks into overlapping passages."""
+@dataclass
+class PDFExtractionReport:
+    """Diagnostic report for a single PDF extraction run."""
+    source_file: str
+    total_pages: int
+    pages_with_text: int
+    blank_pages: int
+    total_chunks: int
+    total_words: int
+    likely_scanned: bool
+    warnings: List[str]
+
+    def summary(self) -> str:
+        lines = [
+            f"PDF Extraction Report: {self.source_file}",
+            f"  Pages : {self.total_pages} total | {self.pages_with_text} with text | {self.blank_pages} blank",
+            f"  Chunks: {self.total_chunks} | Words: {self.total_words}",
+        ]
+        if self.likely_scanned:
+            lines.append(
+                "  WARNING: Most pages returned no selectable text. "
+                "This PDF may be scanned/image-based. Run OCR (e.g. 'ocrmypdf') first."
+            )
+        for w in self.warnings:
+            lines.append(f"  WARNING: {w}")
+        return "\n".join(lines)
+
+
+def _normalize_pdf_text(raw: str) -> str:
+    """Collapse whitespace and strip standalone page numbers / chapter headings."""
+    text = re.sub(r"[ \t]+", " ", raw)
+    lines = []
+    for line in text.split("\n"):
+        s = line.strip()
+        # Drop lines that are only page numbers or bare chapter/page labels
+        if re.fullmatch(r"(\d+|page\s+\d+|chapter\s+\d+)", s, re.I):
+            continue
+        lines.append(s)
+    return " ".join(l for l in lines if l)
+
+
+def extract_text_from_pdf(
+    pdf_path: str, chunk_size: int = 120, overlap: int = 25, verbose: bool = True
+) -> List[KnowledgeChunk]:
+    """Extracts text from a PDF and prints a diagnostic report.
+
+    Raises RuntimeError if the PDF appears scanned and no text was extracted.
+    Use extract_text_from_pdf_with_report() when you need the full report object.
+    """
+    chunks, report = extract_text_from_pdf_with_report(
+        pdf_path, chunk_size=chunk_size, overlap=overlap
+    )
+    if verbose:
+        print(report.summary())
+    if report.likely_scanned and not chunks:
+        raise RuntimeError(
+            f"No selectable text found in '{pdf_path}'. "
+            "This PDF appears to be scanned/image-based. "
+            "Use OCR (e.g. 'ocrmypdf') to add a text layer first."
+        )
+    return chunks
+
+
+def extract_text_from_pdf_with_report(
+    pdf_path: str, chunk_size: int = 120, overlap: int = 25
+) -> Tuple[List[KnowledgeChunk], PDFExtractionReport]:
+    """Full PDF extraction with per-page diagnostics and a PDFExtractionReport.
+
+    Returns (chunks, report). Never raises on empty extraction — check
+    report.likely_scanned and report.total_chunks to decide what to do.
+    """
     if not os.path.exists(pdf_path):
         raise FileNotFoundError(f"PDF file not found: {pdf_path}")
 
-    chunks = []
     file_name = os.path.basename(pdf_path)
+    chunks: List[KnowledgeChunk] = []
+    warnings_list: List[str] = []
+    total_pages = 0
+    pages_with_text = 0
+    blank_pages = 0
+    total_words = 0
 
     if PYPDF_AVAILABLE:
-        reader = pypdf.PdfReader(pdf_path)
-        for page_num, page in enumerate(reader.pages, start=1):
-            page_text = page.extract_text() or ""
-            page_text = page_text.strip()
-            if not page_text:
-                continue
+        try:
+            reader = pypdf.PdfReader(pdf_path)
+        except Exception as exc:
+            warnings_list.append(
+                f"pypdf could not parse the file: {exc}. Trying raw binary fallback."
+            )
+            reader = None
 
-            # Chunk into paragraphs / sentences
-            words = page_text.split()
-            if len(words) <= chunk_size:
-                chunks.append(
-                    KnowledgeChunk(
-                        source_file=file_name,
-                        source_type="pdf",
-                        page_or_id=f"Page {page_num}",
-                        text=page_text,
+        if reader is not None:
+            total_pages = len(reader.pages)
+            for page_num, page in enumerate(reader.pages, start=1):
+                try:
+                    raw_text = page.extract_text() or ""
+                except Exception as page_exc:
+                    warnings_list.append(
+                        f"Page {page_num}: extraction raised an exception ({page_exc}), skipping."
                     )
-                )
-            else:
-                step = chunk_size - overlap
-                for i in range(0, len(words), step):
-                    chunk_words = words[i : i + chunk_size]
-                    if len(chunk_words) < 20 and chunks:
-                        # Append small leftovers to previous chunk
-                        continue
-                    chunk_text = " ".join(chunk_words)
+                    blank_pages += 1
+                    continue
+
+                page_text = _normalize_pdf_text(raw_text).strip()
+                word_count = len(page_text.split())
+
+                if not page_text or word_count < 5:
+                    blank_pages += 1
+                    continue
+
+                pages_with_text += 1
+                total_words += word_count
+                words = page_text.split()
+
+                if len(words) <= chunk_size:
                     chunks.append(
                         KnowledgeChunk(
                             source_file=file_name,
                             source_type="pdf",
-                            page_or_id=f"Page {page_num} (Section {i // step + 1})",
-                            text=chunk_text,
+                            page_or_id=f"Page {page_num}",
+                            text=page_text,
                         )
                     )
-    else:
-        # Fallback reading raw binary stream text
+                else:
+                    step = max(1, chunk_size - overlap)
+                    section = 1
+                    for i in range(0, len(words), step):
+                        chunk_words = words[i : i + chunk_size]
+                        if len(chunk_words) < 20:
+                            continue
+                        chunks.append(
+                            KnowledgeChunk(
+                                source_file=file_name,
+                                source_type="pdf",
+                                page_or_id=f"Page {page_num}, Section {section}",
+                                text=" ".join(chunk_words),
+                            )
+                        )
+                        section += 1
+
+    # Raw binary fallback when pypdf is unavailable or failed to parse
+    if not PYPDF_AVAILABLE or (not chunks and not pages_with_text):
+        if not PYPDF_AVAILABLE:
+            warnings_list.append("pypdf not installed; using raw binary stream fallback.")
+        else:
+            warnings_list.append(
+                "pypdf extracted no text; attempting raw binary stream fallback."
+            )
         with open(pdf_path, "rb") as fp:
             content = fp.read().decode("latin-1", errors="ignore")
-        # Extract plain readable strings
         text_matches = re.findall(r"\((.*?)\)T[jJ]", content)
         raw_text = " ".join(text_matches).strip()
         if raw_text:
+            total_words = len(raw_text.split())
+            pages_with_text = 1
             chunks.append(
                 KnowledgeChunk(
                     source_file=file_name,
@@ -204,8 +308,24 @@ def extract_text_from_pdf(pdf_path: str, chunk_size: int = 120, overlap: int = 2
                     text=raw_text,
                 )
             )
+        total_pages = total_pages or 1
 
-    return chunks
+    likely_scanned = total_pages > 0 and (
+        pages_with_text == 0
+        or (pages_with_text / total_pages < 0.25 and total_words < 50)
+    )
+
+    report = PDFExtractionReport(
+        source_file=file_name,
+        total_pages=total_pages,
+        pages_with_text=pages_with_text,
+        blank_pages=blank_pages,
+        total_chunks=len(chunks),
+        total_words=total_words,
+        likely_scanned=likely_scanned,
+        warnings=warnings_list,
+    )
+    return chunks, report
 
 
 def load_qa_from_json(json_path: str) -> List[KnowledgeChunk]:
@@ -279,7 +399,7 @@ def generate_synthetic_qa_from_text(text: str) -> List[Tuple[str, str]]:
     """
     clean_lines = [
         l.strip() for l in text.split("\n")
-        if not re.match(r"^(chapter|\d+|#|page)", l.strip(), re.I) and l.strip()
+        if l.strip() and not re.fullmatch(r"(chapter\s+\d+|\d+|page\s+\d+)", l.strip(), re.I)
     ]
     clean_text = " ".join(clean_lines)
     sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", clean_text) if len(s.strip()) > 12]

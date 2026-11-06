@@ -1,0 +1,51 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 7 0 R >> >> >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 7 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 599 >>
+stream
+BT /F1 12 Tf 50 750 Td 16 TL
+(CHAPTER 1: CELL BIOLOGY AND PHOTOSYNTHESIS) Tj T*
+T*
+(Photosynthesis is the fundamental biological process by which green plants and algae convert light energy into chemical energy stored as glucose. Plants absorb sunlight using chlorophyll located inside chloroplasts. They absorb carbon dioxide from the air through microscopic leaf pores called stomata, while roots absorb water from soil. Powered by solar energy, chloroplasts convert carbon dioxide and water into glucose. Oxygen is released back into the atmosphere as a vital byproduct through stomata.) Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 537 >>
+stream
+BT /F1 12 Tf 50 750 Td 16 TL
+(CHAPTER 2: RENEWABLE ENERGY AND PHYSICS) Tj T*
+T*
+(Renewable energy originates from naturally replenishing resources such as solar, wind, and hydro. Solar photovoltaic cells convert incident photons directly into electric current. Wind turbines capture the kinetic energy of air currents to spin electric generators. Hydroelectric power harnesses gravitational potential energy of falling water. A key challenge is intermittency, which requires battery storage systems to balance electrical grids.) Tj T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000124 00000 n 
+0000000250 00000 n 
+0000000376 00000 n 
+0000000476 00000 n 
+0000000576 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+650
+%%EOF
