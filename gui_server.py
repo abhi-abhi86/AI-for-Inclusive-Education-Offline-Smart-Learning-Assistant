@@ -19,7 +19,7 @@ import urllib.parse
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from typing import Dict, List, Optional
 
-from generate_sample_data import create_sample_curriculum_json, create_sample_textbook_pdf
+from tools.generate_sample_data import create_sample_curriculum_json, create_sample_textbook_pdf
 from prompt_templates import parse_learning_aid, validate_passage
 
 # Global runner state
@@ -355,19 +355,19 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
     <!-- TAB 3: ADVANCED TRAINING -->
     <div id="train-tab" class="tab-content">
       <div class="card">
-        <h2>⚙️ Multi-Source Curriculum Training (PDF + JSON)</h2>
-        <p>Train across multiple textbook PDFs and JSON Q&A files simultaneously. Customize epochs and target <code>.pth</code> filename.</p>
+        <h2>⚙️ Train AI from Your PDF Library</h2>
+        <p>Train the offline model from every PDF inside <code>pdfs_to_train/</code>. Answers will be based on those PDFs.</p>
 
         <!-- One-Click Folder Train -->
         <div style="background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.3); border-radius: 10px; padding: 16px 18px; margin-bottom: 20px;">
           <div style="font-size: 1rem; font-weight: bold; color: #34d399; margin-bottom: 6px;">📁 One-Click Folder Training</div>
-          <p style="margin-bottom: 12px;">Drop PDFs into <code>data/pdf_textbooks/</code> and JSON files into <code>data/json_curriculum/</code>, then hit the button below — no config needed!</p>
+          <p style="margin-bottom: 12px;">Drop PDFs into <code>pdfs_to_train/</code>, then train the model using only those PDFs.</p>
           <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
             <button class="btn btn-accent" onclick="trainFromFolders()">
-              <span>⚡ Train from data/ Folders</span>
+              <span>⚡ Train from PDF folder</span>
               <div class="loader" id="folder-train-loader"></div>
             </button>
-            <span id="folder-train-status" style="font-size: 0.85rem; color: var(--text-muted);">Scans data/pdf_textbooks/ + data/json_curriculum/ automatically.</span>
+            <span id="folder-train-status" style="font-size: 0.85rem; color: var(--text-muted);">Scans nested subject folders too.</span>
           </div>
         </div>
 
@@ -375,7 +375,7 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
 
         <div class="form-group">
           <label>PDF Textbook File Paths (comma-separated):</label>
-          <input type="text" id="train-pdf" value="data/pdf_textbooks/science_textbook.pdf">
+          <input type="text" id="train-pdf" value="pdfs_to_train/science_textbook.pdf">
         </div>
 
         <div class="form-group">
@@ -777,7 +777,7 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
       const statusEl = document.getElementById('folder-train-status');
       const resBox = document.getElementById('train-result');
       loader.style.display = 'inline-block';
-      statusEl.innerText = 'Scanning data/pdf_textbooks/ and data/json_curriculum/ ...';
+      statusEl.innerText = 'Scanning pdfs_to_train/ ...';
 
       try {
         const resp = await fetch('/api/train-from-folders', {
@@ -807,7 +807,7 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
           noticeMsg.innerHTML = `
             <div class="bubble" style="border: 1px solid #10b981; background: rgba(16,185,129,0.08);">
               ⚡ <strong>Trained from data/ Folders!</strong><br>
-              Scanned and trained on files in <code>data/pdf_textbooks/</code> and <code>data/json_curriculum/</code> (${data.file_size_mb.toFixed(2)} MB .pth model, ${data.num_chunks} chunks).
+              Scanned and trained on PDF files in <code>pdfs_to_train/</code> (${data.file_size_mb.toFixed(2)} MB .pth model, ${data.num_chunks} chunks).
               The updated model is now active for questions!
             </div>
             <div class="msg-meta">
@@ -898,17 +898,32 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 self._send_json({"error": "No file data received."}, status=400)
                 return
 
-            os.makedirs("uploads", exist_ok=True)
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            upload_dir = os.path.join(base_dir, "uploads")
+            os.makedirs(upload_dir, exist_ok=True)
             safe_filename = re.sub(r"[^\w\-_\.]", "_", os.path.basename(filename))
-            saved_pdf_path = os.path.join("uploads", safe_filename)
+            if not safe_filename.lower().endswith(".pdf"):
+                safe_filename += ".pdf"
+            saved_pdf_path = os.path.join(upload_dir, safe_filename)
 
             # Decode and write PDF
+            try:
+                if file_base64.startswith("data:"):
+                    file_base64 = file_base64.split(",", 1)[1]
+                decoded_pdf = base64.b64decode(file_base64, validate=True)
+            except Exception:
+                self._send_json({"error": "The uploaded file is not valid base64 data."}, status=400)
+                return
+            if not decoded_pdf.startswith(b"%PDF-"):
+                self._send_json({"error": "The uploaded file is not a valid PDF."}, status=400)
+                return
             with open(saved_pdf_path, "wb") as f:
-                f.write(base64.b64decode(file_base64))
+                f.write(decoded_pdf)
 
-            save_model_path = "models/uploaded_model.pth"
+            save_model_path = os.path.join(base_dir, "models", "uploaded_model.pth")
             save_json_path = os.path.join(
-                "data", "json_curriculum", f"{os.path.splitext(safe_filename)[0]}_knowledge.json"
+                base_dir, "data", "json_curriculum",
+                f"{os.path.splitext(safe_filename)[0]}_knowledge.json",
             )
 
             try:
@@ -943,8 +958,8 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
 
                 self._send_json({
                     "success": True,
-                    "save_path": save_model_path,
-                    "json_path": save_json_path,
+                    "save_path": "models/uploaded_model.pth",
+                    "json_path": os.path.relpath(save_json_path, base_dir),
                     "extracted_pages": extraction["pages"],
                     "extracted_words": extraction["words"],
                     "generated_qa_pairs": extraction["qa_pairs"],
@@ -988,20 +1003,22 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
 
         elif path == "/api/train-from-folders":
             # Auto-scan the drop-zone directories and train
-            save_path = payload.get("save_path", "models/folder_trained_model.pth")
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            save_path = os.path.join(base_dir, "models", "folder_trained_model.pth")
             epochs = payload.get("epochs", 12)
-            pdf_dir = "data/pdf_textbooks"
-            json_dir = "data/json_curriculum"
+            pdf_dir = os.path.join(base_dir, "pdfs_to_train")
+            json_dir = None
 
             try:
-                from trainer import train_offline_model, resolve_paths
-                pdf_paths = resolve_paths([], ".pdf", pdf_dir)
-                json_paths = resolve_paths([], ".json", json_dir)
-                if not pdf_paths and not json_paths:
-                    self._send_json({"error": f"No PDF or JSON files found in {pdf_dir}/ or {json_dir}/. Please add files there first."}, status=400)
+                from data_loader import convert_pdf_folder_to_json
+                from trainer import train_offline_model
+                conversion = convert_pdf_folder_to_json(pdf_dir, os.path.join(base_dir, "data", "json_from_pdfs"))
+                json_paths = [item["json_path"] for item in conversion["converted"]]
+                if not json_paths:
+                    self._send_json({"error": f"No PDF files found in {pdf_dir}. Add PDF files there and try again."}, status=400)
                     return
                 stats = train_offline_model(
-                    pdf_paths=pdf_paths,
+                    pdf_paths=[],
                     json_paths=json_paths,
                     save_path=save_path,
                     epochs=epochs,
@@ -1010,13 +1027,16 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 get_qa_runner(save_path)
                 self._send_json({
                     "success": True,
-                    "save_path": save_path,
+                    "save_path": "models/folder_trained_model.pth",
                     "file_size_mb": file_size_mb,
                     "total_params": stats["total_params"],
                     "num_chunks": stats["num_chunks"],
                     "final_loss": stats["final_loss"],
                     "training_time_s": stats["training_time_s"],
-                    "pdf_files": pdf_paths,
+                    "pdf_files": [os.path.relpath(item["pdf_path"], base_dir) for item in conversion["converted"]],
+                    "json_files": [os.path.relpath(path, base_dir) for path in json_paths],
+                    "converted_count": conversion["converted_count"],
+                    "failed_count": conversion["failed_count"],
                     "json_files": json_paths,
                 })
             except Exception as e:

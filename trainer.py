@@ -66,7 +66,7 @@ def train_offline_model(
     """
     Trains the offline neural model on supplied PDF textbooks and JSON datasets,
     compresses parameters into a .pth checkpoint, and returns training summary.
-    Defaults to scanning `data/pdf_textbooks/` and `data/json_curriculum/`.
+    Defaults to scanning `pdfs_to_train/` and `data/json_curriculum/`.
     """
     print("\n" + "=" * 68)
     print("      OFFLINE NEURAL MODEL TRAINING (PDF & JSON CURRICULUM)")
@@ -75,7 +75,7 @@ def train_offline_model(
     all_chunks: List[KnowledgeChunk] = []
 
     # Auto-resolve directories
-    effective_pdfs = resolve_paths(pdf_paths, ".pdf", default_dir="data/pdf_textbooks")
+    effective_pdfs = resolve_paths(pdf_paths, ".pdf", default_dir="pdfs_to_train")
     effective_jsons = resolve_paths(json_paths, ".json", default_dir="data/json_curriculum")
 
     # 1. Ingest PDF files
@@ -86,7 +86,7 @@ def train_offline_model(
             all_chunks.extend(pdf_chunks)
             print(f"  -> Extracted {len(pdf_chunks)} contextual knowledge chunks from {os.path.basename(p)}.")
     else:
-        print("[Data Ingestion] No PDF files found in data/pdf_textbooks/")
+        print("[Data Ingestion] No PDF files found in pdfs_to_train/")
 
     # 2. Ingest JSON files
     if effective_jsons:
@@ -96,7 +96,7 @@ def train_offline_model(
             all_chunks.extend(json_chunks)
             print(f"  -> Loaded {len(json_chunks)} Q&A / curriculum entries from {os.path.basename(j)}.")
     else:
-        print("[Data Ingestion] No JSON files found in data/json_curriculum/")
+        print("[Data Ingestion] No JSON files selected.")
 
     if not all_chunks:
         raise ValueError("No valid knowledge chunks extracted. Please provide at least one valid PDF or JSON file.")
@@ -231,7 +231,7 @@ def train_offline_model(
             "total_params": total_params,
             "training_time_s": elapsed_time,
             "num_chunks": len(all_chunks),
-            "sources": (pdf_paths or []) + (json_paths or []),
+            "sources": effective_pdfs + effective_jsons,
         },
     }
 

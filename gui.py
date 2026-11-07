@@ -22,7 +22,7 @@ def main():
     args = parser.parse_args()
 
     if args.desktop:
-        from gui_desktop import run_desktop_gui
+        from tools.gui_desktop import run_desktop_gui
         print("Launching Native Desktop GUI (Tkinter)...")
         run_desktop_gui()
     else:
@@ -41,4 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

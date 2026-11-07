@@ -15,6 +15,9 @@ import os
 import sys
 from pathlib import Path
 
+# Allow this utility to be run directly from the repository root.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from engine import get_inference_engine
 from metrics import EdgeTelemetry
 from prompt_templates import validate_passage
@@ -201,4 +204,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

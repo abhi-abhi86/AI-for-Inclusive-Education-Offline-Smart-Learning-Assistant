@@ -56,6 +56,58 @@ When a PDF is uploaded through the local GUI, the application now:
 
 This is an offline retrieval-and-extractive-synthesis system, not a cloud LLM. It cannot recover text from image-only PDFs without OCR, and generated questions are limited to facts that can be detected in the extracted text.
 
+## 🌐 Host the Project
+
+GitHub stores the source code; it does not run the Python/PyTorch application. Use Vercel for the hosted web demo, or run the full offline application locally.
+
+### Push the project to GitHub
+
+The repository is already configured with the `origin` remote. From the project folder:
+
+```bash
+git add .
+git commit -m "Update offline PDF knowledge pipeline"
+git push origin main
+```
+
+If the branch is not named `main`, check it with `git branch --show-current` and replace `main` in the push command.
+
+### Deploy the hosted demo with Vercel
+
+Install and authenticate with Vercel once:
+
+```bash
+npm install -g vercel
+vercel login
+```
+
+Deploy from the repository root:
+
+```bash
+vercel --prod
+```
+
+The Vercel deployment is a hosted demo. It is not the same as local offline mode, and PDF training requires a local environment with PyTorch installed.
+
+### Run the complete offline application locally
+
+```bash
+./venv/bin/python gui.py
+```
+
+Then open `http://127.0.0.1:8000`. Uploading a text-based PDF creates a JSON knowledge archive, generates grounded questions and answers, and trains the local model without cloud APIs.
+
+### Train from a PDF folder
+
+Put one or more PDFs into [`pdfs_to_train/`](./pdfs_to_train), then run:
+
+```bash
+./venv/bin/python train_and_qa.py convert-pdfs
+./venv/bin/python train_and_qa.py train-from-folders
+```
+
+The first command creates one JSON file per PDF under [`data/json_from_pdfs/`](./data/json_from_pdfs), preserving subject folders. Each JSON contains extraction metadata, page/chunk text, and grounded typed Q&A pairs. The second command runs this conversion automatically and trains only from those generated JSON files. The GUI's folder-training button performs both steps.
+
 ---
 
 ## 🌟 Key Capabilities
@@ -149,15 +201,15 @@ For the organizer-provided passage summary & quiz generation task:
 
 ```bash
 # Run on curated sample passages
-python3 assistant.py --sample 1   # Biology (Photosynthesis)
-python3 assistant.py --sample 2   # Physics (Renewable Energy)
-python3 assistant.py --sample 3   # Earth Science (Water Cycle)
+python3 -m tools.assistant --sample 1   # Biology (Photosynthesis)
+python3 -m tools.assistant --sample 2   # Physics (Renewable Energy)
+python3 -m tools.assistant --sample 3   # Earth Science (Water Cycle)
 
 # Run batch benchmark
-python3 assistant.py --benchmark
+python3 -m tools.assistant --benchmark
 ```
 
-See [`IMPACT_REPORT.md`](./IMPACT_REPORT.md) for the complete evaluation report and [`PI_SETUP.md`](./PI_SETUP.md) for the Raspberry Pi setup guide.
+See [`docs/IMPACT_REPORT.md`](./docs/IMPACT_REPORT.md) for the complete evaluation report and [`docs/PI_SETUP.md`](./docs/PI_SETUP.md) for the Raspberry Pi setup guide.
 
 ---
 
@@ -169,33 +221,31 @@ See [`IMPACT_REPORT.md`](./IMPACT_REPORT.md) for the complete evaluation report 
 ├── model.py                   # EdgeNeuralQAModel (Transformer + Dual Semantic Heads)
 ├── qa_engine.py               # Local Q&A engine with Hybrid Reciprocal Rank Fusion
 ├── data_loader.py             # PDF (pypdf) & JSON curriculum parser + Vocabulary
-├── generate_sample_data.py    # Generates sample curriculum PDF & JSON files
-├── test_neural_trainer.py     # Unit tests for training, compression & inference
-├── assistant.py               # Summary & Quiz CLI for hackathon evaluation
+├── pdf_to_json.py             # Converts PDF folders into structured JSON archives
+├── run.sh                     # One-command launcher for GUI, conversion, training, and Q&A
 ├── metrics.py                 # Telemetry (RAM RSS, latency, tok/s, 0 network calls)
 ├── prompt_templates.py        # Structured prompt formatters & passage validator
-├── export_executorch_model.py # ExecuTorch export script for Raspberry Pi
-├── IMPACT_REPORT.md           # Hackathon evaluation report answering all 5 deliverables
-├── PI_SETUP.md                # Raspberry Pi 4/5 deployment guide
+├── tools/                     # Optional assistant, sample-data, desktop-GUI, and export utilities
+├── docs/                      # Impact report and Raspberry Pi setup guide
 └── sample_data/               # Sample educational PDF and JSON datasets
 ```
 
 ---
 
-## 🧪 Running Unit Tests
+## ▶️ Run Commands
 
 ```bash
-# Test neural training and .pth Q&A pipeline
-python3 -m unittest test_neural_trainer.py
+# Start the local web GUI
+./run.sh gui
 
-# Test hackathon educational assistant
-python3 -m unittest test_assistant.py
+# Convert all PDFs to JSON
+./run.sh convert
 
-# Test grounded PDF extraction and evidence-based Q&A (requires trained model)
-python3 -m unittest tests/test_pdf_qa_grounded.py
+# Convert PDFs and train the offline model
+./run.sh train
 
-# Run all tests at once
-python3 -m unittest discover .
+# Ask the trained model
+./run.sh ask --model models/folder_trained_model.pth --question "What is the main topic?"
 ```
 
 ---

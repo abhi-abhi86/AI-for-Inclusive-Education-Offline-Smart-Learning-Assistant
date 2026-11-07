@@ -243,8 +243,13 @@ class handler(BaseHTTPRequestHandler):
                 os.makedirs(upload_dir, exist_ok=True)
                 save_pdf = os.path.join(upload_dir, os.path.basename(filename))
                 
+                if file_base64.startswith("data:"):
+                    file_base64 = file_base64.split(",", 1)[1]
+                decoded_pdf = base64.b64decode(file_base64, validate=True)
+                if not decoded_pdf.startswith(b"%PDF-"):
+                    raise ValueError("The uploaded file is not a valid PDF.")
                 with open(save_pdf, "wb") as f:
-                    f.write(base64.b64decode(file_base64))
+                    f.write(decoded_pdf)
                 
                 from data_loader import export_pdf_knowledge_json
                 json_name = f"{os.path.splitext(os.path.basename(filename))[0]}_knowledge.json"

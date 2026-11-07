@@ -18,3 +18,9 @@ build/
 
 # Student-uploaded PDFs (not committed to git)
 uploads/
+
+# Generated PDF knowledge archives
+data/json_from_pdfs/*.json
+data/json_from_pdfs/*/*.json
+data/json_from_pdfs/**/*.json
+models/folder_trained_model.pth

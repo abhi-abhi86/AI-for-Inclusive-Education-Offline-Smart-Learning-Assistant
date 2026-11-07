@@ -9,6 +9,9 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
+import subprocess
+import tempfile
 from collections import Counter
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
@@ -238,6 +241,17 @@ def extract_text_from_pdf_with_report(
 
         if reader is not None:
             total_pages = len(reader.pages)
+            if reader.is_encrypted:
+                try:
+                    if not reader.decrypt(""):
+                        warnings_list.append(
+                            "This PDF is password-protected and needs its password removed before upload."
+                        )
+                        reader = None
+                except Exception as exc:
+                    warnings_list.append(f"Could not unlock PDF: {exc}")
+                    reader = None
+        if reader is not None:
             for page_num, page in enumerate(reader.pages, start=1):
                 try:
                     raw_text = page.extract_text() or ""
@@ -312,6 +326,49 @@ def extract_text_from_pdf_with_report(
                 )
             )
         total_pages = total_pages or 1
+
+    # If selectable text is absent, use a locally installed OCRmyPDF command
+    # when available. This keeps OCR offline and preserves page boundaries.
+    if not chunks and total_pages > 0:
+        ocrmypdf = shutil.which("ocrmypdf")
+        if ocrmypdf:
+            with tempfile.TemporaryDirectory() as temp_dir:
+                ocr_path = os.path.join(temp_dir, "ocr.pdf")
+                try:
+                    subprocess.run(
+                        [ocrmypdf, "--skip-text", "--quiet", pdf_path, ocr_path],
+                        check=True,
+                        capture_output=True,
+                        text=True,
+                        timeout=300,
+                    )
+                    if not PYPDF_AVAILABLE:
+                        raise RuntimeError("pypdf is required to read OCR output.")
+                    ocr_reader = pypdf.PdfReader(ocr_path)
+                    for page_num, page in enumerate(ocr_reader.pages, start=1):
+                        page_text = _normalize_pdf_text(page.extract_text() or "").strip()
+                        if not page_text:
+                            blank_pages += 1
+                            continue
+                        pages_with_text += 1
+                        total_words += len(page_text.split())
+                        chunks.append(
+                            KnowledgeChunk(
+                                source_file=file_name,
+                                source_type="pdf_ocr",
+                                page_or_id=f"Page {page_num}",
+                                text=page_text,
+                            )
+                        )
+                    if chunks:
+                        warnings_list.append("Text was recovered with local OCR.")
+                except (OSError, subprocess.SubprocessError, Exception) as exc:
+                    warnings_list.append(f"Local OCR could not process this PDF: {exc}")
+        else:
+            warnings_list.append(
+                "No selectable text was found. Install OCRmyPDF and Tesseract "
+                "for scanned/image-only PDFs."
+            )
 
     likely_scanned = total_pages > 0 and (
         pages_with_text == 0
@@ -470,6 +527,61 @@ def export_pdf_knowledge_json(
         "words": report.total_words,
         "qa_pairs": len(qa_pairs),
         "report": report,
+    }
+
+
+def convert_pdf_folder_to_json(
+    pdf_root: str = "pdfs_to_train",
+    json_root: str = "data/json_from_pdfs",
+    max_questions_per_page: int = 12,
+) -> Dict[str, Any]:
+    """Convert every PDF under a folder into a matching JSON archive.
+
+    Relative folders are preserved, for example:
+    ``pdfs_to_train/science/book.pdf`` becomes
+    ``data/json_from_pdfs/science/book.json``.
+    """
+    if not os.path.isdir(pdf_root):
+        raise FileNotFoundError(f"PDF training folder not found: {pdf_root}")
+
+    pdf_paths = []
+    for root, _, files in os.walk(pdf_root):
+        for name in sorted(files):
+            if name.lower().endswith(".pdf"):
+                pdf_paths.append(os.path.join(root, name))
+    pdf_paths.sort()
+    if not pdf_paths:
+        raise ValueError(f"No PDF files found in {pdf_root}.")
+
+    converted: List[Dict[str, Any]] = []
+    failures: List[Dict[str, str]] = []
+    for pdf_path in pdf_paths:
+        relative_path = os.path.relpath(pdf_path, pdf_root)
+        relative_json = os.path.splitext(relative_path)[0] + ".json"
+        json_path = os.path.join(json_root, relative_json)
+        try:
+            result = export_pdf_knowledge_json(
+                pdf_path,
+                json_path,
+                max_questions_per_page=max_questions_per_page,
+            )
+            result["pdf_path"] = pdf_path
+            converted.append(result)
+        except (OSError, RuntimeError, ValueError) as exc:
+            failures.append({"pdf_path": pdf_path, "error": str(exc)})
+
+    if not converted:
+        details = "; ".join(f"{item['pdf_path']}: {item['error']}" for item in failures)
+        raise ValueError(f"No PDFs could be converted. {details}")
+
+    return {
+        "pdf_root": pdf_root,
+        "json_root": json_root,
+        "converted": converted,
+        "failures": failures,
+        "pdf_count": len(pdf_paths),
+        "converted_count": len(converted),
+        "failed_count": len(failures),
     }
 
 

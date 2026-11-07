@@ -76,7 +76,7 @@ Transfer the exported 4-bit quantized model (`llama3_2_1b.pte`) and tokenizer:
 
 ```bash
 # Export using helper script
-python3 export_executorch_model.py --model-id "meta-llama/Llama-3.2-1B-Instruct" --quant xnnpack-4bit
+python3 tools/export_executorch_model.py --model-id "meta-llama/Llama-3.2-1B-Instruct" --quant xnnpack-4bit
 
 # Alternatively, copy pre-exported .pte file from your workstation:
 scp workstation:~/models/llama3_2_1b.pte ./models/
@@ -91,18 +91,18 @@ scp workstation:~/models/tokenizer.bin ./models/
 Run without external binaries or prior to building ExecuTorch:
 ```bash
 # Run on sample curriculum passage (Photosynthesis)
-python3 assistant.py --sample 1
+python3 -m tools.assistant --sample 1
 
 # Run on custom text file
-python3 assistant.py --file sample_passages/02_renewable_energy.txt
+python3 -m tools.assistant --file sample_passages/02_renewable_energy.txt
 
 # Run automated batch benchmark
-python3 assistant.py --benchmark
+python3 -m tools.assistant --benchmark
 ```
 
 ### B. With Compiled ExecuTorch Binary
 ```bash
-python3 assistant.py \
+python3 -m tools.assistant \
     --executorch \
     --model-path ./models/llama3_2_1b.pte \
     --tokenizer-path ./models/tokenizer.bin \
@@ -119,4 +119,3 @@ python3 assistant.py \
 | **Raspberry Pi 5 (8GB)** | Llama 3.2 1B | 4-bit XNNPACK | ~1,120 MB | 14 – 18 tok/s | **0 (Offline)** |
 | **Raspberry Pi 4 (4GB)** | Llama 3.2 1B | 4-bit XNNPACK | ~1,150 MB | 8 – 11 tok/s | **0 (Offline)** |
 | **Raspberry Pi 4/5** | Built-in Engine | Low Footprint | ~21 MB | Real-time | **0 (Offline)** |
-
