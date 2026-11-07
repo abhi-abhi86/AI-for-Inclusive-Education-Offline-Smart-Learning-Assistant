@@ -405,7 +405,7 @@ class OfflineQAModelRunner:
             answer = (
                 "Here is what I can do for you 100% offline:\n\n"
                 "1. 📖 Answer Questions: Ask any curriculum question based on your uploaded PDF textbooks or notes.\n"
-                "2. ⚡ Train on Textbooks: Drop new PDFs into data/pdf_textbooks/ and click Train to learn new chapters.\n"
+                "2. ⚡ Train on Textbooks: Drop new PDFs into pdfs_to_train/ and click Train to learn new chapters.\n"
                 "3. 📝 Study Aid Generator: Convert educational passages into 3-point summaries and 3 diagnostic quiz questions.\n"
                 "4. 🔒 Zero Cloud: Everything stays completely private and runs locally on your machine."
             )

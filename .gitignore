@@ -20,7 +20,13 @@ build/
 uploads/
 
 # Generated PDF knowledge archives
-data/json_from_pdfs/*.json
-data/json_from_pdfs/*/*.json
-data/json_from_pdfs/**/*.json
+data/converted_json/*.json
+data/converted_json/*/*.json
+data/converted_json/**/*.json
+data/converted_text/*.txt
+data/converted_text/*/*.txt
+data/converted_text/**/*.txt
+data/generated_questions/**/*.json
+data/generated_answers/**/*.json
 models/folder_trained_model.pth
+data/trained_models/*.pth

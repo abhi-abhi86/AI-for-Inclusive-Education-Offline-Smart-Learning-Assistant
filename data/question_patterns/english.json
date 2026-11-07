@@ -1,0 +1,23 @@
+{
+  "subject": "english",
+  "patterns": [
+    {"type": "comprehension", "templates": ["What is the central idea of the passage about {topic}?", "What does the writer explain about {topic}?"]},
+    {"type": "summary", "templates": ["How would you summarise the part of the passage about {topic}?", "What are the most important points about {topic}?"]},
+    {"type": "vocabulary", "templates": ["What does the word or phrase {topic} mean in this context?", "How is {topic} used in the passage?"]},
+    {"type": "synonym", "templates": ["Which word in the passage has a meaning similar to {topic}?", "What is a suitable synonym for {topic} in this context?"]},
+    {"type": "antonym", "templates": ["Which word or idea in the passage is opposite in meaning to {topic}?", "What is a suitable antonym for {topic} in this context?"]},
+    {"type": "character", "templates": ["What does the passage reveal about {topic}?", "How does {topic} respond to the situation?"]},
+    {"type": "setting", "templates": ["Where and in what situation does the passage about {topic} take place?", "What details describe the setting related to {topic}?"]},
+    {"type": "sequence", "templates": ["What happened before or after the event involving {topic}?", "In what order are the events involving {topic} described?"]},
+    {"type": "theme", "templates": ["What theme or message does the passage communicate about {topic}?", "Why is the message about {topic} important?"]},
+    {"type": "moral", "templates": ["What lesson can be learned from the passage about {topic}?", "What value or moral does the passage suggest about {topic}?"]},
+    {"type": "inference", "templates": ["What can be inferred about {topic} from the passage?", "What does the passage imply about {topic}?"]},
+    {"type": "evidence", "templates": ["Which sentence or detail supports the interpretation of {topic}?", "What evidence does the writer give about {topic}?"]},
+    {"type": "author_purpose", "templates": ["Why did the writer include the information about {topic}?", "What is the writer's purpose in presenting {topic}?"]},
+    {"type": "tone", "templates": ["What tone or feeling does the writer express about {topic}?", "Which words show the writer's attitude toward {topic}?"]},
+    {"type": "figurative_language", "templates": ["What comparison, image, or figurative expression is used for {topic}?", "How does the figurative language help explain {topic}?"]},
+    {"type": "grammar", "templates": ["How is {topic} used in the sentence or passage?", "What grammatical role does {topic} have in the sentence?"]},
+    {"type": "sentence_transformation", "templates": ["How could the sentence about {topic} be expressed in another form?", "What change in wording preserves the meaning about {topic}?"]},
+    {"type": "creative_response", "templates": ["What response would be appropriate to the situation involving {topic}?", "How could the idea about {topic} be applied in a new situation?"]}
+  ]
+}

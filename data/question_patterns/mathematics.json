@@ -1,0 +1,21 @@
+{
+  "subject": "mathematics",
+  "patterns": [
+    {"type": "definition", "templates": ["What is the meaning of {topic} in mathematics?"]},
+    {"type": "notation", "templates": ["What symbol or notation is used for {topic}?", "How is {topic} represented mathematically?"]},
+    {"type": "formula", "templates": ["What formula or rule is given for {topic}?", "Which formula should be used to solve a problem about {topic}?"]},
+    {"type": "method", "templates": ["How can a problem involving {topic} be solved?", "What method is described for {topic}?"]},
+    {"type": "steps", "templates": ["What are the steps for solving the problem about {topic}?", "What should be done first and next when solving {topic}?"]},
+    {"type": "reasoning", "templates": ["Why does this mathematical method work for {topic}?", "How can the result about {topic} be justified?"]},
+    {"type": "example", "templates": ["What example is given to explain {topic}?", "How does the example illustrate {topic}?"]},
+    {"type": "calculation", "templates": ["What calculation is required for {topic}?", "What value or result is obtained for {topic}?"]},
+    {"type": "word_problem", "templates": ["What mathematical problem is described in the situation about {topic}?", "Which information is needed to solve the problem about {topic}?"]},
+    {"type": "proof", "templates": ["What argument or proof is given for {topic}?", "Why is the mathematical statement about {topic} true?"]},
+    {"type": "graph", "templates": ["What does the graph, table, or diagram show about {topic}?", "How should the representation of {topic} be interpreted?"]},
+    {"type": "pattern", "templates": ["What pattern or relationship is shown for {topic}?", "How does the sequence involving {topic} continue?"]},
+    {"type": "compare", "templates": ["How are the mathematical ideas related to or different from {topic}?", "Which method is more suitable for the problem about {topic}?"]},
+    {"type": "estimation", "templates": ["What estimate can be made from the information about {topic}?", "How can the answer about {topic} be checked for reasonableness?"]},
+    {"type": "error_analysis", "templates": ["What error might occur when solving {topic}?", "How can the solution involving {topic} be checked or corrected?"]},
+    {"type": "application", "templates": ["How is {topic} applied in a real-life situation?"]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "subject": "social_science",
+  "patterns": [
+    {"type": "event", "templates": ["What event or development involving {topic} is described in the passage?"]},
+    {"type": "date", "templates": ["When did the event involving {topic} take place?", "What date or period is associated with {topic}?"]},
+    {"type": "place", "templates": ["Where did the event or process involving {topic} take place?", "Which region or location is connected with {topic}?"]},
+    {"type": "person", "templates": ["Who were the important people or groups connected with {topic}?", "Who played a role in {topic}?"]},
+    {"type": "cause_effect", "templates": ["Why did {topic} happen, and what were its effects?", "What caused {topic}, and what happened as a result?"]},
+    {"type": "sequence", "templates": ["What happened before and after {topic}?", "In what order did the events involving {topic} occur?"]},
+    {"type": "comparison", "templates": ["How were the groups, regions, or systems related or different in relation to {topic}?", "What similarities and differences are described about {topic}?"]},
+    {"type": "significance", "templates": ["Why is {topic} important in society or history?", "What is the historical significance of {topic}?"]},
+    {"type": "source", "templates": ["What source, record, or evidence is mentioned about {topic}?", "What evidence supports the account of {topic}?"]},
+    {"type": "perspective", "templates": ["Whose perspective or viewpoint is presented about {topic}?", "How might different groups view {topic}?"]},
+    {"type": "rights", "templates": ["What rights, duties, or responsibilities are connected with {topic}?", "How does {topic} affect citizens or communities?"]},
+    {"type": "government", "templates": ["What role does government or an institution play in {topic}?", "How is {topic} organised or governed?"]},
+    {"type": "economy", "templates": ["How does {topic} affect work, resources, or the economy?", "What economic activity is described in relation to {topic}?"]},
+    {"type": "geography", "templates": ["What geographical feature or condition is important to {topic}?", "How does location affect {topic}?"]},
+    {"type": "continuity_change", "templates": ["What changed and what remained the same in {topic}?", "How did {topic} develop over time?"]},
+    {"type": "consequence", "templates": ["What were the short-term or long-term consequences of {topic}?"]}
+  ]
+}

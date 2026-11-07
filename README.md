@@ -48,7 +48,7 @@ An offline Edge AI learning companion that allows educators and students in low-
 
 When a PDF is uploaded through the local GUI, the application now:
 
-1. Extracts all selectable page text and stores it in `data/json_curriculum/*_knowledge.json`.
+1. Extracts all selectable page text and stores it in `data/converted_text/`.
 2. Preserves page references and creates grounded `what`, `how`, `when`, `where`, `who`, and `why` questions when the source text contains the required evidence.
 3. Stores each answer as source text from the PDF rather than inventing an answer.
 4. Trains the local PyTorch retrieval model from the generated JSON archive.
@@ -106,7 +106,39 @@ Put one or more PDFs into [`pdfs_to_train/`](./pdfs_to_train), then run:
 ./venv/bin/python train_and_qa.py train-from-folders
 ```
 
-The first command creates one JSON file per PDF under [`data/json_from_pdfs/`](./data/json_from_pdfs), preserving subject folders. Each JSON contains extraction metadata, page/chunk text, and grounded typed Q&A pairs. The second command runs this conversion automatically and trains only from those generated JSON files. The GUI's folder-training button performs both steps.
+The first command creates one JSON file per PDF under [`data/converted_json/`](./data/converted_json), preserving subject folders. Each JSON contains extraction metadata, page/chunk text, and grounded typed Q&A pairs. The second command runs this conversion automatically and trains only from those generated JSON files. The GUI's folder-training button performs both steps.
+
+Question wording is configured in [`data/question_patterns/`](./data/question_patterns/).
+It contains subject-specific patterns for English, science, mathematics, social
+science, and general learning. The converter detects the subject folder, uses
+the matching patterns, and keeps every answer grounded in the source text.
+
+Topic extraction uses the local spaCy `en_core_web_sm` model when installed. This
+selects noun phrases instead of relying only on the first remaining word. Install
+the dependency and model once while online; question generation then runs fully
+offline:
+
+```bash
+./venv/bin/pip install -r requirements.txt
+./venv/bin/python -m spacy download en_core_web_sm
+```
+
+If the model is unavailable, the converter uses its built-in deterministic
+heuristic fallback and continues without a network request.
+
+The converter also uses local PyMuPDF and Tesseract OCR to detect large,
+stylized opening-page text such as chapter titles and author names. These are
+stored as `document_metadata` in the JSON archive. Install the Python packages
+and the local Tesseract executable once:
+
+```bash
+./venv/bin/pip install -r requirements.txt
+brew install tesseract
+```
+
+The 1,000 question patterns control question wording; they cannot recover
+letters that the PDF text layer does not contain. OCR and layout-aware
+extraction solve that recognition problem without requiring an online AI API.
 
 ---
 
@@ -241,12 +273,36 @@ See [`docs/IMPACT_REPORT.md`](./docs/IMPACT_REPORT.md) for the complete evaluati
 # Convert all PDFs to JSON
 ./run.sh convert
 
+# Extract all PDFs to page-preserving text files
+./run.sh text
+
 # Convert PDFs and train the offline model
 ./run.sh train
 
 # Ask the trained model
-./run.sh ask --model models/folder_trained_model.pth --question "What is the main topic?"
+./run.sh ask --model data/trained_models/folder_trained_model.pth --question "What is the main topic?"
 ```
+
+The `text`, `convert`, and `train` commands open a local progress window while
+they work. The window shows the percentage completed, the current PDF or
+training epoch, live output, and completion or failure status. For `train`, PDF
+conversion represents the first half and model training represents the second
+half of the overall percentage. Processing remains fully offline.
+
+Generated files are separated into these folders:
+
+- `data/converted_text/` — page-preserving `.txt` files
+- `data/converted_json/` — structured `.json` archives
+- `data/trained_models/` — trained `.pth` model files
+- `data/generated_questions/` — generated questions grouped by subject
+- `data/generated_answers/` — generated answers grouped by subject
+
+Text files preserve the subject and filename structure from `pdfs_to_train/`.
+The JSON converter reads this TXT folder explicitly. Each page is separated by
+`===== PAGE N =====`. Run `./run.sh text` first; `./run.sh convert` then reads
+only these `.txt` files and stores their paths in the generated JSON archives.
+It does not extract text directly from PDFs, and reports an error if a matching
+text file is missing.
 
 ---
 

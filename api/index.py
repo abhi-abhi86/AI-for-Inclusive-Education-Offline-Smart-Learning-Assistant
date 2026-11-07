@@ -22,7 +22,7 @@ DAILY_CONVERSATIONS_DATA = []
 try:
     _base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     _paths = [
-        os.path.join(_base, "data", "json_curriculum", "daily_conversations.json"),
+        os.path.join(_base, "data", "curriculum_json", "daily_conversations.json"),
         os.path.join(_base, "sample_data", "daily_conversations.json"),
     ]
     for _p in _paths:
@@ -253,7 +253,7 @@ class handler(BaseHTTPRequestHandler):
                 
                 from data_loader import export_pdf_knowledge_json
                 json_name = f"{os.path.splitext(os.path.basename(filename))[0]}_knowledge.json"
-                save_json = os.path.join(base_dir, "data", "json_curriculum", json_name)
+                save_json = os.path.join(                base_dir, "data", "curriculum_json", json_name)
                 extraction = export_pdf_knowledge_json(save_pdf, save_json)
 
                 from trainer import train_offline_model
@@ -266,7 +266,7 @@ class handler(BaseHTTPRequestHandler):
                 self._send_json({
                     "success": True,
                     "save_path": "models/uploaded_model.pth",
-                    "json_path": f"data/json_curriculum/{json_name}",
+                    "json_path": f"data/curriculum_json/{json_name}",
                     "extracted_pages": extraction["pages"],
                     "extracted_words": extraction["words"],
                     "generated_qa_pairs": extraction["qa_pairs"],

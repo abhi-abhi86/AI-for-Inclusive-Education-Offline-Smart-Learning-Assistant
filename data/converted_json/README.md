@@ -14,3 +14,7 @@ The directory structure mirrors `pdfs_to_train/`. Each JSON file contains:
 
 Do not edit these files manually. Add or replace PDFs in `pdfs_to_train/`, then run
 the conversion command again.
+# Converted JSON Data
+
+Generated structured JSON archives from `data/converted_text/` are stored here.
+Run `./run.sh convert` after running `./run.sh text` to refresh this folder.

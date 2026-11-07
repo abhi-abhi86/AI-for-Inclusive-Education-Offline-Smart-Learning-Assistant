@@ -13,7 +13,7 @@ import sys
 
 from tools.generate_sample_data import create_sample_curriculum_json, create_sample_textbook_pdf
 from qa_engine import OfflineQAModelRunner
-from data_loader import convert_pdf_folder_to_json
+from data_loader import convert_pdf_folder_to_json, convert_pdf_folder_to_text
 from trainer import train_offline_model
 
 # Terminal styling
@@ -50,7 +50,11 @@ def cmd_train(args):
 
 
 def cmd_convert_pdfs(args):
-    result = convert_pdf_folder_to_json(args.pdf_root, args.json_root)
+    result = convert_pdf_folder_to_json(
+        args.pdf_root,
+        args.json_root,
+        text_root=args.text_root,
+    )
     print(
         f"{GREEN}Converted {result['converted_count']}/{result['pdf_count']} PDFs "
         f"to JSON under {result['json_root']}.{RESET}"
@@ -62,7 +66,15 @@ def cmd_convert_pdfs(args):
 
 
 def cmd_train_from_folders(args):
-    conversion = convert_pdf_folder_to_json(args.pdf_root, args.json_root)
+    convert_pdf_folder_to_text(
+        args.pdf_root,
+        os.path.join(os.path.dirname(args.json_root), "converted_text"),
+    )
+    conversion = convert_pdf_folder_to_json(
+        args.pdf_root,
+        args.json_root,
+        text_root=args.text_root,
+    )
     json_paths = [
         item["json_path"]
         for item in conversion["converted"]
@@ -185,15 +197,17 @@ def main():
     )
     folder_train_p.set_defaults(
         pdf_root="pdfs_to_train",
-        json_root="data/json_from_pdfs",
-        save="models/folder_trained_model.pth",
+        json_root="data/converted_json",
+        text_root="data/converted_text",
+        save="data/trained_models/folder_trained_model.pth",
         epochs=15,
         batch_size=8,
         lr=0.001,
     )
     folder_train_p.add_argument("--pdf-root", default="pdfs_to_train")
-    folder_train_p.add_argument("--json-root", default="data/json_from_pdfs")
-    folder_train_p.add_argument("--save", default="models/folder_trained_model.pth")
+    folder_train_p.add_argument("--json-root", default="data/converted_json")
+    folder_train_p.add_argument("--text-root", default="data/converted_text")
+    folder_train_p.add_argument("--save", default="data/trained_models/folder_trained_model.pth")
     folder_train_p.add_argument("--epochs", type=int, default=15)
     folder_train_p.add_argument("--batch-size", type=int, default=8)
     folder_train_p.add_argument("--lr", type=float, default=0.001)
@@ -203,16 +217,17 @@ def main():
         help="Convert every PDF in pdfs_to_train/ into matching JSON archives",
     )
     convert_p.add_argument("--pdf-root", default="pdfs_to_train")
-    convert_p.add_argument("--json-root", default="data/json_from_pdfs")
+    convert_p.add_argument("--json-root", default="data/converted_json")
+    convert_p.add_argument("--text-root", default="data/converted_text")
 
     # Ask subcommand
     ask_p = subparsers.add_parser("ask", help="Ask a question to the trained .pth model")
-    ask_p.add_argument("--model", type=str, default="models/offline_model.pth", help="Path to trained .pth model")
+    ask_p.add_argument("--model", type=str, default="data/trained_models/folder_trained_model.pth", help="Path to trained .pth model")
     ask_p.add_argument("--question", "-q", type=str, required=True, help="Question text")
 
     # Interactive subcommand
     inter_p = subparsers.add_parser("interactive", help="Start interactive terminal Q&A session")
-    inter_p.add_argument("--model", type=str, default="models/offline_model.pth", help="Path to trained .pth model")
+    inter_p.add_argument("--model", type=str, default="data/trained_models/folder_trained_model.pth", help="Path to trained .pth model")
 
     # Demo subcommand
     demo_p = subparsers.add_parser("demo", help="Run automated end-to-end training and Q&A demonstration")

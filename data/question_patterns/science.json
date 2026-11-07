@@ -1,0 +1,21 @@
+{
+  "subject": "science",
+  "patterns": [
+    {"type": "definition", "templates": ["What is {topic}?", "What does {topic} mean in science?"]},
+    {"type": "components", "templates": ["What are the parts or components of {topic}?", "Which materials or structures are involved in {topic}?"]},
+    {"type": "function", "templates": ["What is the function of {topic}?", "How does {topic} work?"]},
+    {"type": "process", "templates": ["How does the process involving {topic} take place?", "What are the steps or stages described for {topic}?"]},
+    {"type": "sequence", "templates": ["What happens first, next, and last in the process involving {topic}?", "In what order does the process related to {topic} occur?"]},
+    {"type": "cause_effect", "templates": ["Why does {topic} produce this result?", "What causes the effect described for {topic}?"]},
+    {"type": "observation", "templates": ["What observation or evidence is given about {topic}?", "What result would be observed in the example about {topic}?"]},
+    {"type": "hypothesis", "templates": ["What hypothesis could explain the observation about {topic}?", "What prediction follows from the explanation of {topic}?"]},
+    {"type": "experiment", "templates": ["What experiment or investigation is described for {topic}?", "How could {topic} be tested or observed?"]},
+    {"type": "variables", "templates": ["What factors affect {topic}?", "Which condition changes the result involving {topic}?"]},
+    {"type": "classification", "templates": ["How is {topic} classified?", "Which group or category does {topic} belong to?"]},
+    {"type": "comparison", "templates": ["How is {topic} similar to or different from the related scientific idea?", "What difference involving {topic} and the related scientific idea is described?"]},
+    {"type": "application", "templates": ["How is {topic} used or applied in real life?", "What practical problem can {topic} help solve?"]},
+    {"type": "safety", "templates": ["What safety point is important when working with {topic}?", "What precaution is mentioned about {topic}?"]},
+    {"type": "evidence", "templates": ["What evidence supports the explanation of {topic}?", "Which observation supports the scientific claim about {topic}?"]},
+    {"type": "limitation", "templates": ["What limitation or condition applies to {topic}?", "When might the explanation of {topic} not apply?"]}
+  ]
+}

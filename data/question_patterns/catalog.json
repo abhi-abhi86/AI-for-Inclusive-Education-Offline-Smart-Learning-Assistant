@@ -1,0 +1,6007 @@
+{
+  "name": "Expanded educational question pattern catalog",
+  "version": 1,
+  "pattern_count": 1000,
+  "patterns": [
+    {
+      "type": "recall_01",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_01",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_01",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_01",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_01",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_01",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_01",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_01",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_01",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_01",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_01",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_01",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_01",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_01",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_01",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_01",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_01",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_01",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_01",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_01",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_01",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_01",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_01",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_01",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_01",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_01",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_01",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_01",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_01",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_01",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_01",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_01",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_01",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_01",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_01",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_01",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_01",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_01",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_01",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_01",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_02",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_02",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_02",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_02",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_02",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_02",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_02",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_02",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_02",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_02",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_02",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_02",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_02",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_02",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_02",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_02",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_02",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_02",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_02",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_02",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_02",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_02",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_02",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_02",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_02",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_02",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_02",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_02",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_02",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_02",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_02",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_02",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_02",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_02",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_02",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_02",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_02",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_02",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_02",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_02",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_03",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_03",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_03",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_03",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_03",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_03",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_03",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_03",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_03",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_03",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_03",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_03",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_03",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_03",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_03",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_03",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_03",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_03",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_03",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_03",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_03",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_03",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_03",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_03",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_03",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_03",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_03",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_03",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_03",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_03",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_03",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_03",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_03",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_03",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_03",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_03",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_03",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_03",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_03",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_03",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_04",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_04",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_04",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_04",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_04",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_04",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_04",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_04",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_04",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_04",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_04",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_04",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_04",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_04",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_04",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_04",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_04",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_04",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_04",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_04",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_04",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_04",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_04",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_04",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_04",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_04",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_04",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_04",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_04",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_04",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_04",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_04",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_04",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_04",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_04",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_04",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_04",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_04",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_04",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_04",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_05",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_05",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_05",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_05",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_05",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_05",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_05",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_05",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_05",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_05",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_05",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_05",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_05",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_05",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_05",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_05",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_05",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_05",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_05",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_05",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_05",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_05",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_05",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_05",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_05",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_05",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_05",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_05",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_05",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_05",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_05",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_05",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_05",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_05",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_05",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_05",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_05",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_05",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_05",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_05",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_06",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_06",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_06",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_06",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_06",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_06",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_06",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_06",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_06",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_06",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_06",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_06",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_06",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_06",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_06",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_06",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_06",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_06",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_06",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_06",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_06",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_06",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_06",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_06",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_06",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_06",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_06",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_06",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_06",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_06",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_06",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_06",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_06",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_06",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_06",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_06",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_06",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_06",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_06",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_06",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_07",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_07",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_07",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_07",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_07",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_07",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_07",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_07",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_07",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_07",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_07",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_07",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_07",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_07",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_07",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_07",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_07",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_07",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_07",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_07",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_07",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_07",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_07",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_07",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_07",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_07",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_07",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_07",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_07",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_07",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_07",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_07",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_07",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_07",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_07",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_07",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_07",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_07",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_07",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_07",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_08",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_08",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_08",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_08",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_08",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_08",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_08",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_08",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_08",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_08",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_08",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_08",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_08",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_08",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_08",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_08",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_08",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_08",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_08",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_08",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_08",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_08",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_08",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_08",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_08",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_08",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_08",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_08",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_08",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_08",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_08",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_08",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_08",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_08",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_08",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_08",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_08",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_08",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_08",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_08",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_09",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_09",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_09",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_09",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_09",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_09",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_09",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_09",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_09",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_09",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_09",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_09",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_09",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_09",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_09",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_09",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_09",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_09",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_09",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_09",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_09",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_09",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_09",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_09",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_09",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_09",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_09",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_09",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_09",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_09",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_09",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_09",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_09",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_09",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_09",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_09",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_09",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_09",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_09",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_09",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_10",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_10",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_10",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_10",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_10",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_10",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_10",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_10",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_10",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_10",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_10",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_10",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_10",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_10",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_10",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_10",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_10",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_10",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_10",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_10",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_10",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_10",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_10",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_10",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_10",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_10",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_10",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_10",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_10",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_10",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_10",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_10",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_10",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_10",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_10",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_10",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_10",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_10",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_10",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_10",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_11",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_11",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_11",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_11",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_11",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_11",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_11",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_11",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_11",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_11",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_11",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_11",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_11",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_11",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_11",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_11",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_11",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_11",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_11",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_11",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_11",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_11",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_11",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_11",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_11",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_11",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_11",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_11",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_11",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_11",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_11",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_11",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_11",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_11",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_11",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_11",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_11",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_11",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_11",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_11",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_12",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_12",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_12",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_12",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_12",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_12",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_12",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_12",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_12",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_12",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_12",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_12",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_12",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_12",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_12",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_12",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_12",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_12",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_12",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_12",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_12",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_12",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_12",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_12",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_12",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_12",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_12",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_12",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_12",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_12",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_12",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_12",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_12",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_12",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_12",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_12",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_12",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_12",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_12",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_12",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_13",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_13",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_13",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_13",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_13",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_13",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_13",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_13",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_13",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_13",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_13",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_13",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_13",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_13",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_13",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_13",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_13",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_13",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_13",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_13",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_13",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_13",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_13",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_13",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_13",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_13",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_13",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_13",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_13",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_13",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_13",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_13",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_13",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_13",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_13",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_13",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_13",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_13",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_13",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_13",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_14",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_14",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_14",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_14",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_14",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_14",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_14",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_14",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_14",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_14",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_14",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_14",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_14",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_14",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_14",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_14",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_14",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_14",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_14",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_14",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_14",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_14",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_14",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_14",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_14",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_14",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_14",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_14",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_14",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_14",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_14",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_14",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_14",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_14",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_14",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_14",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_14",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_14",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_14",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_14",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_15",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_15",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_15",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_15",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_15",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_15",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_15",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_15",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_15",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_15",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_15",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_15",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_15",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_15",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_15",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_15",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_15",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_15",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_15",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_15",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_15",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_15",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_15",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_15",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_15",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_15",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_15",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_15",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_15",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_15",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_15",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_15",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_15",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_15",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_15",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_15",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_15",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_15",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_15",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_15",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_16",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_16",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_16",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_16",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_16",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_16",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_16",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_16",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_16",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_16",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_16",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_16",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_16",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_16",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_16",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_16",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_16",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_16",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_16",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_16",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_16",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_16",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_16",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_16",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_16",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_16",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_16",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_16",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_16",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_16",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_16",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_16",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_16",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_16",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_16",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_16",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_16",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_16",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_16",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_16",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_17",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_17",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_17",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_17",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_17",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_17",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_17",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_17",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_17",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_17",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_17",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_17",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_17",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_17",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_17",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_17",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_17",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_17",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_17",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_17",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_17",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_17",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_17",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_17",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_17",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_17",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_17",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_17",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_17",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_17",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_17",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_17",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_17",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_17",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_17",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_17",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_17",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_17",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_17",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_17",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_18",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_18",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_18",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_18",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_18",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_18",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_18",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_18",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_18",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_18",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_18",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_18",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_18",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_18",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_18",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_18",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_18",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_18",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_18",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_18",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_18",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_18",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_18",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_18",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_18",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_18",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_18",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_18",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_18",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_18",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_18",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_18",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_18",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_18",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_18",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_18",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_18",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_18",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_18",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_18",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_19",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_19",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_19",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_19",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_19",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_19",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_19",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_19",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_19",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_19",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_19",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_19",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_19",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_19",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_19",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_19",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_19",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_19",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_19",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_19",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_19",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_19",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_19",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_19",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_19",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_19",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_19",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_19",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_19",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_19",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_19",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_19",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_19",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_19",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_19",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_19",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_19",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_19",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_19",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_19",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_20",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_20",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_20",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_20",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_20",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_20",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_20",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_20",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_20",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_20",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_20",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_20",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_20",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_20",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_20",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_20",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_20",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_20",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_20",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_20",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_20",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_20",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_20",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_20",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_20",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_20",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_20",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_20",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_20",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_20",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_20",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_20",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_20",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_20",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_20",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_20",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_20",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_20",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_20",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_20",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_21",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_21",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_21",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_21",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_21",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_21",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_21",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_21",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_21",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_21",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_21",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_21",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_21",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_21",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_21",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_21",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_21",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_21",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_21",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_21",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_21",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_21",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_21",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_21",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_21",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_21",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_21",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_21",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_21",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_21",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_21",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_21",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_21",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_21",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_21",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_21",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_21",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_21",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_21",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_21",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_22",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_22",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_22",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_22",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_22",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_22",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_22",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_22",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_22",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_22",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_22",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_22",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_22",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_22",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_22",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_22",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_22",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_22",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_22",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_22",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_22",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_22",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_22",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_22",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_22",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_22",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_22",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_22",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_22",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_22",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_22",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_22",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_22",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_22",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_22",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_22",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_22",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_22",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_22",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_22",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_23",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_23",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_23",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_23",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_23",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_23",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_23",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_23",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_23",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_23",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_23",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_23",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_23",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_23",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_23",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_23",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_23",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_23",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_23",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_23",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_23",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_23",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_23",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_23",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_23",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_23",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_23",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_23",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_23",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_23",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_23",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_23",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_23",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_23",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_23",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_23",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_23",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_23",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_23",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_23",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_24",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_24",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_24",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_24",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_24",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_24",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_24",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_24",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_24",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_24",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_24",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_24",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_24",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_24",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_24",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_24",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_24",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_24",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_24",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_24",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_24",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_24",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_24",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_24",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_24",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_24",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_24",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_24",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_24",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_24",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_24",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_24",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_24",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_24",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_24",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_24",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_24",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_24",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_24",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_24",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    },
+    {
+      "type": "recall_25",
+      "templates": [
+        "What does the passage state about {topic}?"
+      ]
+    },
+    {
+      "type": "define_25",
+      "templates": [
+        "How does the passage define {topic}?"
+      ]
+    },
+    {
+      "type": "describe_25",
+      "templates": [
+        "How is {topic} described in the passage?"
+      ]
+    },
+    {
+      "type": "identify_25",
+      "templates": [
+        "Which detail identifies {topic}?"
+      ]
+    },
+    {
+      "type": "list_25",
+      "templates": [
+        "What points about {topic} are listed?"
+      ]
+    },
+    {
+      "type": "classify_25",
+      "templates": [
+        "How can {topic} be classified?"
+      ]
+    },
+    {
+      "type": "sequence_25",
+      "templates": [
+        "What is the sequence described for {topic}?"
+      ]
+    },
+    {
+      "type": "cause_25",
+      "templates": [
+        "What caused {topic} according to the passage?"
+      ]
+    },
+    {
+      "type": "effect_25",
+      "templates": [
+        "What effect does {topic} have?"
+      ]
+    },
+    {
+      "type": "cause_effect_25",
+      "templates": [
+        "What caused {topic}, and what resulted from it?"
+      ]
+    },
+    {
+      "type": "compare_25",
+      "templates": [
+        "How is {topic} similar to another idea in the passage?"
+      ]
+    },
+    {
+      "type": "contrast_25",
+      "templates": [
+        "How is {topic} different from the related idea?"
+      ]
+    },
+    {
+      "type": "relationship_25",
+      "templates": [
+        "What relationship does the passage show involving {topic}?"
+      ]
+    },
+    {
+      "type": "function_25",
+      "templates": [
+        "What function does {topic} serve?"
+      ]
+    },
+    {
+      "type": "process_25",
+      "templates": [
+        "How does the process involving {topic} work?"
+      ]
+    },
+    {
+      "type": "method_25",
+      "templates": [
+        "What method is described for {topic}?"
+      ]
+    },
+    {
+      "type": "evidence_25",
+      "templates": [
+        "What evidence supports the explanation of {topic}?"
+      ]
+    },
+    {
+      "type": "example_25",
+      "templates": [
+        "What example is given for {topic}?"
+      ]
+    },
+    {
+      "type": "application_25",
+      "templates": [
+        "How can {topic} be applied in practice?"
+      ]
+    },
+    {
+      "type": "importance_25",
+      "templates": [
+        "Why is {topic} important?"
+      ]
+    },
+    {
+      "type": "significance_25",
+      "templates": [
+        "What is the significance of {topic}?"
+      ]
+    },
+    {
+      "type": "inference_25",
+      "templates": [
+        "What can be inferred about {topic}?"
+      ]
+    },
+    {
+      "type": "prediction_25",
+      "templates": [
+        "What might happen next based on {topic}?"
+      ]
+    },
+    {
+      "type": "evaluation_25",
+      "templates": [
+        "What conclusion can be drawn about {topic}?"
+      ]
+    },
+    {
+      "type": "limitation_25",
+      "templates": [
+        "What limitation applies to {topic}?"
+      ]
+    },
+    {
+      "type": "condition_25",
+      "templates": [
+        "Under what condition does {topic} occur?"
+      ]
+    },
+    {
+      "type": "location_25",
+      "templates": [
+        "Where is {topic} found or described?"
+      ]
+    },
+    {
+      "type": "time_25",
+      "templates": [
+        "When does the passage connect events with {topic}?"
+      ]
+    },
+    {
+      "type": "person_25",
+      "templates": [
+        "Who is connected with {topic}?"
+      ]
+    },
+    {
+      "type": "perspective_25",
+      "templates": [
+        "Whose perspective is presented about {topic}?"
+      ]
+    },
+    {
+      "type": "problem_25",
+      "templates": [
+        "What problem involving {topic} is described?"
+      ]
+    },
+    {
+      "type": "solution_25",
+      "templates": [
+        "What solution is suggested for {topic}?"
+      ]
+    },
+    {
+      "type": "decision_25",
+      "templates": [
+        "What decision is made concerning {topic}?"
+      ]
+    },
+    {
+      "type": "reasoning_25",
+      "templates": [
+        "What reasoning supports the statement about {topic}?"
+      ]
+    },
+    {
+      "type": "interpretation_25",
+      "templates": [
+        "How should the information about {topic} be interpreted?"
+      ]
+    },
+    {
+      "type": "summary_25",
+      "templates": [
+        "How would you summarise the information about {topic}?"
+      ]
+    },
+    {
+      "type": "main_idea_25",
+      "templates": [
+        "What is the main idea related to {topic}?"
+      ]
+    },
+    {
+      "type": "detail_25",
+      "templates": [
+        "Which detail about {topic} is important?"
+      ]
+    },
+    {
+      "type": "claim_25",
+      "templates": [
+        "What claim is made about {topic}?"
+      ]
+    },
+    {
+      "type": "support_25",
+      "templates": [
+        "How does the passage support its point about {topic}?"
+      ]
+    }
+  ]
+}

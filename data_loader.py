@@ -7,6 +7,7 @@ builds local vocabulary, and creates PyTorch training datasets.
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import shutil
@@ -30,6 +31,26 @@ try:
     PYPDF_AVAILABLE = True
 except ImportError:
     PYPDF_AVAILABLE = False
+
+try:
+    import spacy
+    SPACY_AVAILABLE = True
+except ImportError:
+    spacy = None
+    SPACY_AVAILABLE = False
+
+try:
+    import pymupdf
+    import pytesseract
+    from PIL import Image
+    OCR_AVAILABLE = True
+except ImportError:
+    pymupdf = None
+    pytesseract = None
+    Image = None
+    OCR_AVAILABLE = False
+
+_SPACY_NLP = None
 
 
 @dataclass
@@ -391,15 +412,217 @@ def extract_text_from_pdf_with_report(
 def _sentences_from_text(text: str) -> List[str]:
     """Split extracted text into usable, non-trivial sentences."""
     return [
-        sentence.strip()
+        re.sub(r"\s+", " ", sentence).strip()
         for sentence in re.split(r"(?<=[.!?])\s+", text)
         if len(sentence.strip()) >= 12
     ]
 
 
+def extract_pdf_to_text_file(pdf_path: str, text_path: str) -> Dict[str, Any]:
+    """Extract a PDF into a readable page-preserving UTF-8 text file."""
+    if not os.path.exists(pdf_path):
+        raise FileNotFoundError(f"PDF file not found: {pdf_path}")
+
+    pages: List[str] = []
+    warnings: List[str] = []
+    if PYPDF_AVAILABLE:
+        try:
+            reader = pypdf.PdfReader(pdf_path)
+            if reader.is_encrypted and not reader.decrypt(""):
+                raise ValueError("PDF is password-protected.")
+            for page in reader.pages:
+                pages.append((page.extract_text() or "").strip())
+        except Exception as exc:
+            warnings.append(f"Standard PDF text extraction failed: {exc}")
+
+    if not any(page.strip() for page in pages):
+        chunks, report = extract_text_from_pdf_with_report(pdf_path, verbose=False)
+        warnings.extend(report.warnings)
+        grouped: Dict[str, List[str]] = {}
+        for chunk in chunks:
+            grouped.setdefault(chunk.page_or_id.split(", Section")[0], []).append(chunk.text)
+        pages = [text for _, text in sorted(grouped.items())]
+
+    if not any(page.strip() for page in pages):
+        raise ValueError(
+            "No readable text was extracted. Install OCRmyPDF and Tesseract "
+            "for scanned/image-only PDFs, then try again."
+        )
+
+    pages = [_repair_heading_spacing(page) for page in pages]
+    metadata = _extract_document_metadata(pdf_path, pages)
+    blocks = []
+    if metadata:
+        blocks.append(
+            "===== DOCUMENT METADATA =====\n\n"
+            + "\n".join(f"{key}: {value}" for key, value in metadata.items())
+        )
+    for number, page in enumerate(pages, start=1):
+        blocks.append(f"===== PAGE {number} =====\n\n{page.strip()}")
+    os.makedirs(os.path.dirname(text_path) or ".", exist_ok=True)
+    with open(text_path, "w", encoding="utf-8") as fp:
+        fp.write("\n\n".join(blocks) + "\n")
+
+    return {
+        "pdf_path": pdf_path,
+        "text_path": text_path,
+        "pages": len(pages),
+        "pages_with_text": sum(bool(page.strip()) for page in pages),
+        "words": sum(len(page.split()) for page in pages),
+        "metadata": metadata,
+        "warnings": warnings,
+    }
+
+
+def _extract_document_metadata(pdf_path: str, pages: List[str]) -> Dict[str, str]:
+    """Detect title and author from text or a local OCR pass over opening pages."""
+    metadata: Dict[str, str] = {}
+    visible_text = "\n".join(pages[:3])
+    lines = [re.sub(r"\s+", " ", line).strip() for line in visible_text.splitlines()]
+    for line in lines:
+        if re.fullmatch(r"(?:title|author)\s*:\s*.+", line, re.I):
+            key, value = line.split(":", 1)
+            metadata[key.lower()] = value.strip()
+    if "title" not in metadata:
+        for line in lines[:8]:
+            words = re.findall(r"[A-Za-z]+", line)
+            if (
+                2 <= len(words) <= 6
+                and len(line) <= 50
+                and line.upper() == line
+                and not re.search(
+                    r"\b(?:PAGE|CHAPTER|REPRINT|MATHEMATICS|BEFORE YOU READ|"
+                    r"AFTER YOU READ|ACTIVITY)\b",
+                    line,
+                )
+            ):
+                metadata["title"] = re.sub(r"\s+\d+$", "", line).strip()
+                break
+
+    if OCR_AVAILABLE:
+        try:
+            document = pymupdf.open(pdf_path)
+            ocr_lines: List[str] = []
+            for page in list(document)[:3]:
+                pixmap = page.get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=False)
+                image = Image.frombytes("RGB", [pixmap.width, pixmap.height], pixmap.samples)
+                ocr_lines.extend(pytesseract.image_to_string(image, config="--psm 6").splitlines())
+            document.close()
+            ocr_lines = [re.sub(r"\s+", " ", line).strip(" '\"|") for line in ocr_lines]
+            ocr_lines = [line for line in ocr_lines if line]
+            if "title" not in metadata:
+                for index, line in enumerate(ocr_lines[:12]):
+                    if re.search(r"\b(?:before|after)\s+you\s+read\b", line, re.I):
+                        continue
+                    words = re.findall(r"[A-Za-z]+", line)
+                    if (
+                        2 <= len(words) <= 8
+                        and len(line) <= 60
+                        and not re.search(r"[.!?]", line)
+                        and not re.match(r"^(?:in|the|this|they|we|you)\b", line, re.I)
+                        and not re.search(
+                            r"\b(?:read|activity|chapter|reprint|first flight|"
+                            r"introduction|section)\b", line, re.I
+                        )
+                    ):
+                        metadata["title"] = re.sub(r"\b(?:on|in)\s*$", "", line).strip(" '\"“”‘’")
+                        break
+            if "author" not in metadata:
+                for line in ocr_lines[:12]:
+                    author_match = re.search(
+                        r"\b(?:by\s+)?([A-Z](?:\.[A-Z])+\.?[A-Za-z]+|"
+                        r"[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+){1,3})\b",
+                        line,
+                    )
+                    if author_match and not re.search(
+                        r"\b(?:letter|before|you|read|chapter|theorem|fundamental|"
+                        r"introduction|numbers|mathematics)\b", line, re.I
+                    ):
+                        metadata["author"] = author_match.group(1).replace(" ", " ")
+                        break
+            if "author" not in metadata and SPACY_AVAILABLE:
+                _load_local_spacy()
+                if _SPACY_NLP:
+                    for entity in _SPACY_NLP("\n".join(ocr_lines[:12])).ents:
+                        if entity.label_ == "PERSON" and len(entity.text.split()) <= 5:
+                            metadata["author"] = entity.text.strip()
+                            break
+        except (OSError, RuntimeError, ValueError):
+            pass
+    return metadata
+
+
+def _load_local_spacy() -> Any:
+    """Load the bundled local spaCy model once, without network access."""
+    global _SPACY_NLP
+    if _SPACY_NLP is None and SPACY_AVAILABLE:
+        try:
+            _SPACY_NLP = spacy.load("en_core_web_sm")
+        except (OSError, IOError):
+            _SPACY_NLP = False
+    return _SPACY_NLP
+
+
+def _repair_heading_spacing(text: str) -> str:
+    """Repair common PDF font-spacing errors in large uppercase headings."""
+    replacements = {
+        "BEFORE Y OU R EAD": "BEFORE YOU READ",
+        "B EFORE YOU READ": "BEFORE YOU READ",
+        "M ATHEMA TICS": "MATHEMATICS",
+        "M ATHEMATICS": "MATHEMATICS",
+        "S OCIAL S CIENCE": "SOCIAL SCIENCE",
+        "E NGLISH": "ENGLISH",
+    }
+    for broken, corrected in replacements.items():
+        text = text.replace(broken, corrected)
+    return text
+
+
+def convert_pdf_folder_to_text(
+    pdf_root: str = "pdfs_to_train",
+    text_root: str = "data/converted_text",
+) -> Dict[str, Any]:
+    """Create one page-preserving .txt file for every PDF, preserving folders."""
+    if not os.path.isdir(pdf_root):
+        raise FileNotFoundError(f"PDF training folder not found: {pdf_root}")
+    pdf_paths = sorted(
+        os.path.join(root, name)
+        for root, _, files in os.walk(pdf_root)
+        for name in sorted(files)
+        if name.lower().endswith(".pdf")
+    )
+    if not pdf_paths:
+        raise ValueError(f"No PDF files found in {pdf_root}.")
+
+    converted: List[Dict[str, Any]] = []
+    failures: List[Dict[str, str]] = []
+    print(f"PROGRESS 0 {len(pdf_paths)} Extracting PDF files")
+    for pdf_path in pdf_paths:
+        relative = os.path.splitext(os.path.relpath(pdf_path, pdf_root))[0] + ".txt"
+        try:
+            result = extract_pdf_to_text_file(pdf_path, os.path.join(text_root, relative))
+            converted.append(result)
+            print(f"PROGRESS {len(converted) + len(failures)} {len(pdf_paths)} Extracted {os.path.basename(pdf_path)}")
+        except (OSError, RuntimeError, ValueError) as exc:
+            failures.append({"pdf_path": pdf_path, "error": str(exc)})
+            print(f"PROGRESS {len(converted) + len(failures)} {len(pdf_paths)} Failed {os.path.basename(pdf_path)}")
+    if not converted:
+        raise ValueError(f"No PDFs could be converted to text. {failures}")
+    return {
+        "pdf_root": pdf_root,
+        "text_root": text_root,
+        "converted": converted,
+        "failures": failures,
+        "pdf_count": len(pdf_paths),
+        "converted_count": len(converted),
+        "failed_count": len(failures),
+    }
+
+
 def generate_grounded_qa_from_chunks(
     chunks: List[KnowledgeChunk],
     max_questions_per_chunk: int = 12,
+    subject: str = "general",
 ) -> List[Dict[str, str]]:
     """Create typed, extractive Q&A pairs whose answers are source sentences.
 
@@ -407,6 +630,8 @@ def generate_grounded_qa_from_chunks(
     so offline training cannot invent facts during dataset creation.
     """
     qa_pairs: List[Dict[str, str]] = []
+    subject_patterns = _load_question_patterns(subject)
+    catalog_patterns = _load_question_pattern_catalog()
     seen = set()
     temporal = re.compile(
         r"\b(in|on|during|after|before|until|since|when)\s+"
@@ -415,6 +640,7 @@ def generate_grounded_qa_from_chunks(
     )
     location = re.compile(
         r"\b(?:in|at|on|inside|within|from|through)\s+(?:the\s+)?"
+        r"(?!Class\b|Chapter\b|Section\b)"
         r"[A-Za-z][A-Za-z-]*(?:\s+[A-Za-z][A-Za-z-]*){0,4}",
         re.I,
     )
@@ -424,46 +650,68 @@ def generate_grounded_qa_from_chunks(
         sentences = _sentences_from_text(chunk.text)
         generated: List[Dict[str, str]] = []
         for sentence in sentences:
-            words = re.findall(r"\b[A-Za-z][A-Za-z-]{3,}\b", sentence)
-            if not words:
+            source_sentence = _focus_source_sentence(sentence, subject)
+            topic = _choose_question_topic(source_sentence, subject)
+            if not topic:
                 continue
-            subject = words[0]
-            lower_sentence = sentence.lower()
+            lower_sentence = source_sentence.lower()
 
-            generated.append({
-                "question": f"What is the main idea of {subject} in this passage?",
-                "answer": sentence,
-                "question_type": "what",
-            })
-            generated.append({
-                "question": f"How does {subject} work or function according to the passage?",
-                "answer": sentence,
-                "question_type": "how",
-            })
+            seed = f"{chunk.source_file}:{chunk.page_or_id}:{sentence}"
+            offset = int(hashlib.sha256(seed.encode("utf-8")).hexdigest(), 16)
+            selected_patterns: List[tuple[Dict[str, Any], str]] = []
+            if catalog_patterns:
+                start = offset % len(catalog_patterns)
+                selected_patterns.extend(
+                    (
+                        catalog_patterns[(start + index) % len(catalog_patterns)],
+                        "catalog",
+                    )
+                    for index in range(8)
+                )
+            selected_patterns.extend((pattern, "subject") for pattern in subject_patterns[:4])
+            for pattern, pattern_source in selected_patterns:
+                if not _pattern_is_supported(pattern["type"], source_sentence, subject):
+                    continue
+                template = pattern["templates"][len(generated) % len(pattern["templates"])]
+                generated.append({
+                    "question": template.format(topic=topic),
+                    "answer": _build_grounded_answer(source_sentence, topic, pattern["type"]),
+                    "question_type": pattern["type"],
+                    "pattern_source": pattern_source,
+                    "pattern_type": pattern["type"],
+                })
 
             if temporal.search(sentence):
                 generated.append({
-                    "question": f"When does the passage say this event or process occurs?",
-                    "answer": sentence,
+                    "question": f"When does the passage say {topic} occurs?",
+                    "answer": _build_grounded_answer(source_sentence, topic, "when"),
                     "question_type": "when",
+                    "pattern_source": "evidence",
+                    "pattern_type": "when",
                 })
             if location.search(sentence):
                 generated.append({
-                    "question": f"Where does the passage say this happens or is found?",
-                    "answer": sentence,
+                    "question": f"Where does the passage say {topic} happens or is found?",
+                    "answer": _build_grounded_answer(source_sentence, topic, "where"),
                     "question_type": "where",
+                    "pattern_source": "evidence",
+                    "pattern_type": "where",
                 })
             if person.search(sentence) or re.search(r"\b(?:people|scientists|researchers|students|teachers)\b", lower_sentence):
                 generated.append({
-                    "question": "Who is mentioned or involved according to the passage?",
-                    "answer": sentence,
+                    "question": f"Who is mentioned or involved in relation to {topic}?",
+                    "answer": _build_grounded_answer(source_sentence, topic, "who"),
                     "question_type": "who",
+                    "pattern_source": "evidence",
+                    "pattern_type": "who",
                 })
             if re.search(r"\b(?:because|therefore|so that|as a result|causes?|leads to|results in)\b", lower_sentence):
                 generated.append({
-                    "question": f"Why does {subject} have this effect?",
-                    "answer": sentence,
+                    "question": f"Why does {topic} have this effect?",
+                    "answer": _build_grounded_answer(source_sentence, topic, "why"),
                     "question_type": "why",
+                    "pattern_source": "evidence",
+                    "pattern_type": "why",
                 })
 
         for item in generated[:max_questions_per_chunk]:
@@ -479,43 +727,419 @@ def generate_grounded_qa_from_chunks(
     return qa_pairs
 
 
+def _focus_source_sentence(sentence: str, subject: str) -> str:
+    """Remove extracted textbook headings that were joined to the first sentence."""
+    focused = re.sub(r"\s+", " ", sentence).strip()
+    if subject.lower().replace("_", " ") in {"math", "mathematics", "maths"}:
+        heading_boundary = re.search(
+            r"\b(?:In Class|We continue|We begin|Let us|Now,|Take |"
+            r"The [a-z]|This [a-z]|It [a-z]|If [a-z]|For example)\b",
+            focused,
+        )
+        if heading_boundary and heading_boundary.start() > 0:
+            focused = focused[heading_boundary.start():]
+    return focused
+
+
+def _build_grounded_answer(sentence: str, topic: str, question_type: str) -> str:
+    """Return concise source text without inventing facts or solving equations."""
+    cleaned = re.sub(r"\s+", " ", sentence).strip()
+    topic_words = [word.lower() for word in re.findall(r"[A-Za-z]+", topic)]
+    if topic_words:
+        sentences = _sentences_from_text(cleaned)
+        matching = [
+            item for item in sentences
+            if sum(word in item.lower() for word in topic_words) >= max(1, len(topic_words) // 2)
+        ]
+        if matching:
+            cleaned = max(matching, key=len)
+    return cleaned
+
+
+def _pattern_is_supported(pattern_type: str, sentence: str, subject: str) -> bool:
+    """Prevent fact-specific questions when the source has no matching evidence."""
+    if subject.lower().replace("_", " ") not in {"math", "mathematics", "maths"}:
+        return True
+
+    text = sentence.lower()
+    kind = pattern_type.lower()
+    if any(token in kind for token in ("formula", "notation", "calculation")):
+        return bool(re.search(r"(?:=|≤|≥|≠|≈|±|×|÷|√|\^|\bformula\b|\bnotation\b)", text))
+    if any(token in kind for token in ("step", "method", "process", "algorithm")):
+        return bool(re.search(r"\b(?:step|method|solve|solution|algorithm|procedure|divide|factor)\w*\b", text))
+    if any(token in kind for token in ("proof", "reasoning", "justify")):
+        return bool(re.search(r"\b(?:proof|prove|theorem|because|therefore|hence|justify)\w*\b", text))
+    if "example" in kind:
+        return bool(re.search(r"\bexample\b|for instance|such as", text))
+    if any(token in kind for token in ("graph", "table", "diagram")):
+        return bool(re.search(r"\b(?:graph|table|diagram|coordinate|plot)\w*\b", text))
+    if any(token in kind for token in ("definition", "meaning")):
+        return bool(re.search(r"\b(?:is|are|means|defined|called|refers to)\b", text))
+    if any(token in kind for token in ("application", "use", "function")):
+        return bool(re.search(r"\b(?:application|apply|use|used|helps|purpose)\w*\b", text))
+    if kind.startswith(("where", "location")):
+        return bool(re.search(
+            r"\b(?:located|location|coordinate|point|place|region|city|country)\b|"
+            r"\b(?:in|at|near)\s+[A-Z][a-z]+",
+            sentence,
+        ))
+    if any(token in kind for token in ("solution", "decision", "choice")):
+        return bool(re.search(r"\b(?:solve|solution|choose|chosen|decide|decision)\w*\b", text))
+    if any(token in kind for token in ("cause", "effect", "reason")):
+        return bool(re.search(r"\b(?:because|therefore|causes?|leads?|results?|due to)\b", text))
+    if any(token in kind for token in ("sequence", "order", "steps")):
+        return bool(re.search(r"\b(?:first|next|then|finally|before|after|sequence|order)\b", text))
+    if any(token in kind for token in ("compare", "contrast", "similar", "difference")):
+        return bool(re.search(r"\b(?:similar|different|compare|contrast|whereas|unlike)\w*\b", text))
+    return True
+
+
+def _choose_question_topic(sentence: str, subject: str = "general") -> str:
+    """Choose a meaningful noun phrase, using spaCy when its local model exists."""
+    is_mathematics = subject.lower().replace("_", " ") in {
+        "math", "mathematics", "maths"
+    }
+    stop_words = {
+        "about", "after", "before", "being", "between", "could", "does",
+        "first", "from", "have", "into", "more", "other", "passage",
+        "same", "should", "that", "their", "there", "these", "they",
+        "this", "those", "until", "were", "what", "when", "where",
+        "which", "while", "with", "would", "your",
+        "book", "textbook", "story", "chapter", "page", "part", "section",
+        "idea", "information", "thing", "passage", "writer",
+        "sold", "aims", "recommends", "continues", "marks", "attempts",
+        "depends", "recognise", "recognize", "provides", "described",
+        "subject", "learner", "children", "students", "people",
+        "process", "method", "explanation", "example", "reason",
+        "value", "number", "term", "terms", "thing", "way",
+        "class",
+    }
+    metadata_words = {
+        "appendix", "edition", "first", "isbn", "ncerc", "ncert", "offices",
+        "publication", "reprint", "reprinted", "rights", "textbook",
+        "foreword", "contents", "chapter", "section", "volume",
+    }
+    candidates: List[str] = []
+    heading_only = False
+    metadata_sentence = bool(
+        re.search(
+            r"\b(?:reprint(?:ed)?|first edition|copyright|isbn|foreword|contents|all rights|"
+            r"publication|printed|permission|price|offices|disposal|sold|condition)\b",
+            sentence,
+            re.I,
+        )
+    )
+    if metadata_sentence:
+        return ""
+
+    if is_mathematics:
+        math_topic = _choose_mathematics_topic(sentence)
+        if math_topic:
+            return math_topic
+
+    if SPACY_AVAILABLE:
+        _load_local_spacy()
+        if _SPACY_NLP:
+            doc = _SPACY_NLP(sentence)
+            phrase_candidates = []
+            for phrase in doc.noun_chunks:
+                words = [
+                    token.text for token in phrase
+                    if token.is_alpha
+                    and token.text.lower() not in stop_words
+                    and token.text.lower() not in metadata_words
+                ]
+                if not words or not any(token.pos_ in {"NOUN", "PROPN"} for token in phrase):
+                    continue
+                cleaned = " ".join(words)
+                cleaned = re.sub(r"^(?:a|an|the)\s+", "", cleaned, flags=re.I)
+                if (
+                    len(cleaned) < 4
+                    or cleaned.lower() in stop_words
+                    or any(word.lower() in stop_words for word in words)
+                ):
+                    continue
+                phrase_candidates.append((len(words), cleaned))
+            if phrase_candidates:
+                return phrase_candidates[0][1]
+
+    for line in sentence.splitlines():
+        words = re.findall(r"\b(?:[A-Z]{2,}|[A-Za-z][A-Za-z-]{3,})\b", line)
+        if not words:
+            continue
+        line_lower = line.lower()
+        if any(marker in line_lower for marker in ("copyright", "isbn", "reprint", "all rights")):
+            continue
+        if len(re.findall(r"\b[A-Z]{2,}\b", line)) >= 2 and not re.search(r"[a-z]", line):
+            heading_only = True
+            continue
+        if len(words) == 1 and (words[0].istitle() or words[0].isupper()):
+            continue
+        for word in words:
+            lowered = word.lower()
+            if (
+                lowered not in stop_words
+                and lowered not in metadata_words
+                and (not word.isupper() or len(word) <= 4)
+            ):
+                candidates.append(word)
+        if candidates:
+            return candidates[0]
+    if metadata_sentence or heading_only:
+        return ""
+    for word in re.findall(r"\b(?:[A-Z]{2,}|[A-Za-z][A-Za-z-]{3,})\b", sentence):
+        lowered = word.lower()
+        if (
+            lowered not in stop_words
+            and lowered not in metadata_words
+            and (not word.isupper() or len(word) <= 4)
+        ):
+            return word
+    return ""
+
+
+def _choose_mathematics_topic(sentence: str) -> str:
+    """Extract a useful mathematical concept before general NLP extraction."""
+    normalized = re.sub(r"\s+", " ", sentence).strip()
+    formula_label = re.match(
+        r"^(?P<label>[A-Za-z][A-Za-z -]{2,40}?)\s*(?:formula|theorem|rule|law)"
+        r"\s*(?:is|:|=|-)",
+        normalized,
+        re.I,
+    )
+    if formula_label:
+        return re.sub(r"\s+", " ", formula_label.group("label") + " " +
+                      re.search(r"(?:formula|theorem|rule|law)", normalized, re.I).group(0)).strip()
+
+    named_patterns = (
+        r"\b(?:quadratic|linear|simultaneous|differential|literal|"
+        r"trigonometric|exponential|logarithmic)\s+equation(?:s)?\b",
+        r"\b(?:arithmetic|geometric|number|Fibonacci)\s+sequence(?:s)?\b",
+        r"\b(?:real|irrational|rational|natural|whole|integer|prime|composite)"
+        r"\s+numbers?\b",
+        r"\b(?:right|isosceles|equilateral|similar|congruent)\s+triangles?\b",
+        r"\b(?:area|perimeter|volume|surface area|circumference)\s+of\s+"
+        r"(?:a|an|the)?\s*[A-Za-z]+\b",
+        r"\b(?:mean|median|mode|range|probability|ratio|proportion|"
+        r"percentage|fraction|integer|polynomial|matrix|vector|"
+        r"derivative|integral|function|coordinate geometry)\b",
+    )
+    relationship = re.search(
+        r"\b(?P<kind>congruent|similar)\b[^.]{0,80}\btriangles?\b|"
+        r"\btriangles?\b[^.]{0,80}\b(?P<reverse>congruent|similar)\b",
+        normalized,
+        re.I,
+    )
+    if relationship:
+        return f"{(relationship.group('kind') or relationship.group('reverse')).lower()} triangles"
+
+    for pattern in named_patterns:
+        match = re.search(pattern, normalized, re.I)
+        if match:
+            return re.sub(r"^(?:a|an|the)\s+", "", match.group(0), flags=re.I)
+
+    if re.search(r"(?:=|≤|≥|≠|≈|±|×|÷|√|\^|\b\d+\s*[+\-*/]\s*\d+)", normalized):
+        if re.search(r"\b(?:solve|solution|find|simplify|factor|equation)\b", normalized, re.I):
+            return "the equation"
+        if re.search(r"\b(?:formula|theorem|rule|law)\b", normalized, re.I):
+            match = re.search(r"\b(?:formula|theorem|rule|law)\b", normalized, re.I)
+            return match.group(0).lower()
+
+    return ""
+
+
+def _load_question_patterns(subject: str) -> List[Dict[str, Any]]:
+    """Load subject-specific question wording from the local pattern folder."""
+    normalized = re.sub(r"[^a-z0-9]+", "_", subject.lower()).strip("_")
+    aliases = {
+        "math": "mathematics",
+        "social": "social_science",
+        "social_science": "social_science",
+    }
+    filename = aliases.get(normalized, normalized)
+    pattern_path = os.path.join("data", "question_patterns", f"{filename}.json")
+    fallback_path = os.path.join("data", "question_patterns", "general.json")
+    try:
+        with open(pattern_path if os.path.isfile(pattern_path) else fallback_path, encoding="utf-8") as fp:
+            data = json.load(fp)
+        patterns = data.get("patterns", [])
+        if patterns:
+            return patterns
+    except (OSError, json.JSONDecodeError):
+        pass
+    return [{"type": "what", "templates": ["What does the passage explain about {topic}?"]}]
+
+
+def _load_question_pattern_catalog() -> List[Dict[str, Any]]:
+    """Load the expanded local catalog used for deterministic question variety."""
+    catalog_path = os.path.join("data", "question_patterns", "catalog.json")
+    try:
+        with open(catalog_path, encoding="utf-8") as fp:
+            patterns = json.load(fp).get("patterns", [])
+        if isinstance(patterns, list):
+            return patterns
+    except (OSError, json.JSONDecodeError):
+        pass
+    return []
+
+
+def _question_pattern_path(subject: str) -> str:
+    normalized = re.sub(r"[^a-z0-9]+", "_", subject.lower()).strip("_")
+    filename = {
+        "math": "mathematics",
+        "social": "social_science",
+        "social_science": "social_science",
+    }.get(normalized, normalized)
+    candidate = os.path.join("data", "question_patterns", f"{filename}.json")
+    return candidate if os.path.isfile(candidate) else os.path.join(
+        "data", "question_patterns", "general.json"
+    )
+
+
+def _write_question_answer_archives(
+    question_root: str,
+    answer_root: str,
+    json_path: str,
+    source_file: str,
+    subject: str,
+    qa_pairs: List[Dict[str, str]],
+) -> Dict[str, str]:
+    """Store generated questions and answers in separate subject folders."""
+    relative_name = os.path.splitext(os.path.basename(json_path))[0]
+    subject_name = re.sub(r"[^A-Za-z0-9 _-]+", "_", subject).strip() or "general"
+    question_path = os.path.join(
+        question_root, subject_name, f"{relative_name}_questions.json"
+    )
+    answer_path = os.path.join(
+        answer_root, subject_name, f"{relative_name}_answers.json"
+    )
+    questions = [
+        {key: value for key, value in item.items() if key != "answer"}
+        for item in qa_pairs
+    ]
+    answers = [
+        {
+            "answer": item["answer"],
+            "source_file": item["source_file"],
+            "page_or_id": item["page_or_id"],
+            "question": item["question"],
+            "question_type": item["question_type"],
+            "pattern_source": item.get("pattern_source", "unknown"),
+            "pattern_type": item.get("pattern_type", item["question_type"]),
+        }
+        for item in qa_pairs
+    ]
+    for path, records in ((question_path, questions), (answer_path, answers)):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as fp:
+            json.dump(records, fp, ensure_ascii=False, indent=2)
+    return {"questions_path": question_path, "answers_path": answer_path}
+
+
 def export_pdf_knowledge_json(
     pdf_path: str,
     json_path: str,
     max_questions_per_page: int = 12,
+    text_path: Optional[str] = None,
 ) -> Dict[str, Any]:
-    """Persist extracted PDF text and grounded typed Q&A pairs as JSON."""
-    chunks, report = extract_text_from_pdf_with_report(pdf_path)
-    if not chunks:
-        raise ValueError(
-            f"No readable text was extracted from '{pdf_path}'. "
-            "Run OCR on scanned/image-only PDFs before uploading."
+    """Extract one PDF to text, then persist its text as a JSON archive."""
+    text_path = text_path or os.path.splitext(json_path)[0] + ".txt"
+    text_result = extract_pdf_to_text_file(pdf_path, text_path)
+    return export_text_knowledge_json(
+        text_path=text_path,
+        json_path=json_path,
+        source_file=os.path.basename(pdf_path),
+        extraction_report=text_result,
+        max_questions_per_page=max_questions_per_page,
+        subject="general",
+        question_root="data/generated_questions",
+        answer_root="data/generated_answers",
+    )
+
+
+def export_text_knowledge_json(
+    text_path: str,
+    json_path: str,
+    source_file: str,
+    extraction_report: Optional[Dict[str, Any]] = None,
+    max_questions_per_page: int = 12,
+    subject: str = "general",
+    question_root: str = "data/generated_questions",
+    answer_root: str = "data/generated_answers",
+) -> Dict[str, Any]:
+    """Convert an existing page-preserving text archive into structured JSON."""
+    if not os.path.isfile(text_path):
+        raise FileNotFoundError(f"Text file not found: {text_path}")
+
+    with open(text_path, "r", encoding="utf-8") as fp:
+        raw_text = fp.read()
+    metadata: Dict[str, str] = {}
+    metadata_match = re.search(
+        r"^===== DOCUMENT METADATA =====\s*$\n(.*?)(?=^===== PAGE \d+ =====|\Z)",
+        raw_text,
+        flags=re.M | re.S,
+    )
+    if metadata_match:
+        for line in metadata_match.group(1).splitlines():
+            if ":" in line:
+                key, value = line.split(":", 1)
+                metadata[key.strip().lower()] = value.strip()
+    page_blocks = re.split(r"^===== PAGE (\d+) =====\s*$", raw_text, flags=re.M)
+
+    extracted_pages: List[str] = []
+    for index in range(1, len(page_blocks), 2):
+        extracted_pages.append(page_blocks[index + 1].strip())
+    complete_text = "\n\n".join(page for page in extracted_pages if page)
+    if not complete_text:
+        raise ValueError(f"No readable text was found in '{text_path}'.")
+
+    page_records = [{
+        "page_or_id": "Page 1",
+        "text": complete_text,
+        "source_file": source_file,
+        "document_metadata": metadata,
+    }]
+    chunks = [
+        KnowledgeChunk(
+            source_file=source_file,
+            source_type="pdf_text",
+            page_or_id="Page 1",
+            text=complete_text,
         )
+    ]
 
     qa_pairs = generate_grounded_qa_from_chunks(
-        chunks, max_questions_per_chunk=max_questions_per_page
+        chunks,
+        max_questions_per_chunk=max_questions_per_page,
+        subject=subject,
     )
-    pages = [
-        {
-            "page_or_id": chunk.page_or_id,
-            "text": chunk.text,
-            "source_file": chunk.source_file,
-        }
-        for chunk in chunks
-    ]
+    metadata_qa = _metadata_question_answers(
+        metadata, source_file, "Page 1"
+    )
+    qa_pairs = (metadata_qa + qa_pairs)[:max_questions_per_page]
+    archive_paths = _write_question_answer_archives(
+        question_root, answer_root, json_path, source_file, subject, qa_pairs
+    )
     payload = {
         "schema_version": 1,
-        "source_file": os.path.basename(pdf_path),
-        "extraction_report": {
-            "total_pages": report.total_pages,
-            "pages_with_text": report.pages_with_text,
-            "blank_pages": report.blank_pages,
-            "total_chunks": report.total_chunks,
-            "total_words": report.total_words,
-            "likely_scanned": report.likely_scanned,
-            "warnings": report.warnings,
+        "source_file": source_file,
+        "document_metadata": metadata,
+        "question_generation": {
+            "subject": subject,
+            "pattern_file": _question_pattern_path(subject),
+            "catalog_file": "data/question_patterns/catalog.json",
+            "catalog_pattern_count": len(_load_question_pattern_catalog()),
+            **archive_paths,
         },
-        "pages": pages,
+        "extraction_report": {
+            "total_pages": len(page_blocks[1::2]),
+            "pages_with_text": sum(bool(page) for page in extracted_pages),
+            "total_words": len(complete_text.split()),
+            "warnings": (extraction_report or {}).get("warnings", []),
+            "text_file": text_path,
+            "document_metadata": metadata,
+        },
+        "pages": page_records,
         "qa_pairs": qa_pairs,
     }
     os.makedirs(os.path.dirname(json_path) or ".", exist_ok=True)
@@ -523,23 +1147,65 @@ def export_pdf_knowledge_json(
         json.dump(payload, fp, ensure_ascii=False, indent=2)
     return {
         "json_path": json_path,
-        "pages": len(pages),
-        "words": report.total_words,
+        "text_path": text_path,
+        "pages": len(extracted_pages),
+        "words": len(complete_text.split()),
         "qa_pairs": len(qa_pairs),
-        "report": report,
+        "warnings": (extraction_report or {}).get("warnings", []),
     }
+
+
+def _metadata_question_answers(
+    metadata: Dict[str, str], source_file: str, page_or_id: str
+) -> List[Dict[str, str]]:
+    """Create natural questions backed by OCR-detected document metadata."""
+    records: List[Dict[str, str]] = []
+    title = metadata.get("title")
+    author = metadata.get("author")
+    if title:
+        records.append({
+            "question": "What is the title of the story?",
+            "answer": title,
+            "question_type": "document_title",
+            "pattern_source": "document_metadata",
+            "pattern_type": "document_title",
+            "source_file": source_file,
+            "page_or_id": page_or_id,
+        })
+    if author:
+        records.append({
+            "question": "Who is the author of the story?",
+            "answer": author,
+            "question_type": "document_author",
+            "pattern_source": "document_metadata",
+            "pattern_type": "document_author",
+            "source_file": source_file,
+            "page_or_id": page_or_id,
+        })
+        if title:
+            records.append({
+                "question": "Who wrote the story?",
+                "answer": author,
+                "question_type": "document_author",
+                "pattern_source": "document_metadata",
+                "pattern_type": "document_author",
+                "source_file": source_file,
+                "page_or_id": page_or_id,
+            })
+    return records
 
 
 def convert_pdf_folder_to_json(
     pdf_root: str = "pdfs_to_train",
-    json_root: str = "data/json_from_pdfs",
+    json_root: str = "data/converted_json",
+    text_root: str = "data/converted_text",
     max_questions_per_page: int = 12,
 ) -> Dict[str, Any]:
-    """Convert every PDF under a folder into a matching JSON archive.
+    """Convert matching TXT archives into JSON, using PDFs only for filenames.
 
     Relative folders are preserved, for example:
-    ``pdfs_to_train/science/book.pdf`` becomes
-    ``data/json_from_pdfs/science/book.json``.
+    ``data/converted_text/science/book.txt`` becomes
+    ``data/converted_json/science/book.json``.
     """
     if not os.path.isdir(pdf_root):
         raise FileNotFoundError(f"PDF training folder not found: {pdf_root}")
@@ -555,20 +1221,29 @@ def convert_pdf_folder_to_json(
 
     converted: List[Dict[str, Any]] = []
     failures: List[Dict[str, str]] = []
+    print(f"PROGRESS 0 {len(pdf_paths)} Converting TXT files to JSON")
     for pdf_path in pdf_paths:
         relative_path = os.path.relpath(pdf_path, pdf_root)
         relative_json = os.path.splitext(relative_path)[0] + ".json"
+        relative_text = os.path.splitext(relative_path)[0] + ".txt"
         json_path = os.path.join(json_root, relative_json)
+        text_path = os.path.join(text_root, relative_text)
         try:
-            result = export_pdf_knowledge_json(
-                pdf_path,
+            result = export_text_knowledge_json(
+                text_path,
                 json_path,
+                source_file=os.path.basename(pdf_path),
                 max_questions_per_page=max_questions_per_page,
+                subject=os.path.basename(os.path.dirname(pdf_path)),
+                question_root=os.path.join(os.path.dirname(json_root), "generated_questions"),
+                answer_root=os.path.join(os.path.dirname(json_root), "generated_answers"),
             )
             result["pdf_path"] = pdf_path
             converted.append(result)
+            print(f"PROGRESS {len(converted) + len(failures)} {len(pdf_paths)} Converted {os.path.basename(pdf_path)}")
         except (OSError, RuntimeError, ValueError) as exc:
             failures.append({"pdf_path": pdf_path, "error": str(exc)})
+            print(f"PROGRESS {len(converted) + len(failures)} {len(pdf_paths)} Failed {os.path.basename(pdf_path)}")
 
     if not converted:
         details = "; ".join(f"{item['pdf_path']}: {item['error']}" for item in failures)
@@ -576,6 +1251,7 @@ def convert_pdf_folder_to_json(
 
     return {
         "pdf_root": pdf_root,
+        "text_root": text_root,
         "json_root": json_root,
         "converted": converted,
         "failures": failures,

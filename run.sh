@@ -14,16 +14,25 @@ case "${1:-gui}" in
     exec "$PYTHON" gui.py "${@:2}"
     ;;
   convert)
-    exec "$PYTHON" pdf_to_json.py "${@:2}"
+    exec "$PYTHON" progress_gui.py \
+      --title "Converting PDFs to JSON" -- \
+      "$PYTHON" pdf_to_json.py "${@:2}"
+    ;;
+  text)
+    exec "$PYTHON" progress_gui.py \
+      --title "Extracting PDFs to Text" -- \
+      "$PYTHON" pdf_to_text.py "${@:2}"
     ;;
   train)
-    exec "$PYTHON" train_and_qa.py train-from-folders "${@:2}"
+    exec "$PYTHON" progress_gui.py \
+      --title "Converting PDFs and Training Offline AI" -- \
+      "$PYTHON" train_and_qa.py train-from-folders "${@:2}"
     ;;
   ask)
     exec "$PYTHON" train_and_qa.py ask "${@:2}"
     ;;
   *)
-    echo "Usage: ./run.sh [gui|convert|train|ask] [options]" >&2
+    echo "Usage: ./run.sh [gui|text|convert|train|ask] [options]" >&2
     exit 2
     ;;
 esac

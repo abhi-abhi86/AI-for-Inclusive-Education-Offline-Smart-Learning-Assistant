@@ -380,7 +380,7 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
 
         <div class="form-group">
           <label>JSON Curriculum Q&A File Paths:</label>
-          <input type="text" id="train-json" value="data/json_curriculum/curriculum_qa.json">
+          <input type="text" id="train-json" value="data/curriculum_json/curriculum_qa.json">
         </div>
 
         <div style="display: flex; gap: 16px;">
@@ -783,7 +783,7 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
         const resp = await fetch('/api/train-from-folders', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ save_path: 'models/folder_trained_model.pth', epochs: 12 })
+          body: JSON.stringify({ save_path: 'data/trained_models/folder_trained_model.pth', epochs: 12 })
         });
         const data = await resp.json();
         if (data.error) {
@@ -922,7 +922,7 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
 
             save_model_path = os.path.join(base_dir, "models", "uploaded_model.pth")
             save_json_path = os.path.join(
-                base_dir, "data", "json_curriculum",
+                base_dir, "data", "curriculum_json",
                 f"{os.path.splitext(safe_filename)[0]}_knowledge.json",
             )
 
@@ -1004,15 +1004,23 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
         elif path == "/api/train-from-folders":
             # Auto-scan the drop-zone directories and train
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            save_path = os.path.join(base_dir, "models", "folder_trained_model.pth")
+            save_path = os.path.join(base_dir, "data", "trained_models", "folder_trained_model.pth")
             epochs = payload.get("epochs", 12)
             pdf_dir = os.path.join(base_dir, "pdfs_to_train")
             json_dir = None
 
             try:
-                from data_loader import convert_pdf_folder_to_json
+                from data_loader import convert_pdf_folder_to_json, convert_pdf_folder_to_text
                 from trainer import train_offline_model
-                conversion = convert_pdf_folder_to_json(pdf_dir, os.path.join(base_dir, "data", "json_from_pdfs"))
+                convert_pdf_folder_to_text(
+                    pdf_dir,
+                    os.path.join(base_dir, "data", "converted_text"),
+                )
+                conversion = convert_pdf_folder_to_json(
+                    pdf_dir,
+                    os.path.join(base_dir, "data", "converted_json"),
+                    text_root=os.path.join(base_dir, "data", "converted_text"),
+                )
                 json_paths = [item["json_path"] for item in conversion["converted"]]
                 if not json_paths:
                     self._send_json({"error": f"No PDF files found in {pdf_dir}. Add PDF files there and try again."}, status=400)
@@ -1027,7 +1035,7 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 get_qa_runner(save_path)
                 self._send_json({
                     "success": True,
-                    "save_path": "models/folder_trained_model.pth",
+                    "save_path": "data/trained_models/folder_trained_model.pth",
                     "file_size_mb": file_size_mb,
                     "total_params": stats["total_params"],
                     "num_chunks": stats["num_chunks"],

@@ -1,0 +1,22 @@
+{
+  "subject": "general",
+  "patterns": [
+    {"type": "what", "templates": ["What is the main idea of {topic}?", "What does the passage explain about {topic}?"]},
+    {"type": "define", "templates": ["How does the passage define {topic}?", "What does {topic} mean?"]},
+    {"type": "how", "templates": ["How does {topic} work according to the passage?", "How is {topic} described or carried out?"]},
+    {"type": "why", "templates": ["Why is {topic} important according to the passage?", "Why does {topic} happen?"]},
+    {"type": "when", "templates": ["When does the passage say {topic} happens?", "What time or period is connected with {topic}?"]},
+    {"type": "where", "templates": ["Where does the passage say {topic} is found or happens?", "What place is connected with {topic}?"]},
+    {"type": "who", "templates": ["Who is involved or mentioned in relation to {topic}?", "Which people or groups are connected with {topic}?"]},
+    {"type": "sequence", "templates": ["What happens first, next, and last in the explanation of {topic}?"]},
+    {"type": "cause_effect", "templates": ["What causes {topic}, and what effect does it have?"]},
+    {"type": "compare", "templates": ["How is {topic} related to or different from another idea in the passage?", "What similarity or difference is described about {topic}?"]},
+    {"type": "classify", "templates": ["How can {topic} be classified or grouped?"]},
+    {"type": "example", "templates": ["What example does the passage give for {topic}?"]},
+    {"type": "application", "templates": ["How can the information about {topic} be applied in real life?"]},
+    {"type": "prediction", "templates": ["What might happen next based on the information about {topic}?"]},
+    {"type": "evidence", "templates": ["Which detail from the passage supports the idea about {topic}?", "What evidence supports the claim about {topic}?"]},
+    {"type": "summary", "templates": ["How would you summarise the information about {topic}?"]},
+    {"type": "evaluation", "templates": ["What conclusion can be drawn from the passage about {topic}?"]}
+  ]
+}

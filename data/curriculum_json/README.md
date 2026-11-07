@@ -1,4 +1,4 @@
-# 📄 JSON Curriculum & Q&A Folder (`data/json_curriculum/`)
+# Curriculum JSON Data (`data/curriculum_json/`)
 
 Place all your structured curriculum Q&A pairs, flashcards, and topic notes in **JSON format (`.json`)** in this directory.
 
@@ -39,4 +39,3 @@ Place all your structured curriculum Q&A pairs, flashcards, and topic notes in *
    ./venv/bin/python3 train_and_qa.py train
    ```
    All JSON files in this directory will be automatically ingested and trained into your `.pth` model!
-

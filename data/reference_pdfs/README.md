@@ -1,4 +1,4 @@
-# 📚 PDF Textbooks Folder (`data/pdf_textbooks/`)
+# Reference PDF Files (`data/reference_pdfs/`)
 
 Place all your student semester textbooks, lecture slides, chapter notes, and syllabus documents in **PDF format (`.pdf`)** in this directory.
 
@@ -12,4 +12,3 @@ Place all your student semester textbooks, lecture slides, chapter notes, and sy
    ```
    *(Or click **"⚡ One-Click Train from Folders"** in the Web GUI / Desktop App).*
 3. The trainer will automatically scan this folder, extract all text page-by-page, train the PyTorch neural model, and save the compressed `.pth` checkpoint.
-

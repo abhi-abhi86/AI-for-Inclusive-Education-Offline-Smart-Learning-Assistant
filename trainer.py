@@ -66,7 +66,7 @@ def train_offline_model(
     """
     Trains the offline neural model on supplied PDF textbooks and JSON datasets,
     compresses parameters into a .pth checkpoint, and returns training summary.
-    Defaults to scanning `pdfs_to_train/` and `data/json_curriculum/`.
+    Defaults to scanning `pdfs_to_train/` and `data/curriculum_json/`.
     """
     print("\n" + "=" * 68)
     print("      OFFLINE NEURAL MODEL TRAINING (PDF & JSON CURRICULUM)")
@@ -76,7 +76,7 @@ def train_offline_model(
 
     # Auto-resolve directories
     effective_pdfs = resolve_paths(pdf_paths, ".pdf", default_dir="pdfs_to_train")
-    effective_jsons = resolve_paths(json_paths, ".json", default_dir="data/json_curriculum")
+    effective_jsons = resolve_paths(json_paths, ".json", default_dir="data/curriculum_json")
 
     # 1. Ingest PDF files
     if effective_pdfs:
@@ -150,6 +150,7 @@ def train_offline_model(
 
     model.train()
     history = []
+    print(f"PROGRESS 0 {epochs} Training epochs")
 
     for epoch in range(1, epochs + 1):
         epoch_loss = 0.0
@@ -191,6 +192,7 @@ def train_offline_model(
         history.append(avg_loss)
         if epoch == 1 or epoch % max(1, epochs // 5) == 0 or epoch == epochs:
             print(f"  Epoch {epoch:2d}/{epochs:2d} | Loss: {avg_loss:.4f} (Retrieval: {epoch_retrieval_loss / len(data_loader):.4f}, Ans: {epoch_ans_loss / len(data_loader):.4f})")
+        print(f"PROGRESS {epoch} {epochs} Completed epoch {epoch}/{epochs}")
 
     elapsed_time = time.time() - start_time
     print(f"\n[Training Complete] Finished {epochs} epochs in {elapsed_time:.2f} seconds.")
