@@ -25,6 +25,15 @@ class TestNeuralTrainer(unittest.TestCase):
         create_sample_textbook_pdf(cls.pdf_path)
         create_sample_curriculum_json(cls.json_path)
 
+    @classmethod
+    def tearDownClass(cls):
+        for path in [cls.pdf_path, cls.json_path, cls.model_path]:
+            if os.path.exists(path):
+                try:
+                    os.remove(path)
+                except OSError:
+                    pass
+
     def test_pdf_extraction(self):
         chunks = extract_text_from_pdf(self.pdf_path)
         self.assertGreaterEqual(len(chunks), 1)

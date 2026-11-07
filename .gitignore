@@ -9,6 +9,8 @@ env/
 models/*.pte
 models/*.bin
 models/*.safetensors
+models/test_*.pth
+sample_data/test_*
 cmake-out/
 build/
 
