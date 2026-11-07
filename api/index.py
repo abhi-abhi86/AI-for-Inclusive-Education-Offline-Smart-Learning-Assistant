@@ -246,14 +246,25 @@ class handler(BaseHTTPRequestHandler):
                 with open(save_pdf, "wb") as f:
                     f.write(base64.b64decode(file_base64))
                 
+                from data_loader import export_pdf_knowledge_json
+                json_name = f"{os.path.splitext(os.path.basename(filename))[0]}_knowledge.json"
+                save_json = os.path.join(base_dir, "data", "json_curriculum", json_name)
+                extraction = export_pdf_knowledge_json(save_pdf, save_json)
+
                 from trainer import train_offline_model
                 save_model = os.path.join(base_dir, "models/uploaded_model.pth")
-                stats = train_offline_model(pdf_paths=[save_pdf], save_path=save_model, epochs=6)
+                stats = train_offline_model(
+                    json_paths=[save_json], save_path=save_model, epochs=6
+                )
                 size_mb = os.path.getsize(save_model) / (1024.0 * 1024.0)
 
                 self._send_json({
                     "success": True,
                     "save_path": "models/uploaded_model.pth",
+                    "json_path": f"data/json_curriculum/{json_name}",
+                    "extracted_pages": extraction["pages"],
+                    "extracted_words": extraction["words"],
+                    "generated_qa_pairs": extraction["qa_pairs"],
                     "file_size_mb": size_mb,
                     "total_params": stats["total_params"],
                     "num_chunks": stats["num_chunks"],
@@ -289,4 +300,3 @@ class handler(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
-

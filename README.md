@@ -44,6 +44,18 @@ An offline Edge AI learning companion that allows educators and students in low-
 
 > **Scanned PDFs:** This app works with text-based PDFs only. For scanned / image-only PDFs, run OCR first: `ocrmypdf input.pdf output.pdf`
 
+### Upload-to-Offline-Knowledge Workflow
+
+When a PDF is uploaded through the local GUI, the application now:
+
+1. Extracts all selectable page text and stores it in `data/json_curriculum/*_knowledge.json`.
+2. Preserves page references and creates grounded `what`, `how`, `when`, `where`, `who`, and `why` questions when the source text contains the required evidence.
+3. Stores each answer as source text from the PDF rather than inventing an answer.
+4. Trains the local PyTorch retrieval model from the generated JSON archive.
+5. Loads the resulting `.pth` checkpoint for offline questions and page citations.
+
+This is an offline retrieval-and-extractive-synthesis system, not a cloud LLM. It cannot recover text from image-only PDFs without OCR, and generated questions are limited to facts that can be detected in the extracted text.
+
 ---
 
 ## 🌟 Key Capabilities

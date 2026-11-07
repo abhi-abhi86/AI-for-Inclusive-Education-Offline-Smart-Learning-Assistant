@@ -5,10 +5,17 @@ Verifies PDF & JSON data loading, vocabulary construction, PyTorch training loop
 """
 
 import os
+import json
+import tempfile
 import unittest
 import torch
 
-from data_loader import Vocabulary, extract_text_from_pdf, load_qa_from_json
+from data_loader import (
+    Vocabulary,
+    export_pdf_knowledge_json,
+    extract_text_from_pdf,
+    load_qa_from_json,
+)
 from generate_sample_data import create_sample_curriculum_json, create_sample_textbook_pdf
 from model import EdgeNeuralQAModel
 from qa_engine import OfflineQAModelRunner
@@ -44,6 +51,29 @@ class TestNeuralTrainer(unittest.TestCase):
         self.assertEqual(len(chunks), 5)
         self.assertIsNotNone(chunks[0].question)
         self.assertIsNotNone(chunks[0].answer)
+
+    def test_pdf_archive_contains_text_and_typed_grounded_questions(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            pdf_path = os.path.join(temp_dir, "textbook.pdf")
+            json_path = os.path.join(temp_dir, "textbook_knowledge.json")
+            create_sample_textbook_pdf(pdf_path)
+
+            result = export_pdf_knowledge_json(pdf_path, json_path)
+
+            self.assertTrue(os.path.exists(json_path))
+            self.assertGreater(result["pages"], 0)
+            self.assertGreater(result["qa_pairs"], 0)
+            with open(json_path, "r", encoding="utf-8") as fp:
+                archive = json.load(fp)
+            self.assertIn("pages", archive)
+            self.assertIn("qa_pairs", archive)
+            question_types = {item["question_type"] for item in archive["qa_pairs"]}
+            self.assertIn("what", question_types)
+            self.assertIn("how", question_types)
+
+            loaded = load_qa_from_json(json_path)
+            self.assertGreater(len(loaded), len(archive["qa_pairs"]))
+            self.assertTrue(any(chunk.question for chunk in loaded))
 
     def test_vocabulary_encoding(self):
         vocab = Vocabulary()
@@ -174,4 +204,3 @@ class TestNeuralTrainer(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

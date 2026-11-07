@@ -11,7 +11,7 @@ import os
 import re
 from collections import Counter
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 try:
     import torch
@@ -273,7 +273,10 @@ def extract_text_from_pdf_with_report(
                     section = 1
                     for i in range(0, len(words), step):
                         chunk_words = words[i : i + chunk_size]
-                        if len(chunk_words) < 20:
+                        # Keep a short final section so the JSON archive does
+                        # not silently lose the end of a page.
+                        is_final_section = i + len(chunk_words) >= len(words)
+                        if not chunk_words or (len(chunk_words) < 20 and not is_final_section):
                             continue
                         chunks.append(
                             KnowledgeChunk(
@@ -328,6 +331,148 @@ def extract_text_from_pdf_with_report(
     return chunks, report
 
 
+def _sentences_from_text(text: str) -> List[str]:
+    """Split extracted text into usable, non-trivial sentences."""
+    return [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+", text)
+        if len(sentence.strip()) >= 12
+    ]
+
+
+def generate_grounded_qa_from_chunks(
+    chunks: List[KnowledgeChunk],
+    max_questions_per_chunk: int = 12,
+) -> List[Dict[str, str]]:
+    """Create typed, extractive Q&A pairs whose answers are source sentences.
+
+    This is deliberately extractive: every answer is copied from the PDF text,
+    so offline training cannot invent facts during dataset creation.
+    """
+    qa_pairs: List[Dict[str, str]] = []
+    seen = set()
+    temporal = re.compile(
+        r"\b(in|on|during|after|before|until|since|when)\s+"
+        r"(?:the\s+)?(?:19|20)\d{2}|\b(?:morning|evening|night|summer|winter)\b",
+        re.I,
+    )
+    location = re.compile(
+        r"\b(?:in|at|on|inside|within|from|through)\s+(?:the\s+)?"
+        r"[A-Za-z][A-Za-z-]*(?:\s+[A-Za-z][A-Za-z-]*){0,4}",
+        re.I,
+    )
+    person = re.compile(r"\b(?:Dr\.?|Mr\.?|Mrs\.?|Ms\.?|Professor)\s+[A-Z][a-z]+")
+
+    for chunk in chunks:
+        sentences = _sentences_from_text(chunk.text)
+        generated: List[Dict[str, str]] = []
+        for sentence in sentences:
+            words = re.findall(r"\b[A-Za-z][A-Za-z-]{3,}\b", sentence)
+            if not words:
+                continue
+            subject = words[0]
+            lower_sentence = sentence.lower()
+
+            generated.append({
+                "question": f"What is the main idea of {subject} in this passage?",
+                "answer": sentence,
+                "question_type": "what",
+            })
+            generated.append({
+                "question": f"How does {subject} work or function according to the passage?",
+                "answer": sentence,
+                "question_type": "how",
+            })
+
+            if temporal.search(sentence):
+                generated.append({
+                    "question": f"When does the passage say this event or process occurs?",
+                    "answer": sentence,
+                    "question_type": "when",
+                })
+            if location.search(sentence):
+                generated.append({
+                    "question": f"Where does the passage say this happens or is found?",
+                    "answer": sentence,
+                    "question_type": "where",
+                })
+            if person.search(sentence) or re.search(r"\b(?:people|scientists|researchers|students|teachers)\b", lower_sentence):
+                generated.append({
+                    "question": "Who is mentioned or involved according to the passage?",
+                    "answer": sentence,
+                    "question_type": "who",
+                })
+            if re.search(r"\b(?:because|therefore|so that|as a result|causes?|leads to|results in)\b", lower_sentence):
+                generated.append({
+                    "question": f"Why does {subject} have this effect?",
+                    "answer": sentence,
+                    "question_type": "why",
+                })
+
+        for item in generated[:max_questions_per_chunk]:
+            key = item["question"].lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            qa_pairs.append({
+                **item,
+                "source_file": chunk.source_file,
+                "page_or_id": chunk.page_or_id,
+            })
+    return qa_pairs
+
+
+def export_pdf_knowledge_json(
+    pdf_path: str,
+    json_path: str,
+    max_questions_per_page: int = 12,
+) -> Dict[str, Any]:
+    """Persist extracted PDF text and grounded typed Q&A pairs as JSON."""
+    chunks, report = extract_text_from_pdf_with_report(pdf_path)
+    if not chunks:
+        raise ValueError(
+            f"No readable text was extracted from '{pdf_path}'. "
+            "Run OCR on scanned/image-only PDFs before uploading."
+        )
+
+    qa_pairs = generate_grounded_qa_from_chunks(
+        chunks, max_questions_per_chunk=max_questions_per_page
+    )
+    pages = [
+        {
+            "page_or_id": chunk.page_or_id,
+            "text": chunk.text,
+            "source_file": chunk.source_file,
+        }
+        for chunk in chunks
+    ]
+    payload = {
+        "schema_version": 1,
+        "source_file": os.path.basename(pdf_path),
+        "extraction_report": {
+            "total_pages": report.total_pages,
+            "pages_with_text": report.pages_with_text,
+            "blank_pages": report.blank_pages,
+            "total_chunks": report.total_chunks,
+            "total_words": report.total_words,
+            "likely_scanned": report.likely_scanned,
+            "warnings": report.warnings,
+        },
+        "pages": pages,
+        "qa_pairs": qa_pairs,
+    }
+    os.makedirs(os.path.dirname(json_path) or ".", exist_ok=True)
+    with open(json_path, "w", encoding="utf-8") as fp:
+        json.dump(payload, fp, ensure_ascii=False, indent=2)
+    return {
+        "json_path": json_path,
+        "pages": len(pages),
+        "words": report.total_words,
+        "qa_pairs": len(qa_pairs),
+        "report": report,
+    }
+
+
 def load_qa_from_json(json_path: str) -> List[KnowledgeChunk]:
     """Loads structured knowledge and QA pairs from a JSON file."""
     if not os.path.exists(json_path):
@@ -359,6 +504,30 @@ def load_qa_from_json(json_path: str) -> List[KnowledgeChunk]:
                         text=combined_text.strip(),
                         question=question,
                         answer=answer,
+                    )
+                )
+    elif isinstance(data, dict) and ("pages" in data or "qa_pairs" in data):
+        source_file = data.get("source_file") or file_name
+        for page in data.get("pages", []):
+            if isinstance(page, dict) and page.get("text"):
+                chunks.append(
+                    KnowledgeChunk(
+                        source_file=source_file,
+                        source_type="pdf_json",
+                        page_or_id=page.get("page_or_id", "Unknown page"),
+                        text=page["text"].strip(),
+                    )
+                )
+        for idx, item in enumerate(data.get("qa_pairs", []), start=1):
+            if isinstance(item, dict) and item.get("question") and item.get("answer"):
+                chunks.append(
+                    KnowledgeChunk(
+                        source_file=source_file,
+                        source_type="pdf_json_qa",
+                        page_or_id=item.get("page_or_id", f"QA #{idx}"),
+                        text=item.get("answer", "").strip(),
+                        question=item["question"].strip(),
+                        answer=item["answer"].strip(),
                     )
                 )
     elif isinstance(data, dict):
@@ -515,4 +684,3 @@ class QATrainingDataset(Dataset):
             torch.tensor(ctx_ids, dtype=torch.long),
             torch.tensor(ans_ids, dtype=torch.long),
         )
-

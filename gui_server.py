@@ -907,12 +907,19 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 f.write(base64.b64decode(file_base64))
 
             save_model_path = "models/uploaded_model.pth"
+            save_json_path = os.path.join(
+                "data", "json_curriculum", f"{os.path.splitext(safe_filename)[0]}_knowledge.json"
+            )
 
             try:
-                # Auto-train the PyTorch neural model on this uploaded PDF
+                # Extract the complete document and create grounded typed Q&A first.
+                from data_loader import export_pdf_knowledge_json, load_qa_from_json
+                extraction = export_pdf_knowledge_json(saved_pdf_path, save_json_path)
+
+                # Train only from the generated archive so pages and Q&A are both included once.
                 from trainer import train_offline_model
                 stats = train_offline_model(
-                    pdf_paths=[saved_pdf_path],
+                    json_paths=[save_json_path],
                     save_path=save_model_path,
                     epochs=epochs,
                 )
@@ -922,14 +929,12 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 runner = get_qa_runner(save_model_path)
 
                 # Generate dynamic suggested questions based on the uploaded chunks
-                from data_loader import generate_synthetic_qa_from_text
-                suggested_questions = []
-                for chunk in runner.knowledge_chunks[:5]:
-                    text = chunk.get("text", "")
-                    pairs = generate_synthetic_qa_from_text(text)
-                    for q_cand, _ in pairs[:2]:
-                        if q_cand not in suggested_questions:
-                            suggested_questions.append(q_cand)
+                generated_chunks = load_qa_from_json(save_json_path)
+                suggested_questions = [
+                    chunk.question
+                    for chunk in generated_chunks
+                    if chunk.question
+                ][:8]
                 if not suggested_questions:
                     suggested_questions = [
                         "What is the main topic covered in this textbook?",
@@ -939,6 +944,10 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 self._send_json({
                     "success": True,
                     "save_path": save_model_path,
+                    "json_path": save_json_path,
+                    "extracted_pages": extraction["pages"],
+                    "extracted_words": extraction["words"],
+                    "generated_qa_pairs": extraction["qa_pairs"],
                     "file_size_mb": file_size_mb,
                     "total_params": stats["total_params"],
                     "num_chunks": stats["num_chunks"],
