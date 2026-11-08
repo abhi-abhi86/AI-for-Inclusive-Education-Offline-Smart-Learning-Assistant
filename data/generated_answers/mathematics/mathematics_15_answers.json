@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "MATHEMA TICS",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "MATHEMATICS Al A1.1 Introduction",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "MATHEMATICS Al A1.1 Introduction",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "For example, suppose a politician tells you, ‘If you are interested in a clean government, then you should vote for me.’ What he actually wants you to believe is that if you do not vote for him, then you may not get a clean government.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the sequence described for politician?",
+    "question_type": "sequence_13",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_13"
+  },
+  {
+    "answer": "Similarly, if an advertisement tells you, ‘The intelligent wear XYZ shoes’, what the company wants you to conclude is that if you do not wear XYZ shoes, then you are not intelligent enough.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of advertisement?",
+    "question_type": "significance_23",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_23"
+  },
+  {
+    "answer": "Similarly, if an advertisement tells you, ‘The intelligent wear XYZ shoes’, what the company wants you to conclude is that if you do not wear XYZ shoes, then you are not intelligent enough.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What can be inferred about advertisement?",
+    "question_type": "inference_23",
+    "pattern_source": "catalog",
+    "pattern_type": "inference_23"
+  },
+  {
+    "answer": "Similarly, if an advertisement tells you, ‘The intelligent wear XYZ shoes’, what the company wants you to conclude is that if you do not wear XYZ shoes, then you are not intelligent enough.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about advertisement?",
+    "question_type": "evaluation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_23"
+  },
+  {
+    "answer": "Similarly, if an advertisement tells you, ‘The intelligent wear XYZ shoes’, what the company wants you to conclude is that if you do not wear XYZ shoes, then you are not intelligent enough.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to advertisement?",
+    "question_type": "limitation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_23"
+  },
+  {
+    "answer": "Similarly, if an advertisement tells you, ‘The intelligent wear XYZ shoes’, what the company wants you to conclude is that if you do not wear XYZ shoes, then you are not intelligent enough.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Under what condition does advertisement occur?",
+    "question_type": "condition_23",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_23"
+  },
+  {
+    "answer": "So, if we understand the process of reasoning correctly, we do not fall into such traps unknowingly.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can a problem involving reasoning be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method"
+  },
+  {
+    "answer": "The correct use of reasoning is at the core of mathematics, especially in constructing proofs.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about correct use?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  },
+  {
+    "answer": "The correct use of reasoning is at the core of mathematics, especially in constructing proofs.",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to correct use?",
+    "question_type": "limitation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_08"
+  }
+]

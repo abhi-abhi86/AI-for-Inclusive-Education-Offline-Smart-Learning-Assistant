@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "social_science_15.pdf",
+  "document_metadata": {
+    "title": "ALL RIGHTS RESERVED",
+    "author": "Social Science"
+  },
+  "question_generation": {
+    "subject": "social science",
+    "pattern_file": "data/question_patterns/social_science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/social science/social_science_15_questions.json",
+    "answers_path": "data/generated_answers/social science/social_science_15_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 12,
+    "pages_with_text": 12,
+    "total_words": 2643,
+    "warnings": [],
+    "text_file": "data/converted_text/social science/social_science_15.txt",
+    "document_metadata": {
+      "title": "ALL RIGHTS RESERVED",
+      "author": "Social Science"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "Social Science\nIndia and the Contemporary World – II\nTextbook in History for Class X\nReprint 2026-27\n\nALL RIGHTS RESERVED\nq No part of this publication may be reproduced, stored in a retrieval system or\ntransmitted, in any form or by any means, electronic, mechanical, photocopying,\nrecording or otherwise without the prior permission of the publisher.\nq This book is sold subject to the condition that it shall not, by way of trade,  be lent,\nre-sold, hired out or otherwise disposed of without the publisher’s consent, in any\nform of binding or cover other than that in which it is published.\nq The correct price of this publication is the price printed on this page, Any revised\nprice indicated by a rubber stamp or by a sticker or by any other means is incorrect\nand should be unacceptable.\nOFFICES OF THE PUBLICATION\nDIVISION, NCERT\nNCERT Campus\nSri Aurobindo Marg\nNew  Delhi 110 016 Phone :  011-26562708\n108, 100 Feet Road\nHosdakere Halli Extension\nBanashankari III Stage\nBengaluru 560 085 Phone : 080-26725740\nNavjivan Trust Building\nP.O.Navjivan\nAhmedabad 380 014 Phone :  079-27541446\nCWC Campus\nOpp. Dhankal Bus Stop\nPanihati\nKolkata 700 114 Phone :  033-25530454\nCWC Complex\nMaligaon\nGuwahati 781 021 Phone :  0361-2674869\nFirst Edition\nMarch 2007 Chaitra 1928\nReprinted\nJanuary 2008 Pausa 1929\nJanuary 2009 Magha 1930\nJanuary 2010 Magha 1931\nJanuary 2011 Magha 1932\nJanuary 2012 Magha 1933\nNovember 2012 Kartika 1934\nNovember 2013 Kartika 1935\nDecember 2014 Pausha 1936\nFebruary 2016 Magha 1937\nDecember 2016 Pausa 1938\nDecember 2017 Pausa 1939\nFebruary 2019 Magha 1940\nAugust 2019 Shravana 1941\nJanuary 2021 Pausa 1942\nNovember 2021 Agrahayana 1943\nOctober 2022 Kartika 1944\nMarch 2024 Chaitra 1946\nJune 2024 Jyaishtha 1946\nDecember 2024 Agrahayana 1946\nJanuary 2026 Magha 1947\nPD 335T SM\n© National Council of Educational\nResearch and Training, 2007\n` 105.00\nISBN 81-7450-707-81066 – INDIA AND THE CONTEMPORARY WORLD – IITextbook for Class X\nPublication Team\nHead, Publication : M.V Srinivasan\nDivision\nChief Editor : Bijnan Sutar\nChief Business Manager : Amitabh Kumar\nChief Production : Deepak  Jaiswal\nOfficer (In charge)\nAssistant Production : Deepak Kumar\nOfficer\nCover and Layout\nParthiv Shah assisted by Shraboni Roy\nand Shivraj Patra\nCartography\nK. Varghese\nPrinted on 80 GSM paper with NCERT\nwatermark\nPublished at the Publication Division by\nthe Secretary, National Council of\nEducational Research and Training,\nSri Aurobindo Marg, New Delhi 110 016\nand printed at Shriji Enterprises Plot No.\n160A, Sector Ecotech-03, Udyog Kundra,\nExtension-1, G reater N oida, UP–201306\nReprint 2026-27\n\nForeword\nThe National Curriculum Framework  (NCF) 2005 recommends that children’s life\nat school must be linked to their life outside the school. This principle marks a\ndeparture from the legacy of bookish learning which continues to shape our system\nand causes a gap between the school, home and community. The syllabi and textbooks\ndeveloped on the basis of NCF signify an attempt to implement this basic idea.\nThey also attempt to discourage rote learning and the maintenance of sharp boundaries\nbetween different subject areas. We hope these measures will take us significantly\nfurther in the direction of a child-centred system of education outlined in the National\nPolicy on Education (1986).\nThe success of this effort depends on the steps that school principals and teachers\nwill take to encourage children to reflect on their own learning and to pursue\nimaginative activities and questions. We must recogni se that, given space, time and\nfreedom, children generate new knowledge by engaging with the information passed\non to them by adults. Treating the prescribed textbook as the sole basis of examination\nis one of the key reasons why other resources and sites of learning are ignored.\nInculcating creativity and initiative is possible if we perceive and treat children as\nparticipants in learning, not as receivers of a fixed body of knowledge.\nThese aims imply considerable change in school routines and mode of functioning.\nFlexibility in the daily time-table is as necessary as rigour in implementing the annual calendar\nso that the r\nequired number of teaching days are actually devoted to teaching. The methods\nused for teaching and evaluation will also deter mine how effective this textbook proves\nfor making children’s life at school a happy experience , rather than a source of  stress or\nboredom. Syllabus designers have tried to address the problem of curricular burden by\nrestructuring and reorienting knowledge at different stages with greater consideration for\nchild psychology and the time available for teaching. The textbook attempts to enhance\nthis endeavo ur by giving higher priority and space to opportunities for contemplation\nand wondering, discussion in small groups, and activities requiring hands-on\nexperience.\nNCERT appreciates the hard work done by the textbook development committee\nresponsible for this book. We wish to thank the Chairperson of the Advisory Group\non Social Science, Professor Hari Vasudevan and the Chief Advis or for this book,\nProfessor Neeladri Bhattacharya for guiding the  work of this committee. Several\nteachers contributed to the development of this textbook; we are grateful to their\nprincipals for making this possible. We are indebted to the institutions and\norgani sations which have generously permitted us to draw upon their resources,\nmaterial and personnel. We are especially grateful to the members of the National\nReprint 2026-27\n\nMonitoring Committee, appointed by the Department of Secondary and Higher\nEducation, Ministry of Human Resource Development under the\nChairpersonship of Professor Mrinal Miri and Professor G. P. Deshpande, for\ntheir valuable time and contribution. As an organi sation committed to systemic\nreform and continuous improvement in the quality of its products, NCERT\nwelcomes comments and suggestions which will enable us to undertake further\nrevision and refinement.\nDirector\nNew Delhi National Council of Educational\n20 November  200 6 Research and Training\niv\nReprint 2026-27\n\nTextbook De velopment Committee\nBrij Tankha, Professor, Department of East Asian Studies, University of Delhi\nG. Balachandran, Professor, Graduate Institute of International Studies, Geneva\nJanaki Nair, Professor, Centre for Studies in Social Sciences, Kolkata\nMonica Juneja, Professor, Maria-Goeppert-Mayer Guest Professor, Historisches Seminar,\nUniversity of Hanover, Germany\nP.K. Dutta, Professor, Centre for Studies in Social Sciences, Kolkata\nRashmi Paliwal, Eklavya, Hoshangabad\nRekha Krishnan, Head of Senior School, \nVasant Valley School, New Delhi\nSekhar Bandyopadhyay,  Professor, Faculty of Humanities and Social Sciences,\nVictoria University of Wellington, New Zealand\nShukla Sanyal, Reader, Department of History, Calcutta University, Kolkata\nTanika Sarkar, Professor, Centre for Historical Studies, Jawaharlal Nehru University,\nNew Delhi\nUdaya Kumar, Professor, Centre for Studies in Social Sciences, Kolkata\nMEMBER-COORDINATOR\nKiran Devendra, Professor, Department of Elementary Education, NCERT,\nNew Delhi\nCHAIRPERSON, A DVISORY C OMMITTEE FOR T EXTBOOKS IN SOCIAL SCIENCE FOR\nTHE S ECONDARY S TAGE\nHari Vasudevan, Professor, Department of History, Calcutta University, Kolkata\nCHIEF A DVISOR\nNeeladri Bhattacharya,  Professor,  Centre for Historical Studies, School of Social\nSciences, Jawaharlal Nehru University, New Delhi\nMembers\nReprint 2026-27\n\nReprint 2026-27\n\nThis book is the result of a collective effort of a large number of historians, teachers and\neducationists. Each chapter has been written, discussed and revised over many months.\n We\nwould like to acknowledge all those who have participated in these discussions.\nA large number of people have read chapters of the book and provided support. We\nthank in particular the members of the Monitoring Committee who commented on an\nearlier draft ; Kumkum Roy suggested many changes in the text; G. Arunima, Gautam\nBhadra, Supriya Chaudhuri, Jayanti Chattopadhyay,  Sangeetha Raj, Sambuddha Sen,\nLakshmi Subramaniam, A.R. Venkatachalapathy, T.R. Ramesh Bairy, C.S. Venkiteswaran\nand Sahana  helped with Chapter VIII. Purushottam Agarwal helped write the sections\non the Hindi novel.  Ngun Quoc Anh translated Vietnamese texts for Chapter III.\nIllustrating the book would have been impossible without the help of many institutions\nand individuals: the Library of Congress Prints and Photographs Division; Rabindra\nBhawan Photo Archives, Viswabharati University, Shantiniketan; Photo Archives,\nAmerican Embassy, New Delhi;  Indira Gandhi National Centre for the Arts,\nNew Delhi ; National  Manuscript Mission Library,  New Delh i ; Centre for Studies in\nSocial Sciences, Kolkata;  Ashutosh Collection of the National Library, Kolkata;\nRoja Muthaiah Research Library Trust, Chennai;  India Collection, India International\nCentre; Archives of Indian Labour, V.V. Giri National Institute of Labour, New Delhi;\nPhoto Archives, University of West Indies, Trinidad. Jyotindra and Juta Jain allowed\ngenerous access to their vast collection of visual images now stored at the CIVIC Archives;\nParthiv Shah provided several photographs from his collection. Prabhu Mohapatra\nsupplied visuals of indentured labourers;  Muzaffar Alam procured material from the\nLibrary of Chicago; Pratik Chakrabarty scanned images from the Kent University\nLibrary; Anish Vanaik and Parth Shil did photo research in New Delhi.\nShalini Advani did many rounds of editing with care and ensured that the texts were\naccessible to children. Shyama Warner’s sharp eye picked up innumerable slips and lapses\nin the text. We thank them both for their total involvement in the project.\nWe have made every effort to acknowledge credits , but we apologise in advance for any\nomission that may have inadvertently taken place.\nAcknowledgements\nReprint 2026-27\n\nCredits\n Photographs and pictures\nWe would like to ac knowledge the f ollowing:\nInstitutions and Photo Archives\nArchives of  Indian Labour, V.V. Giri National Institute of  Labour (IV: 18, 19)\nAshutosh Collection of  the National Library\n, Kolkata\nCollection Jyotindra  and Juta Jain, Civic Archives (II: 11, 13, 14; IV: 25, 26a,\n26b, 27; V: 17)\nCultural Heritage Administration (CHA), Cheongju Early Printing Museum, Republic of Korea\n(V: 2b, 4b)\nLibrary of  Congress Prints and Photography Division (III: 20; V: 40)\nManuscript Mission Collection (V: 14, 15, 16)\nPhoto Archive, American Library, New Delhi (III: 21, 23)\nPhoto Archives, University of  West Indies, Trinidad (III: 14, 15, 16)\nPublications Division, Ministry of  Information and Broadcasting (images for\nChapter II photographs)\nRoja Muthaiah Research Library Trust, Chennai\nJournals\nThe Illustrated London News  (III: 4, 6, 7,\n 8, 9, 11, 12, 13; IV: 4, 5, 6, 8, 12)\nIllustrated Times (IV: 12)\nIndian Charivari (V: 18)\nGraphic: (III: 13)\nBooks\nBreman, Jan and Parthiv Shah, Working the Mill No More (IV: 21)\nChaudhuri, K.N., Trade and Civilization in the Indian Ocean (map in Chapter III)\nDwivedi, Sharda and Rahul Mehrotra, Bombay: The City W ithin (II: 1)\nGoswami, B.N.,\n The Word is Sacr ed; Sacred is the Word (V: 14, 15, 16)\nRuhe, Peter, Gandhi (II: 2, 3, 5, 8)\nReprint 2026-27\n\nIntroduction\nWe live in a world where the existence of nations is taken for granted. We see people as\nbelonging to nations and having a nationality, and we assume that this sense of belonging\nhas existed from time immemorial. We consider countries as the same as nations, and use\nthe two terms as synonyms, making little distinction between them. We think of countries\nas unified entities, each with a demarcated international boundary, a defined territory, a\nnational language, and a central government.\nYet if we were to travel in a time capsule to the mid-eighteenth century and look for nations\nas we know them today\n, we would not find them. If  we were to ask people a bout their\nnationality, about their national identity, they would not understand our questions. For at that\ntime, nations did not exist in their modern form. People lived within kingdoms, small states,\nprincipalities, chiefdoms and duchies, not within nations. As Eric Hobsbawm, a famous historian,\nonce said, the most remarkable fact about the modern nation is its modernity. The history of\nits existence is no more than 250 years old.\nHow did the modern nation come into being? How did people begin to see themselves as\nbelonging to a nation?\nThe sense of belonging to a nation developed only over a period of time. The first two\nchapters (in Section I) of this book will trace this history. You will see how the idea of nationalism\nemerged in Europe, how territories were unified, and national governments formed. It was a\nprocess that took many decades, involved many wars and revolutions, many ideological battles\nand political conflicts. From a discussion of Europe (Chapter I) we will shift our focus to the\ngrowth of nationalism in India (Chapter II), where nationalism was shaped by the experience\nof colonialism and the anti-imperialist movement. It will help you understand how nationalism\nin colonial countries can develop in a variety  of ways, glorify contrasting ideals, and be  linked\nto different modes of struggle.\nThe story of nationalism in these chapters will move at several levels. You will of course read\nabout great leaders like Giuseppe Mazzini and Mahatma Gandhi. But we cannot understand\nnationalism only by knowing about the words and deeds of important leaders, and the big\nand dramatic events they led and participated in. We have to also look at the aspirations and\nactivities of ordinary people, see how nationalism is expressed in small events of everyday life,\nand shaped by a variety of seemingly dissimilar and unrelated social movements.  To understand\nhow nationalism spreads, we need to know not only what the leaders said, but also how their\nwords were understood and interpreted by people. If we are to think about how people\nbegin to identify with a nation, we must see not only the political events that are critical to the\nprocess, but also how nationalist sensibilities are nurtured by artists and writers, and through\nart and literature, songs and tales.\nIn Section II, we will shift our focus to economies and livelihoods. Last year you read about\nthose social groups — pastoralists and forest dwellers — who are often seen as survivors\nfrom past times when in fact they are very much part of the modern world we live in. This\nyear we will focus on developments that are seen as symbolising modernity – globalisation\nand  industrialisation –  and see the many sides of the history of these developments.\nIn Chapter III you will see how the global world has emerged out of a long and complicated\nhistory. From ancient times, pilgrims, traders, travelers have traversed distances, carrying goods,\ninformation and skills, linking societies in ways that often had contradictory consequences.\nReprint 2026-27\n\nItems of food and species of plants spread from one region to another, transferring\ninformation and taste, as well as disease and death. As Western powers carried the flag of\n‘civilisation’ deep into different parts of Africa, precious metals and slaves were taken\naway to Europe and America. When coffee and sugar were grown in the Caribbean\nplantations for the world market, an oppressive system of indentured labour came into\nbeing in India and China to supply workers for the plantations.\nSection III will introduce you to the history of print culture. Surrounded by things that\nappear in print, we might find it difficult today to imagine a time when printing was still\nunknown. Chapter V will trace how the history of the contemporary world is intimately\nconnected with the growth of print. You will see how printing made possible the spread\nof  information and ideas, debates and discussions, advertising and pr\nopaganda, and a\nvariety of new forms of literature.\nWhen we discuss such themes of everyday life, we begin to see how history can help us\nreflect on even the seemingly ordinary things in the world.\nNEELADRI  B HATTACHARYA\nChief Advisor – History\nx\nReprint 2026-27\n\nContents\nxi\nSection I: Events and Processes\nI. The Rise of Nationalism in Europe 3\nII. Nationalism in India 29\nSection II: Livelihoods, Economies and Societies\nIII. The Making of  a Global World 53\nIV. The Age of Industrialisation 79\nSection III: Ever yday Life, Cultur e and P olitics\nV\n. Print Culture and the Moder n World 105\nForeword iii\nIntroduction ix\nReprint 2026-27\n\nFor Extended Learning\nYou may  access the f ollowing chapters through QR Code :\n♦ The Nationalist Movement in Indo-China.\n♦ Work, Life and Leisure.\n♦ Novels, Society and History\nThese chapters were printed in the previous textbooks; the same\nare being provided in digital mode for extended learning.\nReprint 2026-27",
+      "source_file": "social_science_15.pdf",
+      "document_metadata": {
+        "title": "ALL RIGHTS RESERVED",
+        "author": "Social Science"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "ALL RIGHTS RESERVED",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Social Science",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Social Science",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about principle?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "evaluation_20",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_20",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Why does principle have this effect?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "why",
+      "pattern_source": "evidence",
+      "pattern_type": "why",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about rote learning?",
+      "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+      "question_type": "evaluation_21",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_21",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "evaluation_05",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_05",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Where is success found or described?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "location_05",
+      "pattern_source": "catalog",
+      "pattern_type": "location_05",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is connected with success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "person_05",
+      "pattern_source": "catalog",
+      "pattern_type": "person_05",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who were the important people or groups connected with success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "person",
+      "pattern_source": "subject",
+      "pattern_type": "person",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is mentioned or involved in relation to success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "who",
+      "pattern_source": "evidence",
+      "pattern_type": "who",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about space?",
+      "answer": "We must recogni se that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+      "question_type": "evaluation_01",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_01",
+      "source_file": "social_science_15.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

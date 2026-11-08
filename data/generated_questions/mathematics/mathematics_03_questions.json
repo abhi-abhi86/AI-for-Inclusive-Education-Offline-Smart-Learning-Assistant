@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of Introduction?",
+    "question_type": "significance_20",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_20",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Introduction?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of rides?",
+    "question_type": "significance_23",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_23",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of each ride?",
+    "question_type": "significance_05",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_05",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies linear equations?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What points about linear equations are listed?",
+    "question_type": "list_21",
+    "pattern_source": "catalog",
+    "pattern_type": "list_21",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can a problem involving linear equations be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does Linear Equations occur?",
+    "question_type": "condition_03",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_03",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What solution is suggested for Linear Equations?",
+    "question_type": "solution_03",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_03",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "AREAS RELATED TO CIRCLES 11",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "AREAS RELATED TO CIRCLES",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "AREAS RELATED TO CIRCLES",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Recall that the portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle and the portion (or part) of the circular region enclosed between a chord and the corresponding arc is called a segment of the circle.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to portion?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20"
+  },
+  {
+    "answer": "Recall that the portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle and the portion (or part) of the circular region enclosed between a chord and the corresponding arc is called a segment of the circle.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about portion is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20"
+  },
+  {
+    "answer": "Recall that the portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle and the portion (or part) of the circular region enclosed between a chord and the corresponding arc is called a segment of the circle.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the meaning of portion in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "11.1, shaded region OAPB is a sector of the circle with centre O.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies shaded region OAPB?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16"
+  },
+  {
+    "answer": "∠ AOB is called the angle of the sector.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to angle?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22"
+  },
+  {
+    "answer": "∠ AOB is called the angle of the sector.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about angle is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22"
+  },
+  {
+    "answer": "∠ AOB is called the angle of the sector.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the meaning of angle in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "Note that in this figure, unshaded region OAQB is also a sector of the circle.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to figure?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19"
+  },
+  {
+    "answer": "Note that in this figure, unshaded region OAQB is also a sector of the circle.",
+    "source_file": "mathematics_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about figure is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19"
+  }
+]

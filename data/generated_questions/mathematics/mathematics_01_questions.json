@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to real numbers?",
+    "question_type": "main_idea_24",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_24",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about real numbers is important?",
+    "question_type": "detail_24",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_24",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies very important properties?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of integer?",
+    "question_type": "significance_21",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_21",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about integer?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to integer?",
+    "question_type": "limitation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_21",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can a problem involving usual long division be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does two positive integers occur?",
+    "question_type": "condition_03",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_03",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can a problem involving two positive integers be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What reasoning supports the statement about Fundamental Theorem?",
+    "question_type": "reasoning_17",
+    "pattern_source": "catalog",
+    "pattern_type": "reasoning_17",
+    "source_file": "mathematics_01.pdf",
+    "page_or_id": "Page 1"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "ARITHMETIC PROGRESSIONS",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "al ft 5.1 Introduction You",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "al ft 5.1 Introduction You",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "ARITHMETIC PROGRESSIONS 49 5 5.1 Introduction You must have observed that in nature, many things follow a certain pattern, such as the petals of a sunflower , the holes of a honeycomb, the grains on a maize cob, the spirals on a pineapple and on a pine cone, etc.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of Introduction?",
+    "question_type": "significance_12",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_12"
+  },
+  {
+    "answer": "ARITHMETIC PROGRESSIONS 49 5 5.1 Introduction You must have observed that in nature, many things follow a certain pattern, such as the petals of a sunflower , the holes of a honeycomb, the grains on a maize cob, the spirals on a pineapple and on a pine cone, etc.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Introduction?",
+    "question_type": "evaluation_12",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_12"
+  },
+  {
+    "answer": "ARITHMETIC PROGRESSIONS 49 5 5.1 Introduction You must have observed that in nature, many things follow a certain pattern, such as the petals of a sunflower , the holes of a honeycomb, the grains on a maize cob, the spirals on a pineapple and on a pine cone, etc.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to Introduction?",
+    "question_type": "limitation_12",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_12"
+  },
+  {
+    "answer": "ARITHMETIC PROGRESSIONS 49 5 5.1 Introduction You must have observed that in nature, many things follow a certain pattern, such as the petals of a sunflower , the holes of a honeycomb, the grains on a maize cob, the spirals on a pineapple and on a pine cone, etc.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Under what condition does Introduction occur?",
+    "question_type": "condition_12",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_12"
+  },
+  {
+    "answer": "We now look for some patterns which occur in our day-to-day life.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to some patterns?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "We now look for some patterns which occur in our day-to-day life.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about some patterns is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  },
+  {
+    "answer": "Some such examples are : (i) Reena applied for a job and got selected.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of Some such examples?",
+    "question_type": "significance_05",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_05"
+  },
+  {
+    "answer": "Some such examples are : (i) Reena applied for a job and got selected.",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Some such examples?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "years will be, respectively 8000, 8500, 9000, .",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies years?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06"
+  }
+]

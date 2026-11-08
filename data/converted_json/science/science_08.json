@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "source_file": "science_08.pdf",
+  "document_metadata": {
+    "title": "sy (e<ss| Heredity"
+  },
+  "question_generation": {
+    "subject": "science",
+    "pattern_file": "data/question_patterns/science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/science/science_08_questions.json",
+    "answers_path": "data/generated_answers/science/science_08_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 2,
+    "pages_with_text": 2,
+    "total_words": 809,
+    "warnings": [],
+    "text_file": "data/converted_text/science/science_08.txt",
+    "document_metadata": {
+      "title": "sy (e<ss| Heredity"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "Science128\nFigure 8.1Figure 8.1Figure 8.1Figure 8.1Figure 8.1\nCreation of diversity over succeeding\ngenerations. The original organism at the top\nwill give rise to, say, two individuals, similar\nin body design, but with subtle differences.\nEach of them, in turn, will give rise to two\nindividuals in the next generation. Each of\nthe four individuals in the bottom row will\nbe different fr om each other . While some of\nthese differences will be unique, others will\nbe inherited from their respective parents,\nwho were different from each other .\nHeredity\n8CHAPTER\nW\ne have seen that reproductive processes give rise to new individuals\nthat are similar, but subtly different. We have discussed how some\namount of variation is produced even during asexual reproduction. And\nthe number of successful variations are maximised by the process of\nsexual reproduction. If we observe a field of sugarcane we find very little\nvariations among the individual plants. But in a number of animals\nincluding human beings, which reproduce sexually, quite distinct\nvariations are visible among different individuals. In this chapter, we\nshall be studying the mechanism by which variations are created and\ninherited.\n8.18.18.1\n8.18.1 A AA AACCUMUL CCUMULCCUMUL CCUMULCCUMUL AAA AATION OF VTION OF VTION OF VTION OF VTION OF V ARIA ARIAARIA ARIAARIA TION TIONTION TIONTION\nDURING REPRODUCTIONDURING REPRODUCTIONDURING REPRODUCTIONDURING REPRODUCTIONDURING REPRODUCTION\nInheritance from the previous generation provides\nboth a common basic body design, and subtle\nchanges in it, for the next generation. Now think\nabout what would happen when this new generation,\nin its turn, reproduces. The second generation will\nhave differences that they inherit from the first\ngeneration, as well as newly created differences\n(Fig. 8.1).\nFigure 8.1 would represent the situation if a\nsingle individual reproduces, as happens in asexual\nreproduction. If one bacterium divides, and then the\nresultant two bacteria divide again, the four\nindividual bacteria generated would be very similar.\nThere would be only very minor differences between\nthem, generated due to small inaccuracies in DNA\ncopying. However, if sexual reproduction is involved,\neven greater diversity will be generated, as we will\nsee when we discuss the rules of inheritance.\nDo all these variations in a species have equal\nchances of surviving in the environment in which they\nfind themselves? Obviously not. Depending on the\nnature of variations, different individuals would have\nReprint 2026-27\n\nHeredity 129\n8.2 HEREDITY8.2 HEREDITY8.2 HEREDITY8.2 HEREDITY8.2 HEREDITY\nThe most obvious outcome of the reproductive process still remains the\ngeneration of individuals of similar design. The rules of heredity determine\nthe process by which traits and characteristics are reliably inherited. Let\nus take a closer look at these rules.\n8.2.1 Inherited Traits\nWhat exactly do we mean by similarities and differences? We know that\na child bears all the basic features of a human being. However, it does\nnot look exactly like its parents, and human populations show a great\ndeal of variation.\nQUESTIONS\n?\n1. If a trait A exists in 10% of a population of an asexually reproducing\nspecies and a trait B exists in 60% of the same population, which trait\nis likely to have arisen earlier?\n2. How does the creation of variations in a species promote survival?\nActivity 8.1Activity 8.1Activity 8.1Activity 8.1Activity 8.1\n/square6 Observe the ears of all the students in the class. Prepare a list of\nstudents having free or attached earlobes and calculate the\npercentage of students having each (Fig. 8.2). Find out about the\nearlobes of the parents of each student in the class. Correlate the\nearlobe type of each student with that of their parents. Based on\nthis evidence, suggest a possible rule for the inheritance of earlobe\ntypes.\n8.2.2 Rules for the Inheritance of T raits  – –– ––\nMendel’s Contributions\nThe rules for inheritance of such traits in human beings are related to\nthe fact that both the father and the mother contribute practically equal\namounts of genetic material to the child. This means that each trait can\nbe influenced by both paternal and maternal DNA. Thus, for each trait\nthere will be two versions in each child. What will, then, the trait seen in\nthe child be? Mendel (see box) worked out the main rules of such\ninheritance, and it is interesting to look at some of his experiments from\nmore than a century ago.\nFigure 8.2Figure 8.2Figure 8.2Figure 8.2Figure 8.2\n(a) Free and (b) attached\nearlobes. The lowest part\nof the ear , called the\nearlobe, is closely attached\nto the side of the head in\nsome of us, and not\nin others. Free and\nattached earlobes are two\nvariants found in human\npopulations.\ndifferent kinds of advantages. Bacteria that can withstand heat will survive\nbetter in a heat wave, as we have discussed earlier. Selection of variants\nby environmental factors forms the basis for evolutionary processes, as\nwe will discuss in later sections.\n(a)\n(b)\nReprint 2026-27",
+      "source_file": "science_08.pdf",
+      "document_metadata": {
+        "title": "sy (e<ss| Heredity"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "sy (e<ss| Heredity",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What might happen next based on original organism?",
+      "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+      "question_type": "prediction_17",
+      "pattern_source": "catalog",
+      "pattern_type": "prediction_17",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about original organism?",
+      "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+      "question_type": "evaluation_17",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_17",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies four individuals?",
+      "answer": "Each of the four individuals in the bottom row will be different fr om each other .",
+      "question_type": "identify_02",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_02",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to differences?",
+      "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other .",
+      "question_type": "main_idea_06",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_06",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about differences is important?",
+      "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other .",
+      "question_type": "detail_06",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_06",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies differences?",
+      "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other .",
+      "question_type": "identify_07",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_07",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to some amount?",
+      "answer": "We have discussed how some amount of variation is produced even during asexual reproduction.",
+      "question_type": "main_idea_10",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_10",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about some amount is important?",
+      "answer": "We have discussed how some amount of variation is produced even during asexual reproduction.",
+      "question_type": "detail_10",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_10",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What method is described for successful variations?",
+      "answer": "And the number of successful variations are maximised by the process of sexual reproduction.",
+      "question_type": "method_25",
+      "pattern_source": "catalog",
+      "pattern_type": "method_25",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to animals?",
+      "answer": "But in a number of animals including human beings, which reproduce sexually, quite distinct variations are visible among different individuals.",
+      "question_type": "main_idea_22",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_22",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about animals is important?",
+      "answer": "But in a number of animals including human beings, which reproduce sexually, quite distinct variations are visible among different individuals.",
+      "question_type": "detail_22",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_22",
+      "source_file": "science_08.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

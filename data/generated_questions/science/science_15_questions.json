@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Where is principle found or described?",
+    "question_type": "location_04",
+    "pattern_source": "catalog",
+    "pattern_type": "location_04",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to syllabi?",
+    "question_type": "main_idea_09",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_09",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about syllabi is important?",
+    "question_type": "detail_09",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_09",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies measures?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is connected with success?",
+    "question_type": "person_22",
+    "pattern_source": "catalog",
+    "pattern_type": "person_22",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to success?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to space?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about space is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which detail identifies Answ?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about lens?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to mirror?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about mirror is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to image?",
+    "question_type": "main_idea_25",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_25",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about image is important?",
+    "question_type": "detail_25",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_25",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about positive sign?",
+    "question_type": "evaluation_04",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_04",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Convex lens?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to W TV?",
+    "question_type": "main_idea_15",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_15",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about W TV is important?",
+    "question_type": "detail_15",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_15",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1"
+  }
+]

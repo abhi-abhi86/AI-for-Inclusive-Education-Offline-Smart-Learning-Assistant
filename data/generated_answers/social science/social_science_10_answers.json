@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "EVENTS AND PROCESSES",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "EVENTS AND PROCESSES Ne",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "EVENTS AND PROCESSES Ne",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "1) of the series, shows the peoples of Europe and America – men and women of all ages and social classes – marching in a long train, and offering homage to the statue of Liberty as they pass by it.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to series?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20"
+  },
+  {
+    "answer": "1) of the series, shows the peoples of Europe and America – men and women of all ages and social classes – marching in a long train, and offering homage to the statue of Liberty as they pass by it.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about series is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20"
+  },
+  {
+    "answer": "1) of the series, shows the peoples of Europe and America – men and women of all ages and social classes – marching in a long train, and offering homage to the statue of Liberty as they pass by it.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies series?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21"
+  },
+  {
+    "answer": "As you would recall, artists of the time of the French Revolution personified Liberty as a female figure – here you can recognise the torch of Enlightenment she bears in one hand and the Charter of the Rights of Man in the other.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to artists?",
+    "question_type": "main_idea_04",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_04"
+  },
+  {
+    "answer": "As you would recall, artists of the time of the French Revolution personified Liberty as a female figure – here you can recognise the torch of Enlightenment she bears in one hand and the Charter of the Rights of Man in the other.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about artists is important?",
+    "question_type": "detail_04",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_04"
+  },
+  {
+    "answer": "Leading the procession, way past the statue of Liberty, are the United States and Switzerland, which by this time were already nation-states.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies procession?",
+    "question_type": "identify_08",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_08"
+  },
+  {
+    "answer": "France, The Rise of Nationalism in Eur ope Fig.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies France?",
+    "question_type": "identify_01",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_01"
+  },
+  {
+    "answer": "In history , the term ref er s to a for m of monar chical government that was centralised, militarised and repressive Utopian – A vision of a society that is so ideal that it is unlikely to actually exist In what way do you think this print (Fig.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies history?",
+    "question_type": "identify_04",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_04"
+  },
+  {
+    "answer": "Interestingly, at the time when Sorrieu created this image, the German peoples did not yet exist as a united nation – the flag they carry is an expression of liberal hopes in 1848 to unify the numerous German-speaking principalities into a nation-state under a democratic constitution.",
+    "source_file": "social_science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about time?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "TEXTBOOK FOR C LASS X",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "NATIONAL COUNCIL OF EDUCATIONAL",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "NATIONAL COUNCIL OF EDUCATIONAL",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Where is principle found or described?",
+    "question_type": "location_04",
+    "pattern_source": "catalog",
+    "pattern_type": "location_04"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why"
+  },
+  {
+    "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to syllabi?",
+    "question_type": "main_idea_09",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_09"
+  },
+  {
+    "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about syllabi is important?",
+    "question_type": "detail_09",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_09"
+  },
+  {
+    "answer": "We hope these measures will take us significantly further in the direction of a child-centred system of education outlined in the National Policy on Education (1986).",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies measures?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is connected with success?",
+    "question_type": "person_22",
+    "pattern_source": "catalog",
+    "pattern_type": "person_22"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is mentioned or involved in relation to success?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to space?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13"
+  },
+  {
+    "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about space is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13"
+  }
+]

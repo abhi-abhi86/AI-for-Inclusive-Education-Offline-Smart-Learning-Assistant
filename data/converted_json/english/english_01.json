@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "english_01.pdf",
+  "document_metadata": {
+    "title": "A Letter to God",
+    "author": "G.L.Fuentes"
+  },
+  "question_generation": {
+    "subject": "english",
+    "pattern_file": "data/question_patterns/english.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/english/english_01_questions.json",
+    "answers_path": "data/generated_answers/english/english_01_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 15,
+    "pages_with_text": 15,
+    "total_words": 4028,
+    "warnings": [],
+    "text_file": "data/converted_text/english/english_01.txt",
+    "document_metadata": {
+      "title": "A Letter to God",
+      "author": "G.L.Fuentes"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "BEFORE YOU READ\nThey say faith can move mountains. But what should we put our\nfaith in? This is the question this story delicately poses.\nLencho is a farmer who writes a letter to God when his crops\nare ruined, asking for a hundred pesos. Does Lencho’s letter reach\nGod? Does God send him the money? Think what your answers to\nthese questions would be, and guess how the story continues, before\nyou begin to read it.\nActivity\n1. One of the cheapest ways to send money to someone is through\nthe post office. Have you ever sent or received money in this\nway?  Here’s what you have to do.  (As you read the instructions,\ndiscuss with your teacher in class the meanings of these words:\ncounter, counter clerk, appropriate, acknowledgement, counterfoil,\nrecord. Consult a dictionary if necessary. Are there words\ncorresponding to these English words in your languages?)\nReprint 2026-27\n\n2 First Flight\n2. Fill out the Money Order form given below using the clues that\nfollow the form.\nReprint 2026-27\n\nA Letter to God\n3\nTHE house — the only one in the entire valley — sat\non the crest  of a low hill. From this height one\ncould see the river and the field of ripe corn dotted\nwith the flowers that always promised a good\nharvest. The only thing the earth needed was a\ndownpour or at least a shower . Thr oughout the\nmorning Lencho — who knew his fields intimately\n— had done nothing else but see the sky towards\nthe north-east.\n“Now we’re really going to get some water, woman.”\nThe woman who was pr eparing supper, r eplied,\n“Yes, God willing”. The older boys wer e working in\nthe field, while the smaller ones were playing near\nthe house until the woman called to them all, “Come\nfor dinner”. It was during the meal that, just as\ncrest\ntop of a hill\n• Think about who you will send the money to, and how much.\nYou might want to send money for a magazine subscription,\nor to a relative or a friend.\n• Or you may fill out the form with yourself as sender and your\npartner as receiver.  Use a part of your pocket money, and\nsubmit the form at the nearest post office to see how it’s done.\nSee how your partner enjoys getting money by post!\n• Notice that the form has three parts — the Money Order form,\nthe part for official use and the Acknowledgement. What would\nyou write in the ‘Space for Communication’?\nNow complete the following statements.\n(i) In addition to the sender, the form has to be signed by the\n(ii) The ‘Acknowledgement’ section of the form is sent back by\nthe post office to the  after the\n signs it.\n(iii) The ‘Space for Communication’ section is used for\n(iv) The form has six sections. The sender needs to fill\nout  sections and the receiver\nReprint 2026-27\n\n4 First Flight\nLencho had predicted, big drops of rain began to\nfall. In the north-east huge mountains of clouds\ncould be seen approaching. The air was fresh and\nsweet. The man went out for no other reason than\nto have the pleasure of feeling the rain on his body,\nand when he returned he exclaimed, ‘‘These aren’t\nraindrops falling from the sky, they are new coins.\nThe big drops are ten cent pieces and the little ones\nare fives.’’\nWith a satisfied expression he regarded the field\nof ripe corn with its flowers, draped  in a curtain of\nrain. But suddenly a strong wind began to blow\nand along with the rain very large hailstones began\nto fall. These truly did resemble new silver coins.\nThe boys, exposing themselves to the rain, ran out\nto collect the frozen pearls.\n‘‘It’s really getting bad now,’’ exclaimed the man.\n“I hope it passes quickly.” It did not pass quickly.\nFor an hour the hail rained on the house, the\ngarden, the hillside, the cornfield, on the whole\nvalley. The field was white, as if covered with salt.\nNot a leaf remained on the trees. The corn was\ntotally destroyed. The flowers were gone from the\nplants. Lencho’s soul was filled with sadness. When\nthe storm had passed, he stood in the middle of the\nfield and said to his sons, “A plague of locusts would\ndraped\ncovered (with cloth)\nlocusts\ninsects which fly in\nbig swarms (groups)\nand destroy crops\nReprint 2026-27\n\nA Letter to God\n5\nhave left more than this. The hail has left nothing.\nThis year we will have no corn.’’\nThat night was a sorrowful one.\n“All our work, for nothing.”\n‘‘There’s no one who can help us.”\n“We’ll all go hungry this year .”\nOral Comprehension Check\n1. What did Lencho hope for?\n2. Why did Lencho say the raindrops were like ‘new coins’?\n3. How did the rain change? What happened to Lencho’s fields?\n4. What were Lencho’s feelings when the hail stopped?\nBut in the hearts of all who lived in that solitary\nhouse in the middle of the valley, there was a single\nhope: help from God.\n“Don’t be so upset, even though this seems like\na total loss. Remember , no one dies of hunger .”\n“That’s what they say: no one dies of hunger .”\nAll through the night, Lencho thought only of\nhis one hope: the help of God, whose eyes, as he\nhad been instructed, see everything, even what is\ndeep in one’s conscience. Lencho was an ox of a\nman, working like an animal in the fields, but still\nhe knew how to write. The following Sunday, at\ndaybreak, he began to write a letter which he\nhimself would carry to town and place in the mail.\nIt was nothing less than a letter to God.\n“God,” he wrote, “if you don’t help me, my family\nand I will go hungry this year . I need a hundr ed\npesos in order to sow my field again and to live\nuntil the crop comes, because the hailstorm.. ..”\nHe wrote ‘To God’ on the envelope, put the letter\ninside and, still troubled, went to town. At the post\noffice, he placed a stamp on the letter and dropped\nit into the mailbox.\nOne of the employees, who was a postman and\nalso helped at the post office, went to his boss\nlaughing heartily and showed him the letter to God.\nNever in his career as a postman had he known\nthat address. The postmaster — a fat, amiable\npeso\ncurrency of several\nLatin American\ncountries\nconscience\nan inner sense of\nright and wrong\namiable\nfriendly and\npleasant\nReprint 2026-27\n\n6 First Flight\nfellow — also broke out laughing, but almost\nimmediately he turned serious and, tapping the\nletter on his desk, commented, “What faith! I wish I\nhad the faith of the man who wr ote this letter .\nStarting up a correspondence with God!”\nSo, in order not to shake the writer’s faith in God,\nthe postmaster came up with an idea: answer the\nletter. But when he opened it, it was evident that to\nanswer it he needed something more than goodwill,\nink and paper . But he stuck to his r esolution: he\nasked for money from his employees, he himself gave\npart of his salary, and several friends of his were\nobliged to give something ‘for an act of charity’.\nIt was impossible for him to gather together the\nhundred pesos, so he was able to send the farmer\nonly a little more than half. He put the money in an\nenvelope addressed to Lencho and with it a letter\ncontaining only a single word as a signature: God.\nOral Comprehension Check\n1. Who or what did Lencho have faith in? What did he do?\n2. Who read the letter?\n3. What did the postmaster do then?\nThe following Sunday Lencho came a bit earlier\nthan usual to ask if there was a letter for him.\nIt was the postman himself who handed the letter\nto him while the postmaster , experiencing the\ncontentment of a man who has  performed a good\ndeed, looked on from his office.\nLencho showed not the slightest surprise on\nseeing the money; such was his confidence — but\nhe became angry when he counted the money. God\ncould not have made a mistake, nor could he have\ndenied Lencho what he had requested.\nImmediately, Lencho went up to the window to\nask for paper and ink. On the public writing-table,\nhe started to write, with much wrinkling of his brow,\ncaused by the effort he had to make to express his\nideas. When he finished, he went to the window to\nbuy a stamp which he licked and then affixed to\ncontentment\nsatisfaction\nReprint 2026-27\n\nA Letter to God\n7\n1. Who does Lencho have complete faith in? Which sentences in the story tell\nyou this?\n2. Why does the postmaster send money to Lencho? Why does he sign the\nletter ‘God’?\n3. Did Lencho try to find out who had sent the money to him? Why/Why not?\n4. Who does Lencho think has taken the rest of the money? What is the irony\nin the situation? (Remember that the irony of a situation is an unexpected\naspect of it. An ironic situation is strange or amusing because it is the\nopposite of what is expected.)\nthe envelope with a blow of his fist. The moment\nthe letter fell into the mailbox the postmaster went\nto open it. It said: “God: Of the money that I asked\nfor, only seventy pesos r eached me. Send me the\nrest, since I need it very much. But don’t send it to\nme through the mail because the post office\nemployees are a bunch of crooks. Lencho.”\nOral Comprehension Check\n1. Was Lencho surprised to find a letter for him with money in it?\n2. What made him angry?\nReprint 2026-27\n\n8 First Flight\n5. Are there people like Lencho in the real world? What kind of a person would you\nsay he is? You may select appropriate words from the box to answer the question.\ngreedy naive stupid ungrateful\nselfish comical unquestioning\n6. There are two kinds of conflict in the story: between humans and nature,\nand between humans themselves. How are these conflicts illustrated?\nI. Look at the following sentence from the story.\nSuddenly a strong wind began to blow and along with the rain very large\nhailstones began to fall.\n‘Hailstones’ are small balls of ice that fall like rain. A storm in which\nhailstones fall is a ‘hailstor m’. You know that a stor m is bad weather with\nstrong winds, rain, thunder and lightning.\nThere are different names in different parts of the world for storms,\ndepending on their nature. Can you match the names in the box with\ntheir descriptions below, and fill in the blanks? You may use a dictionary\nto help you.\ngale, whirlwind, cyclone,\nhurricane, tornado, typhoon\n1. A violent tropical storm in which strong winds move in a circle:\n__ __ c __ __ __ __\n2. An extremely strong wind : __ a  __ __\n3. A violent tropical storm with very strong winds : __ __ p __ __ __ __\n4. A violent storm whose centre is a cloud in the shape of a funnel:\n__ __ __ n __ __ __\n5. A violent storm with very strong winds, especially in the western Atlantic\nOcean: __ __ r __ __ __ __ __ __\n6. A very strong wind that moves very fast in a spinning movement and\ncauses a lot of damage: __ __ __ __ l __ __ __ __\nII. Notice how the word ‘hope’ is used in these sentences from the story:\n(a) I hope it (the hailstorm) passes quickly.\n(b) There was a single hope: help from God.\nIn the first example, ‘hope’ is a verb which means you wish for something to\nhappen. In the second example it is a noun meaning a chance for something\nto happen.\nReprint 2026-27\n\nA Letter to God\n9III. Relative Clauses\nLook at these sentences\n(a) All morning Lencho — who knew his fields intimately  — looked at\nthe sky.\n(b) The woman, who was preparing supper, replied, “Yes, God willing.’’\nThe italicised parts of the sentences give us more information about Lencho\nand the woman. W e call them relative clauses. Notice that they begin with\na relative pronoun who. Other common relative pronouns are whom, whose,\nand which\n.\nThe relative clauses in (a) and (b) above are called non-defining, because\nwe already know the identity of the person they describe. Lencho is a\nparticular person, and ther e is a particular woman he speaks to. W e don’t\nneed the information in the relative clause to pick these people out from a\nlarger set.\nA non-defining relative clause usually has a comma in front of it and a\ncomma after it (some writers use a dash (—) instead, as in the story). If the\nrelative clause comes at the end, we just put a full stop.\nJoin the sentences given below using who, whom, whose, which, as\nsuggested.\n1. I often go to Mumbai. Mumbai is the commercial capital of India. ( which)\n2. My mother is going to host a TV show on cooking. She cooks very\nwell. ( who)\nB\n– a feeling that something good will\nprobably happen\n– thinking that this would happen\n(It may or may not have happened.)\n– stopped believing that this good\nthing would happen\n– wanting something to happen\n(and thinking it quite possible)\n– showing concern that what you\nsay should not offend or disturb\nthe other person: a way of being\npolite\n– wishing for something to happen,\nalthough this is very unlikely\nA\n1. Will you get the subjects you want\nto study in college?\nI hope so.\n2. I hope you don’t mind my saying\nthis, but I don’t like the way you\nare arguing.\n3. This discovery will give new hope\nto HIV/AIDS sufferers.\n4. We were hoping against hope that\nthe judges would not notice our\nmistakes.\n5. I called early in the hope of\nspeaking to her before she went\nto school.\n6. Just when everybody had given up\nhope, the fishermen came back,\nseven days after the cyclone.\nMatch the sentences in Column A with the meanings of ‘hope’ in Column B.\nReprint 2026-27\n\n10 First Flight\n3. These sportspersons are going to meet the President. Their performance\nhas been excellent. ( whose)\n4. Lencho prayed to God. His eyes see into our minds. ( whose)\n5. This man cheated me. I trusted him. ( whom)\nSometimes the relative pronoun in a relative clause remains ‘hidden’. For\nexample, look at the first sentence of the story:\n(a) The house — the only one in the entire valley — sat on the crest of a\nlow hill.\nWe can r ewrite this sentence as:\n(b) The house — which was  the only one in the entire valley — sat on\nthe crest of a low hill.\nIn (a), the relative pronoun which and the verb was are not present.\nIV. Using Negatives for Emphasis\nWe know that sentences with wor ds such as no, not or nothing show the\nabsence of something, or contradict something. For example:\n(a) This year we will have no corn. (Corn will be absent)\n(b) The hail has left nothing. (Absence of a crop)\n(c) These aren’t raindrops falling from the sky, they are new coins.\n(Contradicts the common idea of what the drops of water falling from\nthe sky are)\nBut sometims negative words are used just to emphasise an idea. Look at\nthese sentences from the story:\n(d) Lencho…had done nothing else but  see the sky towards the north-\neast. (He had done only this)\n(e) The man went out for no other reason than  to have the pleasure of\nfeeling the rain on his body. (He had only this reason)\n(f) Lencho showed not the slightest surprise  on seeing the money.\n(He showed no surprise at all)\nNow look back at example (c). Notice that the contradiction in fact serves to\nemphasise the value or usefulness of the rain to the far mer.\nFind sentences in the story with negative words, which express the\nfollowing ideas emphatically.\n1. The trees lost all their leaves.\n2. The letter was addressed to God himself.\n3. The postman saw this addr ess for the first time in his car eer.\nReprint 2026-27\n\nA Letter to God\n11\nHave you ever been in great difficulty, and felt that only a miracle could\nhelp you? How was your problem solved? Speak about this in class with\nyour teacher .\nObject Metaphor Quality or Feature Compared\nCloud Huge mountains The mass or ‘hugeness’\nof clouds of mountains\nRaindrops\nHailstones\nLocusts\nAn epidemic (a disease)\nthat spreads very rapidly\nand leaves many people dead\nAn ox of a man\nV. Metaphors\nThe word metaphor comes from a Greek word meaning ‘transfer’. Metaphors\ncompare two things or ideas: a quality or feature of one thing is transferred\nto another thing. Some common metaphors are\n• the leg of the table: The leg supports our body. So the object that supports\na table is described as a leg.\n• the heart of the city:  The heart is an important organ in the centre of our\nbody. So this word is used to describe the central area of a city.\nIn pairs, find metaphors from the story to complete the table below. Try\nto say what qualities are being compared. One has been done for you.\nReprint 2026-27\n\n12 First Flight\nWHAT WE HAVE DONE\n• Introduced students to the story that they are going to read.\n• Related a thought-provoking story about the nature of belief.\n• Helped students, through an interesting activity , to understand something that\nhappens in the story — how to send money using a money order .\n• Guided them through the reading activity by providing periodic comprehension checks\nas they read, and checked for holistic understanding at the end of the reading activity.\n• Provided interesting exercises to strengthen students’ grasp of the specific vocabulary\nfound in the story, and also introduced them to related vocabulary .\nThe writer apologises (says sorry)\nbecause\nThe writer has sent this to\nthe reader\nThe writer sent it in the\nmonth of\nThe reason for not writing\nearlier\nSarah goes to\nWho is writing to whom?\nWhere and when were they\nlast together?\nListen to the letter (given under ‘In This Lesson’) read out by your teacher/on\nthe audio tape. As you listen fill in the table given below.\nLencho suffered first due to drought and then by floods. Our country is also facing\nsuch situations in the recent years. There is flood and there is drought. There is\na need to save water through water harvesting. Design a poster for your area on\nhow to save water during summer and when it is available in excess.\nReprint 2026-27\n\nA Letter to God\n13\n• Explained specific areas of grammar — non-defining relative clauses and the use of\nnegatives for emphasis — providing illustrations from the text, and exercises for practice.\n• Explained what metaphors are, and helped students identify metaphors in the text\nby providing clues.\n• Provided a context for authentic speaking.\n• Provided an interesting listening activity .\nGiven below is the passage for listening activity\nBhatt House\n256, Circuit Road\nKanpur, Uttar Pradesh, India\n25 January 2006\nDear Arti,\nHow are you? I’m sorry I haven ’t written for a very long time. I think I last\nsent you a birthday card in the month of September 2005.\nWe have just moved house (see our new address above). This is our new\nhome. Sarah has just about started going to school. W e have admitted her to\n‘Little Feet’ as this is very close to our new home.\nI’m sitting here by the window sill, writing to you. There is a slight drizzle outside\nand I’m reminded of the good times we had together at Bangalore last year.\nDo write back. Love,\nJaya\nWHAT Y OU C AN D O\nBefore You Read: Encourage students to share their ideas about what will happen in the\nstory.\nActivity: Before filling out the form, get the students to read through the form and\ndecide which parts they should fill out, and which parts will be filled in by the postal\ndepartment. Ask a few students to volunteer to actually send a money order (the\namount need not be large) and share the experience with the rest of the class.\nReading: Break the text up into manageable chunks for reading (three paragraphs, for\nexample), and encourage students to read silently , on their own. Give them enough\ntime to read, and then discuss what they have read before going on to the next portion.\nUse the ‘Oral Comprehension Checks’ in the appropriate places, and use the ‘Thinking\nabout the Text’ questions at the end of the passage to help them go beyond the text.\nGrammar: After they have done the exercise, ask students to make their own sentences\nwith non-defining relative clauses — for example, ‘Meena, who’s a very clever girl, is\nalways first in class.’ Or , ‘Our gardener, who knows a lot about plants, loves to talk\nabout them.’\nSpeaking: Take the first turn — talk to the students about an instance from your own\nlife, or from that of someone you know\n.\nReprint 2026-27\n\nDust of SnoDust of SnoDust of SnoDust of SnoDust of Sno www ww\nThe way a crow\nShook down on me\nThe dust of snow\nFrom a hemlock tree\nHas given my heart\nA change of mood\nAnd saved some part\nOf a day I had rued.\nROBERT FROST\nhemlock: A poisonous plant (tree) with small white flowers\nrued: held in regret\nThis poem presents a moment that seems simple, but has a larger significance.\n[Compare this other quotation from Robert Frost: “Always, always a larger\nsignificance... A little thing touches a larger thing.”)\n1. What is a “dust of snow”? What does the poet say has changed his mood?\nHow has the poet’s mood changed?\n2. How does Frost present nature in this poem? The following questions may\nhelp you to think of an answer .\n(i) What are the birds that are usually named in poems? Do you think a\ncrow is often mentioned in poems? What images come to your mind\nwhen you think of a crow?\n(ii) Again, what is “a hemlock tree”?  Why doesn’t the poet write about a\nmore ‘beautiful’ tree such as a maple, or an oak, or a pine?\n(iii) What do the ‘crow’ and ‘hemlock’ represent — joy or sorrow? What does\nthe dust of snow that the crow shakes off a hemlock tree stand for?\n3. Have there been times when you felt depressed or hopeless? Have you\nexperienced a similar moment that changed your mood that day?\nReprint 2026-27\n\nSome say the world will end in fire\nSome say in ice.\nFrom what I’ve tasted of desire\nI hold with those who favour fire.\nBut if it had to perish twice,\nI think I know enough of hate\nTo say that for destruction ice\nIs also great\nAnd would suffice.\nROBERT FROST\nFire and IceFire and IceFire and IceFire and IceFire and Ice\nperish: die\nsuffice: be sufficient\n1. There are many ideas about how the world will ‘end’. Do you think the world\nwill end some day? Have you ever thought what would happen if the sun got\nso hot that it ‘burst’, or grew colder and colder?\n2. For Frost, what do ‘fire’ and ‘ice’ stand for? Here are some ideas:\ngreed avarice cruelty lust\nconflict fury intolerance rigidity\ninsensitivity coldness indifference hatred\n3. What is the rhyme scheme of the poem? How does it help in bringing out the\ncontrasting ideas in the poem?\nReprint 2026-27",
+      "source_file": "english_01.pdf",
+      "document_metadata": {
+        "title": "A Letter to God",
+        "author": "G.L.Fuentes"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "A Letter to God",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "G.L.Fuentes",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "G.L.Fuentes",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Lencho?",
+      "answer": "Lencho is a farmer who writes a letter to God when his crops are ruined, asking for a hundred pesos.",
+      "question_type": "evaluation_13",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_13",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What does the writer explain about Lencho?",
+      "answer": "Lencho is a farmer who writes a letter to God when his crops are ruined, asking for a hundred pesos.",
+      "question_type": "comprehension",
+      "pattern_source": "subject",
+      "pattern_type": "comprehension",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about answers?",
+      "answer": "Think what your answers to these questions would be, and guess how the story continues, before you begin to read it.",
+      "question_type": "evaluation_14",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_14",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What does the writer explain about answers?",
+      "answer": "Think what your answers to these questions would be, and guess how the story continues, before you begin to read it.",
+      "question_type": "comprehension",
+      "pattern_source": "subject",
+      "pattern_type": "comprehension",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about cheapest ways?",
+      "answer": "One of the cheapest ways to send money to someone is through the post office.",
+      "question_type": "evaluation_10",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_10",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What does the writer explain about cheapest ways?",
+      "answer": "One of the cheapest ways to send money to someone is through the post office.",
+      "question_type": "comprehension",
+      "pattern_source": "subject",
+      "pattern_type": "comprehension",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to Money Order form?",
+      "answer": "Fill out the Money Order form given below using the clues that follow the form.",
+      "question_type": "main_idea_25",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_25",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about Money Order form is important?",
+      "answer": "Fill out the Money Order form given below using the clues that follow the form.",
+      "question_type": "detail_25",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_25",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to height?",
+      "answer": "From this height one could see the river and the field of ripe corn dotted with the flowers that always promised a good harvest.",
+      "question_type": "main_idea_10",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_10",
+      "source_file": "english_01.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

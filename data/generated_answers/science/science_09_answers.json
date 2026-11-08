@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "ta Light — Reflecti d",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "K Je",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "K Je",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "However, we are unable to see anything in a dark room.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies dark room?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11"
+  },
+  {
+    "answer": "A study of the properties of light helps us to explore them.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies study?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15"
+  },
+  {
+    "answer": "By observing the common optical phenomena around us, we may conclude that light seems to travel in straight lines.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to common optical phenomena?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20"
+  },
+  {
+    "answer": "By observing the common optical phenomena around us, we may conclude that light seems to travel in straight lines.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about common optical phenomena is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20"
+  },
+  {
+    "answer": "If an opaque object on the path of light becomes very small, light has a tendency to bend around it and not walk in a straight line – an effect known as the diffraction of light.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies If an opaque object?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13"
+  },
+  {
+    "answer": "If an opaque object on the path of light becomes very small, light has a tendency to bend around it and not walk in a straight line – an effect known as the diffraction of light.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does If an opaque object mean in science?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "To explain phenomena such as diffraction, light is thought of as a wave, the details of which you will study in higher classes.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What might happen next based on phenomena?",
+    "question_type": "prediction_25",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_25"
+  },
+  {
+    "answer": "To explain phenomena such as diffraction, light is thought of as a wave, the details of which you will study in higher classes.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about phenomena?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25"
+  },
+  {
+    "answer": "Again, at the beginning of the 20th century, it became known that the wave theory of light often becomes inadequate for treatment of the interaction of light with matter, and light often behaves somewhat like a stream of particles.",
+    "source_file": "science_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies beginning?",
+    "question_type": "identify_25",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_25"
+  }
+]

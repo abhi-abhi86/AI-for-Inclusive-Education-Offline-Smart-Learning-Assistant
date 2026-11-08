@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "source_file": "english_03.pdf",
+  "document_metadata": {
+    "title": "Two Stories about Flying"
+  },
+  "question_generation": {
+    "subject": "english",
+    "pattern_file": "data/question_patterns/english.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/english/english_03_questions.json",
+    "answers_path": "data/generated_answers/english/english_03_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 16,
+    "pages_with_text": 16,
+    "total_words": 3870,
+    "warnings": [],
+    "text_file": "data/converted_text/english/english_03.txt",
+    "document_metadata": {
+      "title": "Two Stories about Flying"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "BEFORE YOU READ\nSince the earliest times, humans have dreamt of conquering the\nskies. Here are two stories about flying.\nI. A young seagull is afraid to fly. How does he conquer his fear?\nII. A pilot is lost in storm clouds. Does he arrive safe? Who helps\nhim?\nI\nHis First Flight\nTHE young seagull was alone on his ledge. His two\nbrothers and his sister had already flown away the\nday before. He had been afraid to fly with them.\nSomehow when he had taken a little run forward to\nthe brink of the ledge and attempted to flap his\nwings he became afraid. The great expanse of sea\nstretched down beneath, and it was such a long\nway down — miles down. He felt certain that his\nwings would never support him; so he bent his head\nand ran away back to the little hole under the ledge\nwhere he slept at night. Even when each of his\nbrothers and his little sister , whose wings wer e far\nshorter than his own, ran to the brink, flapped their\nwings, and flew away, he failed to muster up courage\nto take that plunge which appeared to him so\ndesperate. His father and mother had come around\nledge\na narrow horizontal\nshelf projecting from\na wall or (here) a cliff\nReprint 2026-27\n\ncalling to him shrilly, upbraiding  him, threatening\nto let him starve on his ledge unless he flew away.\nBut for the life of him he could not move.\nThat was twenty-four hours ago. Since then\nnobody had come near him. The day before, all day\nlong, he had watched his parents flying about with\nhis br others and sister , per fecting them in the art\nof flight, teaching them how to skim  the waves and\nhow to dive for fish. He had, in fact, seen his older\nbrother catch his first herring  and devour it,\nstanding on a rock, while his parents circled around\nraising a proud cackle. And all the morning the\nwhole family had walked about on the big plateau\nmidway down the opposite cliff taunting him with\nhis cowardice.\nThe sun was now ascending the sky, blazing on\nhis ledge that faced the south. He felt the heat\nbecause he had not eaten since the previous nightfall.\nHe stepped slowly out to the brink of the ledge,\nand standing on one leg with the other leg hidden\nunder his wing, he closed one eye, then the other ,\nherring\na soft-finned sea fish\n(to) skim\nto move lightly just\nabove a surface\n(here, the sea)\nupbraiding\nscolding\n33Two Stories about Flying\nReprint 2026-27\n\n34 First Flight\nand pretended to be falling asleep. Still they took\nno notice of him. He saw his two brothers and his\nsister lying on the plateau dozing with their heads\nsunk into their necks. His father was preening  the\nfeathers on his white back. Only his mother was\nlooking at him. She was standing on a little high\nhump on the plateau, her white breast thrust\nforward. Now and again, she tore at a piece of fish\nthat lay at her feet and then scrapped each side of\nher beak on the rock. The sight of the food maddened\nhim. How he loved to tear food that way, scrapping\nhis beak now and again to whet  it.\n“Ga, ga, ga,” he cried begging her to bring him\nsome food. “Gaw-col-ah,” she screamed back\nderisively. But he kept calling plaintively, and\nafter a minute or so he uttered a joyful scream.\nHis mother had picked up a piece of the fish and\nwas flying across to him with it. He leaned out\n(to)  whet\nto sharpen\nderisively\nin a manner\nshowing someone\nthat she/he is stupid\npreening\nmaking an effort to\nmaintain feathers\nReprint 2026-27\n\n35Two Stories about Flying\neagerly, tapping the rock with his feet, trying to\nget nearer to her as she flew across. But when\nshe was just opposite to him, she halted, her\nwings motionless, the piece of fish in her beak\nalmost within reach of his beak. He waited a\nmoment in surprise, wondering why she did not\ncome nearer , and then, maddened by hunger , he\ndived at the fish. With a loud scream he fell\noutwards and downwards into space. Then a\nmonstrous terror seized him and his heart stood\nstill. He could hear nothing. But it only lasted a\nminute. The next moment he felt his wings spread\noutwards. The wind rushed against his breast\nfeathers, then under his stomach, and against his\nwings. He could feel the tips of his wings cutting\nthrough the air . He was not falling headlong now.\nHe was soaring gradually downwards and outwards.\nHe was no longer afraid. He just felt a bit dizzy.\nThen he flapped his wings once and he soared\nupwards. “Ga, ga, ga, Ga, ga, ga, Gaw-col-ah,” his\nmother swooped past him, her wings making a\nloud noise. He answered her with another scream.\nThen his father flew over him screaming. He saw\nhis two brothers and his sister flying around him\ncurveting and banking  and soaring and diving.\nThen he completely forgot that he had not always\nbeen able to fly, and commended himself to dive\nand soar and curve, shrieking shrilly.\nHe was near the sea now, flying straight over\nit, facing straight out over the ocean. He saw a\nvast green sea beneath him, with little ridges\nmoving over it and he turned his beak sideways\nand cawed amusedly.\nHis parents and his brothers and sister had\nlanded on this green flooring ahead of him. They\nwere beckoning to him, calling shrilly. He dropped\nhis legs to stand on the green sea. His legs sank\ninto it. He screamed with fright and attempted to\nrise again flapping his wings. But he was tired and\nweak with hunger and he could not rise, exhausted\ndizzy\nan uncomfortable\nfeeling of spinning\naround and losing\none’s balance\ncurveting\nleaping like a horse\nbanking\nflying with one wing\nhigher than the other\nReprint 2026-27\n\n36 First Flight\n1. Why was the young seagull afraid to fly? Do you think all young birds are\nafraid to make their first flight, or are some birds more timid than others?\nDo you think a human baby also finds it a challenge to take its first steps?\n2. “The sight of the food maddened him.” What does this suggest? What\ncompelled the young seagull to finally fly?\n3. “They were beckoning to him, calling shrilly.” Why did the seagull’s father\nand mother threaten him and cajole him to fly?\n4. Have you ever had a similar experience, where your parents encouraged\nyou to do something that you were too scared to try? Discuss this in pairs\nor groups.\n5. In the case of a bird flying, it seems a natural act, and a foregone conclusion\nthat it should succeed. In the examples you have given in answer to the\nprevious question, was your success guaranteed, or was it important for\nyou to try, regardless of a possibility of failure?\nWe have just r ead about the first flight of a young seagull. Y our teacher will\nnow divide the class into groups. Each group will work on one of the following\ntopics. Prepare a presentation with your group members and then present it\nto the entire class.\n• Progression of Models of Airplanes\n• Progression of Models of Motorcars\n• Birds and Their Wing Span\n• Migratory Birds — Tracing Their Flights\nWrite a short composition on your initial attempts at lear ning a skill. Y ou could\ndescribe the challenges of learning to ride a bicycle or learning to swim. Make it\nas humorous as possible.\nby the strange exercise. His feet sank into the green\nsea, and then his belly touched it and he sank no\nfarther. He was floating on it, and ar ound him his\nfamily was screaming, praising him and their beaks\nwere offering him scraps of dog-fish.\nHe had made his first flight.\nReprint 2026-27\n\n37Two Stories about Flying\nII\nThe Black Aeroplane\nTHE moon was coming up in the east, behind me,\nand stars were shining in the clear sky above me.\nThere wasn’t a cloud in the sky. I was happy to be\nalone high up above the sleeping countryside. I was\nflying my old Dakota aeroplane over France back to\nEngland. I was dreaming of my holiday and looking\nforward to being with my family. I looked at my\nwatch: one thirty in the morning.\n‘I should call Paris Control soon,’ I thought. As I\nlooked down past the nose of the aeroplane, I saw\nthe lights of a big city in front of me. I switched on\nthe radio and said, “Paris Control, Dakota DS 088\nhere. Can you hear me? I’m on my way to England.\nOver.”\nThe voice from the radio answered me immediately:\n“DS 088, I can hear you. Y ou ought to tur n twelve\ndegrees west now, DS 088. Over.”\nI checked the map and the compass, switched\nover to my second and last fuel tank, and turned\nthe Dakota twelve degrees west towards England.\n‘I’ll be in time for breakfast,’ I thought. A good\nbig English breakfast! Everything was going well —\nit was an easy flight.\nParis was about 150 kilometres behind me when\nI saw the clouds. Storm clouds. They were huge.\nThey looked like black mountains standing in front\nof me across the sky. I knew I could not fly up and\nover them, and I did not have enough fuel to fly\naround them to the north or south.\n“I ought to go back to Paris,” I thought, but I\nwanted to get home. I wanted that breakfast.\n‘I’ll take the risk,’ I thought, and flew that old\nDakota straight into the storm.\nInside the clouds, everything was suddenly black.\nIt was impossible to see anything outside the\naeroplane. The old aeroplane jumped and twisted\nin the air. I looked at the compass. I couldn’t believe\nReprint 2026-27\n\n38 First Flight\nmy eyes: the compass was turning round and round\nand round. It was dead. It would not work! The\nother instruments were suddenly dead, too. I tried\nthe radio.\n“Paris Control? Paris Control? Can you hear me?”\nThere was no answer . The radio was dead too. I\nhad no radio, no compass, and I could not see where\nI was. I was lost in the storm. Then, in the black\nclouds quite near me, I saw another aeroplane. It\nhad no lights on its wings, but I could see it flying\nnext to me through the storm. I could see the pilot’s\nface — turned towards me. I was very glad to see\nanother person. He lifted one hand and waved.\n“Follow me,” he was saying. “Follow me.”\n‘He knows that I am lost,’ I thought. ‘He’s trying\nto help me.’\nHe turned his aeroplane slowly to the north, in\nfront of my Dakota, so that it would be easier for\nme to follow him. I was very happy to go behind the\nstrange aeroplane like an obedient child.\nAfter half an hour the strange black aeroplane\nwas still there in front of me in the clouds. Now\nReprint 2026-27\n\n39Two Stories about Flying\nthere was only enough fuel in the old Dakota’s last\ntank to fly for five or ten minutes more. I was\nstarting to feel frightened again. But then he started\nto go down and I followed through the storm.\nSuddenly I came out of the clouds and saw two\nlong straight lines of lights in front of me. It was a\nrunway! An airport! I was safe! I turned to look for\nmy friend in the black aeroplane, but the sky was\nempty. There was nothing there. The black\naeroplane was gone. I could not see it anywhere.\nI landed and was not sorry to walk away from the\nold Dakota near the control tower. I went and asked\na woman in the control centre where I was and who\nthe other pilot was. I wanted to say ‘Thank you’.\nShe looked at me very strangely, and then\nlaughed.\n“Another aeroplane? Up there in this storm? No\nother aeroplanes were flying tonight. Y ours was the\nonly one I could see on the radar .”\nSo who helped me to arrive there safely without\na compass or a radio, and without any more fuel in\nmy tanks? Who was the pilot on the strange black\naeroplane, flying in the storm, without lights?\nReprint 2026-27\n\n40 First Flight\n1. “I’ll take the risk.” What is the risk? Why does the narrator take it?\n2. Describe the narrator’s experience as he flew the aeroplane into the storm.\n3. Why does the narrator say, “I landed and was not sorry to walk away from\nthe old Dakota…”?\n4. What made the woman in the control centre look at the narrator strangely?\n5. Who do you think helped the narrator to reach safely?  Discuss this among\nyourselves and give r easons for your answer .\nI. Study the sentences given below.\n(a) They looked like black mountains.\n(b) Inside the clouds, everything was suddenly black.\n(c) In the black clouds near me, I saw another aeroplane.\n(d) The strange black aeroplane was there.\nThe wor d ‘black’ in sentences (a) and (c) r efers to the very darkest colour .\nBut in (b) and (d) (here) it means without light/with no light.\n‘Black’ has a variety of meanings in different contexts. For example:\n(a) ‘I prefer black tea’ means ‘I prefer tea without milk’.\n(b) ‘With increasing pollution the future of the world is black’ means\n‘With increasing pollution the future of the world is very depressing/\nwithout hope’.\nNow, try to guess the meanings of the word ‘black’ in the sentences\ngiven below. Check the meanings in the dictionary and find out whether\nyou have guessed right.\n1. Go and have a bath; your hands and face are absolutely black.\n2. The taxi-driver gave Ratan a black look as he crossed the road when the\ntraffic light was green. \n3. The bombardment of Hiroshima is one of the blackest crimes against\nhumanity. \n4. Very few people enjoy Harold Pinter’s black comedy. \n5. Sometimes shopkeepers store essential goods to create false scarcity\nand then sell these in black. \n6. Villagers had beaten the criminal black and blue. \nReprint 2026-27\n\n41Two Stories about Flying\nA B\n1. Fly a flag – Move quickly/suddenly\n2. Fly into rage – Be successful\n3. Fly along – Display a flag on a long pole\n4. Fly high – Escape from a place\n5. Fly the coop – Become suddenly very angry\nII. Look at these sentences taken from the lesson you have just read:\n(a) I was flying my old Dakota aeroplane.\n(b) The young seagull had been afraid to fly with them.\nIn the first sentence the author was controlling an aircraft in the air. Another\nexample is: Children are flying kites. In the second sentence the seagull\nwas afraid to move thr ough the air, using its wings.\nMatch the phrases given under Column A with their meanings given\nunder Column B:\nIII. We know that the wor d ‘fly’ (of bir ds/insects) means to move thr ough\nair using wings. Tick the words which have the same or nearly the same\nmeaning.\nswoop flit paddle flutter\nascend float ride skim\nsink dart hover glide\ndescend soar shoot spring\nstay fall sail flap\nHave you ever been alone or away from home during a thunderstorm? Narrate\nyour experience in a paragraph.\nWHAT W E H AVE D ONE\nProvided two stories about flying — one about a bird, another about a human being in\na plane.\nWHAT Y OU C AN D O\n• As they read the story of the seagull, students can be asked to imagine how a baby\nlearns to walk, and compare and contrast the two situations.\nReprint 2026-27\n\n• After they read the second story students should be asked for their ideas about the\nphantom plane: Was it really there or did the pilot imagine it? If the students feel it\nwas really there, who could have been piloting it?\n• Ask students to narrate their own stories about flying. It could be about flying in an\nairplane, or flying a kite, or about watching a bird flying — in short, anything to do\nwith flight. Give students ten minutes to think quietly about the topic — during this\ntime, they can make notes about what they want to say . Then ask for volunteer\nspeakers.\n42 First Flight\nCompound Words Whose Parts Mean Just\nthe Opposite or Something Else\n• Quicksand works slowly\n• There in no egg in eggplant nor ham in\nhamburger; neither apple nor pine in pineapple.\n• Boxing rings are square\nReprint 2026-27\n\nHo HoHoHoHow to Tw to Tw to T w to Tw to T ell W ell Well W ell Well Wild Animalsild Animalsild Animalsild Animalsild Animals\nThis humorous poem suggests some dangerous ways to identify (or\n‘tell’) wild animals! Read it aloud, keeping to a strong and regular\nrhythm.\nIf ever you should go by chance\nTo jungles in the east;\nAnd if there should to you advance\nA large and tawny beast,\nIf he roars at you as you’re dyin’\nYou’ll know it is the Asian Lion...\nOr if some time when roaming round,\nA noble wild beast greets you,\nWith black stripes on a yellow ground,\nJust notice if he eats you.\nThis simple rule may help you learn\nThe Bengal T iger to discer n.\nIf strolling forth, a beast you view,\nWhose hide with spots is peppered,\nAs soon as he has lept on you,\nYou’ll know it is the Leopard.\n’Twill do no good to roar with pain,\nHe’ll only lep and lep again.\nReprint 2026-27\n\nIf when you’re walking round your yard\nYou meet a cr eature ther e,\nWho hugs you very, very hard,\nBe sure it is a Bear .\nIf you have any doubts, I guess\nHe’ll give you just one more caress.\nThough to distinguish beasts of prey\nA novice might nonplus,\nThe Crocodile you always may\nTell from the Hyena thus:\nHyenas come with merry smiles;\nBut if they weep they’re Crocodiles.\nThe true Chameleon is small,\nA lizard sort of thing;\nHe hasn’t any ears at all,\nAnd not a single wing.\nIf there is nothing on the tree,\n’Tis the chameleon you see.\nCAROLYN WELLS\nground: background\ndiscern\n: make out; identify\nhide: animal skin\npeppered: here, covered with spots\ncaress: a gentle, loving touch\nnovice: someone new to a job\n(be) nonplus (sed) (usually only in the passive) : (be) puzzle(d), confuse(d),\nsurprise(d)\n44 First Flight\nReprint 2026-27\n\n1. Does ‘dyin’ really rhyme with ‘lion’? Can you say it in such a way that it does?\n2. How does the poet suggest that you identify the lion and the tiger? When\ncan you do so, according to him?\n3. Do you think the words ‘lept‘ and ‘lep’ in the third stanza are spelt correctly?\nWhy does the poet spell them like this?\n4. Do you know what a ‘bearhug’ is? It’s a friendly and strong hug — such as\nbears are thought to give, as they attack you! Again, hyenas are thought to\nlaugh, and crocodiles to weep (‘crocodile tears’) as they swallow their victims.\nAre there similar expressions and popular ideas about wild animals in your\nown language(s)?\n5. Look at the line “A novice might nonplus”. How would you write this\n‘correctly’? Why is the poet’s ‘incorrect’ line better in the poem?\n6. Can you find other examples of poets taking liberties with language, either\nin English or in your own language(s)? Can you find examples of humorous\npoems in your own language(s)?\n7. Much of the humour in the poem arises from the way language is used,\nalthough the ideas are funny as well. If there are particular lines in the\npoem that you especially like, share these with the class, speaking briefly\nabout what it is about the ideas or the language that you like or find funny.\n45How to Tell Wild Animals\nEnglish is funny , because...\nWe have noses that run and feet that smell\nReprint 2026-27\n\nThe Ball PoemThe Ball PoemThe Ball PoemThe Ball PoemThe Ball Poem\nA boy loses a ball. He is very upset. A ball doesn’t cost much, nor is\nit difficult to buy another ball. Why then is the boy so upset? Read\nthe poem to see what the poet thinks has been lost, and what the\nboy has to learn from the experience of losing something.\nWhat is the boy now, who has lost his ball,\nWhat, what is he to do? I saw it go\nMerrily bouncing, down the street, and then\nMerrily over — there it is in the water!\nNo use to say ‘O there are other balls’:\nAn ultimate shaking grief fixes the boy\nAs he stands rigid, trembling, staring down\nAll his young days into the harbour where\nHis ball went. I would not intrude on him;\nA dime, another ball, is worthless. Now\nHe senses first responsibility\nIn a world of possessions. People will take\nBalls, balls will be lost always, little boy.\nAnd no one buys a ball back. Money is external.\nHe is learning, well behind his desperate eyes,\nThe epistemology of loss, how to stand up\nKnowing what every man must one day know\nAnd most know many days, how to stand up.\nJOHN BERRYMAN\nO there are other balls: The words suggest that the loss is not important enough\nto worry about\nshaking grief:  sadness which greatly affects the boy\nrigid: stiff\nReprint 2026-27\n\n(to) intrude on: here, to enter a situation where one is not welcome\na dime: ten cents (U.S.)\ndesperate: hopeless\nepistemology of loss : understanding the nature of loss — what it means to\nlose something\nepistemology : The Greek word episteme means ‘knowledge’ (it comes from a\nword meaning ‘to understand, to know’). Epistemology is the study of the\nnature of knowledge itself.\nIn pairs, attempt the following questions.\n1. Why does the poet say, “I would not intrude on him”? Why doesn’t he offer\nhim money to buy another ball?\n2. “… staring down/All his young days into the harbour where/His ball went …”\nDo you think the boy has had the ball for a long time? Is it linked to the\nmemories of days when he played with it?\n3. What does “in the world of possessions” mean?\n4. Do you think the boy has lost anything earlier? Pick out the words that\nsuggest the answer .\n5. What does the poet say the boy is learning from the loss of the ball? Try to\nexplain this in your own words.\n6. Have you ever lost something you liked very much? W rite a paragraph\ndescribing how you felt then, and saying whether — and how — you got over\nyour loss.\n47The Ball Poem\nReprint 2026-27",
+      "source_file": "english_03.pdf",
+      "document_metadata": {
+        "title": "Two Stories about Flying"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "Two Stories about Flying",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to young seagull?",
+      "answer": "A young seagull is afraid to fly.",
+      "question_type": "main_idea_13",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_13",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about young seagull is important?",
+      "answer": "A young seagull is afraid to fly.",
+      "question_type": "detail_13",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_13",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to pilot?",
+      "answer": "A pilot is lost in storm clouds.",
+      "question_type": "main_idea_19",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_19",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about pilot is important?",
+      "answer": "A pilot is lost in storm clouds.",
+      "question_type": "detail_19",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_19",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies two brothers?",
+      "answer": "His two brothers and his sister had already flown away the day before.",
+      "question_type": "identify_03",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_03",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What points about two brothers are listed?",
+      "answer": "His two brothers and his sister had already flown away the day before.",
+      "question_type": "list_03",
+      "pattern_source": "catalog",
+      "pattern_type": "list_03",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the sequence described for two brothers?",
+      "answer": "His two brothers and his sister had already flown away the day before.",
+      "question_type": "sequence_03",
+      "pattern_source": "catalog",
+      "pattern_type": "sequence_03",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What does the writer explain about two brothers?",
+      "answer": "His two brothers and his sister had already flown away the day before.",
+      "question_type": "comprehension",
+      "pattern_source": "subject",
+      "pattern_type": "comprehension",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about great expanse?",
+      "answer": "The great expanse of sea stretched down beneath, and it was such a long way down — miles down.",
+      "question_type": "evaluation_22",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_22",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Where is great expanse found or described?",
+      "answer": "The great expanse of sea stretched down beneath, and it was such a long way down — miles down.",
+      "question_type": "location_22",
+      "pattern_source": "catalog",
+      "pattern_type": "location_22",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What evidence supports the explanation of wings?",
+      "answer": "He felt certain that his wings would never support him; so he bent his head and ran away back to the little hole under the ledge where he slept at night.",
+      "question_type": "evidence_20",
+      "pattern_source": "catalog",
+      "pattern_type": "evidence_20",
+      "source_file": "english_03.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

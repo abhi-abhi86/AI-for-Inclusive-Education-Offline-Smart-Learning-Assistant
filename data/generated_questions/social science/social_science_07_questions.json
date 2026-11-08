@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What method is described for different materials?",
+    "question_type": "method_20",
+    "pattern_source": "catalog",
+    "pattern_type": "method_20",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can different materials be applied in practice?",
+    "question_type": "application_20",
+    "pattern_source": "catalog",
+    "pattern_type": "application_20",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to movement?",
+    "question_type": "main_idea_09",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_09",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about movement is important?",
+    "question_type": "detail_09",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_09",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Some?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Some is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who were the important people or groups connected with Some?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to Some?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies traders?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02",
+    "source_file": "social_science_07.pdf",
+    "page_or_id": "Page 1"
+  }
+]

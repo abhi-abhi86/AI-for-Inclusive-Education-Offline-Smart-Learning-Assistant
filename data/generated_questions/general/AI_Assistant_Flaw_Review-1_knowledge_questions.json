@@ -1,0 +1,298 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Findings?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Findings is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea of Findings?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does Findings mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea of Executive summary?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does Executive summary mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea of most urgent work?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does most urgent work mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about project?",
+    "question_type": "evaluation_15",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_15",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does project mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea of HIGH Unauthenticated upload?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does HIGH Unauthenticated upload mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Evidence?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What does Evidence mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What is the main idea of cloud requests?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What does cloud requests mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What is the main idea related to HIGH Unbounded request bodies?",
+    "question_type": "main_idea_12",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_12",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "Which detail about HIGH Unbounded request bodies is important?",
+    "question_type": "detail_12",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_12",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What is the main idea of HIGH Unbounded request bodies?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What does HIGH Unbounded request bodies mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What evidence supports the explanation of Improve?",
+    "question_type": "evidence_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_07",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What does Improve mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "Which detail identifies MEDIUM CORS?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "What does MEDIUM CORS mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2"
+  },
+  {
+    "question": "Which detail identifies upload?",
+    "question_type": "identify_19",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_19",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What does upload mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "Which detail about Fix retrieval abstention is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "Which detail identifies Fix retrieval abstention?",
+    "question_type": "identify_09",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_09",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What is the main idea of Fix retrieval abstention?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What does Fix retrieval abstention mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What is the main idea related to architecture?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "Which detail about architecture is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What claim is made about architecture?",
+    "question_type": "claim_05",
+    "pattern_source": "catalog",
+    "pattern_type": "claim_05",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What does architecture mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "Which detail identifies request validation?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  },
+  {
+    "question": "What does request validation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to polynomials?",
+    "question_type": "main_idea_15",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_15",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about polynomials is important?",
+    "question_type": "detail_15",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_15",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about polynomial is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies polynomial?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the meaning of polynomial in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What example is given for polynomial?",
+    "question_type": "example_03",
+    "pattern_source": "catalog",
+    "pattern_type": "example_03",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of Expressions?",
+    "question_type": "significance_19",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_19",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Expressions?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to Expressions?",
+    "question_type": "limitation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_19",
+    "source_file": "mathematics_02.pdf",
+    "page_or_id": "Page 1"
+  }
+]

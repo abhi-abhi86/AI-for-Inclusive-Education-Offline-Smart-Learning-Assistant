@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Paull?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies illustration?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about wheel?",
+    "question_type": "evaluation_15",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_15",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to western viewpoint?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about western viewpoint is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Dawn?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Dawn is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to areas?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about areas is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20",
+    "source_file": "social_science_13.pdf",
+    "page_or_id": "Page 1"
+  }
+]

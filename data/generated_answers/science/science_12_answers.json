@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "secs Magnetic Effects of ule Be",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Magnetic Effects of Electric Current 12CHAPTER I n the previous Chapter on ‘Electricity’ we learnt about the heating effects of electric current.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Magnetic Effects?",
+    "question_type": "identify_05",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_05"
+  },
+  {
+    "answer": "Let us perform the following Activity to reinforce it.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about following Activity?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03"
+  },
+  {
+    "answer": "Activity 12.1Activity 12.1Activity 12.1Activity 12.1Activity 12.1 /square6 Take a straight thick copper wire and place it between the points X and Y in an electric circuit, as shown in Fig.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What evidence supports the explanation of Activity?",
+    "question_type": "evidence_11",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_11"
+  },
+  {
+    "answer": "The wire XY is kept perpendicular to the plane of paper .",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to wire?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02"
+  },
+  {
+    "answer": "The wire XY is kept perpendicular to the plane of paper .",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about wire is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "/square6 Horizontally place a small compass near to this copper wire.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies small compass?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  },
+  {
+    "answer": "See the position of its needle.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to position?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16"
+  },
+  {
+    "answer": "See the position of its needle.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about position is important?",
+    "question_type": "detail_16",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_16"
+  },
+  {
+    "answer": "/square6 Observe the change in the position of the compass needle.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies change?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16"
+  },
+  {
+    "answer": "Figure 12.1Figure 12.1Figure 12.1Figure 12.1Figure 12.1 Compass needle is deflected on passing an electric current through a metallic conductor We see that the needle is deflected.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Compass needle?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "Figure 12.1Figure 12.1Figure 12.1Figure 12.1Figure 12.1 Compass needle is deflected on passing an electric current through a metallic conductor We see that the needle is deflected.",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Compass needle is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  }
+]

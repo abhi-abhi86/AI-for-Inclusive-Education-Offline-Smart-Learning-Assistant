@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_02.pdf",
+  "document_metadata": {
+    "title": "MATHEMA TICS",
+    "author": "a Vx +2"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_02_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_02_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 14,
+    "pages_with_text": 14,
+    "total_words": 3731,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_02.txt",
+    "document_metadata": {
+      "title": "MATHEMA TICS",
+      "author": "a Vx +2"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "10 MATHEMA TICS\n2\n2.1 Introduction\nIn Class IX, you have studied polynomials in one variable and their degrees. Recall\nthat if p(x) is a polynomial in x, the highest power of x in p(x) is called the degree of\nthe polynomial  p(x). For example, 4 x + 2 is a polynomial in the variable x of\ndegree 1, 2y2 – 3y + 4 is a polynomial in the variable y of degree 2, 5x3 – 4x2 + x – 2\nis a polynomial in the variable x of degree 3 and 7u6 – 423 482 uu u   is a polynomial\nin the variable u of degree 6. Expressions like 1\n1x \n, 2x  , 2\n1\n23xx   etc., are\nnot polynomials.\nA polynomial of degree 1 is called a linear polynomial. For example, 2 x – 3,\n35 ,x   2y , 211x  , 3z + 4, 2 13 u  , etc.,  are all linear polynomials. Polynomials\nsuch as 2x + 5 – x2, x3 + 1, etc., are not linear polynomials.\nA polynomial of degree 2 is called a quadratic polynomial. The name ‘quadratic’\nhas been derived from the word ‘quadrate’, which means ‘square’. 2 2 ,23 5xx\ny2 – 2, 223 ,x x  22 2 2125 , 5 , 433 7u uv v z    are some examples of\nquadratic polynomials (whose coefficients are real numbers). More generally, any\nquadratic polynomial in x is of the form ax2 + bx + c, where a, b, c are real numbers\nand a  0. A polynomial of degree 3 is called a cubic polynomial. Some examples of\nPOLYNOMIALS\nReprint 2026-27\n\nPOLYNOMIALS 11\na cubic polynomial are 2 – x3, x3, 32,x  3 – x2 + x3, 3x3 – 2x2 + x – 1. In fact, the most\ngeneral form of a cubic polynomial is\nax3 + bx2 + cx + d,\nwhere, a, b, c, d are real numbers and a  0.\nNow consider the polynomial p(x) = x2 – 3 x – 4. Then, putting x = 2 in the\npolynomial, we get p(2) = 22 – 3 × 2 – 4 = – 6. The value ‘– 6’, obtained by replacing\nx by 2 in x2 – 3x – 4, is the value of x2 – 3x – 4 at x = 2. Similarly, p(0) is the value of\np(x) at x = 0, which is – 4.\nIf p(x) is a polynomial in x, and if k is any real number, then the value obtained by\nreplacing x by k in p(x), is called the value of p(x) at x = k, and is denoted by p(k).\nWhat is the value of p(x) = x2 –3x – 4 at x = –1? We have :\np(–1) = (–1)2 –{3 × (–1)} – 4 = 0\nAlso, note that p(4) = 42 – (3  4) – 4 = 0.\nAs p(–1) = 0 and p(4) = 0, –1 and 4 are called the zeroes of the quadratic\npolynomial x2 – 3 x – 4. More generally, a real number k is said to be a zero of a\npolynomial p(x), if p(k) = 0.\nYou have already studied in Class IX, how to find the zeroes of a linear\npolynomial. For example, if k is a zero of p(x) = 2x + 3, then p(k) = 0 gives us\n2k + 3 = 0, i.e., k = 32\nIn general, if k is a zero of p(x) = ax + b, then p(k) = ak + b = 0, i.e., bk a\nSo, the zero of the linear polynomial ax + b is (Constant term)\nCoefficient of\nb\nax\n  .\nThus, the zero of a linear polynomial is related to its coefficients. Does this\nhappen in the case of other polynomials too? For example, are the zeroes of a quadratic\npolynomial also related to its coefficients?\nIn this chapter, we will try to answer these questions. We will also study the\ndivision algorithm for polynomials.\n2.2 Geometrical Meaning of the Zeroes of a Polynomial\nYou know that a real number k is a zero of the polynomial p(x) if p(k) = 0. But why\nare the zeroes of a polynomial so important? To answer this, first we will see the\ngeometrical representations of linear and quadratic polynomials and the geometrical\nmeaning of their zeroes.\nReprint 2026-27\n\n12 MATHEMA TICS\nConsider first a linear polynomial ax + b, a  0. You have studied in Class IX that the\ngraph of y = ax + b is a straight line. For example, the graph of y = 2x + 3 is a straight\nline passing through the points (– 2, –1) and (2, 7).\nx –2 2\ny = 2x + 3 –1 7\nFrom Fig. 2.1, you can see\nthat the graph of y = 2 x + 3\nintersects the x -axis mid-way\nbetween x = –1 and x  = – 2,\nthat is, at the point 3 , 02 .\nYou also know that the zero of\n2x + 3 is 3\n2 . Thus, the zero of\nthe polynomial 2 x + 3 is the\nx-coordinate of the point where the\ngraph of y = 2x + 3 intersects the\nx-axis.\nIn general, for a linear polynomial ax + b, a  0, the graph of y = ax + b is a\nstraight line which intersects the x-axis at exactly one point, namely, , 0ba .\nTherefore, the linear polynomial ax + b , a  0, has exactly one zero, namely, the\nx-coordinate of the point where the graph of y = ax + b intersects the x-axis.\nNow, let us look for the geometrical meaning of a zero of a quadratic polynomial.\nConsider the quadratic polynomial x 2 – 3 x – 4. Let us see what the graph * of\ny = x2 – 3x – 4 looks like. Let us list  a few values of y = x2 – 3x – 4 corresponding to\na few values for x as given in Table 2.1.\n* Plotting of graphs of quadratic or cubic polynomials is not meant to be done by the students,\nnor is to be evaluated.\nFig. 2.1\nReprint 2026-27\n\nPOLYNOMIALS 13\nTable 2.1\nx –  2 – 1012 3 4 5\ny = x2 – 3x –  46 0–  4–  6–  6 –  4 06\nIf we locate the points listed\nabove on a graph paper and draw\nthe graph, it will actually look like\nthe one given in Fig. 2.2.\nIn fact, for any quadratic\npolynomial ax2 + bx + c, a  0, the\ngraph of the corresponding\nequation y = ax2 + bx + c has one\nof the two shapes either open\nupwards like  or open\ndownwards like  depending on\nwhether a > 0 or a < 0. (These\ncurves are called  parabolas.)\nYou can see from Table 2.1\nthat –1 and 4 are zeroes of the\nquadratic polynomial. Also\nnote from Fig. 2.2 that –1 and 4\nare the x-coordinates of the points\nwhere the graph of y = x2 – 3x – 4\nintersects the x-axis. Thus, the\nzeroes of the quadratic polynomial\nx2 – 3 x – 4 are x-coordinates of\nthe points where the graph of\ny = x2 – 3 x – 4 intersects the\nx-axis.\nThis fact is true for any quadratic polynomial, i.e., the zeroes of a quadratic\npolynomial ax2 + bx + c, a  0, are precisely the x-coordinates of the points where the\nparabola representing  y = ax2 + bx + c intersects the x-axis.\nFrom our observation earlier about the shape of the graph of y = ax2 + bx + c, the\nfollowing three cases can happen:\nFig. 2.2\nReprint 2026-27\n\n14 MATHEMA TICS\nCase (i) : Here, the graph cuts x-axis at two distinct points A and A .\nThe x-coordinates of A and A are the two zeroes of the quadratic polynomial\nax2 + bx + c in this case (see Fig. 2.3).\nFig. 2.3\nCase (ii) : Here, the graph cuts the x-axis at exactly one point, i.e., at two coincident\npoints. So, the two points A and \nA of Case (i) coincide here to become one point A\n(see Fig. 2.4).\nFig. 2.4\nThe x-coordinate of A is the only zero for the quadratic polynomial ax2 + bx + c\nin this case.\nReprint 2026-27\n\nPOLYNOMIALS 15\nCase (iii) : Here, the graph is either completely above the x-axis or completely below\nthe x-axis. So, it does not cut the x-\naxis at any point (see Fig. 2.5).\nFig. 2.5\nSo, the quadratic polynomial ax2 + bx + c has no zero in this case.\nSo, you can see geometrically that a quadratic polynomial can have either two\ndistinct zeroes or two equal zeroes (i.e., one zero), or no zero. This also means that a\npolynomial of degree 2 has atmost two zeroes.\nNow, what do you expect the geometrical meaning of the zeroes of a cubic\npolynomial to be? Let us find out. Consider the cubic polynomial x3 – 4x. To see what\nthe graph of y = x3 – 4x looks like, let us list a few values of y corresponding to a few\nvalues for x as shown in Table 2.2.\nTable 2.2\nx –2 –1 0 1 2\ny = x3 – 4x 030 – 3 0\nLocating the points of the table on a graph paper and drawing the graph, we see\nthat the graph of y = x3 – 4x actually looks like the one given in Fig. 2.6.\nReprint 2026-27\n\n16 MATHEMA TICS\nWe see from the table above\nthat – 2, 0 and 2 are zeroes of the\ncubic polynomial x3 – 4x . Observe\nthat – 2, 0 and 2 are, in fact, the\nx-coordinates of the only points\nwhere the graph of y = x3 – 4 x\nintersects the x-axis. Since the curve\nmeets the x-axis in only these 3\npoints, their x-coordinates are the\nonly zeroes of the polynomial.\nLet us take a few more\nexamples. Consider the cubic\npolynomials x3 and x3 – x2. We draw\nthe graphs of y = x3 and y = x3 – x2\nin Fig. 2.7 and Fig. 2.8 respectively.\nFig. 2.7 Fig. 2.8\nFig. 2.6\nReprint 2026-27\n\nPOLYNOMIALS 17\nNote that 0 is the only zero of the polynomial x3. Also, from Fig. 2.7, you can see\nthat 0 is the x-coordinate of the only point where the graph of y = x3 intersects the\nx-axis. Similarly, since x3 – x2 = x2 (x – 1),  0 and 1 are the only zeroes of the polynomial\nx3 – x 2. Also, from Fig. 2.8, these values are the x-coordinates of the only points\nwhere the graph of y = x3 – x2 intersects the x-axis.\nFrom the examples above, we see that there are at most 3 zeroes for any cubic\npolynomial. In other words, any polynomial of degree 3 can have at most three zeroes.\nRemark : In general, given a polynomial p(x) of degree n, the graph of y = p(x)\nintersects the x-axis at atmost n points. Therefore, a polynomial p(x) of degree n has\nat most n zeroes.\nExample 1 : Look at the graphs in Fig. 2.9 given below. Each is the graph of y = p(x),\nwhere p(x) is a polynomial. For each of the graphs, find the number of zeroes of p(x).\nFig. 2.9\nSolution :\n(i\n) The number of zeroes is 1 as the graph intersects the x-axis at one point only.\n(ii) The number of zeroes is 2 as the graph intersects the x-\naxis at two points.\n(iii) The number of zeroes is 3. (Why?)\nReprint 2026-27\n\n18 MATHEMA TICS\n(iv) The number of zeroes is 1. (Why?)\n(v) The  number of zeroes is 1. (Why?)\n(vi) The number of zeroes is 4. (Why?)\nEXERCISE 2.1\n1. The graphs of y = p(x) are given in Fig. 2.10 below, for some polynomials p(x). Find the\nnumber of zeroes of p(x), in each case.\nFig. 2.10\n2.3 Relationship between Zeroes and Coefficients of a Polynomial\nYou have already seen that zero of a linear polynomial ax + b is b\na . We will now tryto answer the question raised in Section 2.1 regarding the relationship between zeroes\nand coefficients of a quadratic polynomial. For this, let us take a quadratic polynomial,\nsay p(x) = 2 x2 – 8 x + 6. In Class IX, you have learnt how to factorise quadratic\npolynomials by splitting the middle term. So, here we need to split the middle term\n‘– 8x’ as a sum of two terms, whose product is 6 × 2 x2 = 12x2. So, we write\n2x2 – 8x + 6 = 2x 2 – 6x – 2x + 6 = 2 x(x – 3) – 2( x – 3)\n=( 2x – 2)(x – 3) = 2( x – 1)(x – 3)\nReprint 2026-27\n\nPOLYNOMIALS 19\nSo, the value of p(x) = 2x2 – 8x + 6 is zero when x – 1 = 0 or x – 3 = 0, i.e., when\nx = 1 or x = 3. So, the zeroes of 2 x2 – 8x + 6 are 1 and 3. Observe that :\nSum of its zeroes = 2\n( 8) (Coefficient of )134\n2 Coefficient of\nx\nx\n  \nProduct of its zeroes = 2\n6 Constant term13 3\n2 Coefficient of x\n\nLet us take one more quadratic polynomial, say, p(x) = 3 x2 + 5 x – 2. By the\nmethod of splitting the middle term,\n3x2 + 5x – 2 = 3 x2 + 6x – x – 2 = 3x(x + 2) –1(x + 2)\n=( 3 x – 1)(x + 2)\nHence, the value of 3x2 + 5x – 2 is zero when either 3x – 1 = 0 or x + 2 = 0, i.e.,\nwhen x = 13  or x = –2. So, the zeroes of 3 x2 + 5x – 2 are 13  and – 2. Observe that :\nSum of its zeroes = 2\n1 5 (Coefficient of )(2 )33 Coefficient of xx  \nProduct of its zeroes = 2\n1 2 Constant term(2 )\n33 Coefficient of x\n  \nIn general, if * and * are the zeroes of the quadratic polynomial p(x) = ax2 + bx + c,\na  0, then you know that x –  and x –  are the factors of p (x). Therefore,\nax2 + bx + c = k(x – ) (x – ), where k is a constant\n= k[x2 – (  + )x + ]\n= kx2 – k( + )x + k \nComparing the coefficients of x2, x and constant terms on both the sides, we get\na = k , b =–  k( + ) and c = k\nThis gives    +    = –ba ,\n    = ca\n* , are Greek letters pronounced as ‘alpha’ and ‘beta’ respectively . We will use later one\nmore letter ‘’ pronounced as ‘gamma’.\nReprint 2026-27\n\n20 MATHEMA TICS\ni.e., sum of zeroes =  +  = 2\n(Coefficient of )\nCoefficient of\nbx\na x\n ,\nproduct of zeroes =  = 2\nConstant term\nCoefficient of\nc\na x .\nLet us consider some examples.\nExample 2 : Find the zeroes of the quadratic polynomial x2 + 7x + 10, and verify the\nrelationship between the zeroes and the coefficients.\nSolution : We have\nx2 + 7x + 10 = (x + 2)(x + 5)\nSo, the value of x2 + 7x + 10 is zero when x + 2 = 0 or x + 5 = 0, i.e., when x = – 2 or\nx = –5. Therefore, the zeroes of x2 + 7x + 10 are – 2 and – 5. Now,\nsum of zeroes = 2\n(7) – (Coefficient of ) ,–2 ( –5 ) –( 7)\n1 Coefficient of\nx\nx\n\nproduct of zeroes = 2\n10 Constant term(2 ) (5 ) 1 0\n1 Coefficient of x\n    \nExample 3 :  Find the zeroes of the polynomial x2 – 3 and verify the relationship\nbetween the zeroes and the coefficients.\nSolution : Recall the identity a2 – b2 = (a – b)(a + b). Using it, we can write:\nx2 – 3 =  33xx\nSo, the value of x2 – 3 is zero when x = 3  or x = –3 \nTherefore, the zeroes of x2 – 3 are 3  and 3\nNow,\nsum of zeroes = 2\n(Coefficient of ) ,33 0\nCoefficient of\nx\nx\n \nproduct of zeroes =   2\n3 Constant term33 – 3\n1 Coefficient of x\n \nReprint 2026-27\n\nPOLYNOMIALS 21\nExample 4 : Find a quadratic polynomial, the sum and product of whose zeroes are\n– 3 and 2, respectively.\nSolution : Let the quadratic polynomial be ax2 + bx + c, and its zeroes be  and .\nWe have\n +  = – 3 = ba ,\nand  =2  =  ca .\nIf a = 1, then b = 3 and c = 2.\nSo, one quadratic polynomial which fits the given conditions is x2 + 3x + 2.\nYou can check that any other quadratic polynomial that fits these conditions will\nbe of the form k(x2 + 3x + 2), where k is real.\nLet us now look at cubic polynomials. Do you think a similar relation holds\nbetween the zeroes of a cubic polynomial and its coefficients?\nLet us consider p(x) = 2x3 – 5x2 – 14x + 8.\nYou can check that p(x) = 0 for x = 4, – 2, 12  Since p(x) can have atmost three\nzeroes, these are the zeores of 2 x3 – 5x2 – 14x + 8. Now,\nsum of the zeroes =\n2\n3\n1 5 ( 5) (Coefficient of )4( 2 ) 22 2 Coefficient of xx      ,\nproduct of the zeroes = 3\n1 8 – Constant term4( 2 ) 4\n22 Coefficient of x\n      .\nHowever, there is one more relationship here. Consider the sum of the products\nof the zeroes taken two at a time. We have\n 114( 2 ) ( 2 ) 4 22         \n= 14–8 1 2 7 2   = 3Coefficient ofCoefficient of xx .\nIn general, it can be proved that if , ,  are the zeroes of the cubic polynomial\nax3 + bx2 + cx + d, then\nReprint 2026-27\n\n22 MATHEMA TICS\n   +    +    = –ba ,\n   +    +    = ca ,\n    = – da .\nLet us consider an example.\nExample 5* :  Verify that 3, –1, 13  are the zeroes of the cubic polynomial\np(x) = 3x3 – 5x2 – 11x – 3, and then verify the relationship between the zeroes and the\ncoefficients.\nSolution : Comparing the given polynomial with ax3 + bx2 + cx + d, we get\na = 3, b = – 5, c = –11, d = – 3. Further\np(3) = 3 × 33 – (5 × 32) – (11 × 3) – 3 = 81 – 45 – 33 – 3 = 0,\np(–1) = 3 × (–1) 3 – 5 × (–1) 2 – 11 × (–1) – 3 = –3 – 5 + 11 – 3 = 0,\n32\n11 1 1351 1 333 3 3p                ,\n            = 151 1 22–3 – 099 3 33  \nTherefore, 3, –1 and 13  are the zeroes of 3 x3 – 5x2 – 11x – 3.\nSo, we take  = 3,  = –1 and  = 13Now,\n11 5 ( 5 )3( 1 ) 2 33 3 3 ba           ,\n11 1 1 13( 1 ) ( 1 ) 3 3 1 33 33 ca                   ,\n1( 3 )3( 1 ) 1 33 da         .\n* Not from the examination point of view.\nReprint 2026-27\n\nPOLYNOMIALS 23\nEXERCISE 2.2\n1. Find the zeroes of the following quadratic polynomials and verify the relationship between\nthe zeroes and the coefficients.\n(i) x2 – 2x – 8 (ii) 4 s2 – 4s + 1 (iii) 6x2 – 3 – 7x\n(iv) 4 u2 + 8u (v) t2 – 15 (vi) 3x2 – x – 4\n2. Find a quadratic polynomial each with the given numbers as the sum and product of its\nzeroes respectively.\n(i) 1 , 14  (ii) 12, 3 (iii) 0, 5\n(iv) 1, 1 (v) 11,44 (vi) 4, 1\n2.4 Summary\nIn this chapter, you have studied the following points:\n1. Polynomials of degrees 1, 2 and 3 are called linear, quadratic and cubic polynomials\nrespectively.\n2. A quadratic polynomial in x with real coefficients is of the form ax2 + bx + c, where a, b, c\nare real numbers with a  0.\n3. The zeroes of a polynomial p(x) are precisely the x-coordinates of the points, where the\ngraph of y = p(x) intersects the x -axis.\n4. A quadratic polynomial can have at most 2 zeroes and a cubic polynomial can have\nat most 3 zeroes.\n5. If  and  are the zeroes of the quadratic polynomial ax2 + bx + c, then\nb\na   , ca .\n6. If , ,  are the zeroes of the cubic polynomial ax3 + bx2 + cx + d, then\nb\na\n ,\nc\na    ,\nand da .\nReprint 2026-27",
+      "source_file": "mathematics_02.pdf",
+      "document_metadata": {
+        "title": "MATHEMA TICS",
+        "author": "a Vx +2"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "MATHEMA TICS",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "a Vx +2",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "a Vx +2",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to polynomials?",
+      "answer": "In Class IX, you have studied polynomials in one variable and their degrees.",
+      "question_type": "main_idea_15",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_15",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about polynomials is important?",
+      "answer": "In Class IX, you have studied polynomials in one variable and their degrees.",
+      "question_type": "detail_15",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_15",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about polynomial is important?",
+      "answer": "Recall that if p(x) is a polynomial in x, the highest power of x in p(x) is called the degree of the polynomial p(x).",
+      "question_type": "detail_14",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_14",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies polynomial?",
+      "answer": "Recall that if p(x) is a polynomial in x, the highest power of x in p(x) is called the degree of the polynomial p(x).",
+      "question_type": "identify_15",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_15",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the meaning of polynomial in mathematics?",
+      "answer": "Recall that if p(x) is a polynomial in x, the highest power of x in p(x) is called the degree of the polynomial p(x).",
+      "question_type": "definition",
+      "pattern_source": "subject",
+      "pattern_type": "definition",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What example is given for polynomial?",
+      "answer": "For example, 4 x + 2 is a polynomial in the variable x of degree 1, 2y2 – 3y + 4 is a polynomial in the variable y of degree 2, 5x3 – 4x2 + x – 2 is a polynomial in the variable x of degree 3 and 7u6 – 423 482 uu u  is a polynomial in the variable u of degree 6.",
+      "question_type": "example_03",
+      "pattern_source": "catalog",
+      "pattern_type": "example_03",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the significance of Expressions?",
+      "answer": "Expressions like 1 1x  , 2x  , 2 1 23xx  etc., are not polynomials.",
+      "question_type": "significance_19",
+      "pattern_source": "catalog",
+      "pattern_type": "significance_19",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Expressions?",
+      "answer": "Expressions like 1 1x  , 2x  , 2 1 23xx  etc., are not polynomials.",
+      "question_type": "evaluation_19",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_19",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What limitation applies to Expressions?",
+      "answer": "Expressions like 1 1x  , 2x  , 2 1 23xx  etc., are not polynomials.",
+      "question_type": "limitation_19",
+      "pattern_source": "catalog",
+      "pattern_type": "limitation_19",
+      "source_file": "mathematics_02.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

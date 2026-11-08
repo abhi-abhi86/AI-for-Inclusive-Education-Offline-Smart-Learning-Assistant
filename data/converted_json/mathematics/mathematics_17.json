@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_17.pdf",
+  "document_metadata": {
+    "title": "ANSWERS/ HINTS",
+    "author": "bd a. 1 3"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_17_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_17_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 13,
+    "pages_with_text": 13,
+    "total_words": 3749,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_17.txt",
+    "document_metadata": {
+      "title": "ANSWERS/ HINTS",
+      "author": "bd a. 1 3"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "250 MATHEMATICS\nAPPENDIX 1\nANSWERS/ HINTS\nEXERCISE 1.1\n1. (i) 22 × 5 × 7 (ii) 22 × 3 × 13 (iii) 32 × 52 × 17\n(iv) 5 × 7 × 11 × 13 (v) 17 × 19 × 23\n2. (i) LCM = 182; HCF = 13 (ii) LCM = 23460; HCF = 2 (iii) LCM = 3024; HCF = 6\n3. (i) LCM = 420; HCF = 3 (ii) LCM = 11339; HCF = 1 (iii) LCM = 1800; HCF = 1\n4. 22338 7. 36 minutes\nEXERCISE 2.1\n1. (i) No zeroes (ii) 1 (iii) 3 (iv) 2 (v) 4 (vi) 3\nEXERCISE 2.2\n1. (i) –2, 4 (ii) 1 1,2 2 (iii) 1 3,3 2−\n(iv) –2, 0 (v) 15, 15− (vi) 4–1, 3\n2. (i) 4x2 – x – 4 (ii) 23 3 2 1x x− + (iii) 2 5x +\n(iv) x2 – x + 1 (v) 4x2 + x + 1 (vi) x2 – 4x + 1\nEXERCISE 3.1\n1. (i) Required pair of linear equations is\nx + y = 10; x – y = 4, where x is the number of girls and y is the number of boys.\nTo solve graphically draw the graphs of these equations on the same axes on graph\npaper.\nGirls = 7, Boys = 3.\nReprint 2026-27\n\nANSWERS/HINTS 251\n(ii) Required pair of linear equations is\n5x + 7y = 50; 7x + 5y = 46, where x and y represent the cost (in `) of a pencil and of\na pen respectively.\nTo solve graphically, draw the graphs of these equations on the same axes on graph\npaper.\nCost of one pencil = ` 3, Cost of one pen = ` 5\n2. (i) Intersect at a point (ii) Coincident (iii) Parallel\n3. (i) Consistent (ii) Inconsistent (iii) Consistent\n(iv) Consistent (v) Consistent\n4. (i) Consistent (ii) Inconsistent (iii) Consistent (iv) Inconsistent\nThe solution of (i) above, is given by y = 5 – x, where x can take any value, i.e., there are\ninfinitely many solutions.\nThe solution of (iii) above is x = 2, y = 2, i.e., unique solution.\n5. Length = 20 m and breadth = 16 m.\n6. One possible answer for the three parts:\n(i) 3x + 2y – 7 = 0 (ii) 2x + 3y – 12 = 0 (iii) 4x + 6y – 16 = 0\n7. Vertices of the triangle are (–1, 0), (4, 0) and (2, 3).\nEXERCISE 3.2\n1. (i) x = 9, y = 5 (ii) s = 9, t = 6 (iii) y = 3x – 3,\nwhere x can take any real value, i.e., infinitely many solutions.\n(iv) x = 2, y = 3 (v) x = 0, y = 0 (vi) x = 2, y = 3\n2. x = –2, y = 5; m = –1\n3. (i) x – y = 26, x = 3y, where x and y are two numbers (x > y); x = 39, y = 13.\n(ii) x – y = 18, x + y = 180, where x and y are the measures of the two angles in degrees;\nx = 99, y = 81.\n(iii) 7x + 6y = 3800, 3x + 5y = 1750, where x and y are the costs (in `) of one bat and one\nball respectively; x = 500, y = 50.\n(iv) x + 10y = 105, x + 15y = 155, where x is the fixed charge (in `) and y is the charge (in\n` per km); x =5, y = 10; ` 255.\n(v) 11x – 9y + 4 = 0, 6x – 5y + 3 = 0, where x and y are numerator and denominator of the\nfraction; 7 ( 7, 9).9 x y \n(vi) x – 3y – 10 = 0, x – 7y + 30 = 0, where x and y are the ages in years of Jacob and his\nson; x = 40, y = 10.\nReprint 2026-27\n\n252 MATHEMATICS\nEXERCISE 3.3\n1. (i) x = 195 , y = 65 (ii) x = 2, y = 1 (iii) x = 913 , y = 513−\n(iv) x = 2, y = –3\n2. (i) x – y + 2 = 0, 2x – y – 1 = 0, where x and y are the numerator and denominator of the\nfraction; \n3\n5 ⋅\n(ii) x – 3y + 10 = 0, x – 2y – 10 = 0, where x and y are the ages (in years) of Nuri and Sonu\nrespectively. Age of Nuri (x) = 50, Age of Sonu (y) = 20.\n(iii) x + y = 9, 8x – y = 0, where x and y are respectively the tens and units digits of the\nnumber; 18.\n(iv) x + 2y = 40, x + y = 25, where x and y are respectively the number of  ` 50 and ` 100\nnotes; x = 10, y = 15.\n(v) x + 4y = 27, x + 2y = 21, where x is the fixed charge (in `) and y is the additional\ncharge (in `) per day; x = 15, y = 3.\nEXERCISE 4.1\n1. (i) Yes (ii) Yes (iii) No (iv) Yes\n(v) Yes (vi) No (vii) No (viii) Yes\n2. (i) 2x2 + x – 528 = 0, where x is breadth (in metres) of the plot.\n(ii) x2 + x – 306 = 0, where x is the smaller integer.\n(iii) x2 + 32x – 273 = 0, where x (in years) is the present age of Rohan.\n(iv) u2 – 8u – 1280 = 0, where u (in km/h) is the speed of the train.\nEXERCISE 4.2\n1. (i) – 2, 5 (ii) 3– 2, 2 (iii) 5 , 22− −\n(iv) 1 1,4 4 (v) 1 1,10 10\n2. (i) 9, 36 (ii) 25, 30\n3. Numbers are 13 and 14. 4. Positive integers are 13 and 14.\n5. 5 cm and 12 cm 6. Number of articles = 6, Cost of each article = ` 15\nReprint 2026-27\n\nANSWERS/HINTS 253\nEXERCISE 4.3\n1. (i) Real roots do not exist (ii) Equal roots; 2 2,\n3 3\n(iii) Distinct roots; 3 32±\n2. (i) k = ± 2 6 (ii) k = 6\n3. Yes. 40 m, 20 m 4. No 5. Yes. 20 m, 20 m\nEXERCISE 5.1\n1. (i) Yes. 15, 23, 31, . . . forms an AP as each succeeding term is obtained by adding 8 in\nits preceding term.\n(ii) No. Volumes are V, \n2\n3V 3, V,4 4     /midhorizellipsis (iii) Yes. 150, 200, 250, . . . form an AP.\n(iv) No. Amounts are 10000 \n2 3\n8 8 8, ,,1 10000 1 10000 1100 100 100     + + +           /midhorizellipsis\n2. (i) 10, 20, 30, 40 (ii) – 2, – 2, – 2, – 2 (iii) 4, 1, – 2, – 5\n(iv) 1 1,–1, 0,2 2− (v) – 1.25, – 1. 50, – 1.75, – 2.0\n3. (i) a = 3, d = – 2 (ii) a = – 5, d = 4\n(iii) 1 4,3 3a d= = (iv) a = 0.6, d = 1.1\n4. (i) No (ii) Yes. 1 9 ,; 4, 52 2d =\n(iii) Yes. d = – 2; – 9.2, –11.2, – 13.2 (iv) Yes. d = 4; 6, 10, 14\n(v) Yes. d = 2 ; 3 4 2 , 3 5 2 , 3 6 2+ + + (vi) No\n(vii) Yes. d = – 4; – 16, – 20, – 24 (viii) Yes. 1 1 1 ,,0; 2 2 2d = − − −\n(ix) No (x) Yes. d = a; 5a, 6a, 7a\n(xi) No (xii) Yes. d = 2 ; 50 , 72 , 98\n(xiii) No (xiv) No (xv) Yes. d = 24; 97, 121, 145\nEXERCISE 5.2\n1. (i) an = 28 (ii) d = 2 (iii) a = 46 (iv) n = 10 (v) an = 3.5\nReprint 2026-27\n\n254 MATHEMATICS\n2. (i) C (ii) B\n3. (i) 14 (ii) 18  ,  8 (iii) 6   ,  812\n(iv) – 2   ,   0   ,   2   ,   4 (v) 53   ,   23   ,   8   ,   –7\n4. 16th term 5. (i) 34 (ii) 27\n6. No 7. 178 8. 64\n9. 5th term 10. 1 11. 65th term\n12. 100 13. 128 14. 60\n15. 13 16. 4, 10, 16, 22, . . .\n17. 20th term from the last term is 158.\n18. –13, –8, –3 19. 11th year 20. 10\nEXERCISE 5.3\n1. (i) 245 (ii) –180 (iii) 5505 (iv) 3320\n2. (i) 1046 12 (ii) 286 (iii) – 8930\n3. (i) n = 16, Sn = 440 (ii) d = 7 ,3  S13 = 273 (iii) a = 4, S12 = 246\n(iv) d = –1, a10 = 8 (v) a = 9\n35 85,\n3 3− = a (vi) n = 5, an = 34\n(vii) n = 6, d = 545 (viii) n = 7, a = – 8 (ix) d = 6\n(x) a = 4\n4. 12. By putting a = 9, d = 8, S = 636 in the formula S = [2 ( 1) ],2 + −n a n d  we get a quadratic\nequation 4n2 + 5n – 636 = 0. On solving, we get n = 53 , 124− . Out of these two roots only\none root 12 is admissible.\n5. n = 16, d = 83 6. n = 38, S = 6973 7. Sum = 1661\n8. S51 = 5610 9. n2 10. (i) S15 = 525 (ii) S15 = – 465\nReprint 2026-27\n\nANSWERS/HINTS 255\n11. S1 = 3, S2 = 4; a2 = S2 – S1 = 1; S3 = 3, a3 = S3 – S2 = –1,\na10 = S10 – S9 = – 15; an = Sn – Sn – 1 = 5 – 2n.\n12. 4920 13. 960 14. 625 15. ` 27750\n16. Values of the prizes (in `) are 160, 140, 120, 100, 80, 60, 40.\n17. 234 18. 143 cm\n19. 16 rows, 5 logs are placed in the top row. By putting S = 200, a = 20, d = –1 in the formula\nS = [2 ( 1) ],2 + −n a n d  we get, 41n – n2  = 400. On solving, n = 16, 25. Therefore, thenumber of rows is either 16 or 25. a25 = a + 24 d = – 4\ni.e., number of logs in 25th row is – 4 which is not possible. Therefore n = 25 is not\npossible. For n = 16, a16 = 5. Therefore, there are 16 rows and 5 logs placed in the top\nrow.\n20. 370 m\nEXERCISE 5.4 (Optional )*\n1. 32nd term 2. S16 = 20, 76 3. 385 cm\n4. 35 5. 750 m3\nEXERCISE 6.1\n1. (i) Similar (ii) Similar (iii) Equilateral\n(iv) Equal, Proportional 3. No\nEXERCISE 6.2\n1. (i) 2 cm (ii) 2.4 cm\n2. (i) No (ii) Yes (iiii) Yes\n9. Through O, draw a line parallel to DC, intersecting AD and BC at E and F respectively.\nEXERCISE 6.3\n1. (i) Yes. AAA, ∆ ABC ~ ∆ PQR (ii) Yes. SSS, ∆ ABC ~ ∆ QRP\n(iii) No (iv) Yes. SAS, ∆ MNL ~ ∆ QPR\n(v) No (vi) Yes. AA, ∆ DEF ~ ∆ PQR\n2. 55°, 55°, 55°\n14. Produce AD to a point E such that AD = DE and produce PM to a point N such that\nPM = MN. Join EC and NR.\n15. 42 m\nReprint 2026-27\n\n256 MATHEMATICS\nEXERCISE 7.1\n1. (i) 2 2 (ii) 4 2 (iii) 22 2 +a b\n2. 39; 39 km 3. No 4. Yes 5. Champa is correct.\n6. (i) Square (ii) No quadrilateral (iii) Parallelogram\n7. (– 7, 0) 8. – 9, 3 9. 4, QR = 41, PR = 82 , 9 2±\n10. 3x + y – 5 = 0\nEXERCISE 7.2\n1. (1, 3) 2. 5 72, ; 0,3 3   − −      \n3. 61m;  5th line at a distance of 22.5 m 4. 2 : 7\n5. 3 ,1 : 1 ; 0 2 −   6. x = 6, y = 3 7. (3, – 10)\n8. 2 20,\n7 7\n − −   9. 7 13,1, (0,5), 1,2 2   −       10. 24 sq. units\nEXERCISE 8.1\n1. (i) 7 24,sin A = cos A =25 25 (ii) 24 7,sin C = cos C =25 25\n2. 0 3. 7 3,cos A = tan A =4 7 4. 15 17,sin A = sec A =17 8\n5. 5 12 5 12 13 , ,, ,sin cos = tan cot cosec =13 13 12 5 5θ = θ θ = θ = θ\n7. (i)\n49\n64 (ii)\n49\n64 8. Yes\n9. (i) 1 (ii) 0 10. 12 5 12, ,sin P = cos P = tan P =13 13 5\n11. (i) False (ii) True (iii) False (iv) False (v) False\nReprint 2026-27\n\nANSWERS/HINTS 257\nEXERCISE 8.2\n1. (i) 1 (ii) 2 (iii) 3 2 68− (iv) 43 24 311− (v) 6712\n2. (i) A (ii) D (iii) A (iv) C 3. ∠ A = 45°, ∠ B = 15°\n4. (i) False (ii) True (iii) False (iv) False (v) True\nEXERCISE 8.3\n1.\n2\n2\n1 + cot A1 1, ,sin A = tan A = sec A =cot A cot A1 + cot A\n2.\n2\n2sec A – 1 1, ,sin A = cos A = tan A = sec A – 1sec A sec A\n2 2\n1 sec A,cot A = cosec A =\nsec A – 1 sec A – 1\n3.   (i) B (ii) C (iii) D (iv) D\nEXERCISE 9.1\n1. 10 m 2. 8 3 m 3. 3m, 2 3 m 4. 10 3 m\n5. 40 3 m 6. 19 3 m 7. ( )20 3 1 m− 8. ( )0.8 3 1 m+\n9. 216 m3 10. 20 3 m, 20m, 60m 11. 10 3 m, 10m 12. ( )7 3 1 m+\n13. 75( 3 1)m− 14. 58 3 m 15. 3 seconds\nEXERCISE 10.1\n1. Infinitely many\n2. (i) One (ii) Secant (iii) Two (iv) Point of contact 3. D\nEXERCISE 10.2\n1. A 2. B 3. A 6. 3 cm\n7.  8 cm 12. AB = 15 cm, AC = 13 cm\nReprint 2026-27\n\n258 MATHEMATICS\nEXERCISE 11.1\n1. 2132 cm7 2. 277 cm8 3. 2154 cm3\n4. (i) 28.5 cm2 (ii) 235.5 cm2\n5. (i) 22 cm (ii) 231 cm2 (iii) 2441 3231 cm 4  −   \n6. 20.4375 cm2 ; 686.0625 cm2 7. 88.44 cm2\n8. (i) 19.625 m2 (ii) 58.875 cm2 9. (i) 285 mm (ii) 2385 mm4\n10.\n222275  cm28 11. 2158125 cm126 12. 189.97 km2\n13. ` 162.68 14. D\nEXERCISE 12.1\n1. 160 cm2 2. 572 cm2 3. 214.5 cm2\n4. Greatest diameter = 7 cm,surface area = 332.5 cm2\n5. ( )21 244 l π + 6. 220 mm2 7. 44 m2, ` 22000\n8. 18 cm2 9. 374 cm2\nEXERCISE 12.2\n1. π cm3\n2. 66 cm3. Volume of the air inside the model = Volume of air inside (cone + cylinder + cone)\n= 2 2 21 2 11 1 ,3 3r h r h r h π + π + π    where r is the radius of the cone and the cylinder, h1 is\nthe height (length) of the cone and h2 is the height (length) of the cylinder .\nRequired Volume = ( )\n2\n1 2 1\n1 33 r h h hπ + + .\n3. 338 cm3 4. 523.53 cm3 5. 100 6. 892.26 kg\n7. 1.131 m3 (approx.) 8. Not correct. Correct answer is 346.51 cm3.\nReprint 2026-27\n\nANSWERS/HINTS 259\nEXERCISE 13.1\n1. 8.1 plants. We have used direct method because numerical values of xi and fi are small.\n2. ` 545.20 3. f = 20 4. 75.9\n5. 57.19 6. `  211 7. 0.099 ppm\n8. 12.48 days 9. 69.43 %\nEXERCISE 13.2\n1. Mode = 36.8 years, Mean = 35.37 years. Maximum number of patients admitted in the\nhospital are of the age 36.8 years (approx.), while on an average the age of a patient\nadmitted to the hospital is 35.37 years.\n2. 65.625 hours\n3. Modal monthly expenditure = ` 1847.83, Mean monthly expenditure = ` 2662.5.\n4. Mode : 30.6, Mean = 29.2. Most states/U.T. have a student teacher ratio of 30.6 and on\nan average, this ratio is 29.2.\n5. Mode = 4608.7 runs 6. Mode = 44.7 cars\nEXERCISE 13.3\n1. Median = 137 units, Mean = 137.05 units, Mode = 135.76 units.\nThe three measures are approximately the same in this case.\n2. x = 8, y = 7 3. Median age = 35.76 years\n4. Median length = 146.75 mm 5. Median life = 3406.98 hours\n6. Median = 8.05, Mean = 8.32, Modal size = 7.88\n7. Median weight = 56.67 kg\nEXERCISE 14.1\n1. (i) 1 (ii) 0, impossible event (iii) 1, sure or certain event\n(iv) 1 (v) 0, 1\n2. The experiments (iii) and (iv) have equally likely outcomes.\n3. When we toss a coin, the outcomes head and tail are equally likely . So, the result of an\nindividual coin toss is completely unpredictable.\n4. B 5. 0.95 6. (i) 0 (ii) 1\n7. 0.008 8. (i) 38 (ii) 58\n9. (i) 517 (ii) 817 (iii) 1317 10. (i) 59 (ii) 1718\nReprint 2026-27\n\n260 MATHEMATICS\n11. 513 12. (i) 18 (ii) 12 (iii) 34 (iv) 1\n13. (i) 12 (ii) 12 (iii) 12\n14. (i) 126 (ii) 313 (iii) 326 (iv) 152 (v) 14 (vi) 152\n15. (i) 15 (ii) (a) 14 (b) 0 16. 1112\n17. (i) 15 (ii) 1519 18. (i) 910 (ii) 110 (iii) 15\n19. (i) 1\n3\n(ii) 16 20. 24π 21. (i) 3136 (ii) 536\n22. (i)\nSum on 2 3\n4 5 6 7 8 9 10 11 12\n2 dice\nProbability\n1\n36\n2\n36\n3\n36\n4\n36\n5\n36\n6\n36\n5\n36\n4\n36\n3\n36\n2\n36\n1\n36\n(ii) No. The eleven sums are not equally likely.\n23. 3 ;4  Possible outcomes are : HHH, TTT, HHT, HTH, HTT, THH, THT, TTH. Here, THH\nmeans tail in the first toss, head on the second toss and head on the third toss and so on.\n24. (i) 25\n36\n(ii)\n11\n36\n25. (i) Incorrect. We can classify the outcomes like this but they are not then ‘equally\nlikely’. Reason is that ‘one of each’ can result in two ways — from a head on first\ncoin and tail on the second coin or from a tail on the first coin and head on the\nsecond coin. This makes it twicely as likely as two heads (or two tails).\n(ii) Correct. The two outcomes considered in the question are equally likely.\nReprint 2026-27\n\nANSWERS/HINTS 261\nEXERCISE A1.1\n1. (i) Ambiguous (ii) True (iii) True (iv) Ambiguous\n(v) Ambiguous\n2. (i) True (ii) True (iii) False (iv) True (v) True\n3. Only (ii) is true.\n4. (i) If a > 0 and a2 > b2, then a > b.\n(ii) If xy > 0 and x2 = y2, then x = y.\n(iii) If (x + y)2 = x2 + y2 and y ≠ 0, then x = 0.\n(iv) The diagonals of a parallelogram bisect each other.\nEXERCISE A1.2\n1. A is mortal 2. ab is rational\n3. Decimal expansion of 17  is non- terminating non- recurring.\n4. y = 7 5. ∠ A = 100°, ∠ C = 100°, ∠ D = 180°\n6. PQRS is a rectangle.\n7. Yes, because of the premise. No, because 3721 61=  which is not irrational. Since the\npremise was wrong, the conclusion is false.\nEXERCISE A1.3\n1. Take two consecutive odd numbers as 2n + 1 and 2n + 3 for some integer n.\nEXERCISE A1.4\n1. (i) Man is not mortal.\n(ii) Line l is not parallel to line m.\n(iii) The chapter does not have many exercises.\n(iv) Not all integers are rational numbers.\n(v) All prime numbers are not odd.\n(vi) Some students are lazy.\n(vii) All cats are black.\n(viii) There is at least one real number x, such that x  = – 1.\nReprint 2026-27\n\n262 MATHEMATICS\n(ix) 2 does not divide the positive integer a.\n(x) Integers a and b are not coprime.\n2. (i) Yes (ii) No (iii) No (iv) No (v) Yes\nEXERCISE A1.5\n1. (i) If Sharan sweats a lot, then it is hot in Tokyo.\n(ii) If Shalini’s stomach grumbles, then she is hungry.\n(iii) If Jaswant can get a degree, then she has a scholarship.\n(iv) If a plant is alive, then it has flowers.\n(v) If an animal has a tail, then it is a cat.\n2. (i) If the base angles of triangle ABC are equal, then it is isosceles. True.\n(ii) If the square of an integer is odd, then the integer is odd. True.\n(iii) If x = 1, then x2 = 1. True.\n(iv) If AC and BD bisect each other, then ABCD is a parallelogram. True.\n(v) If a + (b + c) = (a + b) + c, then a, b and c are whole numbers. False.\n(vi) If x + y is an even number, then x and y are odd. False.\n(vii) If a parallelogram is a rectangle, its vertices lie on a circle. True.\nEXERCISE A1.6\n1. Suppose to the contrary b ≤ d.\n3. See Example 10 of Chapter 1.\n6. See Theorem 5.1 of Class IX Mathematics Textbook.\nEXERCISE A2.2\n1. (i)\n1\n5 (ii) 160\n2. Take 1 cm 2 area and count the number of dots in it. Total number of trees will be the\nproduct of this number and the area (in cm2).\n3. Rate of interest in instalment scheme is 17.74 %, which is less than 18 %.\nEXERCISE A2.3\n1. Students find their own answers.\nReprint 2026-27",
+      "source_file": "mathematics_17.pdf",
+      "document_metadata": {
+        "title": "ANSWERS/ HINTS",
+        "author": "bd a. 1 3"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "ANSWERS/ HINTS",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "bd a. 1 3",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "bd a. 1 3",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What solution is suggested for graphs?",
+      "answer": "To solve graphically draw the graphs of these equations on the same axes on graph paper.",
+      "question_type": "solution_08",
+      "pattern_source": "catalog",
+      "pattern_type": "solution_08",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to Girls?",
+      "answer": "Girls = 7, Boys = 3.",
+      "question_type": "main_idea_02",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_02",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about Girls is important?",
+      "answer": "Girls = 7, Boys = 3.",
+      "question_type": "detail_02",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_02",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How is Girls represented mathematically?",
+      "answer": "Girls = 7, Boys = 3.",
+      "question_type": "notation",
+      "pattern_source": "subject",
+      "pattern_type": "notation",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What formula or rule is given for Girls?",
+      "answer": "Girls = 7, Boys = 3.",
+      "question_type": "formula",
+      "pattern_source": "subject",
+      "pattern_type": "formula",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to graphs?",
+      "answer": "To solve graphically, draw the graphs of these equations on the same axes on graph paper.",
+      "question_type": "main_idea_06",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_06",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about graphs is important?",
+      "answer": "To solve graphically, draw the graphs of these equations on the same axes on graph paper.",
+      "question_type": "detail_06",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_06",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What points about Cost are listed?",
+      "answer": "Cost of one pencil = ` 3, Cost of one pen = ` 5 2.",
+      "question_type": "list_12",
+      "pattern_source": "catalog",
+      "pattern_type": "list_12",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What symbol or notation is used for Cost?",
+      "answer": "Cost of one pencil = ` 3, Cost of one pen = ` 5 2.",
+      "question_type": "notation",
+      "pattern_source": "subject",
+      "pattern_type": "notation",
+      "source_file": "mathematics_17.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

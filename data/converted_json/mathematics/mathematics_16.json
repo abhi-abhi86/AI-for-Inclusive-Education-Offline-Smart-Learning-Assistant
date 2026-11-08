@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_16.pdf",
+  "document_metadata": {
+    "title": "MATHEMA TICAL MODELLING",
+    "author": "Class IX"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_16_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_16_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 11,
+    "pages_with_text": 11,
+    "total_words": 3541,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_16.txt",
+    "document_metadata": {
+      "title": "MATHEMA TICAL MODELLING",
+      "author": "Class IX"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "MATHEMA TICAL MODELLING 239\nA2\nA2.1 Introduction\n An adult human body contains approximately 1,50,000 km of arteries and veins\nthat carry blood.\n The human heart pumps 5 to 6 litres of blood in the body every 60 seconds.\n The temperature at the surface of the Sun is about 6,000° C.\nHave you ever wondered how our scientists and mathematicians could possibly\nhave estimated these results? Did they pull out the veins and arteries from some adult\ndead bodies and measure them? Did they drain out the blood to arrive at these results?\nDid they travel to the Sun with a thermometer to get the temperature of the Sun?\nSurely not. Then how did they get these figures?\nWell, the answer lies in mathematical modelling, which we introduced to you\nin Class IX. Recall that a mathematical model is a mathematical description of some\nreal-life situation. Also, recall that mathematical modelling is the process of creating a\nmathematical model of a problem, and using it to analyse and solve the problem.\nSo, in mathematical modelling, we take a real-world problem and convert it to an\nequivalent mathematical problem. We then solve the mathematical problem, and interpret\nits solution in the situation of the real-world problem. And then, it is important to see\nthat the solution, we have obtained, ‘makes sense’, which is the stage of validating the\nmodel. Some examples, where mathematical modelling is of great importance, are:\n(i) Finding the width and depth of a river at an unreachable place.\n(ii) Estimating the mass of the Earth and other planets.\n(iii) Estimating the distance between Earth and any other planet.\n(iv) Predicting the arrrival of the monsoon in a country.\nMATHEMATICAL MODELLING\nReprint 2026-27\n\n240 MATHEMA TICS\n(v) Predicting the trend of the stock market.\n(vi) Estimating the volume of blood inside the body of a person.\n(vii) Predicting the population of a city after 10 years.\n(viii) Estimating the number of leaves in a tree.\n(ix) Estimating the ppm of different pollutants in the atmosphere of a city.\n(x) Estimating the effect of pollutants on the environment.\n(xi) Estimating the temperature on the Sun’s surface.\nIn this chapter we shall revisit the process of mathematical modelling, and take\nexamples from the world around us to illustrate this. In Section A2.2 we take you\nthrough all the stages of building a model. In Section A2.3, we discuss a variety of\nexamples. In Section A2.4, we look at reasons for the importance of mathematical\nmodelling.\nA point to remember is that here we aim to make you aware of an important way\nin which mathematics helps to solve real-world problems. However, you need to know\nsome more mathematics to really appreciate the power of mathematical modelling. In\nhigher classes some examples giving this flavour will be found.\nA2.2 Stages in Mathematical Modelling\nIn Class IX, we considered some examples of the use of modelling. Did they give you\nan insight into the process and the steps involved in it? Let us quickly revisit the main\nsteps in mathematical modelling.\nStep 1 (Understanding the problem) : Define the real problem, and if working in a\nteam, discuss the issues that you wish to understand. Simplify by making assumptions\nand ignoring certain factors so that the problem is manageable.\nFor example, suppose our problem is to estimate the number of fishes in a lake. It is\nnot possible to capture each of these fishes and count them. We could possibly capture\na sample and from it try and estimate the total number of fishes in the lake.\nStep 2 (Mathematical description and formulation) : Describe, in mathematical\nterms, the different aspects of the problem. Some ways to describe the features\nmathematically, include:\n define variables\n write equations or inequalities\n gather data and organise into tables\n make graphs\n calculate probabilities\nReprint 2026-27\n\nMATHEMA TICAL MODELLING 241\nFor example, having taken a sample, as stated in Step 1, how do we estimate the\nentire population? We would have to then mark the sampled fishes, allow them to mix\nwith the remaining ones in the lake, again draw a sample from the lake, and see how\nmany of the previously marked ones are present in the new sample. Then, using ratio\nand proportion, we can come up with an estimate of the total population. For instance,\nlet us take a sample of 20 fishes from the lake and mark them, and then release them\nin the same lake, so as to mix with the remaining fishes. We then take another sample\n(say 50), from the mixed population and see how many are marked. So, we gather our\ndata and analyse it.\nOne major assumption we are making is that the marked fishes mix uniformly\nwith the remaining fishes, and the sample we take is a good representative of the\nentire population.\nStep 3 (Solving the mathematical problem) : The simplified mathematical problem\ndeveloped in Step 2 is then solved using various mathematical techniques.\nFor instance, suppose in the second sample in the example in Step 2, 5 fishes are\nmarked. So, 51,,i.e.,50 10  of the population is marked. If this is typical of the whole\npopulation, then 110 th of the population = 20.\nSo, the whole population = 20 × 10 = 200.\nStep 4  (Interpreting the solution) : The solution obtained in the previous step\nis now looked at, in the context of the real-life situation that we had started with in\nStep 1.\nFor instance, our solution in the problem in Step 3 gives us the population of\nfishes as 200.\nStep 5 (Validating the model) : We go back to the original situation and see if the\nresults of the mathematical work make sense. If so, we use the model until new\ninformation becomes available or assumptions change.\nSometimes, because of the simplification assumptions we make, we may lose\nessential  aspects of the real problem while giving its mathematical description. In\nsuch cases, the solution could very often be off the mark, and not make sense in the\nreal situation. If this happens, we reconsider the assumptions made in Step 1 and\nrevise them to be more realistic, possibly by including some factors which were not\nconsidered earlier.\nReprint 2026-27\n\n242 MATHEMA TICS\nReal-life problem\nDescribe the problem\nin mathematical terms\nSolve the\nproblem\nInterpret the\nsolution in the\nreal-life situation\nDoes the solution\ncapture the real-life\nsituation?\nModel is\nsuitable\nSimplify\nChange\nassumptions\nFor instance, in Step 3 we had obtained an estimate of the entire population of\nfishes. It may  not be the actual number of fishes in the pond. We next see whether\nthis is a good estimate of the population by repeating Steps 2 and 3 a few times, and\ntaking the mean of the results obtained. This would give a closer estimate of the\npopulation.\nAnother way of visualising the process of mathematical modelling  is shown\nin Fig. A2.1.\nFig. A2.1\nModellers look for a balance between simplification (for ease of solution) and\naccuracy. They hope to approximate reality closely enough to make some progress.\nThe best outcome is to be able to predict what will happen, or estimate an outcome,\nwith reasonable accuracy\n. Remember that different assumptions we use for simplifying\nthe problem can lead to different models. So, there are no perfect models. There are\ngood ones and yet better ones.\nNo Yes\nReprint 2026-27\n\nMATHEMA TICAL MODELLING 243\nEXERCISE A2.1\n1. Consider the following situation.\nA problem dating back to the early 13th century, posed by Leonardo Fibonacci asks\nhow many rabbits you would have if you started with just two and let them reproduce.\nAssume that a pair of rabbits produces a pair of offspring each month and that each\npair of rabbits produces their first offspring at the age of 2 months. Month by month\nthe number of pairs of rabbits is given by the sum of the rabbits in the two preceding\nmonths, except for the 0th and the 1st months.\nMonth Pairs of Rabbits\n01\n11\n22\n33\n45\n58\n61 3\n72 1\n83 4\n95 5\n10 89\n11 144\n12 233\n13 377\n14 610\n15 987\n16 1597\nAfter just 16 months, you have nearly 1600 pairs of rabbits!\nClearly state the problem and the different stages of mathematical modelling in this\nsituation.\nReprint 2026-27\n\n244 MATHEMA TICS\nA2.3 Some Illustrations\nLet us now consider some examples of mathematical modelling.\nExample 1 (Rolling of a pair of dice) : Suppose your teacher challenges you to the\nfollowing guessing game: She would throw a pair of dice. Before that you need to\nguess the sum of the numbers that show up on the dice. For every correct answer, you\nget two points and for every wrong guess you lose two points. What numbers would\nbe the best guess?\nSolution :\nStep 1 (Understanding the problem) : You need to know a few numbers which\nhave higher chances of showing up.\nStep 2 (Mathematical description) : In mathematical terms, the problem translates\nto finding out the probabilities of the various possible sums of numbers that the dice\ncould show.\nWe can model the situation very simply by representing a roll of the dice as a random\nchoice of one of the following thirty six pairs of numbers.\n(1, 1)\n(1, 2) (1, 3) (1, 4) (1, 5) (1, 6)\n(2, 1) (2, 2) (2, 3) (2, 4) (2, 5) (2, 6)\n(3, 1) (3, 2) (3, 3) (3, 4) (3, 5) (3, 6)\n(4, 1) (4, 2) (4, 3) (4, 4) (4, 5) (4, 6)\n(5, 1) (5, 2) (5, 3) (5, 4) (5, 5) (5, 6)\n(6, 1) (6, 2) (6, 3) (6, 4) (6, 5) (6, 6)\nThe first number in each pair represents the number showing on the first die, and the\nsecond number is the number showing on the second die.\nStep 3 (Solving the mathematical problem) : Summing the numbers in each pair\nabove, we find that possible sums are 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12. W\ne have to find\nthe probability for each of them, assuming all 36 pairs are equally likely.\nWe do this in the following table.\nSum 23456789 1 0 1 1 1 2\nProbability 136 236 336 436 536 636 536 436 336 236 136\nObserve that the chance of getting a sum of a seven is 1/6, which is larger than the\nchances of getting other numbers as sums.\nReprint 2026-27\n\nMATHEMA TICAL MODELLING 245\nStep 4 (Interpreting the solution) : Since the probability of getting the sum 7 is the\nhighest, you should repeatedly guess the number seven.\nStep 5 (Validating the model) : Toss a pair of dice a large number of times and\nprepare a relative frequency table. Compare the relative frequencies with the\ncorresponding probabilities. If these are not close, then possibly the dice are biased.\nThen, we could obtain data to evaluate the number towards which the bias is.\nBefore going to the next example, you may need some background.\nNot having the money you want when you need it, is a common experience for\nmany people. Whether it is having enough money for buying essentials for daily living,\nor for buying comforts, we always require money\n. To enable the customers with limited\nfunds to purchase goods like scooters, refrigerators, televisions, cars, etc., a scheme\nknown as an instalment scheme (or plan) is introduced by traders.\nSometimes a trader introduces an instalment scheme as a marketing strategy to\nallure customers to purchase these articles. Under the instalment scheme, the customer\nis not required to make full payment of the article at the time of buying it. She/he is\nallowed to pay a part of it at the time of purchase, and the rest can be paid in instalments,\nwhich could be monthly, quarterly, half-yearly, or even yearly. Of course, the buyer\nwill have to pay more in the instalment plan, because the seller is going to charge some\ninterest on account of the payment made at a later date (called deferred payment).\nBefore we take a few examples to understand the instalment scheme, let us\nunderstand the most frequently used terms related to this concept.\nThe cash price of an article is the amount which a customer has to pay as full\npayment of the article at the time it is purchased. Cash down payment is the amount\nwhich a customer has to pay as part payment of the price of an article at the time of\npurchase.\nRemark : If the instalment scheme is such that the remaining payment is completely\nmade within one year of the purchase of the article, then simple interest is charged on\nthe deferred payment.\nIn the past, charging interest on borrowed money was often considered evil, and,\nin particular, was long prohibited. One way people got around the law against\npaying interest was to borrow in one currency and repay in another , the interest\nbeing disguised in the exchange rate.\nLet us now come to a related mathematical modelling problem.\nReprint 2026-27\n\n246 MATHEMA TICS\nExample 2 : Juhi wants to buy a bicycle. She goes to the market and finds that the\nbicycle she likes is available for ` 1800. Juhi has ` 600 with her. So, she tells the\nshopkeeper that she would not be able to buy it. The shopkeeper, after a bit of\ncalculation, makes the following offer. He tells Juhi that she could take the bicycle by\nmaking a payment of ` 600 cash down and the remaining money could be made in two\nmonthly instalments of ` 610 each. Juhi has two options one is to go for instalment\nscheme or to make cash payment by taking loan from a bank which is available at the\nrate of 10% per annum simple interest. Which option is more economical to her?\nSolution :\nStep 1 (Understanding the pr oblem) : What Juhi needs to determine is whether\nshe should take the offer made by the shopkeeper or not. For this, she should know the\ntwo rates of interest— one charged in the instalment scheme and the other charged\nby the bank (i.e., 10%).\nStep 2 (Mathematical description) : In order to accept or reject the scheme, she\nneeds to determine the interest that the shopkeeper is charging in comparison to the\nbank. Observe that since the entire money shall be paid in less than a year, simple\ninterest shall be charged.\nWe know that the cash price of the bicycle = ` 1800.\nAlso, the cashdown payment under the instalment scheme = ` 600.\nSo, the balance price that needs to be paid in the instalment scheme = ` (1800 – 600)\n= ` 1200.\nLet r % per annum be the rate of interest charged by the shopkeeper.\nAmount of each instalment = ` 610\nAmount paid in instalments = ` 610 + ` 610 = ` 1220\nInterest paid in instalment scheme = ` 1220 – ` 1200 = ` 20 (1)\nSince, Juhi kept a sum of ` 1200 for one month, therefore,\nPrincipal for the first month = ` 1200\nPrincipal for the second month = ` (1200 – 610) = ` 590\nBalance of the second principal ` 590 + interest charged (` 20) = monthly instalment\n(` 610) = 2nd instalment\nSo, the total principal for one month = ` 1200 + ` 590 = ` 1790\nNow, interest = ` 1790 1100 12r (2)\nReprint 2026-27\n\nMATHEMA TICAL MODELLING 247\nStep 3 (Solving the problem) : From (1) and (2)\n1790 1\n100 12\nr\n  =2 0\nor r = 20 12001790  = 13.14 (approx.)\nStep 4 (Interpreting the solution) : The rate of interest charged in the instalment\nscheme = 13.14 %.\nThe rate of interest charged by the bank = 10%\nSo, she should prefer to borrow the money from the bank to buy the bicycle which is\nmore economical.\nStep 5 (V\nalidating the model) : This stage in this case is not of much importance\nhere as the numbers are fixed. However, if the formalities for taking loan from the\nbank such as cost of stamp paper , etc., which make the effective interest rate more\nthan what it is the instalment scheme, then she may change her opinion.\nRemark : Interest rate modelling is still at its early stages and validation is still a\nproblem of financial markets. In case, different interest rates are incorporated in fixing\ninstalments, validation becomes an important problem.\nEXERCISE A2.2\nIn each of the problems below, show the different stages of mathematical modelling for solving\nthe problems.\n1. An ornithologist wants to estimate the number of parrots in a large field. She uses a net\nto catch some, and catches 32 parrots, which she rings and sets free. The following\nweek she manages to net 40 parrots, of which 8 are ringed.\n(i) What fraction of her second catch is\nringed?\n(ii) Find an estimate of the total number\nof parrots in the field.\n2. Suppose the adjoining figure represents\nan aerial photograph of a forest with each\ndot representing a tree. Your purpose is to\nfind the number of trees there are on this\ntract of land as part of an environmental\ncensus.\nReprint 2026-27\n\n248 MATHEMA TICS\n3. A T.V . can be purchased for ` 24000 cash or for ` 8000 cashdown payment and six\nmonthly instalments of ` 2800 each. Ali goes to market to buy a T.V ., and he has\n` 8000 with him. He has now two options. One is to buy TV under instalment scheme\nor to make cash payment by taking loan from some financial society. The society\ncharges simple interest at the rate of 18% per annum simple interest. Which option\nis better for Ali?\nA2.4 Why is Mathematical Modelling Important?\nAs we have seen in the examples, mathematical modelling is an interdisciplinary subject.\nMathematicians and specialists in other fields share their knowledge and expertise to\nimprove existing products, develop better ones, or predict the behaviour of certain\nproducts.\nThere are, of course, many specific reasons for the importance of modelling, but\nmost are related in some ways to the following :\n To gain understanding. If we have a mathematical model which reflects the\nessential behaviour of a real-world system of interest, we can understand that\nsystem better through an analysis of the model. Furthermore, in the process of\nbuilding the model we find out which factors are most important in the system,\nand how the different aspects of the system are related.\n To predict, or forecast, or simulate. Very often, we wish to know what a real-\nworld system will do in the future, but it is expensive, impractical or impossible to\nexperiment directly with the system. For example, in weather prediction, to study\ndrug efficacy in humans, finding an optimum design of a nuclear reactor, and so\non.\nForecasting is very important in many types of organisations, since\npredictions of future events have to be incorporated into the decision-making\nprocess. For example:\nIn marketing departments, reliable forecasts of demand help in planning of\nthe sale strategies.\nA school board needs to able to forecast the increase in the number of\nschool going children in various districts so as to decide where and when to\nstart new schools.\nMost often, forecasters use the past data to predict the future. They first analyse\nthe data in order to identify a pattern that can describe it. Then this data and\npattern is extended into the future in order to prepare a forecast. This basic\nstrategy is employed in most forecasting techniques, and is based on the assumption\nthat the pattern that has been identified will continue in the future also.\nReprint 2026-27\n\nMATHEMA TICAL MODELLING 249\n To estimate. Often, we need to estimate large values. You’ve seen examples of\nthe trees in a forest, fish in a lake, etc. For another example, before elections, the\ncontesting parties want to predict the probability of their party winning the elections.\nIn particular, they want to estimate how many people in their constituency would\nvote for their party. Based on their predictions, they may want to decide on the\ncampaign strategy. Exit polls have been used widely to predict the number of\nseats, a party is expected to get in elections.\nEXERCISE A2.3\n1. Based upon the data of the past five years, try and forecast the average percentage of\nmarks in Mathematics that your school would obtain in the Class X board examination\nat the end of the year.\nA2.5 Summary\nIn this Appendix, you have studied the following points :\n1. A mathematical model is a mathematical description of a real-life situation. Mathematical\nmodelling is the process of creating a mathematical model, solving it and using it to\nunderstand the real-life problem.\n2. The various steps involved in modelling are : understanding the problem, formulating\nthe mathematical model, solving it, interpreting it in the real-life situation, and, most\nimportantly, validating the model.\n3. Developed some mathematical models.\n4. The importance of mathematical modelling.\nReprint 2026-27",
+      "source_file": "mathematics_16.pdf",
+      "document_metadata": {
+        "title": "MATHEMA TICAL MODELLING",
+        "author": "Class IX"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "MATHEMA TICAL MODELLING",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Class IX",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Class IX",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to human heart?",
+      "answer": " The human heart pumps 5 to 6 litres of blood in the body every 60 seconds.",
+      "question_type": "main_idea_21",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_21",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about human heart is important?",
+      "answer": " The human heart pumps 5 to 6 litres of blood in the body every 60 seconds.",
+      "question_type": "detail_21",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_21",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about temperature is important?",
+      "answer": " The temperature at the surface of the Sun is about 6,000° C.",
+      "question_type": "detail_23",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_23",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies temperature?",
+      "answer": " The temperature at the surface of the Sun is about 6,000° C.",
+      "question_type": "identify_24",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_24",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What solution is suggested for answer?",
+      "answer": "Well, the answer lies in mathematical modelling, which we introduced to you in Class IX.",
+      "question_type": "solution_07",
+      "pattern_source": "catalog",
+      "pattern_type": "solution_07",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to answer?",
+      "answer": "Well, the answer lies in mathematical modelling, which we introduced to you in Class IX.",
+      "question_type": "main_idea_07",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_07",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about answer is important?",
+      "answer": "Well, the answer lies in mathematical modelling, which we introduced to you in Class IX.",
+      "question_type": "detail_07",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_07",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to mathematical model?",
+      "answer": "Recall that a mathematical model is a mathematical description of some real-life situation.",
+      "question_type": "main_idea_17",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_17",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about mathematical model is important?",
+      "answer": "Recall that a mathematical model is a mathematical description of some real-life situation.",
+      "question_type": "detail_17",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_17",
+      "source_file": "mathematics_16.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

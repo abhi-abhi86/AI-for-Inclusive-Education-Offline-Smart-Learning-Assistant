@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the sequence described for politician?",
+    "question_type": "sequence_13",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_13",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of advertisement?",
+    "question_type": "significance_23",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_23",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What can be inferred about advertisement?",
+    "question_type": "inference_23",
+    "pattern_source": "catalog",
+    "pattern_type": "inference_23",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about advertisement?",
+    "question_type": "evaluation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_23",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to advertisement?",
+    "question_type": "limitation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_23",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does advertisement occur?",
+    "question_type": "condition_23",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_23",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can a problem involving reasoning be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about correct use?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to correct use?",
+    "question_type": "limitation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_08",
+    "source_file": "mathematics_15.pdf",
+    "page_or_id": "Page 1"
+  }
+]

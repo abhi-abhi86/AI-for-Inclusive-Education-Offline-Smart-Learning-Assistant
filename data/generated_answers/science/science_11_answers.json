@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "L | ia",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Bony",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Bony",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "It is a controllable and convenient form of energy for a variety of uses in homes, schools, hospitals, industries and so on.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the function of controllable and convenient form?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "In this Chapter, we shall attempt to answer such questions.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies such questions?",
+    "question_type": "identify_05",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_05"
+  },
+  {
+    "answer": "Similarly, if the electric charge flows through a conductor (for example, through a metallic wire), we say that there is an electric curr ent in the conductor.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to electric charge?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14"
+  },
+  {
+    "answer": "Similarly, if the electric charge flows through a conductor (for example, through a metallic wire), we say that there is an electric curr ent in the conductor.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about electric charge is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14"
+  },
+  {
+    "answer": "In a tor ch, we know that the cells (or a battery, when placed in proper order) provide flow of charges or an electric current through the torch bulb to glow.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about tor ch?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07"
+  },
+  {
+    "answer": "A continuous and closed path of an electric current is called an electric circuit.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does continuous and closed path mean in science?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "Now, if the circuit is broken anywhere (or the switch of the torch is turned off ), the current stops flowing and the bulb does not glow.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to circuit?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "Now, if the circuit is broken anywhere (or the switch of the torch is turned off ), the current stops flowing and the bulb does not glow.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about circuit is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  },
+  {
+    "answer": "In other words, it is the rate of flow of electric charges.",
+    "source_file": "science_11.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about words?",
+    "question_type": "evaluation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_23"
+  }
+]

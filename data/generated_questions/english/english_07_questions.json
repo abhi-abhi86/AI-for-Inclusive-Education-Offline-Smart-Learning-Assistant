@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Y OU R EAD?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What points about Y OU R EAD are listed?",
+    "question_type": "list_02",
+    "pattern_source": "catalog",
+    "pattern_type": "list_02",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the sequence described for Y OU R EAD?",
+    "question_type": "sequence_02",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_02",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about Y OU R EAD?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to death?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about death is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies death?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about death?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about words?",
+    "question_type": "evaluation_06",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_06",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1"
+  }
+]

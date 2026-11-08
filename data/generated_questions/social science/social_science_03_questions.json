@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies thr ee?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies All water moves?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to WATER SCARCITY?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to water shortages?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about water shortages is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to deserts?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about deserts is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What function does large population serve?",
+    "question_type": "function_16",
+    "pattern_source": "catalog",
+    "pattern_type": "function_16",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What method is described for large population?",
+    "question_type": "method_16",
+    "pattern_source": "catalog",
+    "pattern_type": "method_16",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1"
+  }
+]

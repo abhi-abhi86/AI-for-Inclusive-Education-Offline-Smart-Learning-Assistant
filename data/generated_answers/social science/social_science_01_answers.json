@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "ope Ic)",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "RESOURCES AN",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "RESOURCES AN",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Everything available in our envir onment which can be used to satisfy our needs, provided, it is technologically accessible, economically feasible and culturally acceptable can be termed as ‘Resource’.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to envir onment?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "Everything available in our envir onment which can be used to satisfy our needs, provided, it is technologically accessible, economically feasible and culturally acceptable can be termed as ‘Resource’.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about envir onment is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  },
+  {
+    "answer": "The process of transformation of things available in our environment involves an inter active relationship between nature, technology and institutions.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies transformation?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03"
+  },
+  {
+    "answer": "Human beings interact with nature through technology and create institutions to accelerate their economic development.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who played a role in Human beings?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person"
+  },
+  {
+    "answer": "Resources are a function of human activities.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Resources?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "Resources are a function of human activities.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Resources is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  },
+  {
+    "answer": "Resources are a function of human activities.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Resources?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18"
+  },
+  {
+    "answer": "Resources are a function of human activities.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who played a role in Resources?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person"
+  },
+  {
+    "answer": "Human beings themselves are essential components of resources.",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is connected with Human beings?",
+    "question_type": "person_06",
+    "pattern_source": "catalog",
+    "pattern_type": "person_06"
+  }
+]

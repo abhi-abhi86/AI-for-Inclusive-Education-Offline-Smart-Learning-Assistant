@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies planet?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about W e humans is important?",
+    "question_type": "detail_04",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_04",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies W e humans?",
+    "question_type": "identify_05",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_05",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who played a role in W e humans?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about plants?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Forests?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Forests is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Forests?",
+    "question_type": "identify_09",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_09",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to fact?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about discover ed?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to alr eady?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07",
+    "source_file": "social_science_02.pdf",
+    "page_or_id": "Page 1"
+  }
+]

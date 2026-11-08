@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Nelson Mandela: Long Walk to Freedom",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Nelson Mandela",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of “Nelson Mandela: Long Walk to Freedom”?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Nelson Mandela",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote “Nelson Mandela: Long Walk to Freedom”?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Mandela, and his African National Congress, spent a lifetime fighting against apartheid.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Mandela?",
+    "question_type": "main_idea_12",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_12"
+  },
+  {
+    "answer": "Mandela, and his African National Congress, spent a lifetime fighting against apartheid.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Mandela is important?",
+    "question_type": "detail_12",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_12"
+  },
+  {
+    "answer": "Mandela had to spend thirty years in prison.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Mandela?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "Mandela had to spend thirty years in prison.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about Mandela?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "Finally, democratic elections were held in South Africa in 1994, and Mandela became the first black President of a new nation.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to democratic elections?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07"
+  },
+  {
+    "answer": "Finally, democratic elections were held in South Africa in 1994, and Mandela became the first black President of a new nation.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about democratic elections is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07"
+  },
+  {
+    "answer": "The inauguration ceremony took place in the Union Buildings amphitheatre in Pretoria today, attended by politicians and dignitaries from more than 140 countries around the world.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies inauguration ceremony?",
+    "question_type": "identify_25",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_25"
+  },
+  {
+    "answer": "The inauguration ceremony took place in the Union Buildings amphitheatre in Pretoria today, attended by politicians and dignitaries from more than 140 countries around the world.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about inauguration ceremony?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "“Never, never again will this beautiful land experience the oppression of one by another, ” said Nelson Mandela in his address.",
+    "source_file": "english_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to oppression?",
+    "question_type": "main_idea_24",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_24"
+  }
+]

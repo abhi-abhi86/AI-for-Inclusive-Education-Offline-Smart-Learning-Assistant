@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "sy (e<ss| Heredity",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What might happen next based on original organism?",
+    "question_type": "prediction_17",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_17"
+  },
+  {
+    "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about original organism?",
+    "question_type": "evaluation_17",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_17"
+  },
+  {
+    "answer": "Each of the four individuals in the bottom row will be different fr om each other .",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies four individuals?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other .",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to differences?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06"
+  },
+  {
+    "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other .",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about differences is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06"
+  },
+  {
+    "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other .",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies differences?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07"
+  },
+  {
+    "answer": "We have discussed how some amount of variation is produced even during asexual reproduction.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to some amount?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10"
+  },
+  {
+    "answer": "We have discussed how some amount of variation is produced even during asexual reproduction.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about some amount is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10"
+  },
+  {
+    "answer": "And the number of successful variations are maximised by the process of sexual reproduction.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What method is described for successful variations?",
+    "question_type": "method_25",
+    "pattern_source": "catalog",
+    "pattern_type": "method_25"
+  },
+  {
+    "answer": "But in a number of animals including human beings, which reproduce sexually, quite distinct variations are visible among different individuals.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to animals?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22"
+  },
+  {
+    "answer": "But in a number of animals including human beings, which reproduce sexually, quite distinct variations are visible among different individuals.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about animals is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22"
+  }
+]

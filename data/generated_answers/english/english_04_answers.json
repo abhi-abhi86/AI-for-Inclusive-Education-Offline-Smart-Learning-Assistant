@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "a yy From the Diary of",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Anne Frank",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Anne Frank",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "After two years in hiding, the group was betrayed and transported to the concentration camp system where Anne died of typhus in Bergen-Belsen within days of her sister, Margot Frank.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about two years?",
+    "question_type": "evaluation_09",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_09"
+  },
+  {
+    "answer": "After two years in hiding, the group was betrayed and transported to the concentration camp system where Anne died of typhus in Bergen-Belsen within days of her sister, Margot Frank.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is connected with two years?",
+    "question_type": "person_09",
+    "pattern_source": "catalog",
+    "pattern_type": "person_09"
+  },
+  {
+    "answer": "Convinced that it was a unique record, he took action to have it published in English under the name The Diary of a Young Girl.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about unique record?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25"
+  },
+  {
+    "answer": "Convinced that it was a unique record, he took action to have it published in English under the name The Diary of a Young Girl.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about unique record?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "There have also been several films, television and theatrical productions, and even an opera, based on the diary.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about several films?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  },
+  {
+    "answer": "There have also been several films, television and theatrical productions, and even an opera, based on the diary.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about several films?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "Described as the work of a mature and insightful mind, the diary provides an intimate examination of daily life under Nazi occupation.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about work?",
+    "question_type": "evaluation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_14"
+  },
+  {
+    "answer": "Described as the work of a mature and insightful mind, the diary provides an intimate examination of daily life under Nazi occupation.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about work?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "Anne Frank has become one of the most renowned and discussed of the Holocaust victims.",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Anne Frank?",
+    "question_type": "identify_20",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_20"
+  }
+]

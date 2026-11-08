@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of Introduction?",
+    "question_type": "significance_12",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_12",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Introduction?",
+    "question_type": "evaluation_12",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_12",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to Introduction?",
+    "question_type": "limitation_12",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_12",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does Introduction occur?",
+    "question_type": "condition_12",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_12",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to some patterns?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about some patterns is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of Some such examples?",
+    "question_type": "significance_05",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_05",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Some such examples?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies years?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06",
+    "source_file": "mathematics_05.pdf",
+    "page_or_id": "Page 1"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "MATHEMA TICS",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Giant Wheel",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Giant Wheel",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "24 MATHEMA TICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of Introduction?",
+    "question_type": "significance_20",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_20"
+  },
+  {
+    "answer": "24 MATHEMA TICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Introduction?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20"
+  },
+  {
+    "answer": "She wanted to enjoy rides on the Giant Wheel and play Hoopla (a game in which you throw a ring on the items kept in a stall, and if the ring covers any object completely, you get it).",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of rides?",
+    "question_type": "significance_23",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_23"
+  },
+  {
+    "answer": "If each ride costs ` 3, and a game of Hoopla costs ` 4, how would you find out the number of rides she had and how many times she played Hoopla, provided she spent ` 20.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of each ride?",
+    "question_type": "significance_05",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_05"
+  },
+  {
+    "answer": "Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies linear equations?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21"
+  },
+  {
+    "answer": "Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What points about linear equations are listed?",
+    "question_type": "list_21",
+    "pattern_source": "catalog",
+    "pattern_type": "list_21"
+  },
+  {
+    "answer": "Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can a problem involving linear equations be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method"
+  },
+  {
+    "answer": "3.2 Graphical Method of Solution of a Pair of Linear Equations A pair of linear equations which has no solution, is called an inconsistent pair of linear equations.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Under what condition does Linear Equations occur?",
+    "question_type": "condition_03",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_03"
+  },
+  {
+    "answer": "3.2 Graphical Method of Solution of a Pair of Linear Equations A pair of linear equations which has no solution, is called an inconsistent pair of linear equations.",
+    "source_file": "mathematics_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What solution is suggested for Linear Equations?",
+    "question_type": "solution_03",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_03"
+  }
+]

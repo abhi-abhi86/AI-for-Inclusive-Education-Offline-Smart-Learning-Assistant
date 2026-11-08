@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Srinivasan Division Chief Editor?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What effect does principle have?",
+    "question_type": "effect_19",
+    "pattern_source": "catalog",
+    "pattern_type": "effect_19",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What caused principle, and what resulted from it?",
+    "question_type": "cause_effect_19",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_19",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to syllabi?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about syllabi is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about rote learning?",
+    "question_type": "evaluation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_14",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to success?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about success is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18",
+    "source_file": "social_science_09.pdf",
+    "page_or_id": "Page 1"
+  }
+]

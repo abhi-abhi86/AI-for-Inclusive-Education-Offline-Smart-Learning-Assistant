@@ -1,0 +1,677 @@
+[
+  {
+    "answer": "sy (e<ss| Heredity",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "the process of",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of “sy (e<ss| Heredity”?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "the process of",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote “sy (e<ss| Heredity”?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What might happen next based on original organism?",
+    "question_type": "prediction_17",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_17"
+  },
+  {
+    "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about original organism?",
+    "question_type": "evaluation_17",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_17"
+  },
+  {
+    "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of original organism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The original organism at the top will give rise to, say, two individuals, similar in body design, but with subtle differences.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does original organism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Each of them, in turn, will give rise to two individuals in the next generation.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of turn?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Each of them, in turn, will give rise to two individuals in the next generation.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does turn mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Each of the four individuals in the bottom row will be different from each other.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to four individuals?",
+    "question_type": "main_idea_25",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_25"
+  },
+  {
+    "answer": "Each of the four individuals in the bottom row will be different from each other.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about four individuals is important?",
+    "question_type": "detail_25",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_25"
+  },
+  {
+    "answer": "Each of the four individuals in the bottom row will be different from each other.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of four individuals?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Each of the four individuals in the bottom row will be different from each other.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does four individuals mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to differences?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07"
+  },
+  {
+    "answer": "While some of these differences will be unique, others will be inherited from their respective parents, who were different from each other.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about differences is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07"
+  },
+  {
+    "answer": "Heredity 129 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY The most obvious outcome of the reproductive process still remains the generation of individuals of similar design.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea related to Heredity?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18"
+  },
+  {
+    "answer": "Heredity 129 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY The most obvious outcome of the reproductive process still remains the generation of individuals of similar design.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail about Heredity is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18"
+  },
+  {
+    "answer": "Heredity 129 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY The most obvious outcome of the reproductive process still remains the generation of individuals of similar design.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea of Heredity?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Heredity 129 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY 8.2 HEREDITY The most obvious outcome of the reproductive process still remains the generation of individuals of similar design.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does Heredity mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The rules of heredity determine the process by which traits and characteristics are reliably inherited.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail about rules is important?",
+    "question_type": "detail_11",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_11"
+  },
+  {
+    "answer": "The rules of heredity determine the process by which traits and characteristics are reliably inherited.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail identifies rules?",
+    "question_type": "identify_12",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_12"
+  },
+  {
+    "answer": "The rules of heredity determine the process by which traits and characteristics are reliably inherited.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea of rules?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The rules of heredity determine the process by which traits and characteristics are reliably inherited.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does rules mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Let us take a closer look at these rules.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail identifies closer look?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16"
+  },
+  {
+    "answer": "Let us take a closer look at these rules.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does closer look mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We know that a child bears all the basic features of a human being.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea of child?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We know that a child bears all the basic features of a human being.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does child mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Science 130 Mendel used a number of contrasting visible characters of garden peas – round/wrinkled seeds, tall/short plants, white/violet flowers and so on.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "How can Science be applied in practice?",
+    "question_type": "application_20",
+    "pattern_source": "catalog",
+    "pattern_type": "application_20"
+  },
+  {
+    "answer": "Science 130 Mendel used a number of contrasting visible characters of garden peas – round/wrinkled seeds, tall/short plants, white/violet flowers and so on.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What conclusion can be drawn about Science?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20"
+  },
+  {
+    "answer": "Science 130 Mendel used a number of contrasting visible characters of garden peas – round/wrinkled seeds, tall/short plants, white/violet flowers and so on.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the main idea of Science?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Science 130 Mendel used a number of contrasting visible characters of garden peas – round/wrinkled seeds, tall/short plants, white/violet flowers and so on.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does Science mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "He took pea plants with different characteristics – a tall plant and a short plant, produced progeny by crossing them, and calculated the percentages of tall or short progeny.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the main idea related to pea plants?",
+    "question_type": "main_idea_09",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_09"
+  },
+  {
+    "answer": "He took pea plants with different characteristics – a tall plant and a short plant, produced progeny by crossing them, and calculated the percentages of tall or short progeny.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does pea plants mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "In the first place, there were no halfway characteristics in this first- generation, or F1 progeny – no ‘medium-height’ plants.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the sequence described for place?",
+    "question_type": "sequence_19",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_19"
+  },
+  {
+    "answer": "In the first place, there were no halfway characteristics in this first- generation, or F1 progeny – no ‘medium-height’ plants.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does place mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "This meant that only one of the parental traits was seen, not some mixture of the two.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the main idea of parental traits?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "This meant that only one of the parental traits was seen, not some mixture of the two.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does parental traits mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Mendelian experiments test this by getting both the parental plants and these F1 tall plants to reproduce by self-pollination.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the main idea of Mendelian experiments?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Mendelian experiments test this by getting both the parental plants and these F1 tall plants to reproduce by self-pollination.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does Mendelian experiments mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "They are all tall and have round seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "Which detail about round seeds is important?",
+    "question_type": "detail_09",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_09"
+  },
+  {
+    "answer": "They are all tall and have round seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "Which detail identifies round seeds?",
+    "question_type": "identify_10",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_10"
+  },
+  {
+    "answer": "They are all tall and have round seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea of round seeds?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "They are all tall and have round seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What does round seeds mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Tallness and round seeds are thus dominant traits.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea related to Tallness?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22"
+  },
+  {
+    "answer": "Tallness and round seeds are thus dominant traits.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "Which detail about Tallness is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22"
+  },
+  {
+    "answer": "Tallness and round seeds are thus dominant traits.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea of Tallness?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Tallness and round seeds are thus dominant traits.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What does Tallness mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "A Mendelian experiment will find that some F2 progeny are tall plants with round seeds, and some were short plants with wrinkled seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What might happen next based on Mendelian experiment?",
+    "question_type": "prediction_08",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_08"
+  },
+  {
+    "answer": "A Mendelian experiment will find that some F2 progeny are tall plants with round seeds, and some were short plants with wrinkled seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What conclusion can be drawn about Mendelian experiment?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  },
+  {
+    "answer": "A Mendelian experiment will find that some F2 progeny are tall plants with round seeds, and some were short plants with wrinkled seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea of Mendelian experiment?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "A Mendelian experiment will find that some F2 progeny are tall plants with round seeds, and some were short plants with wrinkled seeds.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4",
+    "question": "What does Mendelian experiment mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "This is explained by the fact that each gene set is present, not as a single long thread of DNA, but as separate independent pieces, each called a chromosome.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What is the main idea of fact?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "This is explained by the fact that each gene set is present, not as a single long thread of DNA, but as separate independent pieces, each called a chromosome.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What does fact mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Thus, each cell will have two copies of each chromosome, one each from the male and female parents.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "Who is connected with each cell?",
+    "question_type": "person_03",
+    "pattern_source": "catalog",
+    "pattern_type": "person_03"
+  },
+  {
+    "answer": "Thus, each cell will have two copies of each chromosome, one each from the male and female parents.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What does each cell mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Such a mechanism of inheritance explains the results of the Mendel experiments, and is used by all sexually reproducing organisms.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "Which detail identifies Such a mechanism?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  },
+  {
+    "answer": "Such a mechanism of inheritance explains the results of the Mendel experiments, and is used by all sexually reproducing organisms.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What effect does Such a mechanism have?",
+    "question_type": "effect_17",
+    "pattern_source": "catalog",
+    "pattern_type": "effect_17"
+  },
+  {
+    "answer": "Such a mechanism of inheritance explains the results of the Mendel experiments, and is used by all sexually reproducing organisms.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What caused Such a mechanism, and what resulted from it?",
+    "question_type": "cause_effect_17",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_17"
+  },
+  {
+    "answer": "Such a mechanism of inheritance explains the results of the Mendel experiments, and is used by all sexually reproducing organisms.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What does Such a mechanism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "But asexually reproducing organisms also follow similar rules of inheritance.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "Which detail identifies organisms?",
+    "question_type": "identify_08",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_08"
+  },
+  {
+    "answer": "But asexually reproducing organisms also follow similar rules of inheritance.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What does organisms mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "8.2.4 Sex Determination We have discussed the idea that the two sexes participating in sexual reproduction must be somewhat different from each other for a number of reasons.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What is the main idea of Sex Determination?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "8.2.4 Sex Determination We have discussed the idea that the two sexes participating in sexual reproduction must be somewhat different from each other for a number of reasons.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5",
+    "question": "What does Sex Determination mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "A man with blood group A marries a woman with blood group O and their daughter has blood group O.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What is the main idea of blood group?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "A man with blood group A marries a woman with blood group O and their daughter has blood group O.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What does blood group mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "n These variations may lead to increased survival of the individuals.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What might happen next based on variations?",
+    "question_type": "prediction_19",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_19"
+  },
+  {
+    "answer": "n These variations may lead to increased survival of the individuals.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What conclusion can be drawn about variations?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19"
+  },
+  {
+    "answer": "n These variations may lead to increased survival of the individuals.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What is the main idea of variations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "n These variations may lead to increased survival of the individuals.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What does variations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "n Sexually reproducing individuals have two copies of genes for the same trait.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What is the main idea of individuals?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "n Sexually reproducing individuals have two copies of genes for the same trait.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What does individuals mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "If the copies are not identical, the trait that gets expressed is called the dominant trait and the other is called the recessive trait.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What conclusion can be drawn about copies?",
+    "question_type": "evaluation_11",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_11"
+  },
+  {
+    "answer": "If the copies are not identical, the trait that gets expressed is called the dominant trait and the other is called the recessive trait.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What does copies mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "n Traits in one individual may be inherited separately, giving rise to new combinations of traits in the offspring of sexual reproduction.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What might happen next based on Traits?",
+    "question_type": "prediction_14",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_14"
+  },
+  {
+    "answer": "n Traits in one individual may be inherited separately, giving rise to new combinations of traits in the offspring of sexual reproduction.",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6",
+    "question": "What does Traits mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  }
+]

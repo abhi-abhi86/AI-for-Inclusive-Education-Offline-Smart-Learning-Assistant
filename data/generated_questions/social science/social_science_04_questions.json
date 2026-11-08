@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Why is India important?",
+    "question_type": "importance_13",
+    "pattern_source": "catalog",
+    "pattern_type": "importance_13",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about TYPES?",
+    "question_type": "evaluation_10",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_10",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to years?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about years is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Farming?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can Farming be classified?",
+    "question_type": "classify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "classify_16",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to present?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about present is important?",
+    "question_type": "detail_16",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_16",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about type?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1"
+  }
+]

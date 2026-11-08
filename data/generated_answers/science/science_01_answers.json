@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Chemical Reactions",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "/square6 food gets digested in our body.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies food?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16"
+  },
+  {
+    "answer": "In all the above situations, the nature and the identity of the initial substance have somewhat changed.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about all the above situations?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20"
+  },
+  {
+    "answer": "We have already learnt about physical and chemical changes of matter in our previous classes.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to physical and chemical changes?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14"
+  },
+  {
+    "answer": "We have already learnt about physical and chemical changes of matter in our previous classes.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about physical and chemical changes is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14"
+  },
+  {
+    "answer": "Whenever a chemical change occurs, we can say that a chemical reaction has taken place.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to chemical change?",
+    "question_type": "main_idea_09",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_09"
+  },
+  {
+    "answer": "Whenever a chemical change occurs, we can say that a chemical reaction has taken place.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about chemical change is important?",
+    "question_type": "detail_09",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_09"
+  },
+  {
+    "answer": "You may perhaps be wondering as to what is actually meant by a chemical reaction.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to chemical reaction?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "You may perhaps be wondering as to what is actually meant by a chemical reaction.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about chemical reaction is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "Let us perform some activities to find the answer to these questions.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What solution is suggested for some activities?",
+    "question_type": "solution_04",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_04"
+  },
+  {
+    "answer": "Figure 1.1 Burning of a magnesium ribbon in air and collection of magnesium oxide in a watch-glass Activity 1.1Activity 1.1Activity 1.1Activity 1.1Activity 1.1 CAUTION: This Activity needs the teacher’s assistance.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Burning?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "Figure 1.1 Burning of a magnesium ribbon in air and collection of magnesium oxide in a watch-glass Activity 1.1Activity 1.1Activity 1.1Activity 1.1Activity 1.1 CAUTION: This Activity needs the teacher’s assistance.",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Burning is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03"
+  }
+]

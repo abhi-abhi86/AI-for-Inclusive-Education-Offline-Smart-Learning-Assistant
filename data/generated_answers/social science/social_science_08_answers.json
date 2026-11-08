@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Websites you can see",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Bombay Natural History Society",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Bombay Natural History Society",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Gross Domestic Product: It is a monetary measure of the value of goods and services produced within a natural economy at a given period of time.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to monetary measure?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "Gross Domestic Product: It is a monetary measure of the value of goods and services produced within a natural economy at a given period of time.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about monetary measure is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03"
+  },
+  {
+    "answer": "Geologist: A scientist who studies the composition, structure and history of the earth.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Geologist?",
+    "question_type": "main_idea_04",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_04"
+  },
+  {
+    "answer": "Geologist: A scientist who studies the composition, structure and history of the earth.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Geologist is important?",
+    "question_type": "detail_04",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_04"
+  },
+  {
+    "answer": "Geologist: A scientist who studies the composition, structure and history of the earth.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who were the important people or groups connected with Geologist?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person"
+  },
+  {
+    "answer": "The average is 30 °C per kilometer in the upper crust.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about average?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25"
+  },
+  {
+    "answer": "Igneous Rocks: Rocks which have solidified from molten magma.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Igneous Rocks?",
+    "question_type": "main_idea_24",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_24"
+  },
+  {
+    "answer": "Igneous Rocks: Rocks which have solidified from molten magma.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Igneous Rocks is important?",
+    "question_type": "detail_24",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_24"
+  },
+  {
+    "answer": "Metamorphic Rocks: Rocks which were originally igneous or sedimentary, but have changed in character and appearance.",
+    "source_file": "social_science_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Metamorphic Rocks?",
+    "question_type": "evaluation_17",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_17"
+  }
+]

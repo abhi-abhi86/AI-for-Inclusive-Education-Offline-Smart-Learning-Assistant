@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies position?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of distance?",
+    "question_type": "significance_08",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_08",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the meaning of distance in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to distance?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about distance is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to coordinates?",
+    "question_type": "limitation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_08",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does coordinates occur?",
+    "question_type": "condition_08",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_08",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies play?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of pair?",
+    "question_type": "significance_18",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_18",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about pair?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to pair?",
+    "question_type": "limitation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_18",
+    "source_file": "mathematics_07.pdf",
+    "page_or_id": "Page 1"
+  }
+]

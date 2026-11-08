@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "english_10.pdf",
+  "document_metadata": {
+    "title": "Textbook in English for Class X",
+    "author": "First Flight"
+  },
+  "question_generation": {
+    "subject": "english",
+    "pattern_file": "data/question_patterns/english.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/english/english_10_questions.json",
+    "answers_path": "data/generated_answers/english/english_10_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 12,
+    "pages_with_text": 12,
+    "total_words": 2485,
+    "warnings": [],
+    "text_file": "data/converted_text/english/english_10.txt",
+    "document_metadata": {
+      "title": "Textbook in English for Class X",
+      "author": "First Flight"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "Reprint 2026-27\n\nFirst Edition\nFebruary 2007 Magha 1928\nReprinted\nNovember 2007, January 2009,\nDecember 2009, November 2010,\nJanuary 2012, December 2012,\nNovember 2013, November 2014,\nDecember 2015, February 2017,\nNovember 2017, December 2018,\nAugust 2019, January 2021 and\nNovember 2021\nRevised Edition\nOctober 2022 Kartika 1944\nReprinted\nMarch 2024 Chaitra 1946\nJune 2024 Jyeshtha 1946\nDecember 2024 Agrahayana 1946\nOctober 2025 Kartika 1947\nPD 350T SM\n© N ational Council of Educational\nResearch and Training, 2007, 2022\n` 75.00\nPrinted on 80 GSM paper with\nNCERT water mark\nALL RIGHTS RESERVED\nq No part of this publication may be reproduced, stored in a retrieval system\nor transmitted, in any form or by any means, electronic, mechanical,\nphotocopying, recording or otherwise without the prior permission of the\npublisher.\nq This book is sold subject to the condition that it shall not, by way of trade,\nbe lent,  re-sold, hired out or otherwise disposed of without the publisher’s\nconsent, in any form of binding or cover other than that in which it is published.\nq The correct price of this publication is the price printed on this page, Any\nrevised price indicated by a rubber stamp or by a sticker or by any other\nmeans is incorrect and should be unacceptable.\nOFFICES OF THE PUBLICATION\nDIVISION, NCERT\nNCERT Campus\nSri Aurobindo Marg\nNew  Delhi 110 016 Phone :  011-26562708\n108, 100 Feet Road\nHosdakere Halli Extension\nBanashankari III Stage\nBengaluru  560 085 Phone : 080-26725740\nNavjivan Trust Building\nP.O.Navjivan\nAhmedabad 380 014 Phone :  079-27541446\nCWC Campus\nOpp. Dhankal Bus Stop\nPanihati\nKolkata 700 114 Phone :  033-25530454\nCWC Complex\nMaligaon\nGuwahati 781 021 Phone :  0361-2674869\nPublication Team\nHead, Publication : M.V. Srinivasan\nDivision\nChief Editor : Bijnan Sutar\nChief Business : Amitabh Kumar\nManager\nChief Production : Deepak Jaiswal\nOfficer (I n charge)\nEditor : Vijayam\nSankaranarayanan\nProduction Assistant : Sahitya Sharma\nCover, Layout and Illustrations\nNidhi Wadhwa\n1059 – FIRST FLIGHT\nTextbook for Class X ISBN  81-7450-658-6\nPublished at the Publication Division\nby the Secretary, National Council of\nEducational Research and Training,\nSri Aurobindo Marg, New Delhi 110 016\nand printed at Raj Printers, A-9, Sector\nB-2, T ronica City , L oni, G haziabad\n(U.P.) 201102\nReprint 2026-27\n\nForeword\nTHE National Curriculum Framework (NCF), 2005,\nrecommends that children’s life at school must be linked\nto their life outside the school. This principle marks a\ndeparture from the legacy of bookish learning which\ncontinues to shape our system and causes a gap between\nthe school, home and community. The syllabi and\ntextbooks developed on the basis of NCF signify an attempt\nto implement this basic idea. They also attempt to\ndiscourage rote learning and the maintenance of sharp\nboundaries between different subject areas. We hope these\nmeasures will take us significantly further in the direction\nof a child-centered system of education outlined in the\nNational Policy of Education (1986).\nThe success of this effort depends on the steps that\nschool principals and teachers will take to encourage\nchildren to reflect on their own learning and to pursue\nimaginative activities and questions. We must recognise\nthat, given space, time and freedom, children generate new\nknowledge by engaging with the information passed on to\nthem by adults. Treating the prescribed textbook as the\nsole basis of examination is one of the key reasons why\nother resources and sites of learning are ignored.\nInculcating creativity and initiative is possible if we perceive\nand treat children as participants in learning, not as\nreceivers of a fixed body of knowledge.\nThese aims imply considerable change in school\nroutines and mode of functioning. Flexibility in the daily\ntime-table is as necessary as rigour in implementing the\nannual calendar so that the required number of teaching\ndays are actually devoted to teaching. The methods used\nfor teaching and evaluation will also determine how effective\nthis textbook proves for making children’s life at school a\nhappy experience, rather than a source of stress or\nboredom. Syllabus designers have tried to address the\nproblem of curricular burden by restructuring and\nreorienting knowledge at different stages with greater\nReprint 2026-27\n\nconsideration for child psychology and the time available\nfor teaching. The textbook attempts to enhance this\nendeavour by giving higher priority and space to\nopportunities for contemplation and wondering,\ndiscussion in small groups, and activities requiring\nhands-on experience.\nThe National Council of Educational Research and\nTraining (NCERT) appreciates the hard work done by the\ntextbook development committee responsible for this book.\nWe wish to thank the Chairperson of the advisory group\nin languages, Professor Namwar Singh, and the Chief\nAdvisor for this book, Professor R. Amritavalli, for guiding\nthe work of this committee. Several teachers contributed\nto the development of this textbook; we are grateful to their\nprincipals for making this possible. We are indebted to the\ninstitutions and organisations which have generously\npermitted us to draw upon their resources, materials and\npersonnel. We are especially grateful to the members of\nthe National Monitoring Committee, appointed by the\nDepartment of Secondary and Higher Education,\nMinistry of Human Resource Development under the\nChairpersonship of Professor Mrinal Miri and\nProfessor G.P . Deshpande for their valuable time\nand contribution. As an organisation committed to\nsystemic reform and continuous improvement in the\nquality of its products, NCERT welcomes comments and\nsuggestions which will enable us to undertake further\nrevision and refinements.\nDirector\nNew Delhi National Council of Educational\n20 November 2006 Research and Training\nReprint 2026-27\n\nRATIONALISATION OF C ONTENT\nIN THE TEXTBOOKS\nIn view of the COVID-19 pandemic, it is imperative to\nreduce content load on students. The National\nEducation Policy 2020, also emphasises reducing the\ncontent load and providing opportunities for\nexperiential learning with creative mindset. In this\nbackground, the NCER T has undertaken the exercise\nto rationalise the textbooks across all classes. Learning\nOutcomes alr eady developed by the NCER T acr oss\nclasses have been taken into consideration in this\nexercise.\nContents of the textbooks have been rationalised\nin view of the following:\n• Content based on genres of literature in the\ntextbooks and supplementary readers at\ndifferent stages of school education\n• Content that is meant for achieving Learning\nOutcomes for developing language proficiency\nand is accessible at different stages\n• For reducing the curriculum load and\nexamination stress in view of the previling\ncondition of the Pandemic\n• Content, which is easily accessible to students\nwithout much interventions from teachers and\ncan be learned by children through self-learning\nor peer -learning\n• Content, which is irrelevant in the present\ncontext\nThis present edition, is a reformatted version\nafter carrying out the changes given above.\nReprint 2026-27\n\nReprint 2026-27\n\nFirst Flight, a textbook in English for Class X, is based\non the new syllabus in English which was prepared as\na follow-up to the National Curriculum Framework,\n2005. The English curriculum lays emphasis on\nproviding a variety of rich, comprehensible inputs to\nlearners to enable their engagement in learning; and\non recognising the multilinguality of everyday\nexperience in India. This textbook aims at helping the\nlearner to read for meaning in context, thus providing\na bank of language to serve as a base for\ncommunication in English.\n• This book presents you with texts in a variety of\ngenres, including the diary, the formal address, the\ntravelogue, and the play, on literary, cultural and\nsociological themes that touch upon aspects of life\nrelevant to adolescents. Questions and ideas about\nthe individual and society, the understanding and\nmanagement of one’s emotions, and of one’s place\nin a larger time and space, are here presented both\nby such voices from contemporary history as Nelson\nMandela and Anne Frank, and in fiction from India\nand abroad, chosen for their enduring value. There\nare units that present glimpses of our country, and\ndepict our relationship with the natural world.\n• The units in the book have been loosely structured\nin the following way. An introductory section, Before\nYou Read, gives information or activates knowledge\nabout the text to be read, and suggests some warm-\nup activities. Let children participate in these to the\nfullest extent; where necessary or possible, add some\nactivities of your own.\n• An innovation made in consultation with teachers is a\nwhile-reading activity, the Oral Comprehension Check,\nwhich aims at a quick, ongoing check that learners are\nindeed following the text up to that point, so that they\ncan progress meaningfully to the parts of the text that\nTo the Teacher\nReprint 2026-27\n\nfollow. Let learners briefly share their understanding by\norally answering the questions in this section.\nReflection, expression of individual opinion and deeper\nunderstanding of the text can occur later, when the text\nhas been read and understood in its totality, in the section\nThinking about the Text. The questions in the latter\nsection are designed to enable the learner to move from\nfactual understanding to critical thinking. \n• Thinking about Language provides exercises or tasks\nthat follow naturally from the contexts suggested by a\nparticular unit, for enrichment of vocabulary and other\nlanguage skills. Exploit them well and also create your\nown activities. Exercises for the communicative skills of\nlistening, speaking, and writing have been given in\ncontexts that support group or pair activity. A variety of\nwriting tasks have been aimed at.\n• While dealing with poems, let children understand and\nenjoy the theme and the language by reading a poem with\nclose attention, more than once, silently or along with the\nteacher or a partner. Where some information has been\nprovided about the poet or the background to the poem,\nthis should not stand in the way of the learner accessing\nthe poem directly, and attempting to make sense of it. \nHow do we read poetry? Here is what one teacher says.\nAll poetry requires patience. Be patient with the text;\nread carefully for nuance and inference. Know what the\nwords mean. Look up words that are unfamiliar — look\nup words that are familiar but you cannot specify. Pay\nattention to words or phrases that resonate with other\nthings you know and try to identify the connection. Be\npatient and read slowly, and you will be amply rewarded.\n• Each unit includes some guidelines for your assistance,\nunder the head In This Lesson, organised under two\nsubsections — What We Have Done, and What You Can\nDo. The first subsection summarises the theme of the unit,\nand/or its activities. The second suggests interesting\npossibilities for you to go beyond the text, using the text as\na springboard for a variety of language activities appropriate\nto your particular group of learners. Suggested here, for\nexample, are group activities for speaking or making a ticket\ncollage, as well as dictation. As you follow these suggestions\nand take these activities forward along your own lines, you\nwill be able to enrich your students’ learning.\nvi\nReprint 2026-27\n\nTextbook Development Committee\nCHAIRPERSON, ADVISORY GROUP IN LANGUAGES\nProfessor Namwar Singh, formerly Chairman, School of\nLanguages, Jawaharlal Nehru University, New Delhi\nCHIEF ADVISOR\nR. Amritavalli, Professor, Central Institute of English and\nForeign Languages (CIEFL), Hyderabad\nCHIEF COORDINATOR\nRam Janma Sharma, Professor and Head, Department\nof Languages, NCERT, New Delhi\nMEMBERS\nKalyani Samantray, Reader, SBW College, Cuttack\nKirti Kapur, Lecturer, Department of Languages, NCERT\n,\nNew Delhi\nLakshmi Rawat, TGT, BRD Sarvodaya Kanya Vidyalaya,\nPrasad Nagar, Karol Bagh, New Delhi\nNasiruddin Khan, Reader, Department of Languages\nNCERT, New Delhi\nPadmini Baruah, Reader, Department of ELT, Guwahati\nUniversity, Guwahati\nSadhana Agarwal, TGT , SKV Dayanand School,\nDaryaganj, Delhi\nSadhana Parashar , Education Of ficer (EL T), CBSE,\nCommunity Centre, Preet Vihar, Delhi\nSandhya Sahoo, Reader, Regional Institute of Education\n(NCERT), Bhubaneswar\nShruti Sircar, Lecturer, Centre for ESL Studies, CIEFL,\nHyberabad\nMEMBER– COORDINATOR\nR. Meganathan, Lecturer, Department of Languages,\nNCERT, New Delhi\nReprint 2026-27\n\nTHE National Council of Educational Research and Training is\ngrateful to Pr ofessor M.L.  Tickoo, for merly of the CIEFL,\nHyderabad and the Regional Language Centre, Singapore;\nProfessor Jayasheelan formerly of the CIEFL, Hyderabad; and\nProfessor Rajiv Krishnan of the CIEFL, Hyderabad, for their\nvaluable suggestions and advice in the development of this book.\nWe thank Dr Shyamla Kumaradoss for developing the\nteacher’s guidelines for each unit so as to maximise learning.\nFor permission to reproduce copyright material in this\nbook, NCER T would like to thank the following: Sahitya\nAkademi for ‘A Baker from Goa’ by Lucio Rodrigues from\nModern Indian Literature: An Anthology, (Volume Three — Plays\nand Prose); Media Transasia India Limited, New Delhi, for\n‘Coorg’ and the accompanying photographs by Lokesh Abrol;\nLittle Brown and Company, London, for the extract ‘Nelson\nMandela: Long Walk to Freedom’ from Long Walk to Freedom:\nThe Autobiography of Nelson Mandela; National Book Trust,\nIndia, New Delhi, for ‘Madam Rides the Bus’ by\nVallikannan and for ‘Tea from Assam’ from \nStory of Tea by\nArup Kumar Dutta; R. K. Laxman for the illustrations in\n‘Madam Rides the Bus’; Macmillan Publishing Company, New\nYork, for ‘The Ball Poem’ by John Berryman and for ‘Fire and\nIce’ and ‘Dust of Snow’ by Robert Frost from the Anthology of\nAmerican Literature II : Realism to the Present (Third Edition);\nPuffin Books, London, for ‘From the Diary of Anne Frank’, an\nextract from The Diary of a Y oung Girl’; Longmans for the\nextract, ‘Mijbil the Otter’ from Ring of Bright Water; Random\nHouse, New York, for the poem ‘The Panther’ by Rainer Maria\nRilke, edited and translated by Stephen Mitchell; Amitai\nEtzioni, George Washington University, for the text ‘Good Grief’;\nHolt, Rinehard and Winston Inc., New York, for the text ‘The\nSermon at Benares’ by Betty Renshaw.\nSpecial thanks are also due to the Publication\nDepartment, NCER T, for their support. NCER T gratefully\nacknowledges the contributions made by Neena Chandra,\nCopy Editor;  Mohammed Harun and Arvind Sharma,\nDTP Operators; Parash Ram, Incharge, Computer Resource\nCentre, NCERT; and Mathew John, Proof Reader.\nAcknowledgements\nReprint 2026-27\n\nContents\nForeword iii\nRationalisation of Content in the Textbooks v\nTo the Teacher vii\n1. A Letter to God 1\nG.L.FUENTES\nDust of Snow 14\nROBERT FROST\nFire and Ice 15\nR\nOBERT FROST\n2. Nelson Mandela: Long Walk to Fr eedom 16\nNELSON ROLIHLAHLA MANDELA\nA Tiger in the Zoo 29\nLESLIE NORRIS\n3. Two Stories about Flying 32\nI. His First Flight\nLIAM O’ FLAHERTY\nII. Black Aeroplane\nFREDERICK FORSYTH\nHow to Tell Wild Animals 43\nCAROLYN WELLS\nThe Ball Poem 46\nJOHN BERRYMAN\n4. From the Diary of Anne Frank 48\nANNE FRANK\nAmanda! 61\nROBIN KLEIN\nReprint 2026-27\n\n5. Glimpses of India 63\nI. A Baker from Goa\nLUCIO RODRIGUES\nII. Coorg\nLOKESH ABROL\nIII. Tea from Assam\nARUP\n KUMAR DATTA\nThe T rees 77\nADRIENNE RICH\n6. Mijbil the Otter 80\nGAVIN MAXWELL\nFog 93\nCARL SANDBURG\n7. Madam Rides the Bus 94\nVALLIKKANNAN\nThe Tale of Custard the Dragon 107\nOGDEN NASH\nx\n8. The Sermon at Benares 111\nFor Anne Gregory 118\nWILLIAM BUTLER YEATS\n9. The Proposal 120\nANTON CHEKOV\nReprint 2026-27",
+      "source_file": "english_10.pdf",
+      "document_metadata": {
+        "title": "Textbook in English for Class X",
+        "author": "First Flight"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "Textbook in English for Class X",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "First Flight",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "First Flight",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Why does principle have this effect?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "why",
+      "pattern_source": "evidence",
+      "pattern_type": "why",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What does the writer explain about syllabi?",
+      "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+      "question_type": "comprehension",
+      "pattern_source": "subject",
+      "pattern_type": "comprehension",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is mentioned or involved in relation to success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "who",
+      "pattern_source": "evidence",
+      "pattern_type": "who",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies space?",
+      "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+      "question_type": "identify_01",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_01",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to prescribed?",
+      "answer": "Treating the prescribed textbook as the sole basis of examination is one of the key reasons why other resources and sites of learning are ignored.",
+      "question_type": "main_idea_10",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_10",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about prescribed is important?",
+      "answer": "Treating the prescribed textbook as the sole basis of examination is one of the key reasons why other resources and sites of learning are ignored.",
+      "question_type": "detail_10",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_10",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to Inculcating creativity?",
+      "answer": "Inculcating creativity and initiative is possible if we perceive and treat children as participants in learning, not as receivers of a fixed body of knowledge.",
+      "question_type": "main_idea_21",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_21",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about Inculcating creativity is important?",
+      "answer": "Inculcating creativity and initiative is possible if we perceive and treat children as participants in learning, not as receivers of a fixed body of knowledge.",
+      "question_type": "detail_21",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_21",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies considerable change?",
+      "answer": "These aims imply considerable change in school routines and mode of functioning.",
+      "question_type": "identify_17",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_17",
+      "source_file": "english_10.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

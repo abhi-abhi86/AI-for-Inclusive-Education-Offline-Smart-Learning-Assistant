@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "BEFORE Y OU R EAD",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Gavin Maxwell",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Gavin Maxwell",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD Gavin Maxwell lives in a cottage in Camusfear na, in the West Highlands in Scotland.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Y OU R EAD Gavin Maxwell?",
+    "question_type": "identify_04",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_04"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD Gavin Maxwell lives in a cottage in Camusfear na, in the West Highlands in Scotland.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the sequence described for Y OU R EAD Gavin Maxwell?",
+    "question_type": "sequence_04",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_04"
+  },
+  {
+    "answer": "If you do, you perhaps know that a pet is a serious responsibility.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies serious responsibility?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18"
+  },
+  {
+    "answer": "If you do, you perhaps know that a pet is a serious responsibility.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about serious responsibility?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "Read in the box below what the SPCA — the Society for the Prevention of Cruelty to Animals — has to say about how to care for a pet.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to SPCA?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18"
+  },
+  {
+    "answer": "Read in the box below what the SPCA — the Society for the Prevention of Cruelty to Animals — has to say about how to care for a pet.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about SPCA is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18"
+  },
+  {
+    "answer": "The decision to acquire one, therefore, should be made by the whole family.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What decision is made concerning decision?",
+    "question_type": "decision_17",
+    "pattern_source": "catalog",
+    "pattern_type": "decision_17"
+  },
+  {
+    "answer": "The decision to acquire one, therefore, should be made by the whole family.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to decision?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "The decision to acquire one, therefore, should be made by the whole family.",
+    "source_file": "english_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about decision is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  }
+]

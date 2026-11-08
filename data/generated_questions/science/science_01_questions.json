@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies food?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about all the above situations?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to physical and chemical changes?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about physical and chemical changes is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to chemical change?",
+    "question_type": "main_idea_09",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_09",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about chemical change is important?",
+    "question_type": "detail_09",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_09",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to chemical reaction?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about chemical reaction is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What solution is suggested for some activities?",
+    "question_type": "solution_04",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_04",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Burning?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Burning is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03",
+    "source_file": "science_01.pdf",
+    "page_or_id": "Page 1"
+  }
+]

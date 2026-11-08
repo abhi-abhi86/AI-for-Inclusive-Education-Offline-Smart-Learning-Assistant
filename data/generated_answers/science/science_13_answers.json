@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Sats ol",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Our Envi",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Our Envi",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "In this chapter, we shall be studying how various components in the environment interact with each other and how we impact the environment.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies how various components?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22"
+  },
+  {
+    "answer": "All the interacting organisms in an area together with the non-living constituents of the environment form an ecosystem.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies All the interacting organisms?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21"
+  },
+  {
+    "answer": "For example, if you visit a garden you will find different plants, such as grasses, trees; flower bearing plants like rose, jasmine, sunflower; and animals like frogs, insects and birds.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies garden?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18"
+  },
+  {
+    "answer": "So a garden is an ecosystem.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to garden?",
+    "question_type": "main_idea_15",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_15"
+  },
+  {
+    "answer": "Other types of ecosystems are forests, ponds and lakes.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about types?",
+    "question_type": "evaluation_13",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_13"
+  },
+  {
+    "answer": "These are natural ecosystems while gardens and crop-fields are human- made (artificial) ecosystems.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies natural ecosystems?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06"
+  },
+  {
+    "answer": "Let us try to design one.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies design?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "Let us try to design one.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What points about design are listed?",
+    "question_type": "list_02",
+    "pattern_source": "catalog",
+    "pattern_type": "list_02"
+  },
+  {
+    "answer": "/square6 We can pr ovide oxygen thr ough an oxygen pump (aerator) and fish food which is available in the market.",
+    "source_file": "science_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to ovide oxygen thr?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Acids, B",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Acids, Bases and Salts 2CHAPTER Y ou have lear nt in your pr evious classes that the sour and bitter tastes of food are due to acids and bases, respectively, present in them.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to lear?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06"
+  },
+  {
+    "answer": "Surely you must have used your knowledge about the ability of acids and bases to nullify each other’s effect.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "How does knowledge work?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "/square6 Recall how we tested sour and bitter substances without tasting them.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about sour and bitter substances?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18"
+  },
+  {
+    "answer": "You already know that acids are sour in taste and change the colour of blue litmus to red, whereas, bases are bitter and change the colour of the red litmus to blue.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies acids?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23"
+  },
+  {
+    "answer": "Litmus is a natural indicator, turmeric is another such indicator.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Litmus?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14"
+  },
+  {
+    "answer": "Litmus is a natural indicator, turmeric is another such indicator.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Litmus is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14"
+  },
+  {
+    "answer": "It turns yellow again when the cloth is washed with plenty of water.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies cloth?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21"
+  },
+  {
+    "answer": "You can also use synthetic indicators such as methyl orange and phenolphthalein to test for acids and bases.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "How does synthetic indicators work?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "In this Chapter, we will study the reactions of acids and bases, how acids and bases cancel out each other’s effects and many more interesting things that we use and see in our day-to-day life.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the function of reactions?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "Litmus solution is a purple dye, which is extracted from lichen, a plant belonging to the division Thallophyta, and is commonly used as an indicator.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Litmus solution?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21"
+  },
+  {
+    "answer": "Litmus solution is a purple dye, which is extracted from lichen, a plant belonging to the division Thallophyta, and is commonly used as an indicator.",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the function of Litmus solution?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "ALL RIGHTS RESERVED",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Social Science",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Social Science",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about principle?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why"
+  },
+  {
+    "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about rote learning?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about success?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Where is success found or described?",
+    "question_type": "location_05",
+    "pattern_source": "catalog",
+    "pattern_type": "location_05"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is connected with success?",
+    "question_type": "person_05",
+    "pattern_source": "catalog",
+    "pattern_type": "person_05"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who were the important people or groups connected with success?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is mentioned or involved in relation to success?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "We must recogni se that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about space?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01"
+  }
+]

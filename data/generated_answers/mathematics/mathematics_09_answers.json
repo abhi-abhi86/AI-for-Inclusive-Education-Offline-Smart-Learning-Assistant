@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "SOME APPLICATIONS OF TRIGONOMETRY",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Fig",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Fig",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can some ways be applied in practice?",
+    "question_type": "application_24",
+    "pattern_source": "catalog",
+    "pattern_type": "application_24"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of some ways?",
+    "question_type": "significance_24",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_24"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What might happen next based on some ways?",
+    "question_type": "prediction_24",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_24"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about some ways?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to some ways?",
+    "question_type": "limitation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_24"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Under what condition does some ways occur?",
+    "question_type": "condition_24",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_24"
+  },
+  {
+    "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can a problem involving some ways be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method"
+  },
+  {
+    "answer": "8.1 of prvious chapter, which is redrawn below in Fig.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to prvious?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19"
+  },
+  {
+    "answer": "9.1 In this figure, the line AC drawn from the eye of the student to the top of the minar is called the line of sight.",
+    "source_file": "mathematics_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to figure?",
+    "question_type": "limitation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_14"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "BEFORE Y OU R EAD",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Anton Chekov",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Anton Chekov",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD Activity 1.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Y OU R EAD Activity?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD Activity 1.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about Y OU R EAD Activity?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "The word ‘proposal’ has several meanings.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about word?",
+    "question_type": "evaluation_02",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_02"
+  },
+  {
+    "answer": "The word ‘proposal’ has several meanings.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about word?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "Read this article about a Russian wedding.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about article?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01"
+  },
+  {
+    "answer": "Read this article about a Russian wedding.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about article?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "The planning only includes arranging for rings, brides’ dress, cars, and a reception.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about planning?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03"
+  },
+  {
+    "answer": "The planning only includes arranging for rings, brides’ dress, cars, and a reception.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about planning?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "The necessary part of the wedding ceremony is a wedding procession of several cars.",
+    "source_file": "english_09.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about necessary?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "MATHEMA TICS",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Let us now examine the different situations that can arise when a circle and a line are given in a plane.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to different situations?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14"
+  },
+  {
+    "answer": "Let us now examine the different situations that can arise when a circle and a line are given in a plane.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about different situations is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14"
+  },
+  {
+    "answer": "There can be three possibilities given in Fig.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of three possibilities?",
+    "question_type": "significance_08",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_08"
+  },
+  {
+    "answer": "There can be three possibilities given in Fig.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about three possibilities?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  },
+  {
+    "answer": "There can be three possibilities given in Fig.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to three possibilities?",
+    "question_type": "limitation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_08"
+  },
+  {
+    "answer": "There can be three possibilities given in Fig.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Under what condition does three possibilities occur?",
+    "question_type": "condition_08",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_08"
+  },
+  {
+    "answer": "10.1 (i), the line PQ and the circle have no common point.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to line PQ?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18"
+  },
+  {
+    "answer": "10.1 (i), the line PQ and the circle have no common point.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about line PQ is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18"
+  },
+  {
+    "answer": "In this case, PQ is called a non-intersecting line with respect to the circle.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies case?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11"
+  },
+  {
+    "answer": "In this case, PQ is called a non-intersecting line with respect to the circle.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the meaning of case in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "In this case, we call the line PQ a secant of the circle.",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to case?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22"
+  }
+]

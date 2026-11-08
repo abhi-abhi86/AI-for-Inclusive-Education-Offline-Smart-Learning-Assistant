@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about TRIGONOMETRY?",
+    "question_type": "evaluation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_14",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to TRIGONOMETRY?",
+    "question_type": "limitation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_14",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does TRIGONOMETRY occur?",
+    "question_type": "condition_14",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_14",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies right triangles?",
+    "question_type": "identify_14",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_14",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to right triangles?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to school?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about school is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to school?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about right triangle?",
+    "question_type": "evaluation_13",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_13",
+    "source_file": "mathematics_08.pdf",
+    "page_or_id": "Page 1"
+  }
+]

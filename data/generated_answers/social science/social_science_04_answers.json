@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "bates, Fs,",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Ratt",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Ratt",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "India is an agriculturally important country.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Why is India important?",
+    "question_type": "importance_13",
+    "pattern_source": "catalog",
+    "pattern_type": "importance_13"
+  },
+  {
+    "answer": "TYPES OF FARMING Agriculture is an age-old economic activity in our country.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about TYPES?",
+    "question_type": "evaluation_10",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_10"
+  },
+  {
+    "answer": "Over these years, cultivation methods have changed significantly depending upon the characteristics of physical environment, technological know-how and socio-cultural practices.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to years?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05"
+  },
+  {
+    "answer": "Over these years, cultivation methods have changed significantly depending upon the characteristics of physical environment, technological know-how and socio-cultural practices.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about years is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05"
+  },
+  {
+    "answer": "Farming varies from subsistence to commercial type.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Farming?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16"
+  },
+  {
+    "answer": "Farming varies from subsistence to commercial type.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can Farming be classified?",
+    "question_type": "classify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "classify_16"
+  },
+  {
+    "answer": "At present, in dif ferent parts of India, the following farming systems are practised.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to present?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16"
+  },
+  {
+    "answer": "At present, in dif ferent parts of India, the following farming systems are practised.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about present is important?",
+    "question_type": "detail_16",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_16"
+  },
+  {
+    "answer": "Primitive Subsistence Farming This type of farming is still practised in few pockets of India.",
+    "source_file": "social_science_04.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about type?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_11.pdf",
+  "document_metadata": {
+    "title": "AREAS RELATED TO CIRCLES 11",
+    "author": "AREAS RELATED TO CIRCLES"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_11_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_11_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 7,
+    "pages_with_text": 7,
+    "total_words": 1680,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_11.txt",
+    "document_metadata": {
+      "title": "AREAS RELATED TO CIRCLES 11",
+      "author": "AREAS RELATED TO CIRCLES"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "154 MATHEMATICS\n11\n11.1 Areas of Sector and Segment of a Circle\nYou have already come across the terms sector and\nsegment of a circle in your earlier classes. Recall\nthat the portion (or part) of the circular region enclosed\nby two radii and the corresponding arc is called a\nsector of the circle and the portion (or part) of the\ncircular region enclosed between a chord and the\ncorresponding arc is called a segment of the circle.\nThus, in Fig. 11.1, shaded region OAPB is a sector\nof the circle with centre O. ∠ AOB is called the\nangle of the sector. Note that in this figure, unshaded region OAQB is also a sector of\nthe circle. For obvious reasons, OAPB is called the minor sector and\nOAQB is called the major sector. You can also see that angle of the major sector is\n360° – ∠ AOB.\nNow, look at Fig. 11.2 in which AB is a chord\nof the circle with centre O. So, shaded region APB is\na segment of the circle. You can also note that\nunshaded region AQB is another segment of the circle\nformed by the chord AB. For obvious reasons, APB\nis called the minor segment and AQB is called the\nmajor segment .\nRemark :  When we write ‘segment’  and ‘sector ’\nwe will mean the ‘minor segment’ and the ‘minor\nsector’ respectively, unless stated otherwise.\nAREAS RELATED TO CIRCLES\nFig. 1 1.2\nFig. 1 1.1\nReprint 2026-27\n\nAREAS RELATED T O CIRCLES 155\nNow with this knowledge, let us try to find some\nrelations (or formulae) to calculate their areas.\nLet OAPB be a sector of a circle with centre\nO and radius r (see Fig. 1 1.3). Let the degree\nmeasure of — AOB be q.\nYou know that area of a circle (in fact of a\ncircular region or disc) is pr2.\nIn a way, we can consider this circular region to\nbe a sector forming an angle of 360° (i.e., of degree\nmeasure 360) at the centre O. Now by applying the\nUnitary Method, we can arrive at the area of the\nsector OAPB as follows:\nWhen degree measure of the angle at the centre is 360, area of the\nsector = pr2\nSo, when the degree measure of the angle at the centre is 1, area of the\nsector = \n2\n360\nr \nTherefore, when the degree measure of the angle at the centre is q, area of the\nsector = \n2\n360\nr    = 2\n360 r   .\nThus, we obtain the following relation (or formula) for area of a sector of a\ncircle:\nArea of the sector of angle q qqqq =  r  2\n360 ,\nwhere r is the radius of the circle and q the angle of the sector in degrees.\nNow, a natural question arises : Can we find\nthe length of the arc APB corresponding to this\nsector? Yes. Again, by applying the Unitary\nMethod and taking the whole length of the circle\n(of angle 360°) as 2 pr, we can obtain the required\nlength of the arc APB as 2360 r   .\nSo, length of an arc of a sector of angle q qqqq =  2360 r .\nFig. 1 1.3\nFig. 1 1.4\nReprint 2026-27\n\n156 MATHEMA TICS\nNow let us take the case of the area of the\nsegment APB of a circle with centre O and radius r\n(see Fig. 11.4). You can see that :\nArea of the segment APB = Area of the sector OAPB – Area of  OAB\n                                       = \n2 – area of OAB360 r  \nNote : From Fig. 11.3 and Fig. 11.4 respectively, you can observe that:\nArea of the major sector OAQB = r2 – Area of the minor sector OAPB\nand            Area of major segment AQB = r2 – Area of the minor segment APB\nLet us now take some examples to understand these concepts (or results).\nExample 1 : Find the area of the sector of a circle\nwith radius 4 cm and of angle 30°. Also, find the area\nof the corresponding major sector (Use  = 3.14).\nSolution : Given sector is OAPB (see Fig. 11.5).\nArea of the sector =\n2\n360 r \n=\n230 3 . 1 444 c m360 \n=\n2212.56 cm 4.19cm3   (approx.)\nArea of the corresponding major sector\n= r2 – area of sector OAPB\n= (3.14 × 16 – 4.19) cm 2\n= 46.05 cm 2 = 46.1 cm2 (approx.)\nAlternatively, area of the major sector = 2(360 – )360 r \n=\n2360 30 3.14 16 cm360 \n=\n22330 3.14 16cm 46.05 cm360 \n= 46.1 cm 2 (approx.)\nFig. 11.5\nReprint 2026-27\n\nAREAS RELA TED TO CIRCLES 157\nExample 2 :  Find the area of the segment AY B\nshown in Fig. 11.6, if radius of the circle is 21 cm and\n AOB = 120°. (Use  = 227 )\nSolution : Area of the segment AY B\n= Area of sector OAYB – Area of  OAB (1)\nNow, area of the sector OAYB = 120 22 21 21360 7 cm2 = 462 cm2 (2)\nFor finding the area of  OAB, draw OM  AB as shown in Fig. 11.7.\nNote that OA = OB. Therefore, by RHS congruence,  AMO  BMO.\nSo, M is the mid-point of AB and  AOM =  BOM = 1 120 602    .\nLet OM = x cm\nSo, from  OMA, OMOA  = cos 60°\nor, 21x  = 11 cos 60° =22 \nor, x = 212\nSo, OM = 212  cm\nAlso, AMOA  = sin 60° = 32\nSo, AM = 21 32  cm\nTherefore, AB = 2 AM = 22 1 3 cm = 21 3 cm2\nFig. 11.6\nFig. 11.7\nReprint 2026-27\n\n158 MATHEMA TICS\nSo, area of  OAB = 1 AB × OM2  = 212 121 3 cm22\n=\n2441 3c m4 (3)\nTherefore, area of the segment AYB = \n2441462 3 cm4  [From (1), (2) and (3)]\n=\n221 (88 – 21 3)cm4\nEXERCISE 11.1\nUnless stated otherwise, use  = 227 .\n1. Find the area of a sector of a circle with radius 6 cm if angle of the sector is 60°.\n2. Find the area of a quadrant of a circle whose circumference is 22 cm.\n3. The length of the minute hand of a clock is 14 cm. Find the area swept by the minute\nhand in 5 minutes.\n4. A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of\nthe corresponding : (i) minor segment (ii) major sector. (Use  = 3.14)\n5.  In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find:\n(i) the length of the arc (ii) area of the sector formed by the arc\n(iii) area of the segment formed by the corresponding chord\n6. A chord of a circle of radius 15 cm subtends an angle of 60° at the centre. Find\nthe areas of the corresponding minor and major\nsegments of the circle.\n(Use  = 3.14 and 3  = 1.73)\n7. A chord of a circle of radius 12 cm subtends an\nangle of 120° at the centre. Find the area of the\ncorresponding segment of the circle.\n(Use  = 3.14 and 3  = 1.73)\n8. A horse is tied to a peg at one corner of a square\nshaped grass field of side 15 m by means of a 5 m\nlong rope (see Fig. 11.8). Find Fig. 11.8\nReprint 2026-27\n\nAREAS RELA TED TO CIRCLES 159\n(i) the area of that part of the field in which the\nhorse can graze.\n(ii) the increase in the grazing area if the rope\nwere 10 m long instead of 5 m. (Use  = 3.14)\n9. A brooch is made with silver wire in the form\nof a circle with diameter 35 mm. The wire is also\nused in making 5 diameters which divide the\ncircle into 10 equal sectors as shown in\nFig. 11.9. Find :\n(i) the total length of the silver wire required.\n(ii) the area of each sector of the brooch.\n10. An umbrella has 8 ribs which are equally spaced\n(see Fig. 11.10). Assuming umbrella to be a flat\ncircle of radius 45 cm, find the area between the\ntwo consecutive ribs of the umbrella.\n11. A car has two wipers which do not overlap. Each\nwiper has a blade of length 25 cm sweeping\nthrough an angle of 115°. Find the total area\ncleaned at each sweep of the blades.\n12. To warn ships for underwater rocks, a lighthouse\nspreads a red coloured light over a sector of\nangle 80° to a distance of 16.5 km. Find the area\nof the sea over which the ships are warned.\n(Use  = 3.14)\n13. A round table cover has six equal designs as\nshown in Fig. 11.11. If the radius of the cover is\n28 cm, find the cost of making the designs at the\nrate of ` 0.35 per cm2. (Use 3  = 1.7)\n14. Tick the correct answer in the following :\nArea of a sector of angle p (in degrees) of a circle\nwith radius R is\n(A) 2R180p  (B) 2R180p  (C) 2R360p  (D) 22R720p \nFig. 11.9\nFig. 11.10\nFig. 11.11\nReprint 2026-27\n\n160 MATHEMA TICS\n11.2 Summary\nIn this chapter, you have studied the following points :\n1. Length of an arc of a sector of a circle with radius r and angle with degree measure  is\n2360 r  \n2. Area of a sector of a circle with radius r and angle with degree measure  is 2\n360 r  \n3. Area of segment of a circle\n= Area of the corresponding sector – Area of the corresponding triangle.\nReprint 2026-27",
+      "source_file": "mathematics_11.pdf",
+      "document_metadata": {
+        "title": "AREAS RELATED TO CIRCLES 11",
+        "author": "AREAS RELATED TO CIRCLES"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "AREAS RELATED TO CIRCLES 11",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "AREAS RELATED TO CIRCLES",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "AREAS RELATED TO CIRCLES",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to portion?",
+      "answer": "Recall that the portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle and the portion (or part) of the circular region enclosed between a chord and the corresponding arc is called a segment of the circle.",
+      "question_type": "main_idea_20",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_20",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about portion is important?",
+      "answer": "Recall that the portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle and the portion (or part) of the circular region enclosed between a chord and the corresponding arc is called a segment of the circle.",
+      "question_type": "detail_20",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_20",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the meaning of portion in mathematics?",
+      "answer": "Recall that the portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle and the portion (or part) of the circular region enclosed between a chord and the corresponding arc is called a segment of the circle.",
+      "question_type": "definition",
+      "pattern_source": "subject",
+      "pattern_type": "definition",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies shaded region OAPB?",
+      "answer": "11.1, shaded region OAPB is a sector of the circle with centre O.",
+      "question_type": "identify_16",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_16",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to angle?",
+      "answer": "∠ AOB is called the angle of the sector.",
+      "question_type": "main_idea_22",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_22",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about angle is important?",
+      "answer": "∠ AOB is called the angle of the sector.",
+      "question_type": "detail_22",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_22",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the meaning of angle in mathematics?",
+      "answer": "∠ AOB is called the angle of the sector.",
+      "question_type": "definition",
+      "pattern_source": "subject",
+      "pattern_type": "definition",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to figure?",
+      "answer": "Note that in this figure, unshaded region OAQB is also a sector of the circle.",
+      "question_type": "main_idea_19",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_19",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about figure is important?",
+      "answer": "Note that in this figure, unshaded region OAQB is also a sector of the circle.",
+      "question_type": "detail_19",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_19",
+      "source_file": "mathematics_11.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

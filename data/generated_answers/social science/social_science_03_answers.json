@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "nscres s",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "My God",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "My God",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "You alr eady know that thr ee-fourth of the earth’s surface is covered with water, but only a small proportion of it accounts for freshwater that can be put to use.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies thr ee?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  },
+  {
+    "answer": "All water moves within the hydrological cycle ensuring that water is a renewable resource.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies All water moves?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06"
+  },
+  {
+    "answer": "WATER SCARCITY AND THE NEED FOR WATER CONSERVATION AND MANAGEMENT Given the abundance and renewability of water, it is dif ficult to imagine that we may suffer from water scar city.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to WATER SCARCITY?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "The moment we speak of water shortages, we immediately associate it with regions having low rainfall or those that ar e dr ought pr one.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to water shortages?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22"
+  },
+  {
+    "answer": "The moment we speak of water shortages, we immediately associate it with regions having low rainfall or those that ar e dr ought pr one.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about water shortages is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22"
+  },
+  {
+    "answer": "W e instantaneously visualise the deserts of Rajasthan and women balancing many ‘matkas’ (earthen pots) used for collecting and storing water and travelling long distances to get water.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to deserts?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05"
+  },
+  {
+    "answer": "W e instantaneously visualise the deserts of Rajasthan and women balancing many ‘matkas’ (earthen pots) used for collecting and storing water and travelling long distances to get water.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about deserts is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05"
+  },
+  {
+    "answer": "A large population requires more water not only for domestic use but also to produce more food.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What function does large population serve?",
+    "question_type": "function_16",
+    "pattern_source": "catalog",
+    "pattern_type": "function_16"
+  },
+  {
+    "answer": "A large population requires more water not only for domestic use but also to produce more food.",
+    "source_file": "social_science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What method is described for large population?",
+    "question_type": "method_16",
+    "pattern_source": "catalog",
+    "pattern_type": "method_16"
+  }
+]

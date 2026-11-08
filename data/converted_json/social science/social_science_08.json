@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "social_science_08.pdf",
+  "document_metadata": {
+    "title": "Websites you can see",
+    "author": "Bombay Natural History Society"
+  },
+  "question_generation": {
+    "subject": "social science",
+    "pattern_file": "data/question_patterns/social_science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/social science/social_science_08_questions.json",
+    "answers_path": "data/generated_answers/social science/social_science_08_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 5,
+    "pages_with_text": 5,
+    "total_words": 374,
+    "warnings": [],
+    "text_file": "data/converted_text/social science/social_science_08.txt",
+    "document_metadata": {
+      "title": "Websites you can see",
+      "author": "Bombay Natural History Society"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "Appendix-I Appendix-IAppendix-IAppendix-IAppendix-I\nWebsites you can see\nBombay Natural History Society: http://www.bnhs.org/\nBirding in India and South Asia: http://www.birding.in/\nWebsite of Pr oject T iger: http://projecttiger.nic.in/\nNature Conservation Foundation: http://www.ncf-india.org/\nWildlife Conservation Society of India: http://www.wildlife.in/\nWildlife Trust of India: http://www.wildlifetrustofindia.org/\nKalpavriksh Environment Action Group: http://www.kalpavriksh.org/\nDown to Earth Magazine: http://www.downtoearth.org.in/\nCentre for Environment Education, India: http://www.ceeindia.org/cee/index.html\nWorld Steel Association: http://www.worldsteel.or g\nReprint 2026-27\n\nAppendix-II Appendix-IIAppendix-IIAppendix-IIAppendix-II\nSteel Plants Year of Establishment Collaborating Location\nCountry\nIISCO 1870-1913 (Private initially) (Nationalised Kulti and\nin 1972) Burnpur (W.B.)\nTISCO 1907 (Private ownership) Jamshedji Tata Jamshedpur\n(Jharkhand)\nVISL 1923 Private as MISCO Nationalised later Bhadravati\n(Karnataka)\nBhilai 1959 (Public Sector) Soviet Union Bhilai\n(Chhattisgarh)\nBokaro 1972 (Public Sector) Soviet Union Bokaro\n(Jharkhand)\nDurgapur 1959 (Public Sector) U.K. Durgapur (W.B.)\nRourkela —  (Public Sector) Germany Rourkela\n(Odisha)\nVishakhapatnam —  (Public Sector) — Vishakhapatnam\nAndhra Pradesh\nSalem —  (Public Sector) — Salem (T. Nadu)\nVijay Nagar —  Public Sector — Karnataka\nReprint 2026-27\n\n86\n CONTEMPORARY I NDIA – II\nGlossary GlossaryGlossaryGlossaryGlossary\nAnticline: A fold in sedimentary strata that resembles an arch.\nGross Domestic Product: It is a monetary measure of the value of goods and services\nproduced within a natural economy at a given period of time. Normally it is one year.\nGross Value Added (GVA): The GVA is estimated from GDP by adding subsidies on\nproduction and substracting indirect taxes.\nGeologist: A scientist who studies the composition, structure and history of the\nearth.\nGeothermal Gradient:  The gradual increase in temperature with depth in the\ncrust. The average is 30 °C per kilometer in the upper crust.\nHumus: Dead and decayed organic matter adds to the fertility of the top soil.\nIgneous Rocks: Rocks which have solidified from molten magma.\nManganese Nodules:  A type of sediment scatter ed on the ocean floor , consisting\nmainly of manganese and ir on, and usually containing small amounts of copper ,\nnickel and cobalt.\nMetamorphic Rocks: Rocks which were originally igneous or sedimentary, but have\nchanged in character and appearance.\nOil Trap: A geological structure that allows for significant amounts of oil and gas to\naccumulate.\nRock: A consolidated mixture of minerals\nSedimentary Rocks: Rocks which have been deposited as beds and layers of\nsediments.\nReprint 2026-27\n\n87APPENDIX\nNOTES\nReprint 2026-27\n\nNOTES\nReprint 2026-27",
+      "source_file": "social_science_08.pdf",
+      "document_metadata": {
+        "title": "Websites you can see",
+        "author": "Bombay Natural History Society"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "Websites you can see",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Bombay Natural History Society",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Bombay Natural History Society",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to monetary measure?",
+      "answer": "Gross Domestic Product: It is a monetary measure of the value of goods and services produced within a natural economy at a given period of time.",
+      "question_type": "main_idea_03",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_03",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about monetary measure is important?",
+      "answer": "Gross Domestic Product: It is a monetary measure of the value of goods and services produced within a natural economy at a given period of time.",
+      "question_type": "detail_03",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_03",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to Geologist?",
+      "answer": "Geologist: A scientist who studies the composition, structure and history of the earth.",
+      "question_type": "main_idea_04",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_04",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about Geologist is important?",
+      "answer": "Geologist: A scientist who studies the composition, structure and history of the earth.",
+      "question_type": "detail_04",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_04",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who were the important people or groups connected with Geologist?",
+      "answer": "Geologist: A scientist who studies the composition, structure and history of the earth.",
+      "question_type": "person",
+      "pattern_source": "subject",
+      "pattern_type": "person",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about average?",
+      "answer": "The average is 30 °C per kilometer in the upper crust.",
+      "question_type": "evaluation_25",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_25",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to Igneous Rocks?",
+      "answer": "Igneous Rocks: Rocks which have solidified from molten magma.",
+      "question_type": "main_idea_24",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_24",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about Igneous Rocks is important?",
+      "answer": "Igneous Rocks: Rocks which have solidified from molten magma.",
+      "question_type": "detail_24",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_24",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Metamorphic Rocks?",
+      "answer": "Metamorphic Rocks: Rocks which were originally igneous or sedimentary, but have changed in character and appearance.",
+      "question_type": "evaluation_17",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_17",
+      "source_file": "social_science_08.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

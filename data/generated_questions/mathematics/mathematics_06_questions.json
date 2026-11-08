@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to triangles?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about triangles is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What points about two figures are listed?",
+    "question_type": "list_05",
+    "pattern_source": "catalog",
+    "pattern_type": "list_05",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Two figures?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the meaning of Two figures in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about fact is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies fact?",
+    "question_type": "identify_08",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_08",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of congruent?",
+    "question_type": "significance_07",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_07",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about congruent?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to congruent?",
+    "question_type": "limitation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_07",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to call?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1"
+  }
+]

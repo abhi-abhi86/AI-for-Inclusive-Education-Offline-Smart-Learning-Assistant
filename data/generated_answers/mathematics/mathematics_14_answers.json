@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "oe Be",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Lo",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Lo",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "202 MATHEMATICS 14 The theory of probabilities and the theor y of er rors now constitute a formidable body of great mathematical inter est and of gr eat practical importance.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to MATHEMATICS?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08"
+  },
+  {
+    "answer": "202 MATHEMATICS 14 The theory of probabilities and the theor y of er rors now constitute a formidable body of great mathematical inter est and of gr eat practical importance.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about MATHEMATICS is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08"
+  },
+  {
+    "answer": "We call this property of the coin as being ‘unbiased’.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of property?",
+    "question_type": "significance_08",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_08"
+  },
+  {
+    "answer": "We call this property of the coin as being ‘unbiased’.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about property?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  },
+  {
+    "answer": "We call this property of the coin as being ‘unbiased’.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to property?",
+    "question_type": "limitation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_08"
+  },
+  {
+    "answer": "We call this property of the coin as being ‘unbiased’.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Under what condition does property occur?",
+    "question_type": "condition_08",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_08"
+  },
+  {
+    "answer": "By the phrase ‘random toss’, we mean that the coin is allowed to fall freely without any bias or interference.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies mean?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "By the phrase ‘random toss’, we mean that the coin is allowed to fall freely without any bias or interference.",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the meaning of mean in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "We know, in advance, that the coin can only land in one of two possible ways — either head up or tail up (we dismiss the possibility of its ‘landing’ on its edge, which may be possible, for example, if it falls on sand).",
+    "source_file": "mathematics_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of advance?",
+    "question_type": "significance_18",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_18"
+  }
+]

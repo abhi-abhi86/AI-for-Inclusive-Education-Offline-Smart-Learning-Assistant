@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to making?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about making is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who were the important people or groups connected with making?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to making?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Whose perspective is presented about dramatic and visible signs?",
+    "question_type": "perspective_03",
+    "pattern_source": "catalog",
+    "pattern_type": "perspective_03",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about history is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies history?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who played a role in history?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to goods?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about goods is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What function does than a millennia serve?",
+    "question_type": "function_11",
+    "pattern_source": "catalog",
+    "pattern_type": "function_11",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1"
+  }
+]

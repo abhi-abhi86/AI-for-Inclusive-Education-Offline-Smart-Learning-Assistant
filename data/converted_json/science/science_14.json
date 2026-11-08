@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "source_file": "science_14.pdf",
+  "document_metadata": {},
+  "question_generation": {
+    "subject": "science",
+    "pattern_file": "data/question_patterns/science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/science/science_14_questions.json",
+    "answers_path": "data/generated_answers/science/science_14_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 3,
+    "pages_with_text": 3,
+    "total_words": 325,
+    "warnings": [],
+    "text_file": "data/converted_text/science/science_14.txt",
+    "document_metadata": {}
+  },
+  "question_quality": {
+    "accepted": 10,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "Answ er s\nChapter 1\n1. (i) 2. (d) 3. (a)\nChapter 2\n1. (d) 2. (b) 3. (d) 4. (c)\nChapter 3\n1. (d) 2. (c) 3. (a) 4. (c)\nChapter 4\n1. (b) 2. (c) 3. (b)\nChapter 5\n1. (c) 2. (a) 3. (d) 4. (b)\nChapter 6\n1. (d) 2. (b) 3. (d)\nChapter 7\n1. (b) 2. (c) 3. (d)\nChapter 8\n1. (c)\nChapter 9\n1. (d) 2. (d) 3. (b)\n4. (a) 5. (d) 6. (c)\n7. Distance less than 15 cm; virtual; Enlarged.\n9. Yes\n10. 16.7 cm from the lens on the other side; 3.3 cm, reduced; real, inverted.\n11. 30 cm\n12. 6.0 cm, behind the mirror; virtual, erect\n13. m = 1 indicates that image formed by a plane mirror is of the same size as the object.\nFurther, the positive sign of m indicates that the image is virtual and erect.\n14. 8.6 cm, behind the mirror; virtual, erect; 2.2 cm, reduced.\n15. 54 cm on the object side; 14 cm, magnified; real, inverted.\n16. –0.50 m; concave lens\n17. + 0.67 m; converging lens\nReprint 2026-27\n\nAnswers 219\nChapter 10\n1. (b) 2. (d) 3. (c) 4. (c)\n5. (i) –0.18 m; (ii) +0.67 m\n6. Concave lens; –1.25 D\n7. Convex lens; +3.0 D\nChapter 11\n1. (d) 2.  (b) 3.  (d) 4.  (c)\n5. Parallel 6. 122.7 m; ¼ times\n7. 3.33 Ω 8. 4.8 kΩ 9. 0.67 A\n10. 4 resistors 12. 110 bulbs\n13. 9.2 A, 4.6 A, 18.3 A\n14. (i) 8 W; (ii) 8 W\n15. 0.73 A\n16. 250 W TV set in 1 hour\n17. 1100 W\n18. (b) High resistivity of alloys\n(d) inversely.\nChapter 12\n1. (d) 2. (c)\n3. (a) True (b) False\n6. vertically downwards\n7. (i) Right-hand thumb rule, (ii) Fleming’s left-hand rule\nChapter 13\n1. (a), (c), (d) 2.   (b) 3.   (d)\nReprint 2026-27\n\nScience220\nNOTES\nReprint 2026-27",
+      "source_file": "science_14.pdf",
+      "document_metadata": {}
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "Which detail identifies Answ?",
+      "answer": "Answ er s Chapter 1 1.",
+      "question_type": "identify_13",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_13",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about lens?",
+      "answer": "16.7 cm from the lens on the other side; 3.3 cm, reduced; real, inverted.",
+      "question_type": "evaluation_24",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_24",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to mirror?",
+      "answer": "6.0 cm, behind the mirror; virtual, erect 13.",
+      "question_type": "main_idea_08",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_08",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about mirror is important?",
+      "answer": "6.0 cm, behind the mirror; virtual, erect 13.",
+      "question_type": "detail_08",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_08",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to image?",
+      "answer": "m = 1 indicates that image formed by a plane mirror is of the same size as the object.",
+      "question_type": "main_idea_25",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_25",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about image is important?",
+      "answer": "m = 1 indicates that image formed by a plane mirror is of the same size as the object.",
+      "question_type": "detail_25",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_25",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about positive sign?",
+      "answer": "Further, the positive sign of m indicates that the image is virtual and erect.",
+      "question_type": "evaluation_04",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_04",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Convex lens?",
+      "answer": "Convex lens; +3.0 D Chapter 11 1.",
+      "question_type": "evaluation_21",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_21",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to W TV?",
+      "answer": "250 W TV set in 1 hour 17.",
+      "question_type": "main_idea_15",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_15",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about W TV is important?",
+      "answer": "250 W TV set in 1 hour 17.",
+      "question_type": "detail_15",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_15",
+      "source_file": "science_14.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

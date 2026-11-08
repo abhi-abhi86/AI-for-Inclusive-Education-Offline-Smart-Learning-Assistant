@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "BEFORE Y OU R EAD",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "The Sermon",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "The Sermon",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Find out the meanings of the words and phrases given in the box.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to meanings?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "Find out the meanings of the words and phrases given in the box.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about meanings is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "afflicted with be composed desolation lamentation procure be subject to 3.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to be composed desolation lamentation procure?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08"
+  },
+  {
+    "answer": "afflicted with be composed desolation lamentation procure be subject to 3.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about be composed desolation lamentation procure is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08"
+  },
+  {
+    "answer": "At twelve, he was sent away for schooling in the Hindu sacred scriptures and four years later he returned home to marry a princess.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about schooling is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "At twelve, he was sent away for schooling in the Hindu sacred scriptures and four years later he returned home to marry a princess.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies schooling?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03"
+  },
+  {
+    "answer": "At about the age of twenty-five, the Prince, heretofore shielded from the suffering s of the world, while out hunting chanced upon a sick man, then an aged man, then a funeral procession, and finally a monk begging for alms.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Prince?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15"
+  },
+  {
+    "answer": "At about the age of twenty-five, the Prince, heretofore shielded from the suffering s of the world, while out hunting chanced upon a sick man, then an aged man, then a funeral procession, and finally a monk begging for alms.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the sequence described for Prince?",
+    "question_type": "sequence_15",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_15"
+  },
+  {
+    "answer": "These sights so moved him that he at once went out into the world to seek enlightenment concerning the sorrows he had witnessed.",
+    "source_file": "english_08.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies sights?",
+    "question_type": "identify_04",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_04"
+  }
+]

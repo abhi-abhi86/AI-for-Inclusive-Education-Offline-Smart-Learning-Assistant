@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Magnetic Effects?",
+    "question_type": "identify_05",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_05",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about following Activity?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What evidence supports the explanation of Activity?",
+    "question_type": "evidence_11",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_11",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to wire?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about wire is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies small compass?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to position?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about position is important?",
+    "question_type": "detail_16",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_16",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies change?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Compass needle?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Compass needle is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17",
+    "source_file": "science_12.pdf",
+    "page_or_id": "Page 1"
+  }
+]

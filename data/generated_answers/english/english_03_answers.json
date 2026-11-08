@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Two Stories about Flying",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "A young seagull is afraid to fly.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to young seagull?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13"
+  },
+  {
+    "answer": "A young seagull is afraid to fly.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about young seagull is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13"
+  },
+  {
+    "answer": "A pilot is lost in storm clouds.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to pilot?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19"
+  },
+  {
+    "answer": "A pilot is lost in storm clouds.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about pilot is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19"
+  },
+  {
+    "answer": "His two brothers and his sister had already flown away the day before.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies two brothers?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03"
+  },
+  {
+    "answer": "His two brothers and his sister had already flown away the day before.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What points about two brothers are listed?",
+    "question_type": "list_03",
+    "pattern_source": "catalog",
+    "pattern_type": "list_03"
+  },
+  {
+    "answer": "His two brothers and his sister had already flown away the day before.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the sequence described for two brothers?",
+    "question_type": "sequence_03",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_03"
+  },
+  {
+    "answer": "His two brothers and his sister had already flown away the day before.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about two brothers?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "The great expanse of sea stretched down beneath, and it was such a long way down — miles down.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about great expanse?",
+    "question_type": "evaluation_22",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_22"
+  },
+  {
+    "answer": "The great expanse of sea stretched down beneath, and it was such a long way down — miles down.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Where is great expanse found or described?",
+    "question_type": "location_22",
+    "pattern_source": "catalog",
+    "pattern_type": "location_22"
+  },
+  {
+    "answer": "He felt certain that his wings would never support him; so he bent his head and ran away back to the little hole under the ledge where he slept at night.",
+    "source_file": "english_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What evidence supports the explanation of wings?",
+    "question_type": "evidence_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_20"
+  }
+]

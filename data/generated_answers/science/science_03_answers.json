@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Metals and N Is Bega",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "You have seen that elements can be classified as metals or non-metals on the basis of their properties.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to elements?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "You have seen that elements can be classified as metals or non-metals on the basis of their properties.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about elements is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03"
+  },
+  {
+    "answer": "/square6 Think of some uses of metals and non-metals in your daily life.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can some uses be applied in practice?",
+    "question_type": "application_13",
+    "pattern_source": "catalog",
+    "pattern_type": "application_13"
+  },
+  {
+    "answer": "/square6 Think of some uses of metals and non-metals in your daily life.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about some uses?",
+    "question_type": "evaluation_13",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_13"
+  },
+  {
+    "answer": "/square6 Think of some uses of metals and non-metals in your daily life.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the function of some uses?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "Let us look at some of these properties in detail.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about properties?",
+    "question_type": "evaluation_11",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_11"
+  },
+  {
+    "answer": "Let us study this with the help of the following activities.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about help?",
+    "question_type": "evaluation_16",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_16"
+  },
+  {
+    "answer": "Activity 3.1Activity 3.1Activity 3.1Activity 3.1Activity 3.1 /square6 Take samples of ir on, copper, aluminium and magnesium.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to samples?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "Activity 3.1Activity 3.1Activity 3.1Activity 3.1Activity 3.1 /square6 Take samples of ir on, copper, aluminium and magnesium.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about samples is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "Activity 3.1Activity 3.1Activity 3.1Activity 3.1Activity 3.1 /square6 Take samples of ir on, copper, aluminium and magnesium.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies samples?",
+    "question_type": "identify_24",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_24"
+  },
+  {
+    "answer": "Note the appearance of each sample.",
+    "source_file": "science_03.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about appearance?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  }
+]

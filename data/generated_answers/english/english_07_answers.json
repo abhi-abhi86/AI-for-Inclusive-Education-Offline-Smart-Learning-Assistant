@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "BEFORE Y OU R EAD",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Madam Rides",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Madam Rides",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD In this sensitive story, an eight-year old girl’s first bus journey into the world outside her village is also her induction into the mystery of life and death.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Y OU R EAD?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD In this sensitive story, an eight-year old girl’s first bus journey into the world outside her village is also her induction into the mystery of life and death.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What points about Y OU R EAD are listed?",
+    "question_type": "list_02",
+    "pattern_source": "catalog",
+    "pattern_type": "list_02"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD In this sensitive story, an eight-year old girl’s first bus journey into the world outside her village is also her induction into the mystery of life and death.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the sequence described for Y OU R EAD?",
+    "question_type": "sequence_02",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_02"
+  },
+  {
+    "answer": "BEFORE Y OU R EAD In this sensitive story, an eight-year old girl’s first bus journey into the world outside her village is also her induction into the mystery of life and death.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about Y OU R EAD?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "She sees the gap between our knowing that there is death, and our understanding of it.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to death?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  },
+  {
+    "answer": "She sees the gap between our knowing that there is death, and our understanding of it.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about death is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": "She sees the gap between our knowing that there is death, and our understanding of it.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies death?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22"
+  },
+  {
+    "answer": "She sees the gap between our knowing that there is death, and our understanding of it.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about death?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "Look at the words and phrases given below.",
+    "source_file": "english_07.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about words?",
+    "question_type": "evaluation_06",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_06"
+  }
+]

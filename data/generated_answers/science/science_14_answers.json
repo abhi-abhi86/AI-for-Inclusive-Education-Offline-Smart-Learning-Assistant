@@ -1,0 +1,92 @@
+[
+  {
+    "answer": "Answ er s Chapter 1 1.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Answ?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13"
+  },
+  {
+    "answer": "16.7 cm from the lens on the other side; 3.3 cm, reduced; real, inverted.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about lens?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  },
+  {
+    "answer": "6.0 cm, behind the mirror; virtual, erect 13.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to mirror?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08"
+  },
+  {
+    "answer": "6.0 cm, behind the mirror; virtual, erect 13.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about mirror is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08"
+  },
+  {
+    "answer": "m = 1 indicates that image formed by a plane mirror is of the same size as the object.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to image?",
+    "question_type": "main_idea_25",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_25"
+  },
+  {
+    "answer": "m = 1 indicates that image formed by a plane mirror is of the same size as the object.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about image is important?",
+    "question_type": "detail_25",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_25"
+  },
+  {
+    "answer": "Further, the positive sign of m indicates that the image is virtual and erect.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about positive sign?",
+    "question_type": "evaluation_04",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_04"
+  },
+  {
+    "answer": "Convex lens; +3.0 D Chapter 11 1.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Convex lens?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21"
+  },
+  {
+    "answer": "250 W TV set in 1 hour 17.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to W TV?",
+    "question_type": "main_idea_15",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_15"
+  },
+  {
+    "answer": "250 W TV set in 1 hour 17.",
+    "source_file": "science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about W TV is important?",
+    "question_type": "detail_15",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_15"
+  }
+]

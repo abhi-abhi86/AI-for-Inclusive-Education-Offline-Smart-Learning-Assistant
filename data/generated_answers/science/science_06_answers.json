@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "y Control an",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "KE Wj",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "KE Wj",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Science100 Control and Coordination 6CHAPTER I n the previous chapter, we looked at life processes involved in the maintenance functions in living organisms.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Control?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07"
+  },
+  {
+    "answer": "Science100 Control and Coordination 6CHAPTER I n the previous chapter, we looked at life processes involved in the maintenance functions in living organisms.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "How does Control work?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "Some of these movements are in fact the result of growth, as in plants.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about movements?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  },
+  {
+    "answer": "A seed germinates and grows, and we can see that the seedling moves over the course of a few days, it pushes soil aside and comes out.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about seed germinates?",
+    "question_type": "evaluation_10",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_10"
+  },
+  {
+    "answer": "But if its growth were to be stopped, these movements would not happen.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies growth?",
+    "question_type": "identify_04",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_04"
+  },
+  {
+    "answer": "Some movements, as in many animals and some plants, are not connected with growth.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about Some movements?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18"
+  },
+  {
+    "answer": "A possible answer is that we think of movement as a response to a change in the environment of the organism.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies possible answer?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13"
+  },
+  {
+    "answer": "The cat may be running because it has seen a mouse.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies mouse?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  },
+  {
+    "answer": "The cat may be running because it has seen a mouse.",
+    "source_file": "science_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Why does mouse have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why"
+  }
+]

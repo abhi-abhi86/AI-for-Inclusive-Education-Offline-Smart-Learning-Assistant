@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to classification?",
+    "question_type": "main_idea_12",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_12",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about classification is important?",
+    "question_type": "detail_12",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_12",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies classification?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What example is given for data?",
+    "question_type": "example_21",
+    "pattern_source": "catalog",
+    "pattern_type": "example_21",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of data?",
+    "question_type": "significance_21",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_21",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about data?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to data?",
+    "question_type": "limitation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_21",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies mean?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the meaning of mean in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What method is described for mean?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of mean?",
+    "question_type": "significance_25",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_25",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1"
+  }
+]

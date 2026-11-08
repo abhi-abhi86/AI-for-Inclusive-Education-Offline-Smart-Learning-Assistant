@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_09.pdf",
+  "document_metadata": {
+    "title": "SOME APPLICATIONS OF TRIGONOMETRY",
+    "author": "Fig"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_09_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_09_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 11,
+    "pages_with_text": 11,
+    "total_words": 3034,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_09.txt",
+    "document_metadata": {
+      "title": "SOME APPLICATIONS OF TRIGONOMETRY",
+      "author": "Fig"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "SOME APPLICATIONS OF TRIGONOMETRY 133\n9\n9.1 Heights and Distances\nIn the previous chapter, you have studied about trigonometric ratios. In this chapter ,\nyou will be studying about some ways in which trigonometry is used in the life around\nyou.\nLet us consider Fig. 8.1 of prvious chapter, which is redrawn below in Fig. 9.1.\nFig. 9.1\nIn this figure, the line AC drawn from the eye of the student to the top of the\nminar is called the line of sight. The student is looking at the top of the minar . The\nangle BAC, so formed by the line of sight with the horizontal, is called the angle of\nelevation of the top of the minar from the eye of the student.\nThus, the line of sight is the line drawn from the eye of an observer to the point\nin the object viewed by the observer . The angle of elevation of the point viewed is\nSOME APPLICATIONS OF\nTRIGONOMETRY\nReprint 2026-27\n\n134 MATHEMATICS\nthe angle formed by the line of sight with the horizontal when the point being viewed is\nabove the horizontal level, i.e., the case when we raise our head to look at the object\n(see Fig. 9.2).\nFig. 9.2\nNow, consider the situation given in Fig. 8.2. The girl sitting on the balcony is\nlooking down at a flower pot placed on a stair of the temple. In this case, the line of\nsight is below the horizontal level. The angle so formed by the line of sight with the\nhorizontal is called the angle of depression.\nThus, the angle of depression of a point on the object being viewed is the angle\nformed by the line of sight with the horizontal when the point is below the horizontal\nlevel, i.e., the case when we lower our head to look at the point being viewed\n(see Fig. 9.3).\nFig. 9.3\nNow, you may identify the lines of sight, and the angles so formed in Fig. 8.3.\nAre they angles of elevation or angles of depression?\nLet us refer to Fig. 9.1 again. If you want to find the height CD of the minar\nwithout actually measuring it, what information do you need? You would need to know\nthe following:\n(i) the distance DE at which the student is standing from the foot of the minar\nReprint 2026-27\n\nSOME APPLICATIONS OF TRIGONOMETRY 135\n(ii) the angle of elevation,  BAC, of the top of the minar\n(iii) the height AE of the student.\nAssuming that the above three conditions are known, how can we determine the\nheight of the minar?\nIn the figure, CD = CB + BD. Here, BD = AE, which is the height of the student.\nTo find BC, we will use trigonometric ratios of  BAC or  A.\nIn  ABC, the side BC is the opposite side in relation to the known  A. Now,\nwhich of the trigonometric ratios can we use? Which one of them has the two values\nthat we have and the one we need to determine? Our search narrows down to using\neither tan A or cot A, as these ratios involve AB and BC.\nTherefore, tan A = BCAB or cot A = AB,BC  which on solving would give us BC.\nBy adding AE to BC, you will get the height of the minar.\nNow let us explain the process, we have just discussed, by solving some problems.\nExample 1 :  A tower stands vertically on the ground. From a point on the ground,\nwhich is 15 m away from the foot of the tower, the angle of elevation of the top of the\ntower is found to be 60°. Find the height of the tower\n.\nSolution :  First let us draw a simple diagram to\nrepresent the problem (see Fig. 9.4). Here A B\nrepresents the tower\n, CB is the distance of the point\nfrom the tower and  ACB is the angle of elevation.\nWe need to determine the height of the tower, i.e.,\nAB. Also, ACB is a triangle, right-angled at B.\nTo solve the problem, we choose the trigonometric\nratio tan 60° (or cot 60°), as the ratio involves AB\nand BC.\nNow, tan 60° = ABBC\ni.e., 3  = AB15\ni.e., AB = 15 3\nHence, the height of the tower is 15 3  m.\nFig. 9.4\nReprint 2026-27\n\n136 MATHEMA TICS\nExample 2 :  An electrician has to repair an\nelectric fault on a pole of height 5 m. She needs\nto reach a point 1.3m below the top of the pole\nto undertake the repair work (see Fig. 9.5). What\nshould be the length of the ladder that she should\nuse which, when inclined at an angle of 60° to\nthe horizontal, would enable her to reach the\nrequired position? Also, how far from the foot\nof the pole should she place the foot of the\nladder? (You may take 3  = 1.73)\nSolution : In Fig. 9.5, the electrician is required to\nreach the point B on the pole AD.\nSo, BD = \nAD – AB = (5 – 1.3)m = 3.7 m.\nHere, BC represents the ladder. We need to find\nits length, i.e., the hypotenuse of the right triangle BDC.\nNow, can you think which trigonometic ratio should we consider?\nIt should be sin 60°.\nSo, BDBC  = sin 60° or 3.7BC  = 32\nTherefore, BC = 3.7 23  = 4.28 m (approx.)\ni.e., the length of the ladder should be 4.28 m.\nNow, DCBD  = cot 60° = 13\ni.e., DC =\n3.7\n3  = 2.14 m (approx.)\nTherefore, she should place the foot of the ladder at a distance of 2.14 m from\nthe pole.\nFig. 9.5\nReprint 2026-27\n\nSOME APPLICATIONS OF TRIGONOMETRY 137\nExample 3 : An observer 1.5 m tall is 28.5 m away\nfrom a chimney. The angle of elevation of the top\nof the chimney from her eyes is 45°. What is the\nheight of the chimney?\nSolution :  Here, AB is the chimney, CD the\nobserver and  ADE the angle of elevation (see\nFig. 9.6). In this case, \nADE is a triangle, right-angled\nat E and we are required to find the height of the\nchimney.\nWe have AB =  AE + BE = AE + 1.5\nand  DE =  CB = 28.5 m\nTo determine AE, we choose a trigonometric ratio, which involves both AE and\nDE. Let us choose the tangent of the angle of elevation.\nNow, tan 45° = AEDE\ni.e., 1 = AE28.5\nTherefore, AE = 28.5\nSo the height of the chimney (AB) = (28.5 + 1.5) m = 30 m.\nExample 4 : From a point P on the ground the angle of elevation of the top of a 10 m\ntall building is 30°. A flag is hoisted at the top of the building and the angle of elevation\nof the top of the flagstaff from P is 45°. Find the length of the flagstaff and the\ndistance of the building from the point P\n. (You may take 3  = 1.732)\nSolution : In Fig. 9.7, AB denotes the height of the building, BD the flagstaff and P\nthe given point. Note that there are two right triangles PAB and P\nAD. We are required\nto find the length of the flagstaff, i.e., DB and the distance of the building from the\npoint P, i.e., PA.\nFig. 9.6\nReprint 2026-27\n\n138 MATHEMA TICS\nSince, we know the height of the building AB, we\nwill first consider the right  PAB.\nWe have tan 30° = ABAP\ni.e.,\n1\n3  = 10AP\nTherefore, AP = 10 3\ni.e., the distance of the building from P is 10 3  m = 17.32 m.\nNext, let us suppose DB = x m. Then AD = (10 + x) m.\nNow, in right  PAD, tan 45° =\nAD 10\nAP 10 3\nx\nTherefore, 1 =\n10\n10 3\nx\ni.e., x = 10  31  = 7.32\nSo, the length of the flagstaff is 7.32 m.\nExample 5 : The shadow of a tower standing\non a level ground is found to be 40 m longer\nwhen the Sun’s altitude is 30° than when it is\n60°. Find the height of the tower.\nSolution : In Fig. 9.8, AB is the tower and\nBC is the length of the shadow when the\nSun’s altitude is 60°, i.e., the angle of\nelevation of the top of the tower from the tip\nof the shadow is 60° and DB is the length of\nthe shadow\n, when the angle of elevation\nis 30°.\nNow, let AB be h m and BC be x m. According to the question, DB is 40 m longer\nthan BC.\nFig. 9.7\nFig. 9.8\nReprint 2026-27\n\nSOME APPLICATIONS OF TRIGONOMETRY 139\nSo, DB = (40 + x) m\nNow, we have two right triangles ABC and ABD.\nIn  ABC, tan 60° = ABBC\nor, 3  = hx (1)\nIn  ABD, tan 30° = ABBD\ni.e., 13  = 40hx (2)\nFrom (1), we have h = 3x\nPutting this value in (2), we get  33x  = x + 40, i.e., 3x = x + 40\ni.e., x =2 0\nSo, h = 20 3 [From (1)]\nTherefore, the height of the tower is 20 3 m.\nExample 6 : The angles of depression of the top and the bottom of an 8 m tall building\nfrom the top of a multi-storeyed building are 30°\nand 45°, respectively. Find the height of the multi-\nstoreyed building and the distance between the\ntwo buildings.\nSolution :  In Fig. 9.9, PC denotes the multi-\nstoryed building and AB denotes the 8 m tall\nbuilding. W\ne are interested to determine the height\nof the multi-storeyed building, i.e., PC and the\ndistance between the two buildings, i.e., AC.\nLook at the figure carefully. Observe that PB is\na transversal to the parallel lines PQ and BD.\nTherefore, QPB and PBD are alternate\nangles, and so are equal.\nSo PBD = 30°. Similarly,   PAC = 45°.\nIn right  PBD, we have\nFig. 9.9\nReprint 2026-27\n\n140 MATHEMA TICS\nPD\nBD  = tan 30° = 13 or BD = PD 3\nIn right  PAC, we have\nPC\nAC  = tan 45° = 1\ni.e., PC = AC\nAlso, PC = PD + DC, therefore, PD + DC = AC.\nSince, AC = BD and DC = AB = 8 m, we get PD + 8 = BD = PD 3  (Why?)\nThis gives PD =\n\n  \n83 18 431 m .\n31 31 31\n\n \n \nSo, the height of the multi-storeyed building is  431 8 m = 4 3 + 3 m\nand the distance between the two buildings is also 43 3m .\nExample 7 :  From a point on a bridge across a river, the angles of depression of\nthe banks on opposite sides of the river are 30° and 45°, respectively. If the bridge\nis at a height of 3 m from the banks, find the width of the river\n.\nSolution : In Fig 9.10, A and B\nrepresent points on the bank on\nopposite sides of the river, so that\nAB is the width of the river. P\n is a\npoint on the bridge at a height of 3\nm, i.e., DP = 3 m. We are\ninterested to determine the width\nof the river, which is the length of\nthe side AB of the D APB.\nNow, AB = AD + DB\nIn right   APD,  A = 30°.\nSo, tan 30° = PDAD\nFig. 9.10\nReprint 2026-27\n\nSOME APPLICATIONS OF TRIGONOMETRY 141\ni.e.,\n1\n3  = 3AD or AD = 33  m\nAlso, in right  PBD,  B = 45°. So, BD = PD = 3 m.\nNow, AB = BD + AD = 3 + 33  = 3 (1 + 3 ) m.\nTherefore, the width of the river is 3  31 m .\nEXERCISE 9.1\n1. A circus artist is climbing a 20 m long rope, which is\ntightly stretched and tied from the top of a vertical\npole to the ground. Find the height of the pole, if\nthe angle made by the rope with the ground level is\n30° (see Fig. 9.11).\n2. A tree breaks due to storm and the broken part\nbends so that the top of the tree touches the ground\nmaking an angle 30° with it. The distance between\nthe foot of the tree to the point where the top\ntouches the ground is 8 m. Find the height of\nthe tree.\n3. A contractor plans to install two slides for the children to play in a park. For the children\nbelow the age of 5 years, she prefers to have a slide whose top is at a height of 1.5 m, and\nis inclined at an angle of 30° to the ground, whereas for elder children, she wants to have\na steep slide at a height of 3m, and inclined at an angle of 60° to the ground. What\nshould be the length of the slide in each case?\n4. The angle of elevation of the top of a tower from a point on the ground, which is 30 m\naway from the foot of the tower, is 30°. Find the height of the tower.\n5. A kite is flying at a height of 60 m above the ground. The string attached to the kite is\ntemporarily tied to a point on the ground. The inclination of the string with the ground\nis 60°. Find the length of the string, assuming that there is no slack in the string.\n6. A 1.5 m tall boy is standing at some distance from a 30 m tall building. The angle of\nelevation from his eyes to the top of the building increases from 30° to 60° as he walks\ntowards the building. Find the distance he walked towards the building.\n7. From a point on the ground, the angles of elevation of the bottom and the top of a\ntransmission tower fixed at the top of a 20 m high building are 45° and 60° respectively.\nFind the height of the tower.\nFig. 9.11\nReprint 2026-27\n\n142 MATHEMA TICS\n8. A statue, 1.6 m tall, stands on the top of a pedestal. From a point on the ground, the\nangle of elevation of the top of the statue is 60° and from the same point the angle of\nelevation of the top of the pedestal is 45°. Find the height of the pedestal.\n9. The angle of elevation of the top of a building from the foot of the tower is 30° and the\nangle of elevation of the top of the tower from the foot of the building is 60°. If the tower\nis 50 m high, find the height of the building.\n10. Two poles of equal heights are standing opposite each other on either side of the road,\nwhich is 80 m wide. From a point between them on the road, the angles of elevation of\nthe top of the poles are 60° and 30°, respectively. Find the height of the poles and the\ndistances of the point from the poles.\n11. A TV tower stands vertically on a bank\nof a canal. From a point on the other\nbank directly opposite the tower, the\nangle of elevation of the top of the\ntower is 60°. From another point 20 m\naway from this point on the line joing\nthis point to the foot of the tower, the\nangle of elevation of the top of the\ntower is 30° (see Fig. 9.12). Find the\nheight of the tower and the width of\nthe canal.\n12. From the top of a 7 m high building, the angle of elevation of the top of a cable tower is\n60° and the angle of depression of its foot is 45°. Determine the height of the tower.\n13. As observed from the top of a 75 m high lighthouse from the sea-level, the angles of\ndepression of two ships are 30° and 45°. If one ship is exactly behind the other on the\nsame side of the lighthouse, find the distance between the two ships.\n14. A 1.2 m tall girl spots a balloon moving\nwith the wind in a horizontal line at a\nheight of 88.2 m from the ground. The\nangle of elevation of the balloon from\nthe eyes of the girl at any instant is\n60°. After some time, the angle of\nelevation reduces to 30° (see Fig. 9.13).\nFind the distance travelled by the\nballoon during the interval.\n15. A straight highway leads to the foot of a tower. A man standing at the top of the tower\nobserves a car at an angle of depression of 30°, which is approaching the foot of the\nFig. 9.12\nFig. 9.13\nReprint 2026-27\n\nSOME APPLICATIONS OF TRIGONOMETRY 143\ntower with a uniform speed. Six seconds later, the angle of depression of the car is found\nto be 60°. Find the time taken by the car to reach the foot of the tower from this point.\n9.2 Summary\nIn this chapter, you have studied the following points :\n1. (i) The line  of sight is the line drawn from the eye of an observer to the point in the\nobject viewed by the observer.\n(ii) The angle of elevation of an object viewed, is the angle formed by the line of sight\nwith the horizontal when it is above the horizontal level, i.e., the case when we raise\nour head to look at the object.\n(iii) The angle of depression of an object viewed, is the angle formed by the line of sight\nwith the horizontal when it is below the horizontal level, i.e., the case when we lower\nour head to look at the object.\n2. The height or length of an object or the distance between two distant objects can be\ndetermined with the help of trigonometric ratios.\nReprint 2026-27",
+      "source_file": "mathematics_09.pdf",
+      "document_metadata": {
+        "title": "SOME APPLICATIONS OF TRIGONOMETRY",
+        "author": "Fig"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "SOME APPLICATIONS OF TRIGONOMETRY",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Fig",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Fig",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How can some ways be applied in practice?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "application_24",
+      "pattern_source": "catalog",
+      "pattern_type": "application_24",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the significance of some ways?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "significance_24",
+      "pattern_source": "catalog",
+      "pattern_type": "significance_24",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What might happen next based on some ways?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "prediction_24",
+      "pattern_source": "catalog",
+      "pattern_type": "prediction_24",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about some ways?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "evaluation_24",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_24",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What limitation applies to some ways?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "limitation_24",
+      "pattern_source": "catalog",
+      "pattern_type": "limitation_24",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Under what condition does some ways occur?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "condition_24",
+      "pattern_source": "catalog",
+      "pattern_type": "condition_24",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How can a problem involving some ways be solved?",
+      "answer": "In this chapter , you will be studying about some ways in which trigonometry is used in the life around you.",
+      "question_type": "method",
+      "pattern_source": "subject",
+      "pattern_type": "method",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to prvious?",
+      "answer": "8.1 of prvious chapter, which is redrawn below in Fig.",
+      "question_type": "main_idea_19",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_19",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What limitation applies to figure?",
+      "answer": "9.1 In this figure, the line AC drawn from the eye of the student to the top of the minar is called the line of sight.",
+      "question_type": "limitation_14",
+      "pattern_source": "catalog",
+      "pattern_type": "limitation_14",
+      "source_file": "mathematics_09.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

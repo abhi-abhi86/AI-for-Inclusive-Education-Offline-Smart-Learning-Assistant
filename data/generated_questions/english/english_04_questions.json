@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about two years?",
+    "question_type": "evaluation_09",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_09",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is connected with two years?",
+    "question_type": "person_09",
+    "pattern_source": "catalog",
+    "pattern_type": "person_09",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about unique record?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about unique record?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about several films?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about several films?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about work?",
+    "question_type": "evaluation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_14",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about work?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Anne Frank?",
+    "question_type": "identify_20",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_20",
+    "source_file": "english_04.pdf",
+    "page_or_id": "Page 1"
+  }
+]

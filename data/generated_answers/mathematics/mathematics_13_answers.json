@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "ee pee",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to classification?",
+    "question_type": "main_idea_12",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_12"
+  },
+  {
+    "answer": "In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about classification is important?",
+    "question_type": "detail_12",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_12"
+  },
+  {
+    "answer": "In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies classification?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13"
+  },
+  {
+    "answer": "You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What example is given for data?",
+    "question_type": "example_21",
+    "pattern_source": "catalog",
+    "pattern_type": "example_21"
+  },
+  {
+    "answer": "You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of data?",
+    "question_type": "significance_21",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_21"
+  },
+  {
+    "answer": "You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about data?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21"
+  },
+  {
+    "answer": "You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to data?",
+    "question_type": "limitation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_21"
+  },
+  {
+    "answer": "In fact, you went a step further by studying certain numerical representatives of the ungrouped data, also called measures of central tendency, namely, mean, median and mode.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies mean?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "In fact, you went a step further by studying certain numerical representatives of the ungrouped data, also called measures of central tendency, namely, mean, median and mode.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the meaning of mean in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "In fact, you went a step further by studying certain numerical representatives of the ungrouped data, also called measures of central tendency, namely, mean, median and mode.",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What method is described for mean?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method"
+  },
+  {
+    "answer": "In this chapter, we shall extend the study of these three measures, i.e., mean, median and mode from ungrouped data to that of grouped data .",
+    "source_file": "mathematics_13.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of mean?",
+    "question_type": "significance_25",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_25"
+  }
+]

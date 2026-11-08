@@ -1,0 +1,335 @@
+[
+  {
+    "answer": "Executive summary",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Findings are based on source inspection and the existing test suite.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Findings?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20"
+  },
+  {
+    "answer": "Findings are based on source inspection and the existing test suite.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Findings is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20"
+  },
+  {
+    "answer": "Findings are based on source inspection and the existing test suite.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of Findings?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Findings are based on source inspection and the existing test suite.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does Findings mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Executive summary The existing tests pass, but they do not cover the highest-risk issues.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of Executive summary?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Executive summary The existing tests pass, but they do not cover the highest-risk issues.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does Executive summary mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The most urgent work is to secure file upload and training endpoints, prevent unsafe checkpoint loading and path traversal, and correct the retrieval abstention and confidence logic.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of most urgent work?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The most urgent work is to secure file upload and training endpoints, prevent unsafe checkpoint loading and path traversal, and correct the retrieval abstention and confidence logic.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does most urgent work mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The project should also clearly distinguish the local offline application from the hosted Vercel demo.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about project?",
+    "question_type": "evaluation_15",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_15"
+  },
+  {
+    "answer": "The project should also clearly distinguish the local offline application from the hosted Vercel demo.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does project mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Findings CRITICAL / HIGH Unauthenticated upload and model training Anyone who can reach the endpoint can upload files and trigger expensive PyTorch training, creating a denial-of-service risk.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea of HIGH Unauthenticated upload?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Findings CRITICAL / HIGH Unauthenticated upload and model training Anyone who can reach the endpoint can upload files and trigger expensive PyTorch training, creating a denial-of-service risk.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does HIGH Unauthenticated upload mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Evidence: README.md; api/index.py:1-3 Improve by: Label local mode as offline and hosted mode as cloud/demo mode.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail identifies Evidence?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16"
+  },
+  {
+    "answer": "Evidence: README.md; api/index.py:1-3 Improve by: Label local mode as offline and hosted mode as cloud/demo mode.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does Evidence mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Do not mark cloud requests as offline.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea of cloud requests?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Do not mark cloud requests as offline.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does cloud requests mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "HIGH Unbounded request bodies Content-Length is trusted and the complete request body is loaded into memory, allowing oversized payloads.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea related to HIGH Unbounded request bodies?",
+    "question_type": "main_idea_12",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_12"
+  },
+  {
+    "answer": "HIGH Unbounded request bodies Content-Length is trusted and the complete request body is loaded into memory, allowing oversized payloads.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail about HIGH Unbounded request bodies is important?",
+    "question_type": "detail_12",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_12"
+  },
+  {
+    "answer": "HIGH Unbounded request bodies Content-Length is trusted and the complete request body is loaded into memory, allowing oversized payloads.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What is the main idea of HIGH Unbounded request bodies?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "HIGH Unbounded request bodies Content-Length is trusted and the complete request body is loaded into memory, allowing oversized payloads.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does HIGH Unbounded request bodies mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Evidence: api/index.py:118-121; gui_server.py:888-890 Improve by: Reject requests over a fixed limit before reading them and enforce separate PDF and JSON limits.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What evidence supports the explanation of Improve?",
+    "question_type": "evidence_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_07"
+  },
+  {
+    "answer": "Evidence: api/index.py:118-121; gui_server.py:888-890 Improve by: Reject requests over a fixed limit before reading them and enforce separate PDF and JSON limits.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does Improve mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "MEDIUM CORS allows every origin The API sends Access-Control-Allow-Origin: *.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "Which detail identifies MEDIUM CORS?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15"
+  },
+  {
+    "answer": "MEDIUM CORS allows every origin The API sends Access-Control-Allow-Origin: *.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 2",
+    "question": "What does MEDIUM CORS mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Secure upload, training, path handling, and checkpoint loading.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "Which detail identifies upload?",
+    "question_type": "identify_19",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_19"
+  },
+  {
+    "answer": "Secure upload, training, path handling, and checkpoint loading.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does upload mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Fix retrieval abstention and confidence calibration.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "Which detail about Fix retrieval abstention is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08"
+  },
+  {
+    "answer": "Fix retrieval abstention and confidence calibration.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "Which detail identifies Fix retrieval abstention?",
+    "question_type": "identify_09",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_09"
+  },
+  {
+    "answer": "Fix retrieval abstention and confidence calibration.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the main idea of Fix retrieval abstention?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Fix retrieval abstention and confidence calibration.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does Fix retrieval abstention mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Clarify the architecture and remove unsupported generative/offline claims.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What is the main idea related to architecture?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05"
+  },
+  {
+    "answer": "Clarify the architecture and remove unsupported generative/offline claims.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "Which detail about architecture is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05"
+  },
+  {
+    "answer": "Clarify the architecture and remove unsupported generative/offline claims.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What claim is made about architecture?",
+    "question_type": "claim_05",
+    "pattern_source": "catalog",
+    "pattern_type": "claim_05"
+  },
+  {
+    "answer": "Clarify the architecture and remove unsupported generative/offline claims.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does architecture mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Add request validation, concurrency control, and safe error handling.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "Which detail identifies request validation?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11"
+  },
+  {
+    "answer": "Add request validation, concurrency control, and safe error handling.",
+    "source_file": "AI_Assistant_Flaw_Review-1.pdf",
+    "page_or_id": "Page 3",
+    "question": "What does request validation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  }
+]

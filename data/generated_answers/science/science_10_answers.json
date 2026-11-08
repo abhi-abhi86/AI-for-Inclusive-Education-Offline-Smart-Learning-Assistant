@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "a es",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "The Human Eye",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "The Human Eye",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "The Human Eye and the Colourful World 10CHAPTER Y ou have studied in the previous chapter about refraction of light by lenses.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is connected with Human Eye?",
+    "question_type": "person_07",
+    "pattern_source": "catalog",
+    "pattern_type": "person_07"
+  },
+  {
+    "answer": "The human eye uses light and enables us to see objects around us.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What function does human eye serve?",
+    "question_type": "function_13",
+    "pattern_source": "catalog",
+    "pattern_type": "function_13"
+  },
+  {
+    "answer": "The human eye uses light and enables us to see objects around us.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What method is described for human eye?",
+    "question_type": "method_13",
+    "pattern_source": "catalog",
+    "pattern_type": "method_13"
+  },
+  {
+    "answer": "The human eye uses light and enables us to see objects around us.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "How can human eye be applied in practice?",
+    "question_type": "application_13",
+    "pattern_source": "catalog",
+    "pattern_type": "application_13"
+  },
+  {
+    "answer": "The human eye uses light and enables us to see objects around us.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the function of human eye?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "Let us consider these questions in this chapter.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about questions?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "In this chapter, we shall use these ideas to study some of the optical phenomena in natur e.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about ideas?",
+    "question_type": "evaluation_14",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_14"
+  },
+  {
+    "answer": "In this chapter, we shall use these ideas to study some of the optical phenomena in natur e.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "How does ideas work?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function"
+  },
+  {
+    "answer": "It enables us to see the wonderful world and the colours around us.",
+    "source_file": "science_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies wonderful world?",
+    "question_type": "identify_09",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_09"
+  }
+]

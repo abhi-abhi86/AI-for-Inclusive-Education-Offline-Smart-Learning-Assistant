@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "Textbook in English for Class X",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "First Flight",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "First Flight",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why"
+  },
+  {
+    "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What does the writer explain about syllabi?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is mentioned or involved in relation to success?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies space?",
+    "question_type": "identify_01",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_01"
+  },
+  {
+    "answer": "Treating the prescribed textbook as the sole basis of examination is one of the key reasons why other resources and sites of learning are ignored.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to prescribed?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10"
+  },
+  {
+    "answer": "Treating the prescribed textbook as the sole basis of examination is one of the key reasons why other resources and sites of learning are ignored.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about prescribed is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10"
+  },
+  {
+    "answer": "Inculcating creativity and initiative is possible if we perceive and treat children as participants in learning, not as receivers of a fixed body of knowledge.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Inculcating creativity?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  },
+  {
+    "answer": "Inculcating creativity and initiative is possible if we perceive and treat children as participants in learning, not as receivers of a fixed body of knowledge.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Inculcating creativity is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": "These aims imply considerable change in school routines and mode of functioning.",
+    "source_file": "english_10.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies considerable change?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  }
+]

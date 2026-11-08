@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about solids?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to solids?",
+    "question_type": "limitation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_19",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does solids occur?",
+    "question_type": "condition_19",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_19",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies surface areas?",
+    "question_type": "identify_05",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_05",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What evidence supports the explanation of solids?",
+    "question_type": "evidence_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_20",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of solids?",
+    "question_type": "significance_20",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_20",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does cylinder occur?",
+    "question_type": "condition_20",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_20",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What function does science laboratory serve?",
+    "question_type": "function_08",
+    "pattern_source": "catalog",
+    "pattern_type": "function_08",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What method is described for science laboratory?",
+    "question_type": "method_08",
+    "pattern_source": "catalog",
+    "pattern_type": "method_08",
+    "source_file": "mathematics_12.pdf",
+    "page_or_id": "Page 1"
+  }
+]

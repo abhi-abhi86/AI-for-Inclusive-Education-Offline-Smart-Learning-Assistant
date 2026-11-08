@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "oe =o)",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "MINERALS ANP ENERGY RESOUKCES",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "MINERALS ANP ENERGY RESOUKCES",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "We use different things in our daily life made from metal.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about different things?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25"
+  },
+  {
+    "answer": "Can you list a number of items used in your house made of metals.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about items?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20"
+  },
+  {
+    "answer": "Can you list a number of items used in your house made of metals.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Where is items found or described?",
+    "question_type": "location_20",
+    "pattern_source": "catalog",
+    "pattern_type": "location_20"
+  },
+  {
+    "answer": "Various metals are extracted from these minerals after proper refinement.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Various metals?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  },
+  {
+    "answer": "Various metals are extracted from these minerals after proper refinement.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the sequence described for Various metals?",
+    "question_type": "sequence_17",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_17"
+  },
+  {
+    "answer": "Almost everything we use, from a tiny pin to a towering building or a big ship, all are made from minerals.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about tiny pin?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "The railway lines and the tarmac (paving) of the roads, our implements and machinery too are made from minerals.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to railway lines?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10"
+  },
+  {
+    "answer": "The railway lines and the tarmac (paving) of the roads, our implements and machinery too are made from minerals.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about railway lines is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10"
+  },
+  {
+    "answer": "Cars, buses, trains, aeroplanes are manufactured from minerals and run on power resources derived from the earth.",
+    "source_file": "social_science_05.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Cars?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06"
+  }
+]

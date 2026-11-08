@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "social_science_04.pdf",
+  "document_metadata": {
+    "title": "bates, Fs,",
+    "author": "Ratt"
+  },
+  "question_generation": {
+    "subject": "social science",
+    "pattern_file": "data/question_patterns/social_science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/social science/social_science_04_questions.json",
+    "answers_path": "data/generated_answers/social science/social_science_04_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 12,
+    "pages_with_text": 12,
+    "total_words": 4042,
+    "warnings": [],
+    "text_file": "data/converted_text/social science/social_science_04.txt",
+    "document_metadata": {
+      "title": "bates, Fs,",
+      "author": "Ratt"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "India is an agriculturally important country.\nTwo-thirds of its population is engaged in\nagricultural activities. Agriculture is a primary\nactivity, which produces most of the food that\nwe consume. Besides food grains, it also\nproduces raw material for various industries.\nCan you name some industries based on\nagricultural raw material?\nMoreover, some agricultural products like tea,\ncoffee, spices, etc. are also exported.\nTYPES OF FARMING\nAgriculture is an age-old economic activity in\nour country. Over these years, cultivation\nmethods have changed significantly depending\nupon the characteristics of physical\nenvironment, technological know-how and\nsocio-cultural practices. Farming varies from\nsubsistence to commercial type. At present,\nin dif ferent parts of India, the following\nfarming systems are practised.\nPrimitive Subsistence Farming\nThis type of farming is still practised in few\npockets of India. Primitive subsistence\nagriculture is practised on small patches of\nland with the help of primitive tools like hoe,\ndao and digging sticks, and family/\ncommunity labour . This type of far ming\ndepends upon monsoon, natural fertility of\nthe soil and suitability of other environmental\nconditions to the crops grown.\nIt is a ‘slash and bur n’ agricultur e.\nFarmers clear a patch of land and pr oduce\ncereals and other food crops to sustain their\nfamily. When the soil fertility decr eases, the\nfarmers shift and clear a fresh patch of land\nfor cultivation. This type of shifting allows\nNature to replenish the fertility of the soil\nthrough natural processes; land productivity\nin this type of agriculture is low as the farmer\ndoes not use fertilisers or other modern\ninputs. It is known by dif ferent names in\ndifferent parts of the country.\nCan you name  some such types of farmings?\nIt is jhumming in north-eastern states like\nAssam, Meghalaya, Mizoram and Nagaland;\nPamlou in Manipur , Dipa in Bastar district\nof Chhattishgar h, and in Andaman and\nNicobar Islands.\nJhumming: The ‘slash and burn’ agriculture\nis known as ‘Milpa’ in Mexico and Central\nAmerica, ‘Conuco’ in V enzuela, ‘R oca’ in\nBrazil, ‘Masole’ in Central Africa, ‘Ladang’\nin Indonesia, ‘Ray’ in Vietnam.\nIn India, this primitive form of cultivation\nis called ‘Bewar ’ or ‘Dahiya ’ in Madhya\nPradesh, ‘Podu’ or ‘Penda’ in Andhra Pradesh,\n‘Pama Dabi’ or ‘Koman’ or Bringa’ in Odisha,\n‘Kumari’ in Western Ghats, ‘Valre’ or ‘Waltre’\nin South-eastern Rajasthan, ‘Khil’ in the\nHimalayan belt, ‘Kuruwa’ in Jharkhand, and\n‘Jhumming’ in the North-eastern region.\nFig. 4.1\nReprint 2026-27\n\nCan you name the type of farming Rinjha’s\nfamily is engaged in?\nCan you enlist some crops which are grown\nin such farming?\nIntensive Subsistence Farming\nThis type of farming is practised in areas of\nhigh population pressure on land. It is labour-\nintensive farming, where high doses of\nbiochemical inputs and irrigation are used\nfor obtaining higher production.\nCan you name some of the states of India\nwhere such farming is practised?\nThough the ‘right of inheritance’ leading\nto the division of land among successive\ngenerations has rendered land-holding size\nuneconomical, the farmers continue to take\nmaximum output from the limited land in\nthe absence of alternative source of livelihood.\nThus, there is enormous pressure on\nagricultural land.\nCommercial Farming\nThe main characteristic of this type of farming\nis the use of higher doses of modern inputs,\ne.g. high yielding variety (HYV) seeds, chemical\nfertilisers, insecticides and pesticides in order\nto obtain higher pr oductivity. The degr ee of\ncommercialisation of agriculture varies from\none region to another. For example, rice is a\ncommercial crop in Haryana and Punjab, but\nin Odisha, it is a subsistence crop.\nCan you give some more examples of crops\nwhich may be commercial in one region and\nmay provide subsistence in another region?\nPlantation is also a type of commercial\nfarming. In this type of farming, a single crop\nis grown on a large area. The plantation has\nan inter face of agricultur e and industry.\nPlantations cover large tracts of land, using\ncapital intensive inputs, with the help of\nmigrant labour ers. All the pr oduce is used\nas raw material in respective industries.\nIn India, tea, cof fee, rubber, sugarcane,\nbanana, etc., are important plantation crops.\nTea in Assam and North Bengal cof fee in\nKar nataka ar e some of the important\nplantation crops grown in these states. Since\nthe production is mainly for market, a well-\ndeveloped network of transport and\ncommunication connecting the plantation\nareas, processing industries and markets\nplays an important role in the development\nof plantations.\nRinjha lived with her family in a small village\nat the outskirts of Diphu in Assam. She enjoys\nwatching her family members clearing,\nslashing and burning a patch of land for\ncultivation. She often helps them in irrigating\nthe fields with water running through a\nbamboo canal from the nearby spring. She\nloves the surroundings and wants to stay\nhere as long as she can, but this little girl\nhas no idea about the declining fertility of\nthe soil and her family’s search for fresh a\npatch of land in the next season.\n31AGRICULTURE\nFig. 4.2:  Banana plantation in Southern\npart of India\nFig. 4.3:  Bamboo plantation in North-east\nReprint 2026-27\n\n32\n CONTEMPORARY I NDIA – II\nCROPPING PATTERN\nYou have studied the physical diversities and\nplurality of cultures in India. These are also\nreflected in agricultural practices and\ncropping patter ns in the country. V arious\ntypes of food and fibre crops, vegetables and\nfruits, spices and condiments, etc. constitute\nsome of the important crops grown in the\ncountry. India has thr ee cr opping seasons\n— rabi, kharif and zaid.\nRabi crops are sown in winter from October\nto December and harvested in summer from\nApril to June. Some of the important rabi\ncrops ar e wheat, barley, peas, gram and\nmustard. Though, these crops are grown in\nlarge parts of India, states from the north\nand north-western parts such as Punjab,\nHaryana, Himachal Pradesh, Jammu and\nKashmir, Uttarakhand and Uttar Pradesh are\nimportant for the production of wheat and\nother rabi crops. Availability of precipitation\nduring winter months due to the western\ntemperate cyclones helps in the success of\nthese crops. However, the success of the green\nrevolution in Punjab, Haryana, western Uttar\nPradesh and parts of Rajasthan has also been\nan important factor in the growth of the above-\nmentioned rabi crops.\nKharif crops are grown with the onset of\nmonsoon in differ\nent parts of the country and\nthese ar e harvested in September -October.\nImportant crops grown during this season\nare paddy, maize, jowar , bajra, tur (ar har),\nmoong, urad, cotton, jute, groundnut and\nsoyabean. Some of the most important rice-\ngrowing r egions ar e Assam, W est Bengal,\ncoastal regions of Odisha, Andhra Pradesh,\nTelangana, T amil Nadu, Kerala and\nMaharashtra,  particularly the (Konkan coast)\nalong with Uttar Pradesh and Bihar. Recently,\npaddy has also become an important crop of\nPunjab and Haryana. In states like Assam,\nWest Bengal and Odisha, three crops of paddy\nare gr own in a year . These ar e Aus, Aman\nand Boro.\nIn between the rabi and the kharif seasons,\nthere is a short season during the summer\nmonths known as the Zaid season. Some of\nthe crops produced during ‘zaid’ are\nwater melon, muskmelon, cucumber ,\nvegetables and fodder crops. Sugarcane takes\nalmost a year to grow.\nMajor Crops\nA variety of food and non food crops are\ngrown in dif fer ent parts of the country\ndepending upon the variations in soil, climate\nand cultivation practices. Major crops grown\nin India are rice, wheat, millets, pulses, tea,\ncoffee, sugarcane, oil seeds, cotton and jute,\netc.\nRice: It is the staple food crop of a majority of\nthe people in India. Our country is the second\nlargest producer of rice in the world after\nChina. It is a kharif crop which requires high\ntemperature, (above 25°C) and high humidity\nwith annual rainfall above 100 cm. In the areas\nof less rainfall, it grows with the help of\nirrigation.\nFig. 4.4 (b):  Rice is ready to be harvested in the\nfield\nFig. 4.4 (a):   Rice Cultivation\nReprint 2026-27\n\n33AGRICULTURE\nIndia:  Distribution of Rice\nReprint 2026-27\n\n34\n CONTEMPORARY I NDIA – II\nRice is grown in the plains of north and\nnorth-eastern India, coastal areas and the\ndeltaic regions. Development of dense network\nof canal irrigation and tubewells have made\nit possible to grow rice in areas of less rainfall\nsuch as Punjab, Haryana and western Uttar\nPradesh and parts of Rajasthan.\nWheat: This is the second most important\ncereal crop. It is the main food crop, in north\nand north-western part of the country. This\nrabi crop requires a cool growing season and\na bright sunshine at the time of ripening. It\nrequires 50 to 75 cm of annual rainfall evenly-\ndistributed over the growing season. There\nare two important wheat-growing zones in the\ncountry – the Ganga-Satluj plains in the\nnorth-west and black soil region of the Deccan.\nThe major wheat-producing states are\nPunjab, Haryana, Uttar Pradesh, Madhya\nPradesh, Bihar and Rajasthan.\nMillets:  Jowar , bajra and ragi ar e the\nimportant millets grown in India. Though,\nthese are known as coarse grains, they have\nvery high nutritional value. For example, ragi\nis very rich in iron, calcium, other micro\nnutrients and r oughage. Jowar is the thir d\nmost important food crop with respect to area\nand production. It is a rain-fed cr\nop mostly\ngrown in the moist areas which hardly needs\nirrigation. Major Jowar producing States are\nMaharashtra, Kar nataka, Andhra Pradesh\nand Madhya Pradesh.\nFig. 4.6:  Bajra Cultivation\nBajra grows well on sandy soils and\nshallow black soil. Major Bajra producing\nStates are Rajasthan, Uttar Pradesh,\nMaharashtra, Gujarat and Haryana. Ragi is\na crop of dry regions and grows well on red,\nblack, sandy, loamy and shallow black soils.\nMajor ragi producing states are: Karnataka,\nTamil Nadu, Himachal Pradesh, Uttarakhand,\nSikkim, Jharkhand and Arunachal Pradesh.\nMaize: It is a cr op which is used both as\nfood and fodder . It is a kharif cr op which\nrequires temperature between 21°C to 27°C\nand grows well in old alluvial soil. In some\nstates like Bihar maize is grown in rabi season\nalso. Use of moder n inputs such as HYV\nseeds, fertilisers and irrigation have\ncontributed to the increasing production of\nmaize. Major maize-producing states are\nKarnataka, Madhya Pradesh, Uttar Pradesh,\nBihar, Andhra Pradesh and Telangana.\nFig. 4.5:  Wheat Cultivation\nFig. 4.7:  Maize Cultivation\nReprint 2026-27\n\n35AGRICULTURE\nIndia:  Distribution of Wheat\nReprint 2026-27\n\n36\n CONTEMPORARY I NDIA – II\nvariety of soils and needs manual labour from\nsowing to harvesting. India is the second\nlargest producer of sugarcane only after\nBrazil. I t is the main sou rce of sugar , gur\n(jaggary), khandsari and molasses. The major\nsugarcane-producing states are Uttar\nPradesh, Maharashtra, Karnataka, Tamil\nNadu, A ndhra Pradesh, T elangana, Bihar ,\nPunjab and Haryana.\nOil Seeds:Oil Seeds:Oil Seeds:Oil Seeds:Oil Seeds:  In 2020 India was the second\nlargest producer of groundnut in the world\nafter C hina. Dif ferent oil se eds are grown\ncovering approximately 12 per cent of the total\ncropped area of the country. Main oil-seeds\nproduced in India are groundnut, mustard,\ncoconut, sesamum (til), soyabean, castor\nseeds, cotton se eds, linseed and sunflower.\nMost of these are edible and used as cooking\nmediums. However, some of these are also\nused as raw material in the production of\nsoap, cosmetics and ointments.\nGroundnut is a kharif crop and accounts\nfor about half of the major oilseeds produced in\nthe country. Gujarat was the largest producer\nof groundnut followed by Rajasthan and Tamil\nNadu in 2019–20. Linseed and mustard are rabi\ncrops. Sesamum is a kharif crop in north and\nrabi crop in south India. Castor seed is grown\nboth as rabi and kharif crop.\nTea: Tea:Tea: Tea:Tea:  Tea cultivation is an example of\nplantation agriculture. It is also an important\nbeverage crop introduced in India initially by\nthe British. Today, most of the tea plantations\nare owned by Indians. The tea plant grows\nwell in tropical and sub-tropical climates\nendowed with deep and fertile well-drained\nsoil, rich in humus and organic matter. Tea\nbushes require warm and moist frost-free\nFig. 4.9: Fig. 4.9:Fig. 4.9: Fig. 4.9:Fig. 4.9:  Groundnut, sunflower and mustard are ready to be harvested in the field\nPulses: Pulses:Pulses: Pulses:Pulses: India is the largest producer as well\nas the consumer of pulses in the world. These\nare the major source of protein in a vegetarian\ndiet. Major pulses that are grown in India are\ntur (arhar), urad, mo ong, masur, peas and\ngram. Can you distinguish which of these\npulses are grown in the kharif season and\nwhich are grown in the rabi season? Pulses\nneed less moisture and survive even in dry\nconditions. Being leguminous crops, all these\ncrops except arhar help in restoring soil\nfertility by fixing nitrogen from the air .\nTherefore, these are mostly grown in rotation\nwith other crops. Major pulse producing states\nin India  are Madhya Pradesh, Rajasthan,\nMaharashtra, Uttar Pradesh and Karnataka.\nFood Crops other than GrainsFood Crops other than GrainsFood Crops other than GrainsFood Crops other than GrainsFood Crops other than Grains\nSugarcane:Sugarcane:Sugarcane:Sugarcane:Sugarcane:  It is a tropical as well as a\nsubtropical crop. It grows well in hot and\nhumid climate with a temperature of 21°C to\n27°C and an annual rainfall between 75cm.\nand 100cm. Irrigation is required in the\nregions of low rainfall. It can be grown on a\nFig. 4.8: Fig. 4.8:Fig. 4.8: Fig. 4.8:Fig. 4.8:  Sugarcane Cultivation\nReprint 2026-27\n\n37AGRICULTURE\nclimate all through the\nyear. Frequent showers\nevenly distributed over\nthe year ensure\ncontinuous growth of\ntender leaves. T ea is a\nlabour-intensive industry.\nIt requires abundant,\ncheap and skilled labour.\nTea is processed within\nthe tea garden to restore\nits freshness. Major tea-\nproducing states are Assam, hills of Darjeeling\nand Jalpaiguri districts, West Bengal, Tamil\nNadu and Kerala. Apart from these, Himachal\nPradesh, Uttarakhand, M eghalaya, A ndhra\nPradesh and Tripura are also tea-producing\nstates in the country. In 2020 India was the\nsecond largest producer of tea after China.\nC CC CCof ofof ofoffe fefe fefee: e:e: e:e: Indian coffee is known in the world\nfor its go od quality . The A rabica variety\ninitially brought from Yemen is produced in\nthe country. This variety is in great demand\nall over the world. Initially its cultivation was\nintroduced on the Baba Budan Hills and even\ntoday its cultivation is confined to the Nilgiri\nin Karnataka, Kerala and Tamil Nadu.\nH HH HHorticulture Corticulture Corticulture Corticulture Corticulture C rops: rops:rops: rops:rops:      In 2020 , I ndia was\nthe second largest producer of fruits and\nvegetables in the world after China. India is\na producer of tropical as well as temperate\nfruits. Mangoes of Maharashtra, A ndhra\nPradesh, Telangana, Uttar Pradesh and West\nBengal, oranges of Nagpur and Cherrapunjee\n(Meghalaya), bananas of Kerala, Mizoram,\nMaharashtra and Tamil Nadu, lichi and guava\nof Uttar Pradesh and Bihar , pineapples of\nMeghalaya, grapes of Andhra Pradesh,\nTelangana and Maharashtra, apples, pears,\napricots and walnuts of Jammu and Kashmir\nand Himachal Pradesh are in great demand\nthe world over.\nFig. 4.10: Fig. 4.10:Fig. 4.10: Fig. 4.10:Fig. 4.10:  Tea Cultivation\n Fig. 4.11: Fig. 4.11:Fig. 4.11: Fig. 4.11:Fig. 4.11:  Tea-leaves Harvesting\nSource: Source:Source: Source:Source: Pocket book of agricultural statistics, 2022, Govt. of India. Directorate of Economics and\nStatistics.\nFig. 4.12: Fig. 4.12:Fig. 4.12: Fig. 4.12:Fig. 4.12:  Apricots, apple and pomegranate\nF FF FFig. 4.13: ig. 4.13:ig. 4.13: ig. 4.13:ig. 4.13:  Cultivation of vegetables – peas, cauliflower, tomato and brinjal\nReprint 2026-27\n\n38\n CONTEMPORARY I NDIA – II\n India is an important producer of pea ,\ncauliflower, onion, cabbage, tomato, brinjal\nand potato.\nN NN NNon-F on-Fon-Fon-Fon-F o oo oood C od Cod C od Cod C rops ropsrops ropsrops\nRubber: Rubber:Rubber: Rubber:Rubber: It is an equatorial crop, but under\nspecial conditions, it is also grown in tropical\nand sub-tropical areas. It requires moist and\nhumid climate with rainfall of more than 200\ncm. and temperature above 25°C.\nRubber is an important industrial raw\nmaterial. It is mainly grown in Kerala, Tamil\nNadu, Karnataka and Andaman and Nicobar\nislands and Garo hills of Meghalaya.\nMaharashtra,  G ujarat, Madhya Pradesh,\nKarnataka, Andhra Pradesh, Telangana, Tamil\nNadu, Punjab, Haryana and Uttar Pradesh.\nJ JJ JJute: ute:ute: ute:ute: It is known as the golden fibre. J ute\ngrows well on well-drained fertile soils in the\nflood plains where soils are renewed every year.\nHigh temperature is required during the time\nof growth. West Bengal, Bihar, Assam, Odisha\nand Meghalaya are the major jute producing\nstates. It is used in making gunny bags, mats,\nropes, yarn, carpets and other artefacts.\nT TT TTechnological and Iechnological and Iechnological and Iechnological and Iechnological and I nstitutional Reformsnstitutional Reformsnstitutional Reformsnstitutional Reformsnstitutional Reforms\nIt was mentioned in the previous pages that\nagriculture has been practised in India for\nthousands of years. Sustained uses of land\nwithout compatible techno-institutional\nchanges have hindered the pace of agricultural\ndevelopment. Inspite of development of sources\nof irrigation most of the farmers in large parts\nof the country still depend upon monsoon and\nnatural fertility in order to carry on their\nagriculture. For a growing population, this\nposes a serious challenge. Agriculture which\nprovides livelihood for more than 60 per cent of\nits population, needs some serious technical\nand institutional reforms. Thus,\ncollectivisation, consolidation of holdings,\ncooperation and abolition of zamindari, etc.\nwere given priority to bring about institutional\nreforms in the country after Independence.\n‘Land reform’ was the main focus of our First\nFive Year Plan. The right of inheritance had\nalready led to fragmentation of land holdings\nnecessitating consolidation of holdings.\nThe laws of land reforms were enacted but\nthe implementation was lacking or lukewarm.\nThe Government of India embarked upon\nintroducing agricultural reforms to improve\nIndian agriculture in the 1960s and 1970s.\nThe Green Revolution based on the use of\npackage technology and the White Revolution\n(Operation Flood) were some of the strategies\ninitiated to improve the lot of Indian agriculture.\nBut, this too led to the concentration of\ndevelopment in few selected areas. Therefore,\nin the 1980s and 1990s, a comprehensive land\ndevelopment programme was initiated, which\nincluded both institutional and technical\nFig. 4.14: Fig. 4.14:Fig. 4.14: Fig. 4.14:Fig. 4.14:   Cotton Cultivation\nFibre Fibre Fibre Fibre Fibre CCC CCrops:rops:rops: rops:rops: Cotton, jute, hemp and natural\nsilk are the four major fibre crops grown in India.\nThe first three are derived from the crops grown\nin the soil, the latter is obtained from cocoons of\nthe silkworms fed on green leaves specially\nmulberry. Rearing of silk worms for the\nproduction of silk fibre is known as sericulturesericulturesericulturesericulturesericulture.\nCotton: Cotton:Cotton: Cotton:Cotton:  India is believed to be the original\nhome of the cotton plant. Cotton is one of\nthe main raw materials for cotton textile\nindustry. India is second largest producer of\ncotton after China. Cotton grows well in drier\nparts of the black cotton soil of the Deccan\nplateau. It requires high temperature, light\nrainfall or irrigation, 210 frost-free days and\nbright sun-shine for its growth. It is a kharif\ncrop and requires 6 to 8 months to mature.\nMajor cotton-producing states are–\nList the items which are made of rubber and\nare used by us.\nReprint 2026-27\n\n39AGRICULTURE\nFig. 4.15:  Modern technological equipments used in agriculture\nreforms. Provision for crop insurance against\ndrought, flood, cyclone, fire and disease,\nestablishment of Grameen banks, cooperative\nsocieties and banks for providing loan facilities\nto the farmers at lower rates of interest were\nsome important steps in this direction.\nKisan Credit Card (KCC), Personal Accident\nInsurance Scheme (PAIS) are some other\nschemes introduced by the Government of  India\nfor the benefit of the farmers. Moreover, special\nweather bulletins and agricultural programmes\nfor farmers were introduced on the radio and\ntelevision. The government also announces\nminimum support price, remunerative and\nprocurement prices for important crops to check\nthe exploitation of farmers by speculators and\nmiddlemen.\nBhoodan – Gramdan\nMahatma Gandhi declared Vinoba Bhave as\nhis spiritual heir . He also participated in\nSatyagraha as one of the foremost\nsatyagrahis. He was one of the votaries of\nGandhi’s concept of gram swarajya. After\nGandhiji’s martyrdom, Vinoba Bhave\nundertook padyatra\n to spread Gandhiji’s\nmessage covered almost the entire country.\nOnce, when he was delivering a lecture at\nPochampally in T elangana, some poor\nlandless villagers demanded some land for\ntheir economic well-being. Vinoba Bhave\ncould not promise it to them immediately but\nassured them to talk to the Government of\nIndia regarding provision of land for them if\nthey undertook cooperative farming.\nSuddenly, Shri R am Chandra R eddy stood\nup and offered 80 acres of land to be\ndistributed among 80 land-less villagers.\nThis act was known as ‘Bhoodan’. Later he\ntravelled and introduced his ideas widely all\nover India. Some zamindars, owners of\nmany villages offered to distribute some\nvillages among the landless. It was known\nas Gramdan. However, many land-owners\nchose to provide some part of their land to\nthe poor farmers due to the fear of land\nceiling act. This Bhoodan- Gramdan\nmovement initiated by Vinoba Bhave is also\nknown as the Blood-less Revolution.\nCollect information about agriculture,\nhorticulture, agricultural schemes, etc. from\nFarmers’ P ortal  website https://farmer .\ngov.in/FarmerHome.aspx. Discuss about the\nbenefits of the information available on\nthe portal.\nReprint 2026-27\n\n40\n CONTEMPORARY I NDIA – II\nEXERCISES  EXERCISES  EXERCISES  EXERCISES  EXERCISES\n1. Multiple choice questions.\n(i) Which one of the following describes a system of agriculture where a single\ncrop is grown on a large area?\n(a) Shifting Agricultur e\n(b) Plantation Agricultur e\n(c) Horticultur e\n(d) Intensive Agriculture\n(ii) Which one of the following is a rabi crop?\n(a) Rice\n(b) Gram\n(c) Millets\n(d) Cotton\n(iii) Which one of the following is a leguminous crop?\n(a) Pulses\n(b) Jawar\n(c) Millets\n(d) Sesamum\n2. Answer the following questions in 30 words.\n(i) Name one important beverage crop and specify the geographical conditions\nrequired for its growth.\n(ii) Name one staple crop of India and the regions where it is produced.\n(iii) Enlist the various institutional reform programmes introduced by the\ngovernment in the interest of farmers.\n3. Answer the following questions in about 120 words.\n(i) Suggest the initiative taken by the government to ensure the increase in\nagricultural production.\n(ii) Describe the geographical conditions required for the growth of rice.\nPROJECT WORK\n1. Group discussion on the necessity of literacy among farmers.\n2. On an outline map of India show wheat producing areas.\nReprint 2026-27\n\n41AGRICULTURE\nACTIVITY\nSolve the puzzle by following your search horizontally and vertically to find the\nhidden answers.\n1. The two staple food crops of India.\n2. This is the summer cropping season of India.\n3. Pulses like ar har, moong, gram, urad contain…\n4. It is a coarse grain.\n5. The two important beverages in India are…\n6. One of the four major fibers grown on black soils.\nA Z M X N C B V N X A H\nD Q\nS D E W S R J D Q J Z V R E\nD K H A R I F G W F M R F W\nF N L R G C H H R S B S V T\nG B C W H E A T Y A C H B R\nH R T K A S S E P H X A N W\nJ I E S J O W A R J Z H D T\nK C L A E G A C O F F E E Y\nL T E F Y M T A T S S R G I\nP D E J O U Y V E J G F A U\nO U M H Q S U D I T S W S P\nU O A C O T T O N E A H F O\nY O L F L U S R Q Q D T W I\nT M U A H R G Y K T R A B F\nE A K D G D Q H S U O I W H\nW Q Z C X V B N M K J A S L\nReprint 2026-27",
+      "source_file": "social_science_04.pdf",
+      "document_metadata": {
+        "title": "bates, Fs,",
+        "author": "Ratt"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "bates, Fs,",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Ratt",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Ratt",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Why is India important?",
+      "answer": "India is an agriculturally important country.",
+      "question_type": "importance_13",
+      "pattern_source": "catalog",
+      "pattern_type": "importance_13",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about TYPES?",
+      "answer": "TYPES OF FARMING Agriculture is an age-old economic activity in our country.",
+      "question_type": "evaluation_10",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_10",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to years?",
+      "answer": "Over these years, cultivation methods have changed significantly depending upon the characteristics of physical environment, technological know-how and socio-cultural practices.",
+      "question_type": "main_idea_05",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_05",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about years is important?",
+      "answer": "Over these years, cultivation methods have changed significantly depending upon the characteristics of physical environment, technological know-how and socio-cultural practices.",
+      "question_type": "detail_05",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_05",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies Farming?",
+      "answer": "Farming varies from subsistence to commercial type.",
+      "question_type": "identify_16",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_16",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How can Farming be classified?",
+      "answer": "Farming varies from subsistence to commercial type.",
+      "question_type": "classify_16",
+      "pattern_source": "catalog",
+      "pattern_type": "classify_16",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to present?",
+      "answer": "At present, in dif ferent parts of India, the following farming systems are practised.",
+      "question_type": "main_idea_16",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_16",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about present is important?",
+      "answer": "At present, in dif ferent parts of India, the following farming systems are practised.",
+      "question_type": "detail_16",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_16",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about type?",
+      "answer": "Primitive Subsistence Farming This type of farming is still practised in few pockets of India.",
+      "question_type": "evaluation_08",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_08",
+      "source_file": "social_science_04.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

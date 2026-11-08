@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "SECTION II",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to making?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about making is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who were the important people or groups connected with making?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person"
+  },
+  {
+    "answer": "But as you will see in this chapter, the making of the global world has a long history – of trade, of migration, of people in search of work, the movement of capital, and much else.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is mentioned or involved in relation to making?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "As we think about the dramatic and visible signs of global interconnectedness in our lives today, we need to understand the phases through which this world in which we live has emerged.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Whose perspective is presented about dramatic and visible signs?",
+    "question_type": "perspective_03",
+    "pattern_source": "catalog",
+    "pattern_type": "perspective_03"
+  },
+  {
+    "answer": "All thr ough history, human societies have become steadily more interlinked.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about history is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22"
+  },
+  {
+    "answer": "All thr ough history, human societies have become steadily more interlinked.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies history?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23"
+  },
+  {
+    "answer": "All thr ough history, human societies have become steadily more interlinked.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who played a role in history?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person"
+  },
+  {
+    "answer": "They carried goods, money , values, skills, ideas, inventions, and even germs and diseases.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to goods?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13"
+  },
+  {
+    "answer": "They carried goods, money , values, skills, ideas, inventions, and even germs and diseases.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about goods is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13"
+  },
+  {
+    "answer": "For more than a millennia, cowries (the Hindi cowdi or seashells, used as a form of currency) from the Maldives found their way to China and East Africa.",
+    "source_file": "social_science_12.pdf",
+    "page_or_id": "Page 1",
+    "question": "What function does than a millennia serve?",
+    "question_type": "function_11",
+    "pattern_source": "catalog",
+    "pattern_type": "function_11"
+  }
+]

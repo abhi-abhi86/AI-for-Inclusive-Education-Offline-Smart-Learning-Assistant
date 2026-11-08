@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to envir onment?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about envir onment is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies transformation?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who played a role in Human beings?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Resources?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Resources is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies Resources?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who played a role in Resources?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is connected with Human beings?",
+    "question_type": "person_06",
+    "pattern_source": "catalog",
+    "pattern_type": "person_06",
+    "source_file": "social_science_01.pdf",
+    "page_or_id": "Page 1"
+  }
+]

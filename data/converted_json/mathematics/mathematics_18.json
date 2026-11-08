@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_18.pdf",
+  "document_metadata": {
+    "title": "Textbook for Class X",
+    "author": "NATIONAL COUNCIL OF EDUCATIONAL"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_18_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_18_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 14,
+    "pages_with_text": 14,
+    "total_words": 2943,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_18.txt",
+    "document_metadata": {
+      "title": "Textbook for Class X",
+      "author": "NATIONAL COUNCIL OF EDUCATIONAL"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "MATHEMATICS\nTextbook for Class X\nReprint 2026-27\n\nFirst Edition\nDecember 2006  Pausa 1928\nReprinted\nOctober 2007, January 2009,\nDecember 2009, November 2010,\nJanuary 2012, November 2012,\nNovember 2013, November 2014,\nDecember 2015, December 2016,\nDecember 2017, January 2019,\nAugust 2019, January 2021 and\nNovember 2021\nRevised Edition\nOctober 2022, Ashwina 1944\nReprinted\nMarch 2024 Chaitra 1946\nJune 2024 Jyeshtha 1946\nDecember 2024 Agrahayana 1946\nDecember 2025 Agrahayana 1947\nPD 325T SM\n©National Council of Educational\nResearch and Training, 2006,2022\n` 125.00\nPrinted on 80 GSM paper with NCERT\nwatermark\nALL RIGHTS RESERVED\nq No part of this publication may be reproduced, stored in a retrieval system or\ntransmitted, in any form or by any means, electronic, mechanical, photocopying,\nrecording or otherwise without the prior permission of the publisher.\nq This book is sold subject to the condition that it shall not, by way of trade,  be\nlent,  re-sold, hired out or otherwise disposed of without the publisher’s\nconsent, in any form of binding or cover other than that in which it is published.\nq The correct price of this publication is the price printed on this page, Any\nrevised price indicated by a rubber stamp or by a sticker or by any other means\nis incorrect and should be unacceptable.\nOFFICES OF THE PUBLICATION DIVISION, NCERT\nNCERT Campus\nSri Aurobindo Marg\nNew Delhi 1 10 016 Phone :  01 1-26562708\n108, 100 Feet Road\nHosdakere Halli Extension\nBanashankari III Stage\nBengaluru 560 085 Phone : 080-26725740\nNavjivan Trust Building\nP.O.Navjivan\nAhmedabad 380 014 Phone :  079-27541446\nCWC Campus\nOpp. Dhankal Bus Stop\nPanihati\nKolkat a 700 1 14 Phone :  033-25530454\nCWC Complex\nMaligaon\nGuwahati 781 021 Phone :  0361-2674869\nPublication Team\nHead, Publication : M.V. Srinivasan\nDivision\nChief Editor : Bijnan Sutar\nChief Business : Amitabh Kumar\nManager\nChief Production : Deepak Jaiswal\nOfficer (In charge)\nAssistant Production : Deepak Kumar\nOfficer\nIllustrations\nJoel Gill and Arvinder Chawla\nCover\nArvinder Chawla\nISBN  81-7450-634-91062  – MATHEMATICSTextbook for Class X\nPublished at the Publication Division\nby the Secretary, National Council of\nEducational Research and Training,\nSri Aurobindo Marg, New Delhi 110 016\nand printed at VK Global Digital, Plot\nNo. 928, Sector-68, IMT Faridabad,\nHaryana–121004\nReprint 2026-27\n\nForeword\nThe National Curriculum Framework 2005, recommends that children’s life at school\nmust be linked to their life outside the school. This principle marks a departure from\nthe legacy of bookish learning which continues to shape our system and causes a\ngap between the school, home and community. The syllabi and textbooks developed\non the basis of NCF signify an attempt to implement this basic idea. They also\nattempt to discourage rote learning and the maintenance of sharp boundaries between\ndifferent subject areas. We hope these measures will take us significantly further in\nthe direction of a child-centred system of education outlined in the National Policy\non Education (1986).\nThe success of this effort depends on the steps that school principals and teachers\nwill take to encourage children to reflect on their own learning and to pursue\nimaginative activities and questions. We must recognise that, given space, time and\nfreedom, children generate new knowledge by engaging with the information passed\non to them by adults. Treating the prescribed textbook as the sole basis of examination\nis one of the key reasons why other resources and sites of learning are ignored.\nInculcating creativity and initiative is possible if we perceive and treat children as\nparticipants in learning, not as receivers of a fixed body of knowledge.\nThese aims imply considerable change in school routines and mode of functioning.\nFlexibility in the daily time-table is as necessary as rigour in implementing the annual\ncalendar so that the required number of teaching days are actually devoted to teaching.\nThe methods used for teaching and evaluation will also determine how effective this\ntextbook proves for making children’s life at school a happy experience, rather than\na source of stress or boredom. Syllabus designers have tried to address the problem\nof curricular burden by restructuring and reorienting knowledge at different stages\nwith greater consideration for child psychology and the time available for teaching.\nThe textbook attempts to enhance this endeavour by giving higher priority and space\nto opportunities for contemplation and wondering, discussion in small groups, and\nactivities requiring hands-on experience.\nThe National Council of Educational Research and Training (NCERT) appreciates\nthe hard work done by the textbook development committee responsible for this\nbook. We wish to thank the Chairperson of the advisory group in Science and\nMathematics, Professor J.V. Narlikar and the Chief Advisors for this book, Professor\nP. Sinclair of IGNOU, New Delhi and Professor G .P. Dikshit (Retd.) of Lucknow\nUniversity, Lucknow for guiding the work of this committee. Several teachers\nReprint 2026-27\n\ncontributed to the development of this textbook; we are grateful to their principals\nfor making this possible. We are indebted to the institutions and organisations which\nhave generously permitted us to draw upon their resources, material and personnel.\nWe are especially grateful to the members of the National Monitoring Committee,\nappointed by the Department of Secondary and Higher Education, Ministry of Human\nResource Development under the Chairpersonship of Professor Mrinal Miri and\nProfessor G.P. Deshpande, for their valuable time and contribution. As an organisation\ncommitted to systemic reform and continuous improvement in the quality of its\nproducts, NCERT welcomes comments and suggestions which will enable us to\nundertake further revision and refinement.\nDirector\nNew Delhi National Council of Educational\n15 November 2006 Research and Training\niv\nReprint 2026-27\n\nRationalisation of Content in the Textbooks\nIn view of the COVID-19 pandemic, it is imperative to reduce content load on\nstudents. The National Education Policy 2020, also emphasises reducing the content\nload and providing opportunities for experiential learning with creative mindset. In\nthis background, the NCERT has undertaken the exercise to rationalise the textbooks\nacross all classes. Learning Outcomes already developed by the NCER T across\nclasses have been taken into consideration in this exercise.\nContents of the textbooks have been rationalised in view of the following:\n• Overlapping with similar content included in other subject areas in the same\nclass\n• Similar content included in the lower or higher class in the same subject\n• Difficulty level\n• Content, which is easily accessible to students without much interventions from\nteachers and can be learned by children through self-learning or peer-learning\n• Content, which is irrelevant in the present context\nThis present edition, is a reformatted version after carrying out the changes\ngiven above.\nReprint 2026-27\n\nReprint 2026-27\n\nPreface\nThrough the years, from the time of the Kothari Commission, there have been\nseveral committees looking at ways of making the school curriculum meaningful\nand enjoyable for the learners. Based on the understanding developed over the\nyears, a National Curriculum Framework (NCF) was finalised in 2005. As part of\nthis exercise, a National Focus Group on Teaching of Mathematics was formed. Its\nreport, which came in 2005, highlighted a constructivist approach to the teaching\nand learning of mathematics.\nThe essence of this approach is that children already know , and do some\nmathematics very naturally in their surroundings, before they even join school. The\nsyllabus, teaching approach, textbooks etc., should build on this knowledge in a way\nthat allows children to enjoy mathematics, and to realise that mathematics is more\nabout a way of reasoning than about mechanically applying formulae and algorithms.\nThe students and teachers need to perceive mathematics as something natural and\nlinked to the world around us. While teaching mathematics, the focus should be on\nhelping children to develop the ability to particularise and generalise, to solve and\npose meaningful problems, to look for patterns and relationships, and to apply the\nlogical thinking behind mathematical proof. And, all this in an environment that the\nchildren relate to, without overloading them.\nThis is the philosophy with which the mathematics syllabus from Class I to\nClass XII was developed, and which the textbook development committee has tried\nto realise in the present textbook. More specifically, while creating the textbook, the\nfollowing broad guidelines have been kept in mind.\n/circle6 The matter needs to be linked to what the child has studied before, and to\nher experiences.\n/circle6 The language used in the book, including that for ‘word problems’, must be\nclear, simple and unambiguous.\n/circle6 Concepts/processes should be introduced through situations from the\nchildren’s environment.\n/circle6 For each concept/process give several examples and exercises, but not of\nthe same kind. This ensures that the children use the concept/process again\nand again, but in varying contexts. Here ‘several’ should be within reason,\nnot overloading the child.\n/circle6 Encourage the children to see, and come out with, diverse solutions to\nproblems.\nReprint 2026-27\n\n/circle6 As far as possible, give the children motivation for results used.\n/circle6 All proofs need to be given in a non-didactic manner, allowing the learner to\nsee the flow of reason. The focus should be on proofs where a short and\nclear argument reinforces mathematical thinking and reasoning.\n/circle6 Whenever possible, more than one proof is to be given.\n/circle6 Proofs and solutions need to be used as vehicles for helping the learner\ndevelop a clear and logical way of expressing her arguments.\n/circle6 All geometric constructions should be accompanied by an analysis of the\nconstruction and a proof for the steps taken to do the required construction.\nAccordingly, the children would be trained to do the same while doing\nconstructions.\n/circle6 Add such small anecdotes, pictures, cartoons and historical remarks at\nseveral places which the children would find interesting.\n/circle6 Include optional exercises for the more interested learners. These would\nnot be tested in the examinations.\n/circle6 Give answers to all exercises, and solutions/hints for those that the children\nmay require.\n/circle6 Whenever possible, propagate constitutional values.\nAs you will see while studying this textbook, these points have been kept in mind\nby the Textbook Development Committee. The book has particularly been created\nwith the view to giving children space to explore mathematics and develop the abilities\nto reason mathematically. Further, two special appendices have been given — Proofs\nin Mathematics, and Mathematical Modelling. These are placed in the book for\ninterested students to study, and are only optional reading at present. These topics\nmay be considered for inclusion in the main syllabi in due course of time.\nAs in the past, this textbook is also a team ef fort. However, what is unusual\nabout the team this time is that teachers from different kinds of schools have been\nan integral part at each stage of the development. We are also assuming that teachers\nwill contribute continuously to the process in the classroom by formulating examples\nand exercises contextually suited to the children in their particular classrooms. Finally,\nwe hope that teachers and learners would send comments for improving the textbook\nto the NCERT.\nPARVIN SINCLAIR\nG.P. DIKSHIT\nChief Advisors\nTextbook Development Committee\nviii\nReprint 2026-27\n\nTextbook Development Committee\nCHAIRPERSON, ADVISORY GROUP IN SCIENCE AND MATHEMATICS\nJ.V. Narlikar, Emeritus Professor, Inter-University Centre for Astronomy & Astrophysics\n(IUCAA), Ganeshkhind, Pune University, Pune\nCHIEF ADVISORS\nP. Sinclair, Professor of Mathematics, IGNOU, New Delhi\nG.P. Dikshit, Professor (Retd.), Lucknow University, Lucknow\nCHIEF COORDINATOR\nHukum Singh, Professor and Head (Retd.), DESM, NCERT, New Delhi\nMEMBERS\nAnjali Lal, PGT, DAV Public School, Sector-14, Gur\ngaon\nA.K. Wazalwar, Professor and Head, DESM, NCER T\nB.S. Upadhyaya, Professor, RIE, Mysore\nJayanti Datta, PGT, Salwan Public School, Gurgaon\nMahendra Shanker, Lecturer (S.G.) (Retd.), NCERT\nManica Aggarwal, Green Park, New Delhi\nN.D. Shukla, Professor (Retd.), Lucknow University, Lucknow\nRam Avtar, Professor (Retd.) & Consultant,  DESM, NCER T\nRama Balaji, TGT, K.V., MEG & Centre, St. John’s Road, Bangalore\nS. Jagdeeshan, Teacher and Member, Governing Council, Centre for Learning, Bangalore\nS.K.S. Gautam, Professor (Retd.), DESM, NCERT\nVandita Kalra, Lecturer, Sarvodaya Kanya Vidyalaya, Vikaspuri District Centre, Delhi\nV.A. Sujatha, TGT, Kendriya Vidyalaya No. 1, Vasco, Goa\nV. Madhavi, TGT, Sanskriti School, Chankyapuri, New Delhi\nMEMBER-COORDINATOR\nR.P. Maurya, Professor, DESM, NCERT, New Delhi\nReprint 2026-27\n\nAcknowledgements\nThe Council gratefully acknowledges the valuable contributions of the following\nparticipants of the Textbook Review Workshop:\nMala Mani, TGT, Amity International School, Sector -44, Noida; Meera\nMahadevan, TGT, Atomic Energy Central School, No. 4, Anushakti Nagar, Mumbai;\nRashmi Rana, TGT, D.A.V. Public School, Pushpanjali Enclave, Pitampura, Delhi;\nMohammad Qasim, TGT, Anglo Arabic Senior Secondary School, Ajmeri Gate, Delhi;\nS.C. Rauto, TGT, Central School for Tibetans, Happy Valley, Mussoorie; Rakesh\nKaushik, TGT, Sainik School, Kunjpura, Karnal; Ashok Kumar Gupta, TGT, Jawahar\nNavodaya Vidyalaya, Dudhnoi, Distt. Goalpara; Sankar Misra, TGT, Demonstration\nMultipurpose School, RIE, Bhubaneswar; Uaday Singh, Lecturer, Department of\nMathematics, B.H.U., Varanasi; B.R. Handa, Emeritus Professor, IIT, New Delhi;\nMonika Singh, Lecturer, Sri Ram College (University of Delhi), Lajpat Nagar ,\nNew Delhi; G. Sri Hari Babu, TGT, Jawahar Navodaya Vidyalaya, Sirpur, Kagaz\nNagar, Adilabad; Ajay Kumar Singh, TGT, Ramjas Sr. Secondary School No. 3,\nChandni Chowk, Delhi; Mukesh Kumar Agrawal, TGT, S.S.A.P.G.B.S.S. School,\nSector-V, Dr Ambedkar Nagar, New Delhi.\nSpecial thanks are due to Professor Hukum Singh, Head (Retd.), DESM, NCERT\nfor his support during the development of this book.\nThe Council acknowledges the efforts of Deepak Kapoor, Incharge, Computer\nStation; Purnendu Kumar Barik, Copy Editor; Naresh Kumar and Nargis Islam,\nD.T.P. Operators; \nYogita Sharma, Pr oof Reader.\nThe Contribution of APC-Of fice, administration of DESM, Publication\nDepartment and Secretariat of NCERT is also duly acknowledged.\nReprint 2026-27\n\nContents\nForeword iii\nRationalisation of Contents in the T extbooks v\nPreface vii\n1. Real Numbers 1\n1.1 Introduction 1\n1.2 The Fundamental Theorem of Arithmetic 2\n1.3 Revisiting Irrational Numbers 6\n1.4 Summary 9\n2. Polynomials 10\n2.1 Introduction 10\n2.2 Geometrical Meaning of the Zeroes of a Polynomial 11\n2.3 Relationship between Zeroes and Coefficients of a Polynomial 18\n2.4 Summary 23\n3. Pair of Linear Equations in Two Variables 24\n3.1 Introduction 24\n3.2 Graphical Method of Solution of a Pair of Linear Equations 25\n3.3 Algebraic Methods of Solving a Pair of Linear Equations 30\n3.3.1 Substitution Method 30\n3.3.2 Elimination Method 34\n3.4 Summary 37\n4. Quadratic Equations 38\n4.1 Introduction 38\n4.2 Quadratic Equations 39\n4.3 Solution of a Quadratic Equation by Factorisation 42\n4.4 Nature of Roots 44\n4.5 Summary 47\n5. Arithmetic Progressions 49\n5.1 Introduction 49\nReprint 2026-27\n\n5.2 Arithmetic Progressions 51\n5.3 nth Term of an AP 56\n5.4 Sum of First n Terms of an AP 63\n5.5 Summary 72\n6. Triangles 73\n6.1 Introduction 73\n6.2 Similar Figures 74\n6.3 Similarity of Triangles 79\n6.4 Criteria for Similarity of Triangles 85\n6.5 Summary 97\n7. Coordinate Geometry 99\n7.1 Introduction 99\n7.2 Distance Formula 100\n7.3 Section Formula 106\n7.4 Summary 112\n8. Introduction to Trigonometry 113\n8.1 Introduction 113\n8.2 Trigonometric Ratios 114\n8.3 Trigonometric Ratios of Some Specific Angles 121\n8.4 Trigonometric Identities 128\n8.5 Summary 132\n9. Some Applications of Trigonometry 133\n9.1 Heights and Distances 133\n9.2 Summary 143\n10. Circles 144\n10.1 Introduction 144\n10.2 Tangent to a Circle 145\n10.3 Number of Tangents from a Point on a Circle 147\n10.4 Summary 153\n11. Areas Related to Circles 154\n11.1 Areas of Sector and Segment of a Circle 154\n11.2 Summary 160\nxii\nReprint 2026-27\n\n12. Surface Areas and Volumes 161\n12.1 Introduction 161\n12.2 Surface Area of a Combination of Solids 162\n12.3 Volume of a Combination of Solids 167\n12.4 Summary 170\n13. Statistics 171\n13.1 Introduction 171\n13.2 Mean of Grouped Data 171\n13.3 Mode of Grouped Data 183\n13.4 Median of Grouped Data 188\n13.5 Summary 200\n14. Probability 202\n14.1 Probability — A Theoretical Approach 202\n14.2 Summary 217\nAppendix A1 : Pr oofs in Mathematics 218\nA1.1 Introduction 218\nA1.2 Mathematical Statements Revisited 218\nA1.3 Deductive Reasoning 221\nA1.4 Conjectures, Theorems, Proofs and Mathematical Reasoning 223\nA1.5 Negation of a Statement 228\nA1.6 Converse of a Statement 231\nA1.7 Proof by Contradiction 234\nA1.8 Summary 238\nAppendix A2 : Mathematical Modelling 239\nA2.1 Introduction 239\nA2.2 Stages in Mathematical Modelling 240\nA2.3 Some Illustrations 244\nA2.4 Why is Mathematical Modelling Important? 248\nA2.5 Summary 249\nAnswers/Hints 250\nxiii\nReprint 2026-27\n\nxii\nConstitution of India\nFundamental Duties\nIt shall be the duty of every citizen of India —\n(a) to abide by the Constitution and respect its ideals and institutions, the\nNational Flag and the National Anthem;\n(b) to cherish and follow the noble ideals which inspired our national struggle\nfor freedom;\n(c) to uphold and protect the sovereignty, unity and integrity of India;\n(d) to defend the country and render national service when called upon to\ndo so;\n(e) to promote harmony and the spirit of common brotherhood amongst all\nthe people of India transcending religious, linguistic and regional or\nsectional diversities; to renounce practices derogatory to the dignity of\nwomen;\n(f) to value and preserve the rich heritage of our composite culture;\n(g) to protect and improve the natural environment including forests, lakes,\nrivers, wildlife and to have compassion for living creatures;\n(h) to develop the scientific temper, humanism and the spirit of inquiry and\nreform;\n(i) to safeguard public property and to abjure violence;\n(j) to strive towards excellence in all spheres of individual and collective\nactivity so that the nation constantly rises to higher levels of endeavour\nand achievement;\n*(k) who is a parent or guardian, to provide opportunities for education to\nhis child or , as the case may be, ward between the age of six and\nfourteen years.\nNote: The Article 51A containing Fundamental Duties was inserted by the Constitution\n(42nd Amendment) Act, 1976 (with effect from 3 January 1977).\n*(k) was inserted by the Constitution (86th Amendment) Act, 2002 (with effect from\n1 April 2010).\nPart IV A (Article 51 A)\nReprint 2026-27",
+      "source_file": "mathematics_18.pdf",
+      "document_metadata": {
+        "title": "Textbook for Class X",
+        "author": "NATIONAL COUNCIL OF EDUCATIONAL"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "Textbook for Class X",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "NATIONAL COUNCIL OF EDUCATIONAL",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "NATIONAL COUNCIL OF EDUCATIONAL",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What effect does principle have?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "effect_17",
+      "pattern_source": "catalog",
+      "pattern_type": "effect_17",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What caused principle, and what resulted from it?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "cause_effect_17",
+      "pattern_source": "catalog",
+      "pattern_type": "cause_effect_17",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Why does principle have this effect?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "why",
+      "pattern_source": "evidence",
+      "pattern_type": "why",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to syllabi?",
+      "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+      "question_type": "main_idea_25",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_25",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to rote learning?",
+      "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+      "question_type": "main_idea_03",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_03",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about rote learning is important?",
+      "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+      "question_type": "detail_03",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_03",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How does the process involving success work?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "process_12",
+      "pattern_source": "catalog",
+      "pattern_type": "process_12",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What method is described for success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "method_12",
+      "pattern_source": "catalog",
+      "pattern_type": "method_12",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How can a problem involving success be solved?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "method",
+      "pattern_source": "subject",
+      "pattern_type": "method",
+      "source_file": "mathematics_18.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What effect does principle have?",
+    "question_type": "effect_17",
+    "pattern_source": "catalog",
+    "pattern_type": "effect_17",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What caused principle, and what resulted from it?",
+    "question_type": "cause_effect_17",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_17",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to syllabi?",
+    "question_type": "main_idea_25",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_25",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to rote learning?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about rote learning is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How does the process involving success work?",
+    "question_type": "process_12",
+    "pattern_source": "catalog",
+    "pattern_type": "process_12",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What method is described for success?",
+    "question_type": "method_12",
+    "pattern_source": "catalog",
+    "pattern_type": "method_12",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can a problem involving success be solved?",
+    "question_type": "method",
+    "pattern_source": "subject",
+    "pattern_type": "method",
+    "source_file": "mathematics_18.pdf",
+    "page_or_id": "Page 1"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to lear?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How does knowledge work?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about sour and bitter substances?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies acids?",
+    "question_type": "identify_23",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_23",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Litmus?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about Litmus is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies cloth?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How does synthetic indicators work?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the function of reactions?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Litmus solution?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the function of Litmus solution?",
+    "question_type": "function",
+    "pattern_source": "subject",
+    "pattern_type": "function",
+    "source_file": "science_02.pdf",
+    "page_or_id": "Page 1"
+  }
+]

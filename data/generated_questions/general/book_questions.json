@@ -1,0 +1,2306 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of “sy (e<ss| Heredity”?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote “sy (e<ss| Heredity”?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea of original organism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does original organism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea related to turn?",
+    "question_type": "main_idea_24",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail about turn is important?",
+    "question_type": "detail_24",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea of turn?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does turn mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea of four individuals?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does four individuals mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What might happen next based on differences?",
+    "question_type": "prediction_03",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_03",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about differences?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea of differences?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does differences mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail identifies reproductive processes?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does reproductive processes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about some amount?",
+    "question_type": "evaluation_13",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_13",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does some amount mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "Which detail identifies successful variations?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does successful variations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea of field?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does field mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "Which detail identifies animals?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does animals mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "Which detail identifies mechanism?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does mechanism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea related to V TION?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "Which detail about V TION is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of V TION?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does V TION mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of new generation?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does new generation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea related to second generation?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "Which detail about second generation is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of second generation?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does second generation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of Figure?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does Figure mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about Figure?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does Figure mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What is the main idea of one bacterium?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does one bacterium mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about only very minor differences?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does only very minor differences mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "Which detail identifies Heredity?",
+    "question_type": "identify_25",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_25",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What does Heredity mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "Which detail about rules is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "Which detail identifies rules?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What is the main idea of rules?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What does rules mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What is the main idea of closer look?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What does closer look mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What is the main idea related to child?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What does child mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What evidence supports the explanation of parents?",
+    "question_type": "evidence_23",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_23",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "What does parents mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 1"
+  },
+  {
+    "question": "Which detail identifies Activity?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 2"
+  },
+  {
+    "question": "What does Activity mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 2"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to Activity?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 2"
+  },
+  {
+    "question": "What does earlobes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about earlobe type?",
+    "question_type": "evaluation_10",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_10",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 2"
+  },
+  {
+    "question": "What does earlobe type mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about earlobes?",
+    "question_type": "evaluation_22",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "Who is connected with earlobes?",
+    "question_type": "person_22",
+    "pattern_source": "catalog",
+    "pattern_type": "person_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What is the main idea of earlobes?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What does earlobes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What is the main idea of earlobe type?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What does earlobe type mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What can be inferred about evidence?",
+    "question_type": "inference_24",
+    "pattern_source": "catalog",
+    "pattern_type": "inference_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about evidence?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What is the main idea of evidence?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What does evidence mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What is the main idea related to Rules?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "Which detail about Rules is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 3"
+  },
+  {
+    "question": "What is the main idea related to both paternal and maternal DNA?",
+    "question_type": "main_idea_11",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_11",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "Which detail about both paternal and maternal DNA is important?",
+    "question_type": "detail_11",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_11",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What is the main idea of both paternal and maternal DNA?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What does both paternal and maternal DNA mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What is the main idea of each trait?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What does each trait mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What is the main idea related to Mendel?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "Which detail about Mendel is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What is the main idea of Mendel?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What does Mendel mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about earlobes?",
+    "question_type": "evaluation_04",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_04",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What does earlobes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 4"
+  },
+  {
+    "question": "What is the main idea related to Free and attached earlobes?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 5"
+  },
+  {
+    "question": "What does Free and attached earlobes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 5"
+  },
+  {
+    "question": "What is the main idea of Bacteria?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 5"
+  },
+  {
+    "question": "What does Bacteria mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 2, Section 5"
+  },
+  {
+    "question": "What is the main idea related to Science?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Which detail about Science is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What is the main idea of Science?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does Science mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What is the main idea of pea plants?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does pea plants mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about place?",
+    "question_type": "evaluation_15",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_15",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does place mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Which detail about parental traits is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Which detail identifies parental traits?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What points about parental traits are listed?",
+    "question_type": "list_18",
+    "pattern_source": "catalog",
+    "pattern_type": "list_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does parental traits mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What is the main idea of Mendelian experiments?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does Mendelian experiments mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about progeny?",
+    "question_type": "evaluation_04",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_04",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does progeny mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What is the main idea of one quarter?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does one quarter mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What is the main idea of both the tallness?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does both the tallness mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "Which detail identifies Mendel?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What points about Mendel are listed?",
+    "question_type": "list_22",
+    "pattern_source": "catalog",
+    "pattern_type": "list_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What is the main idea of Mendel?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does Mendel mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "Which detail identifies Mendel?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What points about Mendel are listed?",
+    "question_type": "list_22",
+    "pattern_source": "catalog",
+    "pattern_type": "list_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the main idea of Mendel?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does Mendel mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "Which detail about parentage is important?",
+    "question_type": "detail_20",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_20",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "Which detail identifies parentage?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What points about parentage are listed?",
+    "question_type": "list_21",
+    "pattern_source": "catalog",
+    "pattern_type": "list_21",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does parentage mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the main idea of pattern?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does pattern mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the main idea of Gregor Johann Mendel?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does Gregor Johann Mendel mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the sequence described for Many others?",
+    "question_type": "sequence_05",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_05",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does Many others mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about laws?",
+    "question_type": "evaluation_02",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_02",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does laws mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea of Figure?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does Figure mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about both TT?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does both TT mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea of both TT?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does both TT mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "Which detail identifies words?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does words mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What conclusion can be drawn about Traits?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does Traits mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "Which detail identifies trait?",
+    "question_type": "identify_10",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_10",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What points about trait are listed?",
+    "question_type": "list_10",
+    "pattern_source": "catalog",
+    "pattern_type": "list_10",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What is the main idea of trait?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does trait mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What is the main idea of round seeds?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What does round seeds mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What is the main idea of Tallness?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What does Tallness mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What is the main idea of Mendelian experiment?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What does Mendelian experiment mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What is the main idea related to seeds?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "Which detail about seeds is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What is the main idea of seeds?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What does seeds mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 2"
+  },
+  {
+    "question": "What is the main idea related to seeds?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "Which detail about seeds is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What is the main idea of seeds?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What does seeds mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What is the main idea of new combinations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What does new combinations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about Cellular DNA?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What does Cellular DNA mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about one protein?",
+    "question_type": "evaluation_06",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_06",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What does one protein mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 3"
+  },
+  {
+    "question": "What is the main idea related to one protein?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "Which detail about one protein is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What is the main idea of one protein?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What does one protein mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "Which detail identifies tallness?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What does tallness mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "Which detail identifies plants?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What does plants mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "Which detail identifies Plant height?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What does Plant height mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What is the main idea related to amount?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "Which detail about amount is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 4"
+  },
+  {
+    "question": "What might happen next based on hormone?",
+    "question_type": "prediction_07",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What conclusion can be drawn about hormone?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What is the main idea of hormone?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What does hormone mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What is the main idea of gene?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What does gene mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What is the main idea of genes?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What does genes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "Which detail identifies interpretations?",
+    "question_type": "identify_01",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_01",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What is the sequence described for interpretations?",
+    "question_type": "sequence_01",
+    "pattern_source": "catalog",
+    "pattern_type": "sequence_01",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What is the main idea of interpretations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What does interpretations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 5"
+  },
+  {
+    "question": "What conclusion can be drawn about both parents?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "Who is connected with both parents?",
+    "question_type": "person_07",
+    "pattern_source": "catalog",
+    "pattern_type": "person_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What is the main idea of both parents?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What does both parents mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "Which detail about each pea plant is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "Which detail identifies each pea plant?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What points about each pea plant are listed?",
+    "question_type": "list_11",
+    "pattern_source": "catalog",
+    "pattern_type": "list_11",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What does each pea plant mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What is the main idea related to mechanism?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "Which detail about mechanism is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What is the main idea of mechanism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What does mechanism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 4, Section 6"
+  },
+  {
+    "question": "What is the main idea related to fact?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "Which detail about fact is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What is the main idea of fact?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What does fact mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What might happen next based on each cell?",
+    "question_type": "prediction_07",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about each cell?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What is the main idea of each cell?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What does each cell mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What function does Such a mechanism serve?",
+    "question_type": "function_14",
+    "pattern_source": "catalog",
+    "pattern_type": "function_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What method is described for Such a mechanism?",
+    "question_type": "method_14",
+    "pattern_source": "catalog",
+    "pattern_type": "method_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "How can Such a mechanism be applied in practice?",
+    "question_type": "application_14",
+    "pattern_source": "catalog",
+    "pattern_type": "application_14",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What does Such a mechanism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Such a mechanism?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What does Such a mechanism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What is the main idea of organisms?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What does organisms mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What is the main idea related to Sex Determination?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "Which detail about Sex Determination is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What is the main idea of Sex Determination?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What does Sex Determination mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "Which detail identifies Different species?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What does Different species mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What is the main idea of environmental cues?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What does environmental cues mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 2"
+  },
+  {
+    "question": "What might happen next based on temperature?",
+    "question_type": "prediction_24",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about temperature?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What is the main idea of temperature?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What does temperature mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What is the main idea of animals?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What does animals mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What is the main idea of human beings?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What does human beings mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What is the main idea related to words?",
+    "question_type": "main_idea_08",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_08",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "Which detail about words is important?",
+    "question_type": "detail_08",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_08",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What is the main idea of words?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What does words mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about fact?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What does fact mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What is the main idea of Most human chromosomes?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What does Most human chromosomes mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What is the main idea of one pair?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What does one pair mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about Women?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What does Women mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What is the main idea of mismatched pair?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What does mismatched pair mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 4"
+  },
+  {
+    "question": "What is the main idea of shows?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What does shows mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What is the main idea of X chromosome?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What does X chromosome mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What is the main idea related to father?",
+    "question_type": "main_idea_12",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_12",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "Which detail about father is important?",
+    "question_type": "detail_12",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_12",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What is the main idea of father?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What does father mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "Who is connected with child?",
+    "question_type": "person_13",
+    "pattern_source": "catalog",
+    "pattern_type": "person_13",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What does child mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 5, Section 5"
+  },
+  {
+    "question": "What conclusion can be drawn about blood group?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 1"
+  },
+  {
+    "question": "What does blood group mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 1"
+  },
+  {
+    "question": "What is the main idea of variations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 1"
+  },
+  {
+    "question": "What does variations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Variations?",
+    "question_type": "evaluation_16",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_16",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What does Variations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What might happen next based on variations?",
+    "question_type": "prediction_06",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_06",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "Which detail about individuals is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "Which detail identifies individuals?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What points about individuals are listed?",
+    "question_type": "list_07",
+    "pattern_source": "catalog",
+    "pattern_type": "list_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What does individuals mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What is the main idea related to copies?",
+    "question_type": "main_idea_05",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_05",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "Which detail about copies is important?",
+    "question_type": "detail_05",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_05",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "Which detail identifies copies?",
+    "question_type": "identify_06",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_06",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What does copies mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about beings?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What does beings mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about E X E R C?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What does E X E R C mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "Which detail identifies Mendelian experiment?",
+    "question_type": "identify_01",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_01",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What does Mendelian experiment mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "Which detail identifies almost half?",
+    "question_type": "identify_13",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_13",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What does almost half mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What is the main idea related to study?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "Which detail about study is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What is the main idea of study?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "What does study mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 3"
+  },
+  {
+    "question": "Which detail identifies parents?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 4"
+  },
+  {
+    "question": "What does parents mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about project?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 4"
+  },
+  {
+    "question": "What does project mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "science_08.pdf",
+    "page_or_id": "Page 6, Section 4"
+  }
+]

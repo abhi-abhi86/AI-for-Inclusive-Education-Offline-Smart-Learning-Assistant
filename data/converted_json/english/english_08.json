@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "english_08.pdf",
+  "document_metadata": {
+    "title": "BEFORE Y OU R EAD",
+    "author": "The Sermon"
+  },
+  "question_generation": {
+    "subject": "english",
+    "pattern_file": "data/question_patterns/english.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/english/english_08_questions.json",
+    "answers_path": "data/generated_answers/english/english_08_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 9,
+    "pages_with_text": 9,
+    "total_words": 2911,
+    "warnings": [],
+    "text_file": "data/converted_text/english/english_08.txt",
+    "document_metadata": {
+      "title": "BEFORE Y OU R EAD",
+      "author": "The Sermon"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "BEFORE Y OU  R EAD\nActivity\nUse a dictionary or ask for your teacher’s help as you discuss\nthe following questions in groups.\n1. What is a sermon? Is it different from a lecture or a talk? Can\nthis word also be used in a negative way or as a joke (as in\n“my mother’s sermon about getting my work done on time…”)?\n2. Find out the meanings of the words and phrases given in\nthe box.\nafflicted with be composed desolation\nlamentation procure be subject to\n3. Have you heard of the Sermon on the Mount? Who delivered\nit?  Who do you think delivered a sermon at Benares?\nGAUTAMA Buddha (563 B.C. – 483 B.C.) began life as a\nprince named Siddhartha Gautama, in northern\nIndia. At twelve, he was sent away for schooling in\nthe Hindu sacred scriptures and four years later he\nreturned home to marry a princess. They had a son\nand lived for ten years as befitted royalty. At about\nthe age of twenty-five, the Prince, heretofore shielded\nfrom the suffering s of the world, while out hunting\nchanced upon a sick man, then an aged man, then\na funeral procession, and finally a monk begging\nfor alms. These sights so moved him that he at\nonce went out into the world to seek enlightenment\nconcerning the sorrows he had witnessed.\nHe wandered for seven years and finally sat\ndown under a peepal tree, where he vowed to stay\nchanced upon\ncame across by\nchance\nenlightenment\na state of high\nspiritual knowledge\nReprint 2026-27\n\n112\nFirst Flight\nuntil enlightenment came. Enlightened after seven\ndays, he r enamed the tr ee the Bodhi T ree (Tree of\nWisdom) and began to teach and to share his new\nunderstandings. At that point he became known as\nthe Buddha (the Awakened or the Enlightened). The\nBuddha preached his first sermon  at the city of\nBenares, most holy of the dipping places on the River\nGanges; that sermon has been preserved and is given\nhere. It reflects the Buddha’s wisdom about one\ninscrutable kind of suffering.\nKisa Gotami had an only son, and he died. In her grief\nshe carried the dead child to all her neighbours, asking\nthem for medicine, and the people said, “She has lost\nher senses. The boy is dead.”\nAt length, Kisa Gotami met a man who replied to her\nrequest, “I cannot give thee medicine for thy child, but I\nknow a physician who can.”\nAnd the girl said, “Pray tell me, sir; who is it?” And\nthe man replied, \"Go to Sakyamuni, the Buddha.”\nKisa Gotami repaired to the Buddha and cried, “Lord\nand Master, give me the medicine that will cure my boy.”\nThe Buddha answered, “I want a handful of mustard-\nseed.” And  when the girl in her joy  promised to procure\nit, the Buddha added, “The mustard-seed must be taken\nfrom a  house where no one has lost a child, husband,\nparent or friend.”\nPoor Kisa Gotami now went from house to house,\nand the people pitied her and said, “Here is mustard-\nseed; take it!” But when she asked, “Did a son or\ndaughter, a father or mother, die in your family?” they\nanswered her, “Alas! the living are few, but the dead are\nmany. Do not remind us of our deepest grief.” And there\nwas no house but some beloved one had died in it.\nKisa Gotami became weary and hopeless, and sat\ndown at the wayside watching the lights of the city, as\nthey flickered up and were extinguished again. At last\nthe darkness of the night reigned everywhere. And she\nconsidered the fate of men, that their lives flicker up\nand are extinguished again. And she thought to herself,\n“How selfish am I in my grief! Death is common to all;\nyet in this valley of desolation there is a path that leads\nhim to immortality who has surrendered all selfishness.”\nThe Buddha said, ‘‘The life of mortals in this world\nis troubled and brief and combined with pain. For there\nsermon\nreligious or moral\ntalk\ndipping places\nbathing\ninscrutable\nsomething which\ncannot be\nunderstood\nrepaired (a stylistic\nuse) went to\nvalley of\ndesolation\nan area which is filled\nwith deep sorrow\nmortals\nthose bound to die\nReprint 2026-27\n\n113The Sermon at Benares\nis not any means by which those that have been born\ncan avoid dying; after reaching old age there is death; of\nsuch a nature are living beings. As ripe fruits are early\nin danger of falling, so mortals when born are always in\ndanger of death. As all earthen vessels made by the\npotter end in being broken, so is the life of mortals. Both\nyoung and adult, both those who are fools and those\nwho are wise, all fall into the power of death; all are\nsubject to death.\n“Of those who, overcome by death, depart from life,\na father cannot save his son, nor kinsmen their relations.\nMark! while relatives are looking on and lamenting\ndeeply, one by one mortals are carried off, like an ox\nthat is led to the slaughter. So the world is afflicted  with\ndeath and decay, therefore the wise do not grieve,\nknowing the terms of the world.\n“Not from weeping nor from grieving will anyone\nobtain peace of mind; on the contrary, his pain will be\nthe greater and his body will suffer. He will make himself\nsick and pale, yet the dead are not saved by his\nlamentation. He who seeks peace should draw out the\narrow of lamentation, and complaint, and grief. He who\nhas drawn out the arrow and has become composed\nwill obtain peace of mind; he who has overcome all\nsorrow will become free from sorrow, and be blessed.”\n[Source: Betty Renshaw\nValues and Voices: A College Reader (1975)]\nafflicted with\naffected by suffering,\ndisease or pain\nlamentation\nexpression of sorrow\n1. When her son dies, Kisa Gotami goes from house to house. What does she\nask for? Does she get it? Why not?\n2. Kisa Gotami again goes from house to house after she speaks with the\nBuddha. What does she ask for , the second time ar ound? Does she get it?\nWhy not?\n3. What does Kisa Gotami understand the second time that she failed to\nunderstand the first time? W as this what the Buddha wanted her to\nunderstand?\n4. Why do you think Kisa Gotami understood this only the second time? In\nwhat way did the Buddha change her understanding?\n5. How do you usually understand the idea of ‘selfishness’? Do you agree with\nKisa Gotami that she was being ‘selfish in her grief ’?\nReprint 2026-27\n\n114\nFirst Flight\nI. This text is written in an old-fashioned style, for it reports an incident\nmore than two millennia old. Look for the following words and phrases\nin the text, and try to rephrase them in more current language, based\non how you understand them.\n• give thee medicine for thy child\n• Pray tell me\n• Kisa repaired to the Buddha\n• there was no\n house but someone had died in it\n• kinsmen\n• Mark!\nII. You know that we can combine sentences using wor ds like and, or, but, yet\nand then. But sometimes no such word seems appropriate. In such a case\nwe can use a semicolon (;) or a dash (—) to combine two clauses.\nShe has no interest in music; I doubt she will become a singer like\nher mother .\nThe second clause here gives the speaker’s opinion on the first clause.\nHere is a sentence from the text that uses semicolons to combine\nclauses. Break up the sentence into three simple sentences. Can you\nthen say which has a better rhythm when you read it, the single sentence\nusing semicolons, or the three simple sentences?\nFor there is not any means by which those who have been born can avoid\ndying; after reaching old age there is death; of such a nature are living beings.\nThe Buddha’s sermon is over 2500 years old. Given below are two recent texts\non the topic of grief. Read the texts, comparing them with each other and with\nthe Buddha’s sermon. Do you think the Buddha’s ideas and way of teaching\ncontinue to hold meaning for us? Or have we found better ways to deal with\ngrief? Discuss this in groups or in class.\nI. A Guide to Coping with the Death\nof a Loved One\nMartha is having difficulty sleeping lately and no longer enjoys doing things\nwith her friends. Martha lost her husband of 26 years to cancer a month ago.\nAnya, age 17, doesn’t feel like eating and spends the days in her room\ncrying. Her grandmother recently died.\nBoth of these individuals are experiencing grief. Grief is an emotion\nnatural to all types of loss or significant change .\nReprint 2026-27\n\n115The Sermon at Benares\nFeelings of Grief\nAlthough grief is unique and personal, a broad range of feelings and\nbehaviours are commonly experienced after the death of a loved one.\n• Sadness. This is the most common, and it is not necessarily manifested\nby crying.\n• Anger. This is one of the most confusing feelings for a survivor . There\nmay be frustration at not being able to prevent the death, and a sense\nof not being able to exist without the loved one.\n• Guilt and Self-reproach . People may believe that they were not kind\nenough or caring enough to the person who died, or that the person\nshould have seen the doctor sooner .\n• Anxiety. An individual may fear that she/he won’t be able to care for\nherself/himself.\n• Loneliness. Ther e ar e r eminders thr oughout the day that a partner ,\nfamily member or friend is gone. For example, meals are no longer\nprepared the same way, phone calls to share a special moment don’t\nhappen.\n• Fatigue\n. There is an overall sense of feeling tired.\n• Disbelief: This occurs particularly if it was a sudden death.\nHelping Others Who Are Experiencing Grief\nWhen a friend, loved one, or co-worker is experiencing grief —how can we\nhelp? It helps to understand that grief is expressed through a variety of\nbehaviours.\nReach out to others in their grief, but understand that some may not\nwant to accept help and will not share their grief. Others will want to\ntalk about their thoughts and feelings or reminisce.\nBe patient and let the grieving person know that you care and are\nthere to support him or her .\nII. Good Grief\nAMITAI ETZIONI\nSoon after my wife died — her car slid off an icy road in 1985 — a school\npsychologist warned me that my children and I were not mourning in the\nright way. We felt angry; the pr oper first stage, he said, is denial.\nIn late August this year, my 38-year-old son, Michael, died suddenly in his\nsleep, leaving behind a 2-year-old son and a wife expecting their next child.\nThere is no set form for grief, and no ‘right’ way to express it. There\nseems to be an expectation that, after a great loss, we will progress\nsystematically through the well-known stages of grief. It is wrong, we are\ntold, to jump to anger — or to wallow too long in this stage before moving\ntowards acceptanc e.\nReprint 2026-27\n\n116\nFirst Flight\nBut I was, and am, angry. To make parents bury their children is wrong;\nto have both my wife and son taken from me, for forever and a day, is cruel\nbeyond words.\nA relative from Jerusalem, who is a psychiatrist, brought some solace by\nciting the maxim: ‘We are not to ask why, but what.’ The ‘what’ is that which\nsurvivors in grief ar e bound to do for one another . Following that advice, my\nfamily, close friends and I keep busy, calling each other and giving long\nanswers to simple questions like, “How did your day go today?” W e try to\navoid thinking about either the immediate past or the ber eft future. We take\nturns playing with Max, Michael’s two-year -old son. Friends spend nights\nwith the young widow, and will be among those holding her hand when the\nbaby is born.\nFocusing on what we do for one another is the only consolation we\ncan find.\nWrite a page (about thr ee paragraphs) on one of the following topics. Y ou can\nthink about the ideas in the text that are relevant to these topics, and add your\nown ideas and experiences to them.\n1. Teaching someone to understand a new or difficult idea\n2. Helping each other to get over difficult times\n3. Thinking about oneself as unique, or as one among billions of others\nWHAT W E H AVE D ONE\nNarrated the story of the Buddha, and the advice he gave to the grief-stricken woman.\nWHAT Y OU C AN D O\n1. Read and discuss the following extract from K ahlil Gibran’s The Prophet with the\nstudents.\nJoy and Sorrow\nThen a woman said, “Speak to us of Joy and Sorrow .”\nAnd he answered:\nYour joy is your sorrow unmasked.\nAnd the selfsame well from which your laughter rises was oftentimes filled\nwith your tears.\nAnd how else can it be?\nThe deeper that sorrow carves into your being, the more joy you can contain.\nIs not the cup that holds your wine the very cup that was burned in the\npotter’s oven?\nReprint 2026-27\n\n117The Sermon at Benares\nAnd is not the lute that soothes your spirit, the very wood that was hollowed\nout with knives?\nWhen you are joyous, look deep into your heart and you shall find it is only\nthat which has given you sorrow that is giving you joy .\nWhen you are sorrowful look again in your heart, and you shall see that in\ntruth you are weeping for that which has been your delight.\nSome of you say, “Joy is greater than sorrow,” and others say, “Nay, sorrow\nis the greater.”\nBut I say unto you, they are inseparable.\nTogether they come, and when one sits alone with you at your board,\nremember that the other is asleep upon your bed.\n2. Help students to read and memorise the following extract from T agore.\nSay not in grief that she is no more\nbut say in thankfulness that she was.\nA death is not the extinguishing of a light,\nbut the putting out of the\nlamp because the dawn has come.\nReprint 2026-27\n\nFor Anne Gregory\nThis poem is a conversation between a young man and a young\nwoman. What are they arguing about?\n“Never shall a young man,\nThrown into despair\nBy those great honey-coloured\nRamparts at your ear ,\nLove you for yourself alone\nAnd not your yellow hair .”\n“But I can get a hair -dye\nAnd set such colour there,\nBrown, or black, or carrot,\nThat young men in despair\nMay love me for myself alone\nAnd not my yellow hair .”\n“I heard an old religious man\nBut yesternight declare\nThat he had found a text to prove\nThat only God, my dear ,\nCould love you for yourself alone\nAnd not your yellow hair .”\nWILLIAM\n BUTLER YEATS\nWilliam Butler Yeats (1865–1939) was an Irish nationalist. He was\neducated in London and Dublin, and was interested in folklore and\nmythology. He won the Nobel Prize for Literature in 1923.\nReprint 2026-27\n\nramparts: the high, wide walls around a castle or fort, for example, the ramparts\nof the Red Fort\n1. What does the young man mean by “great honey-coloured /Ramparts at\nyour ear?” Why does he say that young men are “thrown into despair”\nby them?\n2. What colour is the young woman’s hair? What does she say she can change\nit to? Why would she want to do so?\n3. Objects have qualities which make them desirable to others. Can you think\nof some objects (a car , a phone, a dr ess…) and say what qualities make one\nobject more desirable than another? Imagine you were trying to sell an object:\nwhat qualities would you emphasise?\n4. What about people? Do we love others because we like their qualities, whether\nphysical or mental? Or is it possible to love someone “for themselves alone”?\nAre some people ‘more lovable’ than others? Discuss this question in pairs\nor in groups, considering points like the following.\n(i) a parent or caregiver’s love for a newborn baby, for a mentally or\nphysically challenged child, for a clever child or a prodigy\n(ii) the public’s love for a film star , a sportsperson, a politician, or a social\nworker\n(iii) your love for a friend, or brother or sister\n(iv) your love for a pet, and the pet’s love for you.\n5. You have per haps concluded that people ar e not objects to be valued for\ntheir qualities or riches rather than for themselves. But elsewher e Y eats\nasks the question: How can we separate the dancer from the dance? Is it\npossible to separate ‘the person himself or herself’ from how the person\nlooks, sounds, walks, and so on? Think of how you or a friend or member of\nyour family has changed over the years. Has your relationship also changed?\nIn what way?\n119For Anne Gregory\nReprint 2026-27",
+      "source_file": "english_08.pdf",
+      "document_metadata": {
+        "title": "BEFORE Y OU R EAD",
+        "author": "The Sermon"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "BEFORE Y OU R EAD",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "The Sermon",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "The Sermon",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to meanings?",
+      "answer": "Find out the meanings of the words and phrases given in the box.",
+      "question_type": "main_idea_23",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_23",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about meanings is important?",
+      "answer": "Find out the meanings of the words and phrases given in the box.",
+      "question_type": "detail_23",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_23",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to be composed desolation lamentation procure?",
+      "answer": "afflicted with be composed desolation lamentation procure be subject to 3.",
+      "question_type": "main_idea_08",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_08",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about be composed desolation lamentation procure is important?",
+      "answer": "afflicted with be composed desolation lamentation procure be subject to 3.",
+      "question_type": "detail_08",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_08",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about schooling is important?",
+      "answer": "At twelve, he was sent away for schooling in the Hindu sacred scriptures and four years later he returned home to marry a princess.",
+      "question_type": "detail_02",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_02",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies schooling?",
+      "answer": "At twelve, he was sent away for schooling in the Hindu sacred scriptures and four years later he returned home to marry a princess.",
+      "question_type": "identify_03",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_03",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies Prince?",
+      "answer": "At about the age of twenty-five, the Prince, heretofore shielded from the suffering s of the world, while out hunting chanced upon a sick man, then an aged man, then a funeral procession, and finally a monk begging for alms.",
+      "question_type": "identify_15",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_15",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the sequence described for Prince?",
+      "answer": "At about the age of twenty-five, the Prince, heretofore shielded from the suffering s of the world, while out hunting chanced upon a sick man, then an aged man, then a funeral procession, and finally a monk begging for alms.",
+      "question_type": "sequence_15",
+      "pattern_source": "catalog",
+      "pattern_type": "sequence_15",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies sights?",
+      "answer": "These sights so moved him that he at once went out into the world to seek enlightenment concerning the sorrows he had witnessed.",
+      "question_type": "identify_04",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_04",
+      "source_file": "english_08.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

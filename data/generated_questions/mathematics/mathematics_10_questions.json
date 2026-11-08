@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to different situations?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about different situations is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of three possibilities?",
+    "question_type": "significance_08",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_08",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about three possibilities?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to three possibilities?",
+    "question_type": "limitation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_08",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Under what condition does three possibilities occur?",
+    "question_type": "condition_08",
+    "pattern_source": "catalog",
+    "pattern_type": "condition_08",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to line PQ?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about line PQ is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies case?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the meaning of case in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to case?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "mathematics_10.pdf",
+    "page_or_id": "Page 1"
+  }
+]

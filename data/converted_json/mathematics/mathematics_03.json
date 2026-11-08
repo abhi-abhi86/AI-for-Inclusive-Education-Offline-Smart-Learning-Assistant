@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "mathematics_03.pdf",
+  "document_metadata": {
+    "title": "MATHEMA TICS",
+    "author": "Giant Wheel"
+  },
+  "question_generation": {
+    "subject": "mathematics",
+    "pattern_file": "data/question_patterns/mathematics.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/mathematics/mathematics_03_questions.json",
+    "answers_path": "data/generated_answers/mathematics/mathematics_03_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 14,
+    "pages_with_text": 14,
+    "total_words": 4563,
+    "warnings": [],
+    "text_file": "data/converted_text/mathematics/mathematics_03.txt",
+    "document_metadata": {
+      "title": "MATHEMA TICS",
+      "author": "Giant Wheel"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "24 MATHEMA TICS\n3\n3.1 Introduction\nYou must have come across situations like the one given below :\nAkhila went to a fair in her village. She wanted to enjoy rides on the Giant Wheel\nand play Hoopla (a game in which you throw a ring on the items kept in a stall, and if\nthe ring covers any object completely, you get it). The number of times she played\nHoopla is half the number of rides she had on the Giant Wheel. If each ride costs\n` 3, and a game of Hoopla costs ` 4, how would you find out the number of rides she\nhad and how many times she played Hoopla, provided she spent ` 20.\nMay be you will try it by considering different cases. If she has one ride, is it\npossible? Is it possible to have two rides? And so on. Or you may use the knowledge\nof Class IX, to represent such situations as linear equations in two variables.\nPAIR OF LINEAR EQUATIONS\nIN TWO VARIABLES\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 25\nLet us try this approach.\nDenote the number of rides that Akhila had by x, and the number of times she\nplayed Hoopla by y. Now the situation can be represented by the two equations:\ny = 12 x (1)\n3x + 4y = 20 (2)\nCan we find the solutions of this pair of equations? There are several ways of\nfinding these, which we will study in this chapter.\n3.2 Graphical Method of Solution of a Pair of Linear Equations\nA pair of linear equations which has no solution, is called an inconsistent pair of linear\nequations. A pair of linear equations in two variables, which has a solution, is called a\nconsistent pair of linear equations. A pair of linear equations which are equivalent has\ninfinitely many distinct common solutions. Such a pair is called a dependent pair of\nlinear equations in two variables. Note that a dependent pair of linear equations is\nalways consistent.\nWe can now summarise the behaviour of lines representing a pair of linear equations\nin two variables and the existence of solutions as follows:\n(i) the lines may intersect in a single point. In this case, the pair of equations\nhas a unique solution (consistent pair of equations).\n(ii) the lines may be parallel. In this case, the equations have no solution\n(inconsistent pair of equations).\n(iii) the lines may be coincident. In this case, the equations have infinitely many\nsolutions [dependent (consistent) pair of equations].\nConsider the following three pairs of equations.\n(i) x – 2y = 0 and 3x + 4y – 20 = 0 (The lines intersect)\n(ii) 2 x + 3y – 9 = 0 and 4x + 6y – 18 = 0 (The lines coincide)\n(iii) x + 2y – 4 = 0 and 2 x + 4y – 12 = 0 (The lines are parallel)\nLet us now write down, and compare, the values of 11 1\n22 2\n, andab c ca b  in all the\nthree examples. Here, a1, b1, c1 and a2, b2, c2 denote the coefficents of equations\ngiven in the general form in Section 3.2.\nReprint 2026-27\n\n26 MATHEMATICS\nTable 3.1\nSl Pair of lines\n1\n2\na\na\n1\n2\nb\nb\n1\n2\nc\nc Compare the Graphical AlgebraicNo. ratios representation interpretation\n1. x – 2y = 0\n1\n3\n2\n4\n− 0\n20−\n1 1\n2 2\na b\na b ≠ Intersecting Exactly one\n3x + 4y – 20 = 0 lines solution(unique)\n2. 2x + 3y – 9 = 0\n2\n4\n3\n6\n9\n18\n−\n−\n1 1 1\n2 2 2\na b c\na b c= = Coincident Infinitely\n4x + 6y – 18 = 0 lines many solutions\n3. x + 2y – 4 = 0 12 24 412−− 1 1 12 2 2a b ca b c= ≠ Parallel lines No solution\n2x + 4y – 12 = 0\nFrom the table above, you can observe that if the lines represented by the equation\n a1x + b1y + c1 = 0\nand a2x + b2y + c2 = 0\nare (i) intersecting, then 1 1\n2 2\na b\na b\n≠ ⋅\n(ii) coincident, then 1 1 1\n2 2 2\na b c\na b c\n= = ⋅\n(iii) parallel, then 1 1 1\n2 2 2\na b c\na b c\n= ≠ ⋅\nIn fact, the converse is also true for any pair of lines. You can verify them by\nconsidering some more examples by yourself.\nLet us now consider some more examples to illustrate it.\nExample 1 : Check graphically whether the pair of equations\nx + 3y = 6 (1)\nand 2x – 3y = 12 (2)\nis consistent. If so, solve them graphically.\nSolution : Let us draw the graphs of the Equations (1) and (2). For this, we find two\nsolutions of each of the equations, which are given in Table 3.2\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 27\nFig. 3.1\nTable 3.2\nx 0 6 x 0 3\ny = 6 3 x− 2 0 y = 2 123x − – 4 –2\nPlot the points A(0, 2), B(6, 0),\nP(0, – 4) and Q(3, – 2) on graph\npaper, and join the points to form the\nlines AB and PQ as shown in\nFig. 3.1.\nWe observe that there is a point\nB (6, 0) common to both the lines\nAB and PQ. So, the solution of the\npair of linear equations is x = 6 and\ny = 0, i.e., the given pair of equations\nis consistent.\nExample 2 : Graphically, find whether the following pair of equations has no solution,\nunique solution or infinitely many solutions:\n5x – 8y + 1 = 0 (1)\n3x – 245 y  + 35  = 0 (2)\nSolution : Multiplying Equation (2) by 5 ,3  we get\n5x – 8y + 1 = 0\nBut,  this is the same as Equation (1). Hence the lines represented by Equations (1)\nand (2) are coincident. Therefore, Equations (1) and (2) have infinitely many solutions.\nPlot few points on the graph and verify it yourself.\nExample 3 : Champa went to a ‘Sale’ to purchase some pants and skirts. When her\nfriends asked her how many of each she had bought, she answered, “The number of\nskirts is two less than twice the number of pants purchased. Also, the number of skirts\nis four less than four times the number of pants purchased”. Help her friends to find\nhow many pants and skirts Champa bought.\nReprint 2026-27\n\n28 MATHEMATICS\nSolution : Let us denote the number of pants by x and the number of skirts by y. Then\nthe equations formed are :\ny = 2x – 2 (1)\n and y = 4x – 4 (2)\nLet us draw the graphs of\nEquations (1) and (2) by finding two\nsolutions for each of the equations.\nThey are given in Table 3.3.\nTable 3.3\nx 2 0\ny = 2x – 2 2 – 2\nx 0 1\ny = 4x – 4 – 4 0\nPlot the points and draw the lines passing through them to represent the equations,\nas shown in Fig. 3.2.\nThe two lines intersect at the point (1, 0). So, x = 1, y = 0 is the required solution\nof the pair of linear equations, i.e., the number of pants she purchased is 1 and she did\nnot buy any skirt.\nVerify the answer by checking whether it satisfies the conditions of the given\nproblem.\nEXERCISE 3.1\n1. Form the pair of linear equations in the following problems, and find their solutions\ngraphically.\n(i) 10 students of Class X took part in a Mathematics quiz. If the number of girls is 4\nmore than the number of boys, find the number of boys and girls who took part in\nthe quiz.\nFig. 3.2\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 29\n(ii) 5 pencils and 7 pens together cost ` 50, whereas 7 pencils and 5 pens together\ncost ` 46. Find the cost of one pencil and that of one pen.\n2. On comparing the ratios 11 1\n22 2\n, andab cab c , find out whether the lines representing the\nfollowing pairs of linear equations intersect at a point, are parallel or coincident:\n(i) 5 x – 4y + 8 = 0 (ii) 9 x + 3y + 12 = 0\n7x + 6y – 9 = 0 18 x + 6y + 24 = 0\n(iii) 6 x – 3y + 10 = 0\n2x – y + 9 = 0\n3. On comparing the ratios 11\n2 2\n,ab\na b  and 12cc , find out whether the following pair of linear\nequations are consistent, or inconsistent.\n(i) 3 x + 2y = 5 ; 2 x – 3y = 7 (ii) 2 x – 3y = 8 ; 4x  – 6y = 9\n(iii) 35 723xy ;9 x – 10y = 14 (iv) 5 x – 3y = 11 ; – 10x + 6y = –22\n(v) 4 283 xy  ;2 x + 3y = 12\n4. Which of the following pairs of linear equations are consistent/inconsistent? If\nconsistent, obtain the solution graphically:\n(i) x + y = 5, 2 x + 2y = 10\n(ii) x – y = 8, 3 x – 3y = 16\n(iii) 2 x + y – 6 = 0, 4 x – 2y – 4 = 0\n(iv) 2 x – 2y – 2 = 0, 4 x – 4y – 5 = 0\n5. Half the perimeter of a rectangular garden, whose length is 4 m more than its width, is\n36 m. Find the dimensions of the garden.\n6. Given the linear equation 2x + 3y – 8 = 0, write another linear equation in two variables\nsuch that the geometrical representation of the pair so formed is:\n(i) intersecting lines (ii) parallel lines\n(iii) coincident lines\n7. Draw the graphs of the equations x – y + 1 = 0 and 3 x + 2y – 12 = 0. Determine the\ncoordinates of the vertices of the triangle formed by these lines and the x-axis, and\nshade the triangular region.\nReprint 2026-27\n\n30 MATHEMATICS\n3.3 Algebraic Methods of Solving a Pair of Linear Equations\nIn the previous section, we discussed how to solve a pair of linear equations graphically.\nThe graphical method is not convenient in cases when the point representing the\nsolution of the linear equations has non-integral coordinates like ( )3 , 2 7 ,\n(–1.75, 3.3), \n4 1,\n13 19\n \n   , etc. There is every possibility of making mistakes while reading\nsuch coordinates. Is there any alternative method of finding the solution? There are\nseveral algebraic methods, which we shall now discuss.\n3.3.1 Substitution Method : We shall explain the method of substitution by taking\nsome examples.\nExample 4 : Solve the following pair of equations by substitution method:\n7x – 15y = 2 (1)\nx + 2y = 3 (2)\nSolution :\nStep 1 : We pick either of the equations and write one variable in terms of the other .\nLet us consider the Equation (2) :\nx + 2y = 3\nand write it as x = 3 – 2y (3)\nStep 2 : Substitute the value of x in Equation (1). We get\n7(3 – 2y) – 15y = 2\ni.e., 21 – 14y – 15y = 2\ni.e., – 29y = –19\nTherefore, y = 1929\nStep 3 : Substituting this value of y in Equation (3), we get\nx = 3 – 192 29     = 4929\nTherefore, the solution is x = 4929 , y = 1929 .\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 31\nVerification : Substituting x = 4929  and y = 1929 , you can verify that both the Equations\n(1) and (2) are satisfied.\nTo understand the substitution method more clearly, let us consider it stepwise:\nStep 1 : Find the value of one variable, say y in terms of the other variable, i.e., x from\neither equation, whichever is convenient.\nStep 2 : Substitute this value of y in the other equation, and reduce it to an equation in\none variable, i.e., in terms of x, which can be solved. Sometimes, as in Examples 9 and\n10 below, you can get statements with no variable. If this statement is true, you can\nconclude that the pair of linear equations has infinitely many solutions. If the statement\nis false, then the pair of linear equations is inconsistent.\nStep 3 :  Substitute the value of x (or y) obtained in S tep 2 in the equation used in\nStep 1 to obtain the value of the other variable.\nRemark : We have substituted the value of one variable by expressing it in terms of\nthe other variable to solve the pair of linear equations. That is why the method is\nknown as the substitution method .\nExample 5 :  Solve the following question— Aftab tells his daughter , “Seven years\nago, I was seven times as old as you were then. Also, three years from now, I shall be\nthree times as old as you will be.” (Isn’t this interesting?) Represent this situation\nalgebraically and graphically by the method of substitution.\nSolution : Let s and t be the ages (in years) of Aftab and his daughter, respectively.\nThen, the pair of linear equations that represent the situation is\ns – 7 = 7 (t – 7), i.e., s – 7t + 42 = 0 (1)\nand s + 3 = 3 (t + 3), i.e., s – 3t = 6 (2)\nUsing Equation (2), we get s = 3t + 6.\nPutting this value of s in Equation (1), we get\n(3t + 6) – 7t + 42 = 0,\ni.e., 4t = 48, which gives t = 12.\nPutting this value of t in Equation (2), we get\ns = 3 (12) + 6 = 42\nReprint 2026-27\n\n32 MATHEMATICS\nSo, Aftab and his daughter are 42 and 12 years old, respectively.\nVerify this answer by checking if it satisfies the conditions of the given problems.\nExample 6 :   In a shop the cost of 2 pencils and 3 erasers is `9 and the cost of 4\npencils and 6 erasers is `18. Find the cost of each pencil and each eraser .\nSolution : The pair of linear equations formed were:\n2x + 3y = 9 (1)\n4x + 6y = 18 (2)\nWe first express the value of x in terms of y from the equation 2x + 3y = 9, to get\nx = 9 32 y− (3)\nNow we substitute this value of x in Equation (2), to get\n4(9 3 )\n2\ny−  + 6y = 18\ni.e., 18 – 6y + 6y = 18\ni.e., 18 = 18\nThis statement is true for all values of y. However , we do not get a specific\nvalue of y as a solution. Therefore, we cannot obtain a specific value of x. This\nsituation has arisen because both the given equations are the same. Therefore,\nEquations (1) and (2) have infinitely many solutions. We cannot find a unique\ncost of a pencil and an eraser , because there are many common solutions, to the\ngiven situation.\nExample 7 : Two rails are represented by the equations\nx + 2y – 4 = 0 and 2x + 4y – 12 = 0.  Will the rails cross each other?\nSolution : The pair of linear equations formed were:\nx + 2y – 4 = 0 (1)\n2x + 4y – 12 = 0 (2)\nWe express x in terms of y from Equation (1) to get\nx = 4 – 2y\nNow, we substitute this value of x in Equation (2) to get\n2(4 – 2y) + 4y – 12 = 0\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 33\ni.e., 8 – 12 = 0\ni.e., – 4 = 0\nwhich is a false statement.\nTherefore, the equations do not have a common solution. So, the two rails will not\ncross each other.\nEXERCISE 3.2\n1. Solve the following pair of linear equations by the substitution method.\n(i) x + y = 14 (ii) s – t = 3\nx – y = 4 632st\n(iii) 3 x – y = 3 (iv) 0.2 x + 0.3y = 1.3\n9x – 3y = 9 0.4x + 0.5y = 2.3\n(v) 23 0xy (vi) 35 223xy \n38 0xy\n13\n32 6\nxy\n2. Solve 2 x + 3 y = 11 and 2 x – 4 y = – 24 and hence find the value of ‘ m’ for which\ny = mx + 3.\n3. Form the pair of linear equations for the following problems and find their solution by\nsubstitution method.\n(i) The difference between two numbers is 26 and one number is three times the other.\nFind them.\n(ii) The larger of two supplementary angles exceeds the smaller by 18 degrees. Find\nthem.\n(iii) The coach of a cricket team buys 7 bats and 6 balls for ` 3800. Later, she buys 3\nbats and 5 balls for ` 1750. Find the cost of each bat and each ball.\n(iv) The taxi charges in a city consist of a fixed charge together with the charge for the\ndistance covered. For a distance of 10 km, the charge paid is ` 105 and for a\njourney of 15 km, the charge paid is ` 155. What are the fixed charges and the\ncharge per km? How much does a person have to pay for travelling a distance of\n25 km?\n(v) A fraction becomes 911 , if 2 is added to both the numerator and the denominator.\nIf, 3 is added to both the numerator and the denominator it becomes 5\n6\n. Find the\nfraction.\nReprint 2026-27\n\n34 MATHEMA TICS\n(vi) Five years hence, the age of Jacob will be three times that of his son. Five years\nago, Jacob’s age was seven times that of his son. What are their present ages?\n3.3.2 Elimination Method\nNow let us consider another method of eliminating (i.e., removing) one variable. This\nis sometimes more convenient than the substitution method. Let us see how this method\nworks.\nExample 8 :  The ratio of incomes of two persons is 9 : 7 and the ratio of their\nexpenditures is 4 : 3. If each of them manages to save ` 2000 per month, find their\nmonthly incomes.\nSolution : Let us denote the incomes of the two person by ` 9x and ` 7x and their\nexpenditures by ` 4y and ` 3y respectively. Then the equations formed in the situation\nis given by :\n9x – 4y = 2000 (1)\nand 7 x – 3y = 2000 (2)\nStep 1 : Multiply Equation (1) by 3 and Equation (2) by 4 to make the coefficients of\ny equal. Then we get the equations:\n27x – 12y = 6000 (\n3)\n28x – 12y = 8000 (4)\nStep 2 : Subtract Equation (3) from Equation (4) to eliminate y, because the coefficients\nof y are the same. So, we get\n(28x – 27x) – (12y – 12\ny) = 8000 – 6000\ni.e., x = 2000\nStep 3 : Substituting this value of x in (1), we get\n9(2000) – 4y = 2000\ni.e., y = 4000\nSo, the solution of the equations is x = 2000, y = 4000. Therefore, the monthly incomes\nof the persons are ` 18,000 and ` 14,000, respectively.\nVerification :  18000 : 14000 = 9 : 7. Also, the ratio of their expenditures =\n18000 – 2000 : 14000 – 2000 = 16000 : 12000 = 4 : 3\nRemarks :\n1.\nThe method used in solving the example above is called the elimination method,\nbecause we eliminate one variable first, to get a linear equation in one variable.\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 35\nIn the example above, we eliminated y. We could also have eliminated x. Try\ndoing it that way.\n2. You could also have used the substitution, or graphical method, to solve this\nproblem. Try doing so, and see which method is more convenient.\nLet us now note down these steps in the elimination method :\nStep 1 : First multiply both the equations by some suitable non-zero constants to make\nthe coefficients of one variable (either x or y) numerically equal.\nStep 2 : Then add or subtract one equation from the other so that one variable gets\neliminated. If you get an equation in one variable, go to Step 3.\nIf in Step 2, we obtain a true statement involving no variable, then the original\npair of equations has infinitely many solutions.\nIf in Step 2, we obtain a false statement involving no variable, then the original\npair of equations has no solution, i.e., it is inconsistent.\nStep 3 : Solve the equation in one variable (x or y) so obtained to get its value.\nStep 4 : Substitute this value of x (or y) in either of the original equations to get the\nvalue of the other variable.\nNow to illustrate it, we shall solve few more examples.\nExample 9 : Use elimination method to find all possible solutions of the following pair\nof linear equations :\n2x + 3y = 8 (1)\n4x + 6y = 7 (2)\nSolution :\nStep 1 :  Multiply Equation (1) by 2 and Equation (2) by 1 to make the\ncoefficients of x equal. Then we get the equations as :\n4x + 6y = 1 6 (3)\n4x + 6y =\n7 (4)\nStep 2 : Subtracting Equation (4) from Equation (3),\n(4x – 4x) + (6y – 6y) = 16 – 7\ni.e., 0\n = 9, which is a false statement.\nTherefore, the pair of equations has no solution.\nExample 10 : The sum of a two-digit number and the number obtained by reversing\nthe digits is 66. If the digits of the number differ by 2, find the number. How many such\nnumbers are there?\nReprint 2026-27\n\n36 MATHEMA TICS\nSolution : Let the ten’s and the unit’s digits in the first number be x and y, respectively.\nSo, the first number may be written as 1\n0 x + y  in the expanded form (for example,\n56 = 10(5) + 6).\nWhen the digits are reversed, x becomes the unit’s digit and y becomes the ten’s\ndigit. This number, in the expanded notation is 10 y + x (for example, when 56 is\nreversed, we get 65 = 10(6) + 5).\nAccording to the given condition.\n(10x + y) + (10y + x) = 66\ni.e., 11(x + y) = 66\ni.e., x + y = 6 (1)\nWe are also given that the digits differ by 2, therefore,\neither x – y = 2 (2)\nor y – x = 2 (3)\nIf x – y = 2, then solving (1) and (2) by elimination, we get x = 4 and y = 2.\nIn this case, we get the number 42.\nIf y – x = 2, then solving (1) and (3) by elimination, we get x = 2 and y = 4.\n In this case, we get the number 24.\nThus, there are two such numbers 42 and 24.\nVerification : Here 42 + 24 = 66 and 4 – 2 = 2. Also 24 + 42 = 66 and 4 – 2 = 2.\nEXERCISE 3.3\n1. Solve the following pair of linear equations by the elimination method and the substitution\nmethod :\n(i) x + y = 5 and 2 x – 3y = 4 (ii) 3 x + 4y = 10 and 2 x – 2y = 2\n(iii) 3 x – 5y – 4 = 0 and 9 x = 2y + 7 (iv) 2 1a n d 323 3xy y x   \n2. Form the pair of linear equations in the following problems, and find their solutions\n(if they exist) by the elimination method :\n(i) If we add 1 to the numerator and subtract 1 from the denominator, a fraction reduces\nto 1. It becomes 12  if we only add 1 to the denominator. What is the fraction?\n(ii) Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as\nold as Sonu. How old are Nuri and Sonu?\n(iii) The sum of the digits of a two-digit number is 9. Also, nine times this number is\ntwice the number obtained by reversing the order of the digits. Find the number.\nReprint 2026-27\n\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 37\n(iv) Meena went to a bank to withdraw ` 2000. She asked the cashier to give her\n` 50 and ` 100 notes only. Meena got 25 notes in all. Find how many notes of\n` 50 and ` 100 she received.\n(v) A lending library has a fixed charge for the first three days and an additional charge\nfor each day thereafter. Saritha paid ` 27 for a book kept for seven days, while Susy\npaid ` 21 for the book she kept for five days. Find the fixed charge and the charge\nfor each extra day.\n3.4 Summary\nIn this chapter, you have studied the following points:\n1. A pair of linear equations in two variables can be represented, and solved, by the:\n(i) graphical method\n(ii) algebraic method\n2. Graphical Method :\nThe graph of a pair of linear equations in two variables is represented by two lines.\n(i) If  the lines intersect at a point, then that point gives the unique solution of the two\nequations. In this case, the pair of equations is consistent.\n(ii) If the lines coincide, then there are infinitely many solutions — each point on\nthe line being a solution. In this case, the pair of equations is dependent\n(consistent) .\n(iii) If the lines are parallel, then the pair of equations has no solution. In this case, the\npair of equations is inconsistent.\n3. Algebraic Methods : We have discussed the following methods for finding the solution(s)\nof a pair of linear equations :\n(i) Substitution Method\n(ii) Elimination Method\n4. If a pair of linear equations is given by a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, then the\nfollowing situations can arise :\n(i) 11\n21\nab\nab   : In this case, the pair of linear equations is consistent.\n(ii)\n111\n222\nabc\nabc  : In this case, the pair of linear equations is inconsistent.\n(iii) 111\n222\nabc\nabc  : In this case, the pair of linear equations  is dependent and consistent.\n5. There are several situations which can be mathematically represented by two equations\nthat are not linear to start with. But we alter them so that they are reduced to a pair of\nlinear equations.\nReprint 2026-27",
+      "source_file": "mathematics_03.pdf",
+      "document_metadata": {
+        "title": "MATHEMA TICS",
+        "author": "Giant Wheel"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "MATHEMA TICS",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Giant Wheel",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Giant Wheel",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the significance of Introduction?",
+      "answer": "24 MATHEMA TICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village.",
+      "question_type": "significance_20",
+      "pattern_source": "catalog",
+      "pattern_type": "significance_20",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Introduction?",
+      "answer": "24 MATHEMA TICS 3 3.1 Introduction You must have come across situations like the one given below : Akhila went to a fair in her village.",
+      "question_type": "evaluation_20",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_20",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the significance of rides?",
+      "answer": "She wanted to enjoy rides on the Giant Wheel and play Hoopla (a game in which you throw a ring on the items kept in a stall, and if the ring covers any object completely, you get it).",
+      "question_type": "significance_23",
+      "pattern_source": "catalog",
+      "pattern_type": "significance_23",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the significance of each ride?",
+      "answer": "If each ride costs ` 3, and a game of Hoopla costs ` 4, how would you find out the number of rides she had and how many times she played Hoopla, provided she spent ` 20.",
+      "question_type": "significance_05",
+      "pattern_source": "catalog",
+      "pattern_type": "significance_05",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies linear equations?",
+      "answer": "Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables.",
+      "question_type": "identify_21",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_21",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What points about linear equations are listed?",
+      "answer": "Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables.",
+      "question_type": "list_21",
+      "pattern_source": "catalog",
+      "pattern_type": "list_21",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "How can a problem involving linear equations be solved?",
+      "answer": "Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables.",
+      "question_type": "method",
+      "pattern_source": "subject",
+      "pattern_type": "method",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Under what condition does Linear Equations occur?",
+      "answer": "3.2 Graphical Method of Solution of a Pair of Linear Equations A pair of linear equations which has no solution, is called an inconsistent pair of linear equations.",
+      "question_type": "condition_03",
+      "pattern_source": "catalog",
+      "pattern_type": "condition_03",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What solution is suggested for Linear Equations?",
+      "answer": "3.2 Graphical Method of Solution of a Pair of Linear Equations A pair of linear equations which has no solution, is called an inconsistent pair of linear equations.",
+      "question_type": "solution_03",
+      "pattern_source": "catalog",
+      "pattern_type": "solution_03",
+      "source_file": "mathematics_03.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "social_science_03.pdf",
+  "document_metadata": {
+    "title": "nscres s",
+    "author": "My God"
+  },
+  "question_generation": {
+    "subject": "social science",
+    "pattern_file": "data/question_patterns/social_science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/social science/social_science_03_questions.json",
+    "answers_path": "data/generated_answers/social science/social_science_03_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 11,
+    "pages_with_text": 11,
+    "total_words": 3593,
+    "warnings": [],
+    "text_file": "data/converted_text/social science/social_science_03.txt",
+    "document_metadata": {
+      "title": "nscres s",
+      "author": "My God"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "You alr eady know that thr ee-fourth of the\nearth’s surface is covered with water, but only\na small proportion of it accounts for\nfreshwater that can be put to use. This\nfreshwater is mainly obtained from surface\nrun off and ground water that is continually\nbeing renewed and recharged through the\nhydrological cycle. All water moves within the\nhydrological cycle ensuring that water is a\nrenewable resource.\nYou might wonder that if thr ee-fourth of\nthe world is covered with water and water is\na renewable resource, then how is it that\ncountries and regions around the globe suffer\nfrom water scarcity? Why is it predicted that\nby 2025, nearly two billion people will live in\nabsolute water scarcity?\nWATER SCARCITY AND THE NEED FOR WATER\nCONSERVATION AND MANAGEMENT\nGiven the abundance and renewability of\nwater, it is dif ficult to imagine that we may\nsuffer from water scar city. The moment we\nspeak of water shortages, we immediately\nassociate it with regions having low rainfall\nor those that ar e dr ought pr\none. W e\ninstantaneously visualise the deserts of\nRajasthan and women balancing many\n‘matkas’ (earthen pots) used for collecting\nand storing water and travelling long\ndistances to get water. True, the availability\nof water resources varies over space and time,\nmainly due to the variations in seasonal and\nannual precipitation, but water scarcity in\nReprint 2026-27\n\n20\n CONTEMPORARY I NDIA – II\nconsequent greater demands for water , and\nunequal access to it. A large population\nrequires more water not only for domestic\nuse but also to produce more food. Hence, to\nfacilitate higher food-grain production, water\nresources are being over-exploited to expand\nirrigated areas for dry-season agriculture.\nIrrigated agriculture is the largest consumer\nof water. Now it is needed to revolutionise the\nagriculture through developing drought\nresistant crops and dry farming techniques.\nYou may have seen in many television\nadvertisements that most farmers have their\nFig. 3.1:  Water Scarcity\nmost cases is caused by over -exploitation,\nexcessive use and unequal access to water\namong dif ferent social gr oups.\nWhere is then water scarcity likely to\noccur? As you have read in the hydrological\ncycle, freshwater can be obtained directly\nfrom pr ecipitation, sur face run of f and\ngroundwater.\nIs it possible that an area or region may\nhave ample water resources but is still facing\nwater scarcity? Many of our cities are such\nexamples. Thus, water scarcity may be an\noutcome of large and growing population and\nWater, Water Everywhere, Not a Drop to Drink:\nAfter a heavy downpour , a boy collects drinking\nwater in Kolkata. Life in the city and its adjacent\ndistricts was paralysed as incessant overnight rain,\nmeaning a record 180 mm, flooded vast area and\ndisrupted traffic.\nA Kashmiri earthquake survivor carries water in\nthe snow in a devastated village .\nReprint 2026-27\n\n21\nWATER R ESOURCES\nown wells and tube-wells in their farms for\nirrigation to increase their produce. But have\nyou ever wondered what this could result in?\nThat it may lead to falling groundwater levels,\nadversely affecting water availability and food\nsecurity of the people.\nPost-independent India witnessed\nintensive industrialisation and urbanisation,\ncreating vast opportunities for us. Today, large\nindustrial houses are as commonplace as the\nindustrial units of many MNCs (Multinational\nCorporations). The ever-increasing number of\nindustries has made matters worse by exerting\npressure on existing freshwater resources.\nIndustries, apart from being heavy users of\nwater, also require power to run them. Much\nof this energy comes from hydroelectric power.\nMoreover, multiplying urban centres with\nlarge and dense populations and urban\nlifestyles have not only added to water and\nenergy requirements but have further\naggravated the problem. If you look into the\nhousing societies or colonies in the cities, you\nwould find that most of these have their own\ngroundwater pumping devices to meet their\nwater needs. Not surprisingly, we find that\nfragile water resources are being over-\nexploited and have caused their depletion in\nseveral of these cities.\nMMM MMULTIULTIULTI ULTIULTI - ----PURPOSEPURPOSEPURPOSEPURPOSEPURPOSE  R  R R  R R IVER IVERIVER IVERIVER  P  P P  P P ROJECTSROJECTSROJECTSROJECTSROJECTS      AND ANDAND ANDAND\nI IIIINTEGRATEDNTEGRATEDNTEGRATEDNTEGRATEDNTEGRATED W  W W W WATER ATERATER ATERATER R  R R R RESOURCESESOURCESESOURCESESOURCESESOURCES M  M M M MANAGEMENTANAGEMENTANAGEMENTANAGEMENTANAGEMENT\nBut, how do we conserve and manage water?\nArchaeological and historical records show\nthat from ancient times we have been\nconstructing sophisticated hydraulic\nstructures like dams built of stone rubble,\nreservoirs or lakes, embankments and canals\nfor irrigation. Not surprisingly, we have\ncontinued this tradition in modern India by\nbuilding dams in most of our river basins.\navailable to meet the needs of the people, but,\nthe area still suffers from water scarcity. This\nscarcity may be due to bad quality of water.\nLately, there has been a growing concern that\neven if there is ample water to meet the needs\nof the people, much of it may be polluted by\ndomestic and industrial wastes, chemicals,\npesticides and fertilisers used in agriculture,\nthus, making it hazardous for human use.\nGovernment of India has accorded highest\npriority to improve the quality of life and\nenhance ease of living of people especially those\nliving in rual areas by announcing the Jal\nJeevan Mission (JJM). The Goal of JJM is to\nenable every rural household get assured\nsupply of potable piped water at a service level\nof 55 litres per capita per day regularly on\nlong-term basis by ensuring functionality of\nthe tap water connections. (Source: Economic\nSurvey 2020–21, p.357)\nYou may have already realised that the need\nof the hour is to conserve and manage our\nwater resources, to safeguard ourselves from\nhealth hazards, to ensure food security,\ncontinuation of our livelihoods and productive\nactivities and also to prevent degradation of our\nnatural ecosystems. Over exploitation and\nmismanagement of water resources will\nimpoverish this resource and cause ecological\ncrisis that may have profound impact on\nour lives.\nFrom your everyday experiences, write a short\nproposal on how you can conserve water.\nSo far we have focused on the quantitative\naspects of water scarcity. Now, let us consider\nanother situation where water is sufficiently\nHydraulic Structures in Ancient India\n• In the first century B.C., Sringaverapura\nnear Allahabad had sophisticated water\nAtal Bhujal Yojana (Atal Jal) is being\nimplemented in 8220 water stressed Gram\nPanchayats of 229 administrative blocks/\ntalukas in 80 districts of seven states, viz.\nGujarat, Haryana, Karnataka, Madhya\nPradesh, Maharashtra, Rajasthan, and\nUttar Pradesh. The selected States account\nfor about 37 per cent of the total number\nof water— stressed (over-exploited, critical\nand semi-critical) blocks in India. One of\nthe key aspects of Atal Jal is to bring in\nbehavioural changes in the community,\nfrom the prevailing attitude of\nconsumption to conservation and smart\nwater management.\nSource:Source:Source:\nSource:Source: Annual Report, Ministry of Jal Shakti,\nGovernment of India 2022–23\nReprint 2026-27\n\n22\n CONTEMPORARY I NDIA – II\nWhat are dams and how do they help us\nin conserving and managing water? Dams\nwere traditionally built to impound rivers and\nrainwater that could be used later to irrigate\nagricultural fields. Today, dams are built not\njust for irrigation but for electricity generation,\nwater supply for domestic and industrial\nuses, flood control, recreation, inland\nnavigation and fish breeding. Hence, dams are\nnow referred to as multi-purpose projects\nwhere the many uses of the impounded water\nare integrated with one another. For example,\nin the Sutluj-Beas river basin, the Bhakra –\nNangal project water is being used both for\nhydel power production and irrigation.\nSimilarly, the Hirakud project in the\nMahanadi basin integrates conservation of\nwater with flood control.\nMulti-purpose projects, launched after\nIndependence with their integrated water\nresources management approach, were thought\nof as the vehicle that would lead the nation to\ndevelopment and progress, overcoming the\nharvesting system channelling the flood\nwater of the river Ganga.\n• During the time of Chandragupta Maurya,\ndams, lakes and irrigation systems were\nextensively built.\n• Evidences of sophisticated irrigation works\nhave also been found in Kalinga,\n(Odisha), Nagarjunakonda (Andhra\nPradesh), Bennur (Karnataka), Kolhapur\n(Maharashtra), etc.\n• In the 11th Century, Bhopal Lake, one of the\nlargest artificial lakes of its time was built.\n• In the 13th–14th Century, the tank in Hauz\nKhas, Delhi was constructed by Allauddin\nKhilji (Khalji) for supplying water to Siri\nFort area.\nSource: Dying Wisdom, CSE, 1997.\nFind out more about any one traditional\nmethod of building dams and irrigation works.\nFig. 3.2: Hirakud Dam\nA dam is a barrier across flowing water that\nobstructs, directs or retards the flow, often\ncreating a reservoir, lake or impoundment.\n“Dam” refers to the reservoir rather than the\nstructure. Most dams have a section called a\nspillway or weir over which or through which\nit is intended that water will flow either\nintermittently or continuously . Dams are\nclassified according to structure, intended\npurpose or height. Based on structure and\nthe materials used, dams are classified as\ntimber dams, embankment dams or masonry\ndams, with several subtypes. According to\nthe height, dams can be categorised as large\ndams and major dams or alternatively as low\ndams, medium height dams and high dams.\nhandicap of its colonial past. Jawaharlal Nehru\nproudly proclaimed the dams as the ‘temples of\nmodern India’; the reason being that it would\nintegrate development of agriculture and the\nvillage economy with rapid industrialisation and\ngrowth of the urban economy.\nWe have sown the crops in Asar\nWe will bring Bhadu in Bhadra\nFloods have swollen the Damodar\nThe sailing boats cannot sail\nOh! Damodar, we fall at your feet\nReduce the floods a little\nBhadu will come a year later\nLet the boats sail on your surface\n(This popular Bhadu song in the Damodar valley\nregion narrates the troubles faced by people\nowing to the flooding of Damodar river known\nas the river of sorrow.)\nReprint 2026-27\n\n23\nWATER R ESOURCES\nIn recent years, multi-purpose projects\nand large dams have come under great\nscrutiny and opposition for a variety of\nreasons. Regulating and damming of rivers\naffect their natural flow causing poor sediment\nflow and excessive sedimentation at the bottom\nof the r eservoir, resulting in r ockier stream\nbeds and poorer habitats for the rivers’ aquatic\nlife. Dams also fragment rivers making it\ndifficult for aquatic fauna to migrate, especially\nfor spawning. The reservoirs that are created\non the floodplains also submerge the existing\nvegetation and soil leading to its\ndecomposition over a period of time.\nIronically, the dams that were constructed\nto control floods have triggered floods due to\nsedimentation in the reservoir. Moreover, the\nbig dams have mostly been unsuccessful in\ncontrolling floods at the time of excessive\nrainfall.\nThese floods have not only devastated life\nand property but also caused extensive soil\nerosion. Sedimentation also meant that the flood\nplains were deprived of silt, a natural fertiliser,\nfurther adding on to the problem of land\ndegradation. It was also observed that the multi-\npurpose projects induced earthquakes, caused\nwater-borne diseases and pests and pollution\nresulting from excessive use of water.\nIrrigation has also changed the cropping\npattern of many regions with farmers shifting\nto water intensive and commercial crops. This\nhas great ecological consequences like\nsalinisation of the soil.\nPradhan Mantri Krishi Sinchayee Yojana\nhas been started which ensures access to some\nmeans to protective irrigation for all agricultural\nfarms in the country, thus bringing much\ndesired rural prosperity. Some of the broad\nobjectives of this programme are to enhance\nthe physical access of water on the farm and\nexpand cultivable area under assured\nirrigation (har khet ko pani), improve on-farm\nwater use efficiency to reduce wastage and\nincrease availability both in duration and\nextent, irrigation and other water saving\ntechnologies (per drop more crop) and\nintroduce sustainable water conservation\npractices, etc.\nCollect information about floods occurred in\ndifferent parts of the country due to heavy\nrainfall in recent times.\nSardar Sarovar Dam has been built over\nthe Narmada River in Gujarat. This is one\nof the largest water resource projects of\nIndia covering four states—Maharashtra,\nMadhya Pradesh, Gujarat and Rajasthan.\nThe Sardar Sarovar project would meet the\nrequirement of water in drought-prone and\ndesert areas. Sardar Sarovar Project will\nprovide irrigation facilities to 18.45 lakh\nhectare of land, covering 3112 villages in\n15 districts of Gujarat. It will also irrigate\n2,46,000 hectare of land in the strategic\ndesert districts of Barmer and Jalore in\nRajasthan and 37,500 hectare in the tribal\nhilly tract of Maharashtra through lift.\nAbout 75 per cent of the command area in\nGujarat is drought prone while entire\ncommand in Rajasthan is drought prone.\nAssured water supply will soon make this\narea drought proof.\nSource: Sardar Sarovar Narmada Nigam Ltd.\nhttps://www.sardarsarovardam.org/\nDo you know that the Krishna-Godavari\ndispute is due to the objections raised by\nKar nataka and Andhra Pradesh\ngovernments? It is regarding the diversion\nof more water at Koyna by the Maharashtra\ngovernment for a multipurpose project. This\nwould reduce downstream flow in their\nstates with adverse consequences for\nagriculture and industry.\nMake a list of inter-state water disputes.\nReprint 2026-27\n\n24\n CONTEMPORARY I NDIA – II\nIndia: India:India: India:India:  Major Rivers and Dams\nReprint 2026-27\n\n25\nWATER R ESOURCES\nR RRRRAINWATERAINWATERAINWATERAINWATERAINWATER  H  H H  H H ARVESTINGARVESTINGARVESTINGARVESTINGARVESTING\nMany thought that given the disadvantages\nand rising resistance against the multi-\npurpose projects, water harvesting system\nwas a viable alternative, both socio-\neconomically and environmentally. In\nancient India, along with the sophisticated\nhydraulic structures, there existed an\nextraordinary tradition of water-harvesting\nsystem. People had in-depth knowledge of\nrainfall regimes and soil types and developed\nwide ranging techniques to harvest\nrainwater, groundwater, river water and flood\nwater in keeping with the local ecological\nconditions and their water needs. In hill and\nmountainous regions, people built diversion\nchannels like the ‘guls’ or ‘kuls’ of the\nWestern Himalayas for agriculture. ‘Rooftop\nrainwater harvesting’ was commonly\npractised to store drinking water,\nparticularly in Rajasthan. In the flood plains\nof Bengal, people developed inundation\nchannels to irrigate their fields. In arid and\nsemi-arid regions, agricultural fields were\nconverted into rain fed storage structures\nthat allowed the water to stand and moisten\nthe soil like the ‘khadins’ in Jaisalmer and\n‘Johads’ in other parts of Rajasthan.\nIn the semi-arid and arid regions of\nRajasthan, particularly in Bikaner, Phalodi\nand Barmer, almost all the houses\ntraditionally had underground tanks or\ntankas for storing drinking water. The tanks\ncould be as large as a big room; one\nhousehold in Phalodi had a tank that was\n6.1 metres deep, 4.27 metres long and 2.44\nmetres wide. The tankas were part of the well-\ndeveloped rooftop rainwater harvesting\nCollect information about flood prone areas of the country\nReprint 2026-27\n\n26\n CONTEMPORARY I NDIA – II\n• Rooftop rainwater is collected using a PVC pipe\n• Filtered using sand and bricks\n• Underground pipe takes water to sump for\nimmediate usage\n• Excess water from the sump is taken to the well\n• Water from the well recharges the underground\n• Take water from the well (later)\n(b) Recharge through Abandoned Dugwell\nFig 3.3: Fig 3.3:Fig 3.3: Fig 3.3:Fig 3.3:  Rooftop Rainwater Harvesting\nThe rainwater can be stored in the\ntankas tankastankas tankastankas  till the next rainfall making it an\nextremely reliable source of drinking water\nwhen all other sources are dried up,\nparticularly in the summers. Rainwater, or\npalar panipalar panipalar panipalar panipalar pani, as commonly referred to in these\nparts, is considered the purest form of\nnatural water. Many houses constructed\nunderground rooms adjoining the ‘tanka’ to\nbeat the summer heat  as it would keep the\n(a) Recharge through Hand Pump\nsystem and were built inside the main house\nor the courtyard. They were connected to the\nsloping roofs of the houses through a pipe.\nRain falling on the rooftops would travel\ndown the pipe and was stored in these\nunderground ‘tankas’. The first spell of rain\nwas usually not collected as this would clean\nthe roofs and the pipes. The rainwater from\nthe subsequent showers was then collected.\nFig. 3.4 Fig. 3.4Fig. 3.4 Fig. 3.4Fig. 3.4\nA kul leads to a circular village tank, as the above\nin the Kaza village, from which water is released\nas and when required.\nFig 3.5:  Fig 3.5:  Fig 3.5:  Fig 3.5:  Fig 3.5:  Traditional method of rainwater\nharvesting\nReprint 2026-27\n\n27\nWATER R ESOURCES\nTamil Nadu is the first state in India\nwhich has made rooftop rainwater\nharvesting structure compulsory to all\nthe houses across the state. There are\nlegal provisions to punish the defaulters.\nRooftop rainwater harvesting is the\nmost common practice in Shillong,\nMeghalaya. It is interesting because\nCherapunjee and Mawsynram  situated\nat a distance of 55 km. from Shillong\nreceive the highest rainfall in the world,\nyet the state capital Shillong faces acute\nshortage of water. Nearly every\nhousehold in the city has a rooftop\nrainwater harvesting structure. Nearly\n15-25 per cent of the total water\nrequirement of the household comes\nfrom rooftop water harvesting.\nroom cool.\nToday, in western Rajasthan, sadly the\npractice of rooftop rainwater harvesting is on\nthe decline as plenty of water is available due\nto the perennial Indira Gandhi Canal, though\nsome houses still maintain the tankas since\nthey do not like the taste of tap water.\nFortunately, in many parts of rural and urban\nIndia, rooftop rainwater harvesting is being\nsuccessfully adapted to store and conserve\nwater. In Gendathur, a remote backward\nvillage in Mysuru, Karnataka, villagers have\ninstalled, in their household’s rooftop,\nrainwater harvesting system to meet their\nwater needs. Nearly 200 households have\ninstalled this system and the village has earned\nthe rare distinction of being rich in rainwater.\nSee Fig. 3.6 for a better understanding of the\nrooftop rainwater harvesting system which is\nadapted here. Gendathur receives an annual\nprecipitation of 1,000 mm, and with 80 per\ncent of collection efficiency and of about 10\nfillings, every house can collect and use about\n50,000 litres of water annually. From the 200\nhouses, the net amount of rainwater harvested\nannually amounts to 1,00,000 litres.\nFig. 3.6 Fig. 3.6Fig. 3.6 Fig. 3.6Fig. 3.6\nRooftop harvesting was common across the towns\nand villages of the Thar. Rainwater that falls on\nthe sloping roofs of houses is taken through a\npipe into an underground tanka (circular holes in\nthe ground). built in the main house or in the\ncourtyard. The picture above shows water being\ntaken from a neighbour’s roof through a long pipe.\nHere the neighbour’s rooftop has been used for\ncollection of rainwater. The picture shows a hole\nthrough which rainwater flows down into an\nunderground tanka.\nFind out other rainwater harvesting systems\nexisting in and around your locality.\nReprint 2026-27\n\n28\n CONTEMPORARY I NDIA – II\nFig 3.7\nBAMBOO DRIP IRRIGATION SYSTEM\nIn Meghalaya, a 200-year -old system of tapping str eam\nand spring water by using bamboo pipes, is prevalent.\nAbout 18-20 litres of water enters the bamboo pipe system,\ngets transported over hundreds of metres, and finally\nreduces to 20-80 drops per minute at the site of the plant.\nPicture 2 and 3: The channel sections, made of bamboo, divert\nwater to the plant site where it is distributed into branches, again\nmade and laid out with different forms of bamboo pipes. The flow of\nwater into the pipes is controlled by manipulating the pipe positions.\nPicture 1: Bamboo pipes are used to divert perennial springs\non the hilltops to the lower reaches by gravity.\nPicture 5 and 6\nReduced channel sections\nand diversion units are\nused at the last stage of\nwater application. The last\nchannel section enables\nwater to be dropped near\nthe roots of the plant.\nPicture 4: If the pipes pass a road,\nthey are taken high above the land.\n1. Collect information on how industries are polluting our water resources.\n2. Enact with your classmates a scene of water dispute in your locality.\nReprint 2026-27\n\n29\nWATER R ESOURCES\nEXERCISES  EXERCISES  EXERCISES  EXERCISES  EXERCISES\n1.\n1.1. 1.1. Multiple choice questions.\n(i) Based on the information given below classify each of the situations as\n‘suffering from water scarcity’ or ‘not suffering from water scarcity’.\n(a) Region with high annual rainfall.\n(b) Region having high annual rainfall and large population.\n(c) Region having high annual rainfall but water is highly polluted.\n(d) Region having low rainfall and low population.\n(ii) Which one of the following statements is not an argument in favour of multi-\npurpose river projects?\n(a) Multi-purpose projects bring water to those areas which suffer from\nwater scarcity.\n(b) Multi-purpose projects by regulating water flow helps to control floods.\n(c) Multi-purpose projects lead to large scale displacements and loss of\nlivelihood.\n(d) Multi-purpose projects generate electricity for our industries and our\nhomes.\n(iii) Here are some false statements. Identify the mistakes and rewrite them\ncorrectly.\n(a) Multiplying urban centres with large and dense populations and urban\nlifestyles have helped in proper utilisation of water resources.\n(b) Regulating and damming of rivers does not affect the river’s natural\nflow and its sediment flow.\n(c) Today in Rajasthan, the practice of rooftop rainwater water harvesting\nhas gained popularity despite high water availability due to the Indira\nGandhi Canal.\n2. 2.2. 2.2. Answer the following questions in about 30 words.\n(i) Explain how water becomes a renewable resource.\n(ii) What is water scarcity and what are its main causes?\n(iii) Compare the advantages and disadvantages of multi-purpose river projects.\n3.3.3.3.3. Answer the following questions in about 120 words.\n(i) Discuss how rainwater harvesting in semi-arid regions of Rajasthan is\ncarried out.\n(ii) Describe how modern adaptations of traditional rainwater harvesting\nmethods are being carried out to conserve and store water.\nReprint 2026-27",
+      "source_file": "social_science_03.pdf",
+      "document_metadata": {
+        "title": "nscres s",
+        "author": "My God"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "nscres s",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "My God",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "My God",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies thr ee?",
+      "answer": "You alr eady know that thr ee-fourth of the earth’s surface is covered with water, but only a small proportion of it accounts for freshwater that can be put to use.",
+      "question_type": "identify_17",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_17",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail identifies All water moves?",
+      "answer": "All water moves within the hydrological cycle ensuring that water is a renewable resource.",
+      "question_type": "identify_06",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_06",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to WATER SCARCITY?",
+      "answer": "WATER SCARCITY AND THE NEED FOR WATER CONSERVATION AND MANAGEMENT Given the abundance and renewability of water, it is dif ficult to imagine that we may suffer from water scar city.",
+      "question_type": "main_idea_03",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_03",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to water shortages?",
+      "answer": "The moment we speak of water shortages, we immediately associate it with regions having low rainfall or those that ar e dr ought pr one.",
+      "question_type": "main_idea_22",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_22",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about water shortages is important?",
+      "answer": "The moment we speak of water shortages, we immediately associate it with regions having low rainfall or those that ar e dr ought pr one.",
+      "question_type": "detail_22",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_22",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to deserts?",
+      "answer": "W e instantaneously visualise the deserts of Rajasthan and women balancing many ‘matkas’ (earthen pots) used for collecting and storing water and travelling long distances to get water.",
+      "question_type": "main_idea_05",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_05",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about deserts is important?",
+      "answer": "W e instantaneously visualise the deserts of Rajasthan and women balancing many ‘matkas’ (earthen pots) used for collecting and storing water and travelling long distances to get water.",
+      "question_type": "detail_05",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_05",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What function does large population serve?",
+      "answer": "A large population requires more water not only for domestic use but also to produce more food.",
+      "question_type": "function_16",
+      "pattern_source": "catalog",
+      "pattern_type": "function_16",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What method is described for large population?",
+      "answer": "A large population requires more water not only for domestic use but also to produce more food.",
+      "question_type": "method_16",
+      "pattern_source": "catalog",
+      "pattern_type": "method_16",
+      "source_file": "social_science_03.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to Introduction?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies polynomial?",
+    "question_type": "identify_09",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_09",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What points about polynomial are listed?",
+    "question_type": "list_09",
+    "pattern_source": "catalog",
+    "pattern_type": "list_09",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "How can polynomial be classified?",
+    "question_type": "classify_09",
+    "pattern_source": "catalog",
+    "pattern_type": "classify_09",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of Quadratic equations?",
+    "question_type": "significance_02",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_02",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the significance of breadth?",
+    "question_type": "significance_23",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_23",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about breadth?",
+    "question_type": "evaluation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_23",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What limitation applies to breadth?",
+    "question_type": "limitation_23",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_23",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies length?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "mathematics_04.pdf",
+    "page_or_id": "Page 1"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Where is British found or described?",
+    "question_type": "location_10",
+    "pattern_source": "catalog",
+    "pattern_type": "location_10",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about British?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Where is Baker found or described?",
+    "question_type": "location_02",
+    "pattern_source": "catalog",
+    "pattern_type": "location_02",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about Baker?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What might happen next based on eaters?",
+    "question_type": "prediction_16",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_16",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about eaters?",
+    "question_type": "evaluation_16",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_16",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about fire?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What does the writer explain about fire?",
+    "question_type": "comprehension",
+    "pattern_source": "subject",
+    "pattern_type": "comprehension",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail identifies bakers?",
+    "question_type": "identify_18",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_18",
+    "source_file": "english_05.pdf",
+    "page_or_id": "Page 1"
+  }
+]

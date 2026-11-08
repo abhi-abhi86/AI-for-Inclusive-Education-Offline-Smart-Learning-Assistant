@@ -1,0 +1,346 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Public GitHub work?",
+    "question_type": "evaluation_21",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_21",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does Public GitHub work mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Project work spans image validation?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does Project work spans image validation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea of foundation?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does foundation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail identifies EDUCATION Master?",
+    "question_type": "identify_05",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_05",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does EDUCATION Master mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Who is connected with EDUCATION Master?",
+    "question_type": "person_12",
+    "pattern_source": "catalog",
+    "pattern_type": "person_12",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What decision is made concerning EDUCATION Master?",
+    "question_type": "decision_12",
+    "pattern_source": "catalog",
+    "pattern_type": "decision_12",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea of EDUCATION Master?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does EDUCATION Master mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea of repository documents?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does repository documents mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea of project?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does project mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What function does experimentation serve?",
+    "question_type": "function_11",
+    "pattern_source": "catalog",
+    "pattern_type": "function_11",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What method is described for experimentation?",
+    "question_type": "method_11",
+    "pattern_source": "catalog",
+    "pattern_type": "method_11",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "How can experimentation be applied in practice?",
+    "question_type": "application_11",
+    "pattern_source": "catalog",
+    "pattern_type": "application_11",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does experimentation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea related to work?",
+    "question_type": "main_idea_20",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_20",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does work mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of Spiffy Cybersecurity Framework?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does Spiffy Cybersecurity Framework mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "Which detail identifies project?",
+    "question_type": "identify_16",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_16",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does project mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of Relevant interests?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does Relevant interests mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of security?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does security mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What method is described for Productivity Utilities?",
+    "question_type": "method_08",
+    "pattern_source": "catalog",
+    "pattern_type": "method_08",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does Productivity Utilities mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What is the main idea related to projects?",
+    "question_type": "main_idea_24",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_24",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "Which detail about projects is important?",
+    "question_type": "detail_24",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_24",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What is the main idea of projects?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does projects mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What is the main idea of TECHNICAL SKILLS Programming?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What does TECHNICAL SKILLS Programming mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 4"
+  },
+  {
+    "question": "What claim is made about documentation?",
+    "question_type": "claim_20",
+    "pattern_source": "catalog",
+    "pattern_type": "claim_20",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 5"
+  },
+  {
+    "question": "Which detail identifies documentation?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 5"
+  },
+  {
+    "question": "What is the main idea of documentation?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 5"
+  },
+  {
+    "question": "What does documentation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "Abhishek_M_G.pdf",
+    "page_or_id": "Page 1, Section 5"
+  }
+]

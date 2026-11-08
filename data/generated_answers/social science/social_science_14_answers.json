@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "SECTION III",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "In this chapter we will look at the development of print, from its beginnings in East Asia to its expansion in Europe and in India.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to development?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06"
+  },
+  {
+    "answer": "In this chapter we will look at the development of print, from its beginnings in East Asia to its expansion in Europe and in India.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about development is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06"
+  },
+  {
+    "answer": "Print Cultur e and the Modern World Chapter VPrint Culture and the Modern World Fig.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Print Cultur e is important?",
+    "question_type": "detail_13",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_13"
+  },
+  {
+    "answer": "Print Cultur e and the Modern World Chapter VPrint Culture and the Modern World Fig.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies Print Cultur e?",
+    "question_type": "identify_14",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_14"
+  },
+  {
+    "answer": "This is a royal workshop in the sixteenth century, much before printing began in India.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What method is described for royal workshop?",
+    "question_type": "method_21",
+    "pattern_source": "catalog",
+    "pattern_type": "method_21"
+  },
+  {
+    "answer": "You can see the text being dictated, written and illustrated.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to text?",
+    "question_type": "main_idea_14",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_14"
+  },
+  {
+    "answer": "You can see the text being dictated, written and illustrated.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about text is important?",
+    "question_type": "detail_14",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_14"
+  },
+  {
+    "answer": "The art of writing and illustrating by hand was important in the age before print.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about writing?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "Think about what happened to these forms of art with the coming of printing machines.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to forms?",
+    "question_type": "main_idea_11",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_11"
+  },
+  {
+    "answer": "Think about what happened to these forms of art with the coming of printing machines.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about forms is important?",
+    "question_type": "detail_11",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_11"
+  },
+  {
+    "answer": "The earliest kind of print technology was developed in China, Japan and Korea.",
+    "source_file": "social_science_14.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies earliest kind?",
+    "question_type": "identify_17",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_17"
+  }
+]

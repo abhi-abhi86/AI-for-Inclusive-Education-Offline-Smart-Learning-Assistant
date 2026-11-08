@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_file": "social_science_09.pdf",
+  "document_metadata": {
+    "title": "OFFICES OF THE PUBLICATION",
+    "author": "Social Science"
+  },
+  "question_generation": {
+    "subject": "social science",
+    "pattern_file": "data/question_patterns/social_science.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "data/generated_questions/social science/social_science_09_questions.json",
+    "answers_path": "data/generated_answers/social science/social_science_09_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 12,
+    "pages_with_text": 12,
+    "total_words": 2216,
+    "warnings": [],
+    "text_file": "data/converted_text/social science/social_science_09.txt",
+    "document_metadata": {
+      "title": "OFFICES OF THE PUBLICATION",
+      "author": "Social Science"
+    }
+  },
+  "question_quality": {
+    "accepted": 12,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "India\nContemporary\nII\nTextbook in Geography\nfor Class X\nSocial Science\nReprint 2026-27\n\nOFFICES OF THE PUBLICATION\nDIVISION, NCERT\nNCERT Campus\nSri Aurobindo Marg\nNew  Delhi 110 016 Phone :  011-26562708\n108, 100 Feet Road\nHosdakere Halli Extension\nBanashankari III Stage\nBengaluru 560 085 Phone : 080-26725740\nNavjivan Trust Building\nP.O.Navjivan\nAhmedabad 380 014 Phone :  079-27541446\nCWC Campus\nOpp. Dhankal Bus Stop\nPanihati\nKolkata 700 114 Phone :  033-25530454\nCWC Complex\nMaligaon\nGuwahati 781 021 Phone :  0361-2674869\nl\nPrinted on 80 GSM paper with NCER T\nwatermark\nPublished at the Publication Division by\nthe Secretary, National Council of\nEducational Research and Training,\nSri Aurobindo Marg, New Delhi 110 016 and\nprinted at B.R. Printers C-46/2, Lawrence\nIndl. Area, New Delhi-110035\nPublication Team\nHead, Publication : M.V. Srinivasan\nDivision\nChief Editor : Bijnan Sutar\nChief Business : Amitabh Kumar\nManager\nChief Production : Deepak Jaiswal\nOfficer (In charge)\nAssistant Editor : R. N. Bhardwaj\nProduction Assistant : Sahitya Sharma\nCover, Layout and Illustrations\nNidhi Wadhwa\nCartography\nCartographic Design Agency\nALL RIGHTS RESERVED\nq No part of this publication may be reproduced, stored in a retrieval system or transmitted,\nin any form or by any means, electronic, mechanical, photocopying, recording or otherwise\nwithout the prior permission of the publisher.\nq This book is sold subject to the condition that it shall not, by way of trade,  be lent,  re-sold,\nhired out or otherwise disposed of without the publisher’s consent, in any form of binding\nor cover other than that in which it is published.\nq The correct price of this publication is the price printed on this page, Any revised price\nindicated by a rubber stamp or by a sticker or by any other means is incorrect and should\nbe unacceptable.\nISBN  81-7450-644-61068 – CONTEMPORARY INDIA-IITextbook for Class X\nFirst Edition\nJanuary 2006    Agrahayana 1928\nReprinted\nDecember 2007, February  2009, \nJanuary  2010, January 2011,\nJanuary 2012, December 2012, \nNovember 2013, November 2014,\n \nDecember 2015, December 2016, \nJanuary 2018, February 2019, \nDecember 2019, January  2021 \nNovember  2021\nRevised Edition\nNovember 2022 Agrahayana 1944\nReprinted\nMarch 2024 Chaitra1946\nJune 2024 Jyaishtha 1946\nDecember 2024  \nAgrahayana 1946 \nDecember 2025  Agrahayana 1947\nPD 305T GS\n© National Council of Educationa  \nResearch and Training, 2006, 2022\n`  75.00\nReprint 2026-27\n\nThe National Curriculum Framework (NCF), 2005, recommends that\nchildren’s life at school must be linked to their life outside the school.\nThis principle marks a departure from the legacy of bookish learning\nwhich continues to shape our system and causes a gap between the\nschool, home and community. The syllabi and textbooks developed on\nthe basis of NCF signify an attempt to implement this basic idea. They\nalso attempt to discourage rote learning and the maintenance of sharp\nboundaries between dif ferent subject areas. We hope these measur es\nwill take us significantly further in the direction of a child-centred system\nof education outlined in the National Policy on Education (1986).\nThe success of this effort depends on the steps that school principals\nand teachers will take to encourage children to reflect on their own\nlearning and to pursue imaginative activities and questions. W e must\nrecognise that, given space, time and freedom, children generate new\nknowledge by engaging with the information passed on to them by adults.\nTreating the prescribed textbook as the sole basis of examination is one\nof the key reasons why other resources and sites of learning are ignored.\nInculcating creativity and initiative is possible if we perceive and treat\nchildren as participants in learning, not as receivers of a fixed body of\nknowledge.\nThese aims imply considerable change in school routines and mode\nof functioning. Flexibility in the daily time-table is as necessary as rigour\nin implementing the annual  calendar so that the required number of\nteaching days are actually devoted to teaching. The methods used for\nteaching and evaluation will also determine how effective this textbook\nproves for making children’s life at school a happy experience, rather\nthan a source of stress or boredom. Syllabus designers have tried to\naddress the problem of curricular burden by restructuring and\nreorienting knowledge at different stages with greater consideration for\nchild psychology and the time available for teaching. The textbook\nattempts to enhance this endeavour by giving higher priority and space\nto opportunities for contemplation and wondering, discussion in small\ngroups, and activities requiring hands-on experience.\nThe National Council of Educational Research and Training (NCERT)\nappreciates the hard work done by the textbook development committee\nresponsible for this book. W e wish to thank the Chairperson of the\nadvisory committee for textbooks in Social Sciences, at the higher\nsecondary level, Professor Hari Vasudevan and the Chief Advisor for this\nbook, Professor M.H. Qureshi for guiding the work of this committee.\nSeveral teachers contributed to the development of this textbook; we are\ngrateful to their principals for making this possible. We are indebted to\nForeword ForewordForewordForewordForeword\nReprint 2026-27\n\nthe institutions and organisations which have generously permitted us to draw\nupon their resources, material and personnel. We are especially grateful to the\nmembers of the National Monitoring Committee, appointed by the Department\nof Secondary and Higher Education, Ministry of Human Resource Development\nunder the Chairpersonship of Pr ofessor Mrinal Miri and Pr ofessor G.P .\nDeshpande, for their valuable time and contribution. As an organisation\ncommitted to systemic reform and continuous improvement in the quality of its\nproducts, NCERT welcomes comments and suggestions which will enable us to\nundertake further revision and refinement.\nDirector\nNew Delhi National Council of Educational\n20 November 2006                      Research and Training\niv\nReprint 2026-27\n\nRationalisation of Content in the TextbookRationalisation of Content in the TextbookRationalisation of Content in the TextbookRationalisation of Content in the TextbookRationalisation of Content in the Textbook\nIn view of the COVID-19 pandemic, it is imperative to reduce\ncontent load on students. The National Education Policy 2020,\nalso emphasises reducing the content load and providing\nopportunities for experiential learning with creative mindset. In\nthis backgr ound, the NCER T has undertaken the exer cise to\nrationalise the textbooks across all classes. Learning Outcomes\nalready developed by the NCER T across classes have been taken\ninto consideration in this exercise.\nContents of the textbooks have been rationalised in view of\nthe following:\n• Overlapping with similar content included in other subject\nareas in the same class\n• Similar content included in the lower or higher class in\nthe same subject\n• Difficulty level\n• Content, which is easily accessible to students without\nmuch interventions from teachers and can be learned by\nchildren thr ough self-lear ning or peer -learning\n• Content, which is irrelevant in the present context\nThis present edition, is a reformatted version after carrying\nout the changes given above .\nReprint 2026-27\n\nReprint 2026-27\n\nTextbook development committeeTextbook development committeeTextbook development committeeTextbook development committeeTextbook development committee\nCHAIRPERSON, ADVISORY COMMITTEE FOR TEXTBOOKS IN SOCIAL SCIENCES AT\nTHE SECONDARY LEVEL\nHari Vasudevan, Professor, Department of History, University of\nCalcutta, Kolkata\nCHIEF A DVISOR\nM. H. Qur\neshi, Professor, Centre for the Study of Regional Development,\nJawaharlal Nehru University, New Delhi\nADVISOR\nB. S. Butola, Professor, Centre for the Study of Regional Development,\nJawaharlal Nehru University, New Delhi\nMEMBERS\nAparajita De, Lecturer, Department of Geography,\nDelhi School of Economics, University of Delhi, Delhi\nGeeta Duggal, Former Principal, Delhi Public School, Rewari\nIndu Sharma, PGT, Demonstration School RIE, Ajmer\nK. Jaya, PGT, Convent of Jesus and Mary, Bangla Sahib Road, New Delhi\nPunam Behari, Reader, Miranda House, University of Delhi, Delhi\nSaroj Sharma, TGT (Retd.), Mother’s International School,\nSri Aurobindo Marg, New Delhi\nMEMBER-COORDINATOR\nAparna Pandey, Lecturer, Department of Education in Social Sciences\nand Humanities, NCERT, New Delhi\nReprint 2026-27\n\nReprint 2026-27\n\nAcknowledgementsAcknowledgementsAcknowledgementsAcknowledgementsAcknowledgements\nThe National Council of Educational Resear ch and T raining\nacknowledges the support of individuals and organisations as listed\nbelow for providing various photographs and other materials such as\narticles used in this textbook — Shveta Uppal, NCERT, New Delhi for\nFig. 1.11, 2.2, 4.3, 4.10, 4.11, 7.3, 7.4, 7.5; Kalyan Banerjee , NCERT,\nNew Delhi for Fig. 7.9; Centre for Science and Environment, New Delhi\nfor Fig. 2.2 (Endangered : the Nicobar megapode), 3.3, 3.5, 3.6, 3.7,\n4.1, 5.14; CCSHAU, Hisar for Fig. 4.4(a), 4.13; Directorate of Extension,\nMinistry of Agriculture, I.A.R.I. Campus, New Pusa, New Delhi for Fig.\n4.2, 4.4(b), 4.5, 4.6, 4.7, 4.8, 4.9 (Groundnut and Mustard), 4.12 (Apple\nand Pomegranate), 4.15, 4.18; Ministry of Environment and Forests,\nGovt. of India for Fig. 2.1, 5.10, 6.8; Ministry of Coal, Govt. of India for\nFig. 5.11(a) and (b); Ministry of Mines, Govt. of India for  Fig. 5.3, 5.5,\n5.8; Department of Road Transport and Highways, Ministry of Shipping,\nRoad Transport and Highways, Govt. of India for Fig. 7.2, 7.10; Ministry\nof Heavy Industries and Public Enterprises, Govt. of India for Fig. 5.12,\n6.3, 6. 6, 6. 7; Department of Shipping, Ministry of Shipping, Road\nTransport and Highways, Govt. of India for Fig. 7.6, 7.7, 7.8;\nKurukshetra magazine for collage on page 24; The T imes of India for\ncollage on page 20, 24, 29, 26, 57, 91; The Hindu for collage on page\n20; Hindustan for collage on page 91; NCER T, Social Science, Part-II,\nTextbook for Class-VIII for Fig. 1.12, 3.2.\nThe Council is thankful to the Survey of India for certification of maps\ngiven in the textbook.\nAcknowledgements are due to Savita Sinha, Professor and Head,\nDepartment of Education in Social Sciences and Humanities for her\nvaluable support at every stage of preparation of this textbook.\nSpecial thanks are due to Vandana R. Singh, Consultant Editor for\ngoing through the textbook and for giving useful suggestions.\nThe Council also gratefully acknowledges the contributions of\nIshwar Singh, DTP Operator;  Ajay Singh, Copy Editor; Dinesh Kumar,\nComputer Incharge, who have helped in giving a final shape to this book.\nThe contribution of the Publication Department, NCER T are also duly\nacknowledged.\nThe following are applicable to all the maps of India used in this textbook\n1. © Government of India, Copyright 2006\n2. The responsibility for the correctness of internal details rests with the\npublisher .\n3. The territorial waters of India extend into the sea to a distance of twelve\nnautical miles measured from the appropriate base line.\nReprint 2026-27\n\n4. The administrative headquarters of Chandigarh, Haryana and Punjab are\nat Chandigarh.\n5. The interstate boundaries amongst Arunachal Pradesh, Assam and\nMeghalaya shown on this map are as interpreted from the “North-Eastern\nAreas (Reorganisation) Act.1971,” but have yet to be verified.\n6. The external boundaries and coastlines of India agree with the Record/Master\nCopy certified by Survey of India.\n7. The state boundaries between Uttarakhand & Uttar Pradesh, Bihar &\nJharkhand and Chhattisgarh & Madhya Pradesh have not been verified by\nthe Governments concerned.\n8. The spellings of names in these maps have been taken from various sources.\nx\nSchool Bhuvan–NCERT an Online web portal\nWeb based online e-lear ning Geo spatial portal School Bhuvan–NCERT  has\nbeen launched by NCER T and ISRO in collaboration to enhance geo spatial\nskills among students. This online e-learning portal includes thematic maps\ngiven in Geography textbooks. This portal enables students to use Geo-spatial\ntechnology for better understanding of concepts in Geography. Online activities\navailable on the portal as Level 1, Level 2 and Level 3 encourage lear ners\nfrom Classes VI to XII to develop neighbour hood maps and their attributes on\nsatellite imageries available on School Bhuvan–NCER T.\nReprint 2026-27\n\nContents ContentsContentsContentsContents\nForeword iii\nRationalisation of Content in the Textbooks v\n1. Resources and Development 1\n2. Forest and Wildlife Resources 13\n3. Water Resources 19\n4. Agriculture 30\n5. Minerals and Energy Resources 42\n6. Manufacturing Industries 58\n7. Lifelines of National Economy 71\nAppendix–I 84\nAppendix–II 85\nGlossary 86\nReprint 2026-27\n\nConstitution of India\nFundamental Duties\nIt shall be the duty of every citizen of India —\n(a) to abide by the Constitution and respect its ideals and institutions, the\nNational Flag and the National Anthem;\n(b) to cherish and follow the noble ideals which inspired our national struggle\nfor freedom;\n(c) to uphold and protect the sovereignty, unity and integrity of India;\n(d) to defend the country and render national service when called upon to\ndo so;\n(e) to promote harmony and the spirit of common brotherhood amongst all\nthe people of India transcending religious, linguistic and regional or\nsectional diversities; to renounce practices derogatory to the dignity of\nwomen;\n(f) to value and preserve the rich heritage of our composite culture;\n(g) to protect and improve the natural environment including forests, lakes,\nrivers, wildlife and to have compassion for living creatures;\n(h) to develop the scientific temper, humanism and the spirit of inquiry and\nreform;\n(i) to safeguard public property and to abjure violence;\n(j) to strive towards excellence in all spheres of individual and collective\nactivity so that the nation constantly rises to higher levels of endeavour\nand achievement;\n*(k) who is a parent or guardian, to provide opportunities for education to\nhis child or , as the case may be, ward between the age of six and\nfourteen years.\nNote: The Article 51A containing Fundamental Duties was inserted by the Constitution\n(42nd Amendment) Act, 1976 (with effect from 3 January 1977).\n*(k) was inserted by the Constitution (86th Amendment) Act, 2002 (with effect from\n1 April 2010).\nPart IV A (Article 51 A)\nReprint 2026-27",
+      "source_file": "social_science_09.pdf",
+      "document_metadata": {
+        "title": "OFFICES OF THE PUBLICATION",
+        "author": "Social Science"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "OFFICES OF THE PUBLICATION",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who is the author of the story?",
+      "answer": "Social Science",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Who wrote the story?",
+      "answer": "Social Science",
+      "question_type": "document_author",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_author",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Srinivasan Division Chief Editor?",
+      "answer": "Srinivasan Division Chief Editor : Bijnan Sutar Chief Business : Amitabh Kumar Manager Chief Production : Deepak Jaiswal Officer (In charge) Assistant Editor : R.",
+      "question_type": "evaluation_07",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_07",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What effect does principle have?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "effect_19",
+      "pattern_source": "catalog",
+      "pattern_type": "effect_19",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What caused principle, and what resulted from it?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "cause_effect_19",
+      "pattern_source": "catalog",
+      "pattern_type": "cause_effect_19",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Why does principle have this effect?",
+      "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+      "question_type": "why",
+      "pattern_source": "evidence",
+      "pattern_type": "why",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to syllabi?",
+      "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+      "question_type": "main_idea_19",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_19",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about syllabi is important?",
+      "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+      "question_type": "detail_19",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_19",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about rote learning?",
+      "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between dif ferent subject areas.",
+      "question_type": "evaluation_14",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_14",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What is the main idea related to success?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "main_idea_18",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_18",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "Which detail about success is important?",
+      "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+      "question_type": "detail_18",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_18",
+      "source_file": "social_science_09.pdf",
+      "page_or_id": "Page 1"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "HRY; F",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "TRIANGLES 73 6 6.1 Introduction You are familiar with triangles and many of their properties from your earlier classes.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to triangles?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "TRIANGLES 73 6 6.1 Introduction You are familiar with triangles and many of their properties from your earlier classes.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about triangles is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "Recall that two figures are said to be congruent, if they have the same shape and the same size.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What points about two figures are listed?",
+    "question_type": "list_05",
+    "pattern_source": "catalog",
+    "pattern_type": "list_05"
+  },
+  {
+    "answer": "Two figures having the same shape (and not necessarily the same size) are called similar figures.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Two figures?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19"
+  },
+  {
+    "answer": "Two figures having the same shape (and not necessarily the same size) are called similar figures.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the meaning of Two figures in mathematics?",
+    "question_type": "definition",
+    "pattern_source": "subject",
+    "pattern_type": "definition"
+  },
+  {
+    "answer": "In fact, all these heights and distances have been found out using the idea of indirect measurements, which is based on the principle of similarity of figures (see Example 7, Q.15 of Exercise 6.3 and also Chapters 8 and 9 of this book).",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about fact is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07"
+  },
+  {
+    "answer": "In fact, all these heights and distances have been found out using the idea of indirect measurements, which is based on the principle of similarity of figures (see Example 7, Q.15 of Exercise 6.3 and also Chapters 8 and 9 of this book).",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies fact?",
+    "question_type": "identify_08",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_08"
+  },
+  {
+    "answer": "Note that some are congruent and some are not, but all of them have the same shape.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the significance of congruent?",
+    "question_type": "significance_07",
+    "pattern_source": "catalog",
+    "pattern_type": "significance_07"
+  },
+  {
+    "answer": "Note that some are congruent and some are not, but all of them have the same shape.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What conclusion can be drawn about congruent?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07"
+  },
+  {
+    "answer": "Note that some are congruent and some are not, but all of them have the same shape.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What limitation applies to congruent?",
+    "question_type": "limitation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "limitation_07"
+  },
+  {
+    "answer": "So they all are, what we call, similar.",
+    "source_file": "mathematics_06.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to call?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  }
+]

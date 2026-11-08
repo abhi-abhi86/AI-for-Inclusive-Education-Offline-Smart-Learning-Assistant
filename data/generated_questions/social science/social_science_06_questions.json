@@ -1,0 +1,98 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea related to CONTEMPORARY?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Which detail about CONTEMPORARY is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about secondary activities?",
+    "question_type": "evaluation_17",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_17",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is connected with secondary activities?",
+    "question_type": "person_17",
+    "pattern_source": "catalog",
+    "pattern_type": "person_17",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who were the important people or groups connected with secondary activities?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to secondary activities?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about workers?",
+    "question_type": "evaluation_16",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_16",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who played a role in Some?",
+    "question_type": "person",
+    "pattern_source": "subject",
+    "pattern_type": "person",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to Some?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What conclusion can be drawn about economic strength?",
+    "question_type": "evaluation_13",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_13",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What effect does MANUFACTURING have?",
+    "question_type": "effect_15",
+    "pattern_source": "catalog",
+    "pattern_type": "effect_15",
+    "source_file": "social_science_06.pdf",
+    "page_or_id": "Page 1"
+  }
+]

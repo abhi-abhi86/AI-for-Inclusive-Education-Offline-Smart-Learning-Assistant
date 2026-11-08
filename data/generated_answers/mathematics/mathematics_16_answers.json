@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "MATHEMA TICAL MODELLING",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "Class IX",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "Class IX",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": " The human heart pumps 5 to 6 litres of blood in the body every 60 seconds.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to human heart?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  },
+  {
+    "answer": " The human heart pumps 5 to 6 litres of blood in the body every 60 seconds.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about human heart is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": " The temperature at the surface of the Sun is about 6,000° C.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about temperature is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": " The temperature at the surface of the Sun is about 6,000° C.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail identifies temperature?",
+    "question_type": "identify_24",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_24"
+  },
+  {
+    "answer": "Well, the answer lies in mathematical modelling, which we introduced to you in Class IX.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "What solution is suggested for answer?",
+    "question_type": "solution_07",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_07"
+  },
+  {
+    "answer": "Well, the answer lies in mathematical modelling, which we introduced to you in Class IX.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to answer?",
+    "question_type": "main_idea_07",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_07"
+  },
+  {
+    "answer": "Well, the answer lies in mathematical modelling, which we introduced to you in Class IX.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about answer is important?",
+    "question_type": "detail_07",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_07"
+  },
+  {
+    "answer": "Recall that a mathematical model is a mathematical description of some real-life situation.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to mathematical model?",
+    "question_type": "main_idea_17",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_17"
+  },
+  {
+    "answer": "Recall that a mathematical model is a mathematical description of some real-life situation.",
+    "source_file": "mathematics_16.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about mathematical model is important?",
+    "question_type": "detail_17",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_17"
+  }
+]

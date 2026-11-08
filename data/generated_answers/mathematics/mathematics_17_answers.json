@@ -1,0 +1,110 @@
+[
+  {
+    "answer": "ANSWERS/ HINTS",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "bd a. 1 3",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who is the author of the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "bd a. 1 3",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "Who wrote the story?",
+    "question_type": "document_author",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_author"
+  },
+  {
+    "answer": "To solve graphically draw the graphs of these equations on the same axes on graph paper.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What solution is suggested for graphs?",
+    "question_type": "solution_08",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_08"
+  },
+  {
+    "answer": "Girls = 7, Boys = 3.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to Girls?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02"
+  },
+  {
+    "answer": "Girls = 7, Boys = 3.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about Girls is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "Girls = 7, Boys = 3.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "How is Girls represented mathematically?",
+    "question_type": "notation",
+    "pattern_source": "subject",
+    "pattern_type": "notation"
+  },
+  {
+    "answer": "Girls = 7, Boys = 3.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What formula or rule is given for Girls?",
+    "question_type": "formula",
+    "pattern_source": "subject",
+    "pattern_type": "formula"
+  },
+  {
+    "answer": "To solve graphically, draw the graphs of these equations on the same axes on graph paper.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the main idea related to graphs?",
+    "question_type": "main_idea_06",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_06"
+  },
+  {
+    "answer": "To solve graphically, draw the graphs of these equations on the same axes on graph paper.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "Which detail about graphs is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06"
+  },
+  {
+    "answer": "Cost of one pencil = ` 3, Cost of one pen = ` 5 2.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What points about Cost are listed?",
+    "question_type": "list_12",
+    "pattern_source": "catalog",
+    "pattern_type": "list_12"
+  },
+  {
+    "answer": "Cost of one pencil = ` 3, Cost of one pen = ` 5 2.",
+    "source_file": "mathematics_17.pdf",
+    "page_or_id": "Page 1",
+    "question": "What symbol or notation is used for Cost?",
+    "question_type": "notation",
+    "pattern_source": "subject",
+    "pattern_type": "notation"
+  }
+]
