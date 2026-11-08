@@ -18,6 +18,26 @@ from qa_engine import OfflineQAModelRunner
 from trainer import train_offline_model
 
 
+def _convert_pdf_to_json_for_training(pdf_path: str, output_root: str) -> str:
+    """Create the TXT and JSON archives used by the training model."""
+    from data_loader import extract_pdf_to_text_file, export_text_knowledge_json
+
+    stem = os.path.splitext(os.path.basename(pdf_path))[0]
+    text_path = os.path.join(output_root, "converted_text", f"{stem}.txt")
+    json_path = os.path.join(output_root, "converted_json", f"{stem}.json")
+    extraction = extract_pdf_to_text_file(pdf_path, text_path)
+    export_text_knowledge_json(
+        text_path=text_path,
+        json_path=json_path,
+        source_file=os.path.basename(pdf_path),
+        extraction_report=extraction,
+        subject="general",
+        question_root=os.path.join(output_root, "generated_questions"),
+        answer_root=os.path.join(output_root, "generated_answers"),
+    )
+    return json_path
+
+
 class OfflineLearningAssistantDesktopApp:
 
     def __init__(self, root):
@@ -341,7 +361,16 @@ class OfflineLearningAssistantDesktopApp:
                 if not pdf_paths and not json_paths:
                     self.lbl_folder_status.config(text="No files found! Add PDFs/JSON to data/ folders first.", fg="#dc2626")
                     return
-                stats = train_offline_model(pdf_paths=pdf_paths, json_paths=json_paths, save_path=save_path, epochs=12)
+                generated_json = [
+                    _convert_pdf_to_json_for_training(path, "data")
+                    for path in pdf_paths
+                ]
+                stats = train_offline_model(
+                    pdf_paths=[],
+                    json_paths=json_paths + generated_json,
+                    save_path=save_path,
+                    epochs=12,
+                )
                 self.default_model_path = save_path
                 self.qa_runner = OfflineQAModelRunner(save_path)
                 file_size_mb = os.path.getsize(save_path) / (1024.0 * 1024.0)
@@ -369,14 +398,19 @@ class OfflineLearningAssistantDesktopApp:
         if not path:
             return
 
-        self.lbl_auto_status.config(text=f"Auto-training on {os.path.basename(path)}...", fg="#0284c7")
+        self.lbl_auto_status.config(
+            text=f"PDF -> TXT -> JSON -> AI training: {os.path.basename(path)}...",
+            fg="#0284c7",
+        )
         self.btn_auto_upload.config(state="disabled")
         save_path = "models/uploaded_model.pth"
 
         def run_thread():
             try:
+                generated_json = _convert_pdf_to_json_for_training(path, "data")
                 stats = train_offline_model(
-                    pdf_paths=[path],
+                    pdf_paths=[],
+                    json_paths=[generated_json],
                     save_path=save_path,
                     epochs=12,
                 )
@@ -385,7 +419,8 @@ class OfflineLearningAssistantDesktopApp:
                 file_size_mb = os.path.getsize(save_path) / (1024.0 * 1024.0)
 
                 self.lbl_auto_status.config(
-                    text=f"✅ Trained & Activated! ({file_size_mb:.2f} MB, {stats['num_chunks']} chunks)",
+                    text=f"✅ PDF -> TXT -> JSON -> trained model activated "
+                    f"({file_size_mb:.2f} MB, {stats['num_chunks']} chunks)",
                     fg="#059669"
                 )
                 # Switch to Q&A tab
@@ -426,9 +461,14 @@ class OfflineLearningAssistantDesktopApp:
 
         def run_thread():
             try:
+                generated_json = (
+                    [_convert_pdf_to_json_for_training(pdf_path, "data")]
+                    if pdf_path
+                    else []
+                )
                 stats = train_offline_model(
-                    pdf_paths=[pdf_path] if pdf_path else [],
-                    json_paths=[json_path] if json_path else [],
+                    pdf_paths=[],
+                    json_paths=([json_path] if json_path else []) + generated_json,
                     save_path=save_path,
                     epochs=epochs,
                 )

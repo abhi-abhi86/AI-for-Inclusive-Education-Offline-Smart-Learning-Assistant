@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "purpose": "Small offline labeled seed set for rejecting weak generated question records.",
+  "bad_topic_phrases": [
+    "earliest times",
+    "afraid",
+    "brink",
+    "the passage",
+    "the information",
+    "the story"
+  ],
+  "header_markers": [
+    "before you read",
+    "after you read",
+    "contents",
+    "learning objectives"
+  ],
+  "examples": [
+    {
+      "label": "reject",
+      "reason": "generic_topic",
+      "question": "Where is earliest times found or described?",
+      "answer": "Since the earliest times, humans have dreamt of conquering the skies."
+    },
+    {
+      "label": "reject",
+      "reason": "header_or_instruction",
+      "question": "What is the main idea of the passage?",
+      "answer": "BEFORE YOU READ Since the earliest times, humans have dreamt of conquering the skies."
+    },
+    {
+      "label": "accept",
+      "reason": "grounded_character_question",
+      "question": "Why was the young seagull afraid to fly?",
+      "answer": "The young seagull was afraid because he felt certain that his wings would never support him."
+    },
+    {
+      "label": "accept",
+      "reason": "grounded_event_question",
+      "question": "What compelled the young seagull to finally fly?",
+      "answer": "The sight of the food maddened him."
+    }
+  ]
+}

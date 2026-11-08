@@ -105,16 +105,26 @@ class ProgressWindow:
         if match:
             current, total = int(match.group(1)), max(1, int(match.group(2)))
             percent = min(100, max(0, current * 100 / total))
-            if self.title_text == "Converting PDFs and Training Offline AI":
+            if self.title_text == "TXT to JSON":
+                self.progress["value"] = percent
+                self.percent.config(text=f"{percent:.0f}%")
+                self.status.config(text=match.group(3) or "Converting TXT files to JSON...")
+                return
+            if self.title_text in {
+                "PDF to TXT to JSON",
+                "PDF to TXT to JSON and Train Offline AI",
+            }:
                 message = match.group(3) or ""
-                if "Training" in message:
+                if "Training" in message or "epoch" in message.lower():
                     self.training_phase = True
                 if self.training_phase:
                     percent = 50 + percent / 2
-                elif "Converting" in message:
-                    percent = 25 + percent / 4
+                elif "Converted" in message:
+                    percent = 50 + percent / 2
+                elif "Extracted" in message:
+                    percent /= 2
                 else:
-                    percent /= 4
+                    percent /= 2
             self.progress["value"] = percent
             self.percent.config(text=f"{percent:.0f}%")
             self.status.config(text=match.group(3) or "Working...")

@@ -251,10 +251,21 @@ class handler(BaseHTTPRequestHandler):
                 with open(save_pdf, "wb") as f:
                     f.write(decoded_pdf)
                 
-                from data_loader import export_pdf_knowledge_json
+                from data_loader import extract_pdf_to_text_file, export_text_knowledge_json
                 json_name = f"{os.path.splitext(os.path.basename(filename))[0]}_knowledge.json"
-                save_json = os.path.join(                base_dir, "data", "curriculum_json", json_name)
-                extraction = export_pdf_knowledge_json(save_pdf, save_json)
+                text_name = f"{os.path.splitext(os.path.basename(filename))[0]}.txt"
+                save_text = os.path.join(base_dir, "data", "converted_text", "uploads", text_name)
+                save_json = os.path.join(base_dir, "data", "converted_json", "uploads", json_name)
+                text_extraction = extract_pdf_to_text_file(save_pdf, save_text)
+                extraction = export_text_knowledge_json(
+                    text_path=save_text,
+                    json_path=save_json,
+                    source_file=os.path.basename(filename),
+                    extraction_report=text_extraction,
+                    subject="general",
+                    question_root=os.path.join(base_dir, "data", "generated_questions"),
+                    answer_root=os.path.join(base_dir, "data", "generated_answers"),
+                )
 
                 from trainer import train_offline_model
                 save_model = os.path.join(base_dir, "models/uploaded_model.pth")
@@ -266,7 +277,8 @@ class handler(BaseHTTPRequestHandler):
                 self._send_json({
                     "success": True,
                     "save_path": "models/uploaded_model.pth",
-                    "json_path": f"data/curriculum_json/{json_name}",
+                    "text_path": f"data/converted_text/uploads/{text_name}",
+                    "json_path": f"data/converted_json/uploads/{json_name}",
                     "extracted_pages": extraction["pages"],
                     "extracted_words": extraction["words"],
                     "generated_qa_pairs": extraction["qa_pairs"],
@@ -278,6 +290,13 @@ class handler(BaseHTTPRequestHandler):
                     "suggested_questions": [
                         f"What are the main concepts in {filename}?",
                         "Explain the core mechanisms described in chapter 1.",
+                    ],
+                    "pipeline": [
+                        {"stage": "pdf_upload", "status": "complete"},
+                        {"stage": "pdf_to_text", "status": "complete", "path": f"data/converted_text/uploads/{text_name}"},
+                        {"stage": "text_to_json", "status": "complete", "path": f"data/converted_json/uploads/{json_name}"},
+                        {"stage": "json_training", "status": "complete", "input": f"data/converted_json/uploads/{json_name}"},
+                        {"stage": "answer_model", "status": "active", "path": "models/uploaded_model.pth"},
                     ],
                 })
             except Exception as e:

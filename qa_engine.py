@@ -109,9 +109,7 @@ class OfflineQAModelRunner:
             dense_sims = torch.matmul(self.knowledge_embeddings, q_vec.squeeze(0))  # [num_chunks]
 
         # 4. Hybrid Reciprocal Rank Fusion (RRF) combining Dense Neural & Lexical Scores
-        q_tokens = set(re.findall(r"\w+", question.lower())) - {
-            "what", "is", "the", "how", "why", "where", "when", "does", "do", "a", "an", "and", "in", "of", "to", "are"
-        }
+        q_tokens = self._content_tokens(question)
 
         # Only search document chunks for curriculum questions (keep conversations separate)
         doc_indices = [
@@ -130,13 +128,29 @@ class OfflineQAModelRunner:
         lexical_scores = []
         for idx in search_indices:
             chunk = self.knowledge_chunks[idx]
-            chunk_full = (chunk.get("text", "") + " " + (chunk.get("question") or "")).lower()
-            c_tokens = set(re.findall(r"\w+", chunk_full))
-            overlap = len(q_tokens & c_tokens)
-            lexical_scores.append((overlap, idx))
+            chunk_question = chunk.get("question") or ""
+            question_tokens = self._content_tokens(chunk_question)
+            text_tokens = self._content_tokens(chunk.get("text", ""))
+            question_overlap = len(q_tokens & question_tokens)
+            text_overlap = len(q_tokens & text_tokens)
+            exact_question = bool(
+                chunk_question
+                and self._normalize_phrase(question) == self._normalize_phrase(chunk_question)
+            )
+            # Generated JSON Q&A is the strongest source; TXT context remains
+            # searchable when no generated question matches exactly.
+            lexical_score = (
+                (100.0 if exact_question else 0.0)
+                + (question_overlap / max(1, len(q_tokens))) * 8.0
+                + (text_overlap / max(1, len(q_tokens))) * 2.0
+            )
+            lexical_scores.append((lexical_score, idx))
 
         lexical_scores.sort(key=lambda x: x[0], reverse=True)
         lexical_rank_map = {idx: rank for rank, (score, idx) in enumerate(lexical_scores)}
+        exact_question_indices = {
+            idx for score, idx in lexical_scores if score >= 100.0
+        }
 
         # Combine with RRF (k=60)
         k = 60
@@ -149,12 +163,31 @@ class OfflineQAModelRunner:
             rrf_scores.append((rrf, d_score, idx))
 
         rrf_scores.sort(key=lambda x: x[0], reverse=True)
+        if exact_question_indices:
+            exact_ranked = [
+                item for item in rrf_scores if item[2] in exact_question_indices
+            ]
+            rrf_scores = exact_ranked + [
+                item for item in rrf_scores if item[2] not in exact_question_indices
+            ]
         best_rrf, best_dense_score, best_idx = rrf_scores[0]
         best_chunk = self.knowledge_chunks[best_idx]
         top_chunks = [self.knowledge_chunks[idx] for _, _, idx in rrf_scores[:3]]
 
         # 5. Formulate answer from retrieved curriculum context
         answer_text = self.synthesize_generative_answer(question, best_chunk, top_chunks)
+        if re.search(r"\b(?:who\s+is\s+the\s+)?author\b", question, re.I):
+            author_evidence = any(
+                re.search(r"\b(?:author|written\s+by|by)\s*:", chunk.get("text", ""), re.I)
+                for chunk in top_chunks
+            )
+            if not author_evidence and answer_text.strip().lower() in {
+                "offline smart learning assistant",
+                "the offline smart learning assistant",
+            }:
+                answer_text = (
+                    "The author is not identified in the uploaded document."
+                )
 
         # Confidence: derived from dense similarity — NOT clamped to a fake floor
         confidence = (best_dense_score + 1.0) / 2.0  # maps cosine [-1,1] → [0,1]
@@ -196,6 +229,37 @@ class OfflineQAModelRunner:
             offline_verified=True,
             generative_verified=True,
         )
+
+    @staticmethod
+    def _normalize_token(token: str) -> str:
+        """Normalize simple word forms for curriculum keyword matching."""
+        token = token.lower()
+        if len(token) > 5 and token.endswith("ies"):
+            return token[:-3] + "y"
+        if len(token) > 4 and token.endswith(("ses", "xes", "zes", "ches", "shes")):
+            return token[:-2]
+        if len(token) > 3 and token.endswith("s") and not token.endswith("ss"):
+            return token[:-1]
+        return token
+
+    @classmethod
+    def _content_tokens(cls, text: str) -> set[str]:
+        stop_words = {
+            "what", "is", "the", "how", "why", "where", "when", "who",
+            "does", "do", "did", "a", "an", "and", "in", "of", "to",
+            "are", "was", "were", "can", "could", "would", "should",
+            "explain", "describe", "tell", "about", "please", "me",
+            "from", "for", "with", "this", "that", "it", "its",
+        }
+        return {
+            cls._normalize_token(token)
+            for token in re.findall(r"[a-z0-9]+", text.lower())
+            if token not in stop_words and len(token) > 1
+        }
+
+    @classmethod
+    def _normalize_phrase(cls, text: str) -> str:
+        return " ".join(sorted(cls._content_tokens(text)))
 
     def synthesize_generative_answer(
         self,

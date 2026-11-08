@@ -95,7 +95,10 @@ The Vercel deployment is a hosted demo. It is not the same as local offline mode
 ./venv/bin/python gui.py
 ```
 
-Then open `http://127.0.0.1:8000`. Uploading a text-based PDF creates a JSON knowledge archive, generates grounded questions and answers, and trains the local model without cloud APIs.
+Then open `http://127.0.0.1:8000`. Uploading a text-based PDF first creates a
+page-preserving TXT archive in `data/converted_text/`, then converts that TXT
+file into a JSON knowledge archive in `data/converted_json/`, generates
+grounded questions and answers, and trains the local model without cloud APIs.
 
 ### Train from a PDF folder
 
@@ -106,7 +109,15 @@ Put one or more PDFs into [`pdfs_to_train/`](./pdfs_to_train), then run:
 ./venv/bin/python train_and_qa.py train-from-folders
 ```
 
-The first command creates one JSON file per PDF under [`data/converted_json/`](./data/converted_json), preserving subject folders. Each JSON contains extraction metadata, page/chunk text, and grounded typed Q&A pairs. The second command runs this conversion automatically and trains only from those generated JSON files. The GUI's folder-training button performs both steps.
+The first command creates page-preserving TXT files under
+[`data/converted_text/`](./data/converted_text), then creates one JSON file per
+TXT archive under [`data/converted_json/`](./data/converted_json), preserving
+subject folders. Each JSON contains extraction metadata, page/chunk text, and
+grounded typed Q&A pairs. The second command runs this TXT-to-JSON conversion
+automatically and trains only from those generated JSON files. The GUI's
+folder-training and upload buttons perform both steps.
+
+To run only the second stage, use `./run.sh convert` after TXT extraction.
 
 Question wording is configured in [`data/question_patterns/`](./data/question_patterns/).
 It contains subject-specific patterns for English, science, mathematics, social
@@ -139,6 +150,15 @@ brew install tesseract
 The 1,000 question patterns control question wording; they cannot recover
 letters that the PDF text layer does not contain. OCR and layout-aware
 extraction solve that recognition problem without requiring an online AI API.
+
+Generated Q&A records also pass through an offline quality detector in
+[`data_loader.py`](./data_loader.py). It rejects textbook instructions and
+headers, generic topics such as “earliest times”, non-extractive answers, and
+catalog patterns whose evidence type is absent from the source sentence. The
+small labeled seed set in
+[`data/question_quality/quality_examples.json`](./data/question_quality/quality_examples.json)
+keeps these rules easy to review and extend without sending textbook content
+to a remote service.
 
 ---
 
@@ -253,7 +273,7 @@ See [`docs/IMPACT_REPORT.md`](./docs/IMPACT_REPORT.md) for the complete evaluati
 ├── model.py                   # EdgeNeuralQAModel (Transformer + Dual Semantic Heads)
 ├── qa_engine.py               # Local Q&A engine with Hybrid Reciprocal Rank Fusion
 ├── data_loader.py             # PDF (pypdf) & JSON curriculum parser + Vocabulary
-├── pdf_to_json.py             # Converts PDF folders into structured JSON archives
+├── pdf_to_json.py             # Converts PDF folders to TXT, then TXT to JSON
 ├── run.sh                     # One-command launcher for GUI, conversion, training, and Q&A
 ├── metrics.py                 # Telemetry (RAM RSS, latency, tok/s, 0 network calls)
 ├── prompt_templates.py        # Structured prompt formatters & passage validator

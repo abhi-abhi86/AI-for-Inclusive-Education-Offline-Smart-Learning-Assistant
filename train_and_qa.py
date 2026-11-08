@@ -50,14 +50,19 @@ def cmd_train(args):
 
 
 def cmd_convert_pdfs(args):
+    convert_pdf_folder_to_text(
+        args.pdf_root,
+        args.text_root,
+    )
     result = convert_pdf_folder_to_json(
         args.pdf_root,
         args.json_root,
         text_root=args.text_root,
     )
     print(
-        f"{GREEN}Converted {result['converted_count']}/{result['pdf_count']} PDFs "
-        f"to JSON under {result['json_root']}.{RESET}"
+        f"{GREEN}Converted {result['converted_count']}/{result['pdf_count']} "
+        f"PDFs to text under {args.text_root}, then JSON under "
+        f"{result['json_root']}.{RESET}"
     )
     if result["failures"]:
         print(f"{YELLOW}Failed conversions: {result['failed_count']}{RESET}")
@@ -68,7 +73,7 @@ def cmd_convert_pdfs(args):
 def cmd_train_from_folders(args):
     convert_pdf_folder_to_text(
         args.pdf_root,
-        os.path.join(os.path.dirname(args.json_root), "converted_text"),
+        args.text_root,
     )
     conversion = convert_pdf_folder_to_json(
         args.pdf_root,
@@ -80,7 +85,7 @@ def cmd_train_from_folders(args):
         for item in conversion["converted"]
     ]
     print(
-        f"{CYAN}Converted {conversion['converted_count']} PDFs. "
+        f"{CYAN}Converted {conversion['converted_count']} PDFs to TXT, then JSON. "
         f"Training only from generated JSON archives...{RESET}"
     )
     stats = train_offline_model(
@@ -241,7 +246,7 @@ def main():
             print(f"{CYAN}Auto-scanning PDF folder: 'pdfs_to_train/'...{RESET}")
         cmd_train(args)
     elif args.subcommand == "train-from-folders":
-        print(f"{BOLD}[Mode] PDF to JSON to offline model pipeline...{RESET}")
+        print(f"{BOLD}[Mode] PDF to text to JSON to offline model pipeline...{RESET}")
         cmd_train_from_folders(args)
     elif args.subcommand == "convert-pdfs":
         cmd_convert_pdfs(args)

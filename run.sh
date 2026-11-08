@@ -15,7 +15,7 @@ case "${1:-gui}" in
     ;;
   convert)
     exec "$PYTHON" progress_gui.py \
-      --title "Converting PDFs to JSON" -- \
+      --title "TXT to JSON" -- \
       "$PYTHON" pdf_to_json.py "${@:2}"
     ;;
   text)
@@ -25,7 +25,7 @@ case "${1:-gui}" in
     ;;
   train)
     exec "$PYTHON" progress_gui.py \
-      --title "Converting PDFs and Training Offline AI" -- \
+      --title "PDF to TXT to JSON and Train Offline AI" -- \
       "$PYTHON" train_and_qa.py train-from-folders "${@:2}"
     ;;
   ask)

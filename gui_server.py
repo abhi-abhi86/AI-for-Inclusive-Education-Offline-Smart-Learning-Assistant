@@ -15,6 +15,7 @@ import re
 import sys
 import threading
 import time
+import uuid
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from typing import Dict, List, Optional
@@ -34,8 +35,9 @@ ACTIVE_TOPICS: List[str] = [
 ]
 
 
-def get_qa_runner(model_path: str = CURRENT_MODEL_PATH):
+def get_qa_runner(model_path: Optional[str] = None):
     global QA_RUNNER, CURRENT_MODEL_PATH
+    model_path = model_path or CURRENT_MODEL_PATH
     with RUNNER_LOCK:
         if QA_RUNNER is None or CURRENT_MODEL_PATH != model_path:
             if os.path.exists(model_path):
@@ -238,7 +240,7 @@ HTML_PAGE = """<!DOCTYPE html>
 
     <div class="active-bar">
       <span>💾 Active Model: <strong id="bar-model-name" style="color: var(--primary);">models/demo_curriculum_model.pth</strong></span>
-      <span>⚡ Device: <strong>Local CPU / Apple Silicon (PyTorch)</strong></span>
+      <span>⚡ Device: <strong>Local CPU / ARM64 or Apple Silicon (PyTorch)</strong></span>
       <span>🔒 Cloud Calls: <strong>0 (No APIs)</strong></span>
     </div>
 
@@ -297,56 +299,57 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
       </div>
     </div>
 
-    <!-- TAB 2: UPLOAD PDF & AUTO-TRAIN -->
+    <!-- TAB 2: UPLOAD PDF, CONVERT, THEN TRAIN -->
     <div id="upload-tab" class="tab-content">
       <div class="card">
-        <h2>📤 Upload Student Textbook (PDF) & Auto-Train</h2>
-        <p>Drop your semester textbook or notes PDF here. The machine will <strong>automatically train itself locally</strong> on the content, compress the weights into a <code>.pth</code> model file, and prepare to answer questions based specifically on your textbook!</p>
+        <h2>📤 Upload Student Textbook (PDF)</h2>
+        <p>Upload processing runs automatically as PDF → page-preserving <code>.txt</code> → JSON. Training starts only after you confirm.</p>
 
         <div class="upload-zone" id="drop-zone" onclick="document.getElementById('pdf-file-input').click()">
           <div class="upload-icon">📄</div>
           <div class="upload-title">Click to Select or Drag & Drop Textbook (PDF)</div>
-          <div class="upload-sub">Extracts chapters, builds vocabulary, and auto-trains offline PyTorch model</div>
+          <div class="upload-sub">PDF → page-preserving TXT → JSON → offline PyTorch model</div>
           <input type="file" id="pdf-file-input" accept=".pdf" style="display: none;" onchange="handleFileSelect(event)">
           <div id="selected-file-info" style="display: none;"></div>
         </div>
 
         <div style="display: flex; gap: 12px; align-items: center;">
           <button class="btn btn-accent" id="btn-upload-train" onclick="uploadAndTrain()" disabled>
-            <span>🚀 Upload & Auto-Train Machine</span>
+            <span>🚀 Process PDF to TXT and JSON</span>
             <div class="loader" id="upload-loader"></div>
           </button>
           <span id="upload-status-text" style="font-size: 0.85rem; color: var(--text-muted);">Please select a PDF file above.</span>
         </div>
+        <div id="upload-pipeline-status" style="margin-top: 12px; color: var(--text-muted); font-size: 0.85rem;">
+          1. PDF waiting · 2. TXT waiting · 3. JSON waiting · 4. AI training waiting · 5. Answer model waiting
+        </div>
 
         <div class="result-box" id="upload-result">
           <div class="result-header">
-            <span class="answer-title">🎉 Machine Successfully Trained on Uploaded Textbook!</span>
+            <span class="answer-title">✅ PDF converted to TXT and JSON</span>
             <span class="meta-tag" id="up-time">0.72s</span>
           </div>
 
           <div class="model-info-grid">
             <div class="metric-card">
-              <div class="metric-lbl">Compressed Model (.pth)</div>
-              <div class="metric-val" id="up-size">2.18 MB</div>
-            </div>
-            <div class="metric-card">
               <div class="metric-lbl">Textbook Chunks Processed</div>
-              <div class="metric-val" id="up-chunks">7</div>
+              <div class="metric-val" id="up-chunks">0</div>
             </div>
             <div class="metric-card">
-              <div class="metric-lbl">Model Parameters</div>
-              <div class="metric-val" id="up-params">498,023</div>
+              <div class="metric-lbl">Generated Q&A Pairs</div>
+              <div class="metric-val" id="up-qa">0</div>
             </div>
             <div class="metric-card">
-              <div class="metric-lbl">Training Loss</div>
-              <div class="metric-val" id="up-loss">0.425</div>
+              <div class="metric-lbl">JSON Input</div>
+              <div class="metric-val" id="up-json" style="font-size: 0.7rem;">waiting</div>
             </div>
           </div>
 
           <div style="margin-top: 18px; padding: 14px; background: rgba(56, 189, 248, 0.08); border-radius: 8px;">
-            <p style="color: #fff; font-weight: bold; margin-bottom: 8px;">Ready! The model is now active. Click below to start asking questions about your textbook:</p>
-            <button class="btn" onclick="switchTab('qa-tab', document.querySelector('button[onclick*=\'qa-tab\']'))">👉 Ask Questions on this Textbook</button>
+            <p id="training-confirmation" style="color: #fff; font-weight: bold; margin-bottom: 8px;">TXT and JSON are ready. Start AI training?</p>
+            <button class="btn btn-accent" id="btn-confirm-training" onclick="confirmUploadedTraining()" disabled>🧠 Train AI from this JSON</button>
+            <button class="btn" id="btn-ask-uploaded" onclick="openUploadedQuestions()" style="display:none;">👉 Ask Questions on this Textbook</button>
+            <div id="training-progress" style="display:none; margin-top: 10px; color: var(--text-muted); font-size: 0.85rem;"></div>
           </div>
         </div>
       </div>
@@ -470,6 +473,16 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
       if (btn) btn.classList.add('active');
     }
 
+    function openUploadedQuestions() {
+      const qaButton = document.querySelector('.tab-btn[onclick*="qa-tab"]');
+      switchTab('qa-tab', qaButton);
+      const questionInput = document.getElementById('question-input');
+      if (questionInput) {
+        questionInput.focus();
+        questionInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
     // Drag and drop handlers
     const dropZone = document.getElementById('drop-zone');
     ['dragenter', 'dragover'].forEach(name => {
@@ -494,12 +507,16 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
     }
 
     function setFile(file) {
+      if (!file.name.toLowerCase().endsWith('.pdf') && file.type !== 'application/pdf') {
+        alert('Please select a PDF file.');
+        return;
+      }
       selectedPdfFile = file;
       const infoDiv = document.getElementById('selected-file-info');
       infoDiv.style.display = 'block';
       infoDiv.innerHTML = '<div class="file-chip">📄 ' + file.name + ' (' + (file.size / 1024).toFixed(1) + ' KB)</div>';
       document.getElementById('btn-upload-train').disabled = false;
-      document.getElementById('upload-status-text').innerText = 'Ready to train on ' + file.name;
+      document.getElementById('upload-status-text').innerText = 'Ready to convert ' + file.name;
     }
 
     async function uploadAndTrain() {
@@ -512,37 +529,45 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
 
       loader.style.display = 'inline-block';
       btn.disabled = true;
-      statusText.innerText = 'Extracting pages & auto-training PyTorch neural model...';
+      statusText.innerText = 'Converting PDF to TXT, then TXT to JSON...';
 
-      const reader = new FileReader();
-      reader.onload = async function() {
-        try {
-          const base64Data = reader.result.split(',')[1];
+      try {
+          const buffer = await selectedPdfFile.arrayBuffer();
+          let binary = '';
+          const bytes = new Uint8Array(buffer);
+          const blockSize = 0x8000;
+          for (let offset = 0; offset < bytes.length; offset += blockSize) {
+            binary += String.fromCharCode(...bytes.subarray(offset, offset + blockSize));
+          }
+          const base64Data = btoa(binary);
           const resp = await fetch('/api/upload-and-train', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               filename: selectedPdfFile.name,
               file_base64: base64Data,
-              epochs: 12
             })
           });
 
-          const data = await resp.json();
-          if (data.error) {
-            alert('Training error: ' + data.error);
-            statusText.innerText = 'Error: ' + data.error;
+          const data = await resp.json().catch(() => ({
+            error: `Upload failed with HTTP ${resp.status}.`,
+          }));
+          if (!resp.ok || data.success !== true) {
+            const errorMessage = data.error || `Conversion failed with HTTP ${resp.status}.`;
+            alert('Conversion error: ' + errorMessage);
+            statusText.innerText = 'Error: ' + errorMessage;
             return;
           }
 
-          document.getElementById('up-size').innerText = data.file_size_mb.toFixed(2) + ' MB';
-          document.getElementById('up-chunks').innerText = data.num_chunks;
-          document.getElementById('up-params').innerText = data.total_params.toLocaleString();
-          document.getElementById('up-loss').innerText = data.final_loss.toFixed(3);
-          document.getElementById('up-time').innerText = data.training_time_s.toFixed(2) + 's';
-
-          document.getElementById('bar-model-name').innerText = data.save_path;
-          statusText.innerText = 'Auto-training complete! Model activated.';
+          document.getElementById('up-chunks').innerText = data.extracted_pages;
+          document.getElementById('up-qa').innerText = data.generated_qa_pairs;
+          document.getElementById('up-json').innerText = data.json_path;
+          document.getElementById('up-time').innerText = 'processed';
+          statusText.innerText = 'TXT extracted and JSON created. Training has not started.';
+          document.getElementById('upload-pipeline-status').innerText =
+            '✓ PDF uploaded → ✓ TXT created → ✓ JSON created → ⏸ AI training waiting for confirmation';
+          document.getElementById('btn-confirm-training').disabled = false;
+          window.uploadedJsonPath = data.json_path;
           resBox.style.display = 'block';
 
           // Post notification to chat feed
@@ -552,13 +577,12 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
             noticeMsg.className = 'chat-msg assistant';
             noticeMsg.innerHTML = `
               <div class="bubble" style="border: 1px solid #10b981; background: rgba(16,185,129,0.08);">
-                🎉 <strong>Textbook Trained & Activated!</strong><br>
-                The offline neural model has trained on <strong>${escapeHtml(selectedPdfFile.name)}</strong> (${data.file_size_mb.toFixed(2)} MB .pth model, ${data.num_chunks} chunks).
-                You can now ask questions about this textbook directly in this chat!
+                ✅ <strong>Textbook converted successfully!</strong><br>
+                <strong>${escapeHtml(selectedPdfFile.name)}</strong> is ready as TXT → JSON. Training is waiting for your confirmation.
               </div>
               <div class="msg-meta">
-                <span>⚡ Model Switched</span>
-                <span class="source-chip">${escapeHtml(data.save_path)}</span>
+                <span>📄 JSON Ready</span>
+                <span class="source-chip">${escapeHtml(data.json_path)}</span>
               </div>
             `;
             chatFeed.appendChild(noticeMsg);
@@ -577,15 +601,13 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
               pillsDiv.appendChild(span);
             });
           }
-        } catch (err) {
-          alert('Upload failed: ' + err);
-          statusText.innerText = 'Failed: ' + err;
-        } finally {
-          loader.style.display = 'none';
-          btn.disabled = false;
-        }
-      };
-      reader.readAsDataURL(selectedPdfFile);
+      } catch (err) {
+        alert('Upload failed: ' + err);
+        statusText.innerText = 'Failed: ' + err;
+      } finally {
+        loader.style.display = 'none';
+        btn.disabled = false;
+      }
     }
 
     function escapeHtml(str) {
@@ -651,6 +673,9 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
           body: JSON.stringify({ question: q })
         });
         const data = await resp.json();
+        if (!resp.ok || data.error) {
+          throw new Error(data.error || `Question request failed with HTTP ${resp.status}.`);
+        }
 
         // 3. Append assistant generative response to chat feed
         const botMsg = document.createElement('div');
@@ -685,6 +710,40 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
         chatFeed.scrollTop = chatFeed.scrollHeight;
       } finally {
         loader.style.display = 'none';
+      }
+    }
+
+    async function confirmUploadedTraining() {
+      if (!window.uploadedJsonPath) return;
+      const button = document.getElementById('btn-confirm-training');
+      const statusText = document.getElementById('upload-status-text');
+      button.disabled = true;
+      statusText.innerText = 'Training AI from the generated JSON...';
+      const progress = document.getElementById('training-progress');
+      progress.style.display = 'block';
+      progress.innerText = '⏳ Loading JSON knowledge...';
+      try {
+        progress.innerText = '⏳ Training the offline AI model from TXT-derived JSON...';
+        const resp = await fetch('/api/train-uploaded-json', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ json_path: window.uploadedJsonPath, epochs: 12 })
+        });
+        const data = await resp.json();
+        if (!resp.ok || data.error) throw new Error(data.error || `Training failed with HTTP ${resp.status}.`);
+        document.getElementById('up-time').innerText = data.training_time_s.toFixed(2) + 's';
+        document.getElementById('upload-pipeline-status').innerText =
+          '✓ PDF uploaded → ✓ TXT created → ✓ JSON created → ✓ AI trained from JSON → ✓ Answer model activated';
+        document.getElementById('training-confirmation').innerText = 'Training complete. The answer model is active.';
+        document.getElementById('btn-ask-uploaded').style.display = 'inline-block';
+        document.getElementById('bar-model-name').innerText = data.save_path;
+        progress.innerText = `✅ Training complete: ${data.num_chunks} knowledge chunks loaded in ${data.training_time_s.toFixed(2)}s.`;
+        statusText.innerText = 'AI trained from JSON and activated.';
+      } catch (err) {
+        button.disabled = false;
+        progress.innerText = '❌ Training failed. No answer model was activated.';
+        statusText.innerText = 'Training failed: ' + err;
+        alert('Training error: ' + err);
       }
     }
 
@@ -885,9 +944,26 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
         url_parts = urllib.parse.urlparse(self.path)
         path = url_parts.path
 
-        content_length = int(self.headers.get("Content-Length", 0))
+        try:
+            content_length = int(self.headers.get("Content-Length", 0))
+        except ValueError:
+            self._send_json({"error": "Invalid upload request size."}, status=400)
+            return
+        if content_length <= 0:
+            self._send_json({"error": "The upload request was empty."}, status=400)
+            return
+        if content_length > 150 * 1024 * 1024:
+            self._send_json({"error": "The PDF is too large. Maximum upload size is 150 MB."}, status=413)
+            return
         post_data = self.rfile.read(content_length)
-        payload = json.loads(post_data.decode("utf-8")) if post_data else {}
+        try:
+            payload = json.loads(post_data.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            self._send_json({"error": "The upload request was not valid JSON."}, status=400)
+            return
+        if not isinstance(payload, dict):
+            self._send_json({"error": "The upload request must be a JSON object."}, status=400)
+            return
 
         if path == "/api/upload-and-train":
             filename = payload.get("filename", "uploaded_textbook.pdf")
@@ -899,12 +975,22 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                 return
 
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            upload_dir = os.path.join(base_dir, "uploads")
-            os.makedirs(upload_dir, exist_ok=True)
             safe_filename = re.sub(r"[^\w\-_\.]", "_", os.path.basename(filename))
             if not safe_filename.lower().endswith(".pdf"):
                 safe_filename += ".pdf"
-            saved_pdf_path = os.path.join(upload_dir, safe_filename)
+            document_name = (
+                f"{os.path.splitext(safe_filename)[0]}_{uuid.uuid4().hex[:8]}"
+            )
+            document_root = os.path.join(
+                base_dir, "data", "uploaded_documents", document_name
+            )
+            pdf_dir = os.path.join(document_root, "pdf")
+            text_dir = os.path.join(document_root, "text")
+            json_dir = os.path.join(document_root, "json")
+            os.makedirs(pdf_dir, exist_ok=True)
+            os.makedirs(text_dir, exist_ok=True)
+            os.makedirs(json_dir, exist_ok=True)
+            saved_pdf_path = os.path.join(pdf_dir, safe_filename)
 
             # Decode and write PDF
             try:
@@ -914,34 +1000,36 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
             except Exception:
                 self._send_json({"error": "The uploaded file is not valid base64 data."}, status=400)
                 return
-            if not decoded_pdf.startswith(b"%PDF-"):
+            if decoded_pdf[:1024].find(b"%PDF-") < 0:
                 self._send_json({"error": "The uploaded file is not a valid PDF."}, status=400)
                 return
             with open(saved_pdf_path, "wb") as f:
                 f.write(decoded_pdf)
 
-            save_model_path = os.path.join(base_dir, "models", "uploaded_model.pth")
+            save_text_path = os.path.join(
+                text_dir, f"{os.path.splitext(safe_filename)[0]}.txt"
+            )
             save_json_path = os.path.join(
-                base_dir, "data", "curriculum_json",
-                f"{os.path.splitext(safe_filename)[0]}_knowledge.json",
+                json_dir, f"{os.path.splitext(safe_filename)[0]}_knowledge.json"
             )
 
             try:
-                # Extract the complete document and create grounded typed Q&A first.
-                from data_loader import export_pdf_knowledge_json, load_qa_from_json
-                extraction = export_pdf_knowledge_json(saved_pdf_path, save_json_path)
-
-                # Train only from the generated archive so pages and Q&A are both included once.
-                from trainer import train_offline_model
-                stats = train_offline_model(
-                    json_paths=[save_json_path],
-                    save_path=save_model_path,
-                    epochs=epochs,
+                # Keep the text archive as the source of truth for JSON conversion.
+                from data_loader import (
+                    extract_pdf_to_text_file,
+                    export_text_knowledge_json,
+                    load_qa_from_json,
                 )
-                file_size_mb = os.path.getsize(save_model_path) / (1024.0 * 1024.0)
-
-                # Set as active model runner
-                runner = get_qa_runner(save_model_path)
+                text_extraction = extract_pdf_to_text_file(saved_pdf_path, save_text_path)
+                extraction = export_text_knowledge_json(
+                    text_path=save_text_path,
+                    json_path=save_json_path,
+                    source_file=os.path.basename(saved_pdf_path),
+                    extraction_report=text_extraction,
+                    subject="general",
+                    question_root=os.path.join(base_dir, "data", "generated_questions"),
+                    answer_root=os.path.join(base_dir, "data", "generated_answers"),
+                )
 
                 # Generate dynamic suggested questions based on the uploaded chunks
                 generated_chunks = load_qa_from_json(save_json_path)
@@ -958,21 +1046,68 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
 
                 self._send_json({
                     "success": True,
-                    "save_path": "models/uploaded_model.pth",
+                    "document_folder": os.path.relpath(document_root, base_dir),
+                    "pdf_path": os.path.relpath(saved_pdf_path, base_dir),
                     "json_path": os.path.relpath(save_json_path, base_dir),
+                    "text_path": os.path.relpath(save_text_path, base_dir),
                     "extracted_pages": extraction["pages"],
                     "extracted_words": extraction["words"],
                     "generated_qa_pairs": extraction["qa_pairs"],
-                    "file_size_mb": file_size_mb,
+                    "suggested_questions": suggested_questions,
+                    "pipeline": [
+                        {"stage": "pdf_upload", "status": "complete"},
+                        {"stage": "pdf_to_text", "status": "complete", "path": os.path.relpath(save_text_path, base_dir), "library": "PyMuPDF"},
+                        {"stage": "text_to_json", "status": "complete", "path": os.path.relpath(save_json_path, base_dir)},
+                        {"stage": "json_training", "status": "waiting_for_confirmation", "input": os.path.relpath(save_json_path, base_dir)},
+                        {"stage": "answer_model", "status": "waiting"},
+                    ],
+                })
+
+            except Exception as e:
+                self._send_json({
+                    "success": False,
+                    "error": f"Conversion failed: {e}",
+                    "stage": "pdf_to_text_or_text_to_json",
+                }, status=400)
+
+        elif path == "/api/train-uploaded-json":
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            relative_json_path = payload.get("json_path", "")
+            json_root = os.path.realpath(
+                os.path.join(base_dir, "data", "uploaded_documents")
+            )
+            json_path = os.path.realpath(os.path.join(base_dir, relative_json_path))
+            if not relative_json_path or not json_path.startswith(json_root + os.sep):
+                self._send_json({"error": "Invalid uploaded JSON path."}, status=400)
+                return
+            if not os.path.isfile(json_path):
+                self._send_json({"error": "Uploaded JSON file was not found. Process the PDF first."}, status=404)
+                return
+            try:
+                from trainer import train_offline_model
+                document_root = os.path.dirname(os.path.dirname(json_path))
+                model_dir = os.path.join(base_dir, "models", "uploaded_documents")
+                os.makedirs(model_dir, exist_ok=True)
+                model_name = os.path.basename(document_root) + ".pth"
+                save_model_path = os.path.join(model_dir, model_name)
+                stats = train_offline_model(
+                    pdf_paths=[],
+                    json_paths=[json_path],
+                    save_path=save_model_path,
+                    epochs=payload.get("epochs", 12),
+                )
+                get_qa_runner(save_model_path)
+                self._send_json({
+                    "success": True,
+                    "save_path": os.path.relpath(save_model_path, base_dir),
+                    "file_size_mb": os.path.getsize(save_model_path) / (1024.0 * 1024.0),
                     "total_params": stats["total_params"],
                     "num_chunks": stats["num_chunks"],
                     "final_loss": stats["final_loss"],
                     "training_time_s": stats["training_time_s"],
-                    "suggested_questions": suggested_questions,
                 })
-
-            except Exception as e:
-                self._send_json({"error": str(e)}, status=400)
+            except Exception as exc:
+                self._send_json({"error": f"Training failed: {exc}"}, status=500)
 
         elif path == "/api/ask":
             question = payload.get("question", "").strip()
@@ -1057,9 +1192,36 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
             epochs = payload.get("epochs", 12)
 
             try:
+                if pdf_paths:
+                    from data_loader import extract_pdf_to_text_file, export_text_knowledge_json
+
+                    base_dir = os.path.dirname(os.path.abspath(__file__))
+                    generated_json_paths = []
+                    for pdf_path in pdf_paths:
+                        absolute_pdf = pdf_path if os.path.isabs(pdf_path) else os.path.join(base_dir, pdf_path)
+                        stem = os.path.splitext(os.path.basename(absolute_pdf))[0]
+                        text_path = os.path.join(
+                            base_dir, "data", "converted_text", "gui", f"{stem}.txt"
+                        )
+                        generated_json = os.path.join(
+                            base_dir, "data", "converted_json", "gui", f"{stem}.json"
+                        )
+                        extraction_report = extract_pdf_to_text_file(absolute_pdf, text_path)
+                        export_text_knowledge_json(
+                            text_path=text_path,
+                            json_path=generated_json,
+                            source_file=os.path.basename(absolute_pdf),
+                            extraction_report=extraction_report,
+                            subject="general",
+                            question_root=os.path.join(base_dir, "data", "generated_questions"),
+                            answer_root=os.path.join(base_dir, "data", "generated_answers"),
+                        )
+                        generated_json_paths.append(generated_json)
+                    json_paths = list(json_paths) + generated_json_paths
+
                 from trainer import train_offline_model
                 stats = train_offline_model(
-                    pdf_paths=pdf_paths,
+                    pdf_paths=[],
                     json_paths=json_paths,
                     save_path=save_path,
                     epochs=epochs,
