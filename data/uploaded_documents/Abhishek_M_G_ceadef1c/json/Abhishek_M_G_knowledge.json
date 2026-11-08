@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "source_file": "Abhishek_M_G.pdf",
+  "document_metadata": {
+    "title": "ABHISHEK M G"
+  },
+  "question_generation": {
+    "subject": "general",
+    "pattern_file": "data/question_patterns/general.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "/Users/abhi/Downloads/AI-for-Inclusive-Education-Offline-Smart-Learning-Assistant/data/generated_questions/general/Abhishek_M_G_knowledge_questions.json",
+    "answers_path": "/Users/abhi/Downloads/AI-for-Inclusive-Education-Offline-Smart-Learning-Assistant/data/generated_answers/general/Abhishek_M_G_knowledge_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 1,
+    "pages_with_text": 1,
+    "total_chunks": 5,
+    "chunking": {
+      "chunk_size_words": 120,
+      "overlap_words": 25,
+      "step_words": 95
+    },
+    "total_words": 404,
+    "warnings": [
+      "Text was recovered with the local PyMuPDF extractor."
+    ],
+    "text_file": "/Users/abhi/Downloads/AI-for-Inclusive-Education-Offline-Smart-Learning-Assistant/data/uploaded_documents/Abhishek_M_G_ceadef1c/text/Abhishek_M_G.txt",
+    "document_metadata": {
+      "title": "ABHISHEK M G"
+    }
+  },
+  "question_quality": {
+    "accepted": 43,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "ABHISHEK M G\nMCA STUDENT  |  STUDENT RESEARCHER\nBengaluru, Karnataka  |  abhishekmgabhishekmg726@gmail.com\nGitHub: github.com/abhi-abhi86   |   LinkedIn: linkedin.com/in/abhishekmg76\nPROFESSIONAL PROFILE\nResearch-oriented MCA student and BCA graduate with hands-on project work in Python, machine learning, computer \nvision, and information retrieval. Interested in building practical, privacy-conscious tools and investigating how AI \nmethods can support real-world problems. Public GitHub work includes a multi-species image-based disease-detection \napplication, data-analysis and ML experiments, desktop utilities, and cybersecurity tooling. Project work spans image \nvalidation, model training and evaluation, confidence-based predictions, research retrieval, and desktop interfaces. Brings \na foundation in software development, clear technical documentation, and version-controlled collaboration.\nEDUCATION\nMaster of Computer Applications (MCA)  |  Acharya Institute of Technology, Bengaluru\nCurrently pursuing\nBachelor of Computer Applications (BCA)  |  Kuvempu University\nCompleted\nSELECTED RESEARCH & DEVELOPMENT PROJECTS\nMulti-Species Disease Detection and Management System  |  Python, PyTorch, PySide6, computer vision\n• Desktop application for exploring image-based disease analysis across plant, human, and animal use cases. The \nrepository documents a MobileNetV2 model, custom training, confidence scoring, image validation, and offline-first \noperation. It also describes disease-information search, Wikipedia and PubMed research integration, and PDF/HTML \nreport generation. The project brings together computer vision, model experimentation, retrieval, and user-facing reporting \nin one workflow.\nData Analysis & Machine-Learning Experiments  |  Pandas, scikit-learn, PyTorch\n• GitHub profile describes scripts and notebooks for data cleaning, model training, and evaluation using Pandas, scikit-\nlearn, and PyTorch. This work supports iterative experimentation, comparison of model behavior, and structured \npresentation of results.\nSpiffy Cybersecurity Framework  |  Python, C++, optional Rust\n• Security-tooling project whose repository describes defensive modules for MITM detection, SSL/TLS auditing, packet \nanalysis, and Bluetooth security, alongside encrypted storage and peer-to-peer messaging. The project also documents \nmodular tooling and automation. Relevant interests include network security, defensive monitoring, and responsible \nsecurity research.\nGUI & Productivity Utilities  |  PyQt6, Pillow, Django\n• Public profile describes desktop utilities for image processing and report generation, developed with PyQt6 and Pillow, \nas well as a Django portfolio website for presenting projects and contact information. These projects complement the ML \nwork with interface design and practical software delivery.\nTECHNICAL SKILLS\nProgramming: Python, Rust\nMachine learning & data: PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Transformers\nNLP & retrieval: Hugging Face, BM25 / Rank-BM25, fuzzy matching\nComputer vision & interfaces: OpenCV, PySide6, PyQt6, Pillow\nWeb & development: Django, Git, documentation, model experimentation\nRESEARCH INTERESTS\nApplied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; \nprivacy-conscious/offline AI; defensive cybersecurity.",
+      "source_file": "Abhishek_M_G.pdf",
+      "document_metadata": {
+        "title": "ABHISHEK M G"
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "page_or_id": "Page 1, Section 1",
+      "text": "ABHISHEK M G MCA STUDENT | STUDENT RESEARCHER Bengaluru, Karnataka | abhishekmgabhishekmg726@gmail.com GitHub: github.com/abhi-abhi86 | LinkedIn: linkedin.com/in/abhishekmg76 PROFESSIONAL PROFILE Research-oriented MCA student and BCA graduate with hands-on project work in Python, machine learning, computer vision, and information retrieval. Interested in building practical, privacy-conscious tools and investigating how AI methods can support real-world problems. Public GitHub work includes a multi-species image-based disease-detection application, data-analysis and ML experiments, desktop utilities, and cybersecurity tooling. Project work spans image validation, model training and evaluation, confidence-based predictions, research retrieval, and desktop interfaces. Brings a foundation in software development, clear technical documentation, and version-controlled collaboration. EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu",
+      "source_file": "Abhishek_M_G.pdf",
+      "document_metadata": {
+        "title": "ABHISHEK M G"
+      }
+    },
+    {
+      "page_or_id": "Page 1, Section 2",
+      "text": "documentation, and version-controlled collaboration. EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu University Completed SELECTED RESEARCH & DEVELOPMENT PROJECTS Multi-Species Disease Detection and Management System | Python, PyTorch, PySide6, computer vision • Desktop application for exploring image-based disease analysis across plant, human, and animal use cases. The repository documents a MobileNetV2 model, custom training, confidence scoring, image validation, and offline-first operation. It also describes disease-information search, Wikipedia and PubMed research integration, and PDF/HTML report generation. The project brings together computer vision, model experimentation, retrieval, and user-facing reporting in one workflow. Data Analysis & Machine-Learning Experiments | Pandas, scikit-learn, PyTorch • GitHub profile describes scripts and notebooks for",
+      "source_file": "Abhishek_M_G.pdf",
+      "document_metadata": {
+        "title": "ABHISHEK M G"
+      }
+    },
+    {
+      "page_or_id": "Page 1, Section 3",
+      "text": "experimentation, retrieval, and user-facing reporting in one workflow. Data Analysis & Machine-Learning Experiments | Pandas, scikit-learn, PyTorch • GitHub profile describes scripts and notebooks for data cleaning, model training, and evaluation using Pandas, scikit- learn, and PyTorch. This work supports iterative experimentation, comparison of model behavior, and structured presentation of results. Spiffy Cybersecurity Framework | Python, C++, optional Rust • Security-tooling project whose repository describes defensive modules for MITM detection, SSL/TLS auditing, packet analysis, and Bluetooth security, alongside encrypted storage and peer-to-peer messaging. The project also documents modular tooling and automation. Relevant interests include network security, defensive monitoring, and responsible security research. GUI & Productivity Utilities | PyQt6, Pillow, Django • Public profile describes desktop utilities for image processing and",
+      "source_file": "Abhishek_M_G.pdf",
+      "document_metadata": {
+        "title": "ABHISHEK M G"
+      }
+    },
+    {
+      "page_or_id": "Page 1, Section 4",
+      "text": "security, defensive monitoring, and responsible security research. GUI & Productivity Utilities | PyQt6, Pillow, Django • Public profile describes desktop utilities for image processing and report generation, developed with PyQt6 and Pillow, as well as a Django portfolio website for presenting projects and contact information. These projects complement the ML work with interface design and practical software delivery. TECHNICAL SKILLS Programming: Python, Rust Machine learning & data: PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Transformers NLP & retrieval: Hugging Face, BM25 / Rank-BM25, fuzzy matching Computer vision & interfaces: OpenCV, PySide6, PyQt6, Pillow Web & development: Django, Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "source_file": "Abhishek_M_G.pdf",
+      "document_metadata": {
+        "title": "ABHISHEK M G"
+      }
+    },
+    {
+      "page_or_id": "Page 1, Section 5",
+      "text": "Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "source_file": "Abhishek_M_G.pdf",
+      "document_metadata": {
+        "title": "ABHISHEK M G"
+      }
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the title of the story?",
+      "answer": "ABHISHEK M G",
+      "question_type": "document_title",
+      "pattern_source": "document_metadata",
+      "pattern_type": "document_title",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Public GitHub work?",
+      "answer": "Public GitHub work includes a multi-species image-based disease-detection application, data-analysis and ML experiments, desktop utilities, and cybersecurity tooling.",
+      "question_type": "evaluation_21",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_21",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "What does Public GitHub work mean?",
+      "answer": "Public GitHub work includes a multi-species image-based disease-detection application, data-analysis and ML experiments, desktop utilities, and cybersecurity tooling.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "What conclusion can be drawn about Project work spans image validation?",
+      "answer": "Project work spans image validation, model training and evaluation, confidence-based predictions, research retrieval, and desktop interfaces.",
+      "question_type": "evaluation_18",
+      "pattern_source": "catalog",
+      "pattern_type": "evaluation_18",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "What does Project work spans image validation mean?",
+      "answer": "Project work spans image validation, model training and evaluation, confidence-based predictions, research retrieval, and desktop interfaces.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "What is the main idea of foundation?",
+      "answer": "Brings a foundation in software development, clear technical documentation, and version-controlled collaboration.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "What does foundation mean?",
+      "answer": "Brings a foundation in software development, clear technical documentation, and version-controlled collaboration.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "Which detail identifies EDUCATION Master?",
+      "answer": "EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu",
+      "question_type": "identify_05",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_05",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "What does EDUCATION Master mean?",
+      "answer": "EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 1"
+    },
+    {
+      "question": "Who is connected with EDUCATION Master?",
+      "answer": "EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu University Completed SELECTED RESEARCH & DEVELOPMENT PROJECTS Multi-Species Disease Detection and Management System | Python, PyTorch, PySide6, computer vision • Desktop application for exploring image-based disease analysis across plant, human, and animal use cases.",
+      "question_type": "person_12",
+      "pattern_source": "catalog",
+      "pattern_type": "person_12",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What decision is made concerning EDUCATION Master?",
+      "answer": "EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu University Completed SELECTED RESEARCH & DEVELOPMENT PROJECTS Multi-Species Disease Detection and Management System | Python, PyTorch, PySide6, computer vision • Desktop application for exploring image-based disease analysis across plant, human, and animal use cases.",
+      "question_type": "decision_12",
+      "pattern_source": "catalog",
+      "pattern_type": "decision_12",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What is the main idea of EDUCATION Master?",
+      "answer": "EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu University Completed SELECTED RESEARCH & DEVELOPMENT PROJECTS Multi-Species Disease Detection and Management System | Python, PyTorch, PySide6, computer vision • Desktop application for exploring image-based disease analysis across plant, human, and animal use cases.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What does EDUCATION Master mean?",
+      "answer": "EDUCATION Master of Computer Applications (MCA) | Acharya Institute of Technology, Bengaluru Currently pursuing Bachelor of Computer Applications (BCA) | Kuvempu University Completed SELECTED RESEARCH & DEVELOPMENT PROJECTS Multi-Species Disease Detection and Management System | Python, PyTorch, PySide6, computer vision • Desktop application for exploring image-based disease analysis across plant, human, and animal use cases.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What is the main idea of repository documents?",
+      "answer": "The repository documents a MobileNetV2 model, custom training, confidence scoring, image validation, and offline-first operation.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What does repository documents mean?",
+      "answer": "The repository documents a MobileNetV2 model, custom training, confidence scoring, image validation, and offline-first operation.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What is the main idea of project?",
+      "answer": "The project brings together computer vision, model experimentation, retrieval, and user-facing reporting in one workflow.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What does project mean?",
+      "answer": "The project brings together computer vision, model experimentation, retrieval, and user-facing reporting in one workflow.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 2"
+    },
+    {
+      "question": "What function does experimentation serve?",
+      "answer": "experimentation, retrieval, and user-facing reporting in one workflow.",
+      "question_type": "function_11",
+      "pattern_source": "catalog",
+      "pattern_type": "function_11",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What method is described for experimentation?",
+      "answer": "experimentation, retrieval, and user-facing reporting in one workflow.",
+      "question_type": "method_11",
+      "pattern_source": "catalog",
+      "pattern_type": "method_11",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "How can experimentation be applied in practice?",
+      "answer": "experimentation, retrieval, and user-facing reporting in one workflow.",
+      "question_type": "application_11",
+      "pattern_source": "catalog",
+      "pattern_type": "application_11",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What does experimentation mean?",
+      "answer": "experimentation, retrieval, and user-facing reporting in one workflow.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What is the main idea related to work?",
+      "answer": "This work supports iterative experimentation, comparison of model behavior, and structured presentation of results.",
+      "question_type": "main_idea_20",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_20",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What does work mean?",
+      "answer": "This work supports iterative experimentation, comparison of model behavior, and structured presentation of results.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What is the main idea of Spiffy Cybersecurity Framework?",
+      "answer": "Spiffy Cybersecurity Framework | Python, C++, optional Rust • Security-tooling project whose repository describes defensive modules for MITM detection, SSL/TLS auditing, packet analysis, and Bluetooth security, alongside encrypted storage and peer-to-peer messaging.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What does Spiffy Cybersecurity Framework mean?",
+      "answer": "Spiffy Cybersecurity Framework | Python, C++, optional Rust • Security-tooling project whose repository describes defensive modules for MITM detection, SSL/TLS auditing, packet analysis, and Bluetooth security, alongside encrypted storage and peer-to-peer messaging.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "Which detail identifies project?",
+      "answer": "The project also documents modular tooling and automation.",
+      "question_type": "identify_16",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_16",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What does project mean?",
+      "answer": "The project also documents modular tooling and automation.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What is the main idea of Relevant interests?",
+      "answer": "Relevant interests include network security, defensive monitoring, and responsible security research.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What does Relevant interests mean?",
+      "answer": "Relevant interests include network security, defensive monitoring, and responsible security research.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 3"
+    },
+    {
+      "question": "What is the main idea of security?",
+      "answer": "security, defensive monitoring, and responsible security research.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What does security mean?",
+      "answer": "security, defensive monitoring, and responsible security research.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What method is described for Productivity Utilities?",
+      "answer": "GUI & Productivity Utilities | PyQt6, Pillow, Django • Public profile describes desktop utilities for image processing and report generation, developed with PyQt6 and Pillow, as well as a Django portfolio website for presenting projects and contact information.",
+      "question_type": "method_08",
+      "pattern_source": "catalog",
+      "pattern_type": "method_08",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What does Productivity Utilities mean?",
+      "answer": "GUI & Productivity Utilities | PyQt6, Pillow, Django • Public profile describes desktop utilities for image processing and report generation, developed with PyQt6 and Pillow, as well as a Django portfolio website for presenting projects and contact information.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What is the main idea related to projects?",
+      "answer": "These projects complement the ML work with interface design and practical software delivery.",
+      "question_type": "main_idea_24",
+      "pattern_source": "catalog",
+      "pattern_type": "main_idea_24",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "Which detail about projects is important?",
+      "answer": "These projects complement the ML work with interface design and practical software delivery.",
+      "question_type": "detail_24",
+      "pattern_source": "catalog",
+      "pattern_type": "detail_24",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What is the main idea of projects?",
+      "answer": "These projects complement the ML work with interface design and practical software delivery.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What does projects mean?",
+      "answer": "These projects complement the ML work with interface design and practical software delivery.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What is the main idea of TECHNICAL SKILLS Programming?",
+      "answer": "TECHNICAL SKILLS Programming: Python, Rust Machine learning & data: PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Transformers NLP & retrieval: Hugging Face, BM25 / Rank-BM25, fuzzy matching Computer vision & interfaces: OpenCV, PySide6, PyQt6, Pillow Web & development: Django, Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What does TECHNICAL SKILLS Programming mean?",
+      "answer": "TECHNICAL SKILLS Programming: Python, Rust Machine learning & data: PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Transformers NLP & retrieval: Hugging Face, BM25 / Rank-BM25, fuzzy matching Computer vision & interfaces: OpenCV, PySide6, PyQt6, Pillow Web & development: Django, Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 4"
+    },
+    {
+      "question": "What claim is made about documentation?",
+      "answer": "Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "question_type": "claim_20",
+      "pattern_source": "catalog",
+      "pattern_type": "claim_20",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 5"
+    },
+    {
+      "question": "Which detail identifies documentation?",
+      "answer": "Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "question_type": "identify_21",
+      "pattern_source": "catalog",
+      "pattern_type": "identify_21",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 5"
+    },
+    {
+      "question": "What is the main idea of documentation?",
+      "answer": "Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "question_type": "what",
+      "pattern_source": "subject",
+      "pattern_type": "what",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 5"
+    },
+    {
+      "question": "What does documentation mean?",
+      "answer": "Git, documentation, model experimentation RESEARCH INTERESTS Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; privacy-conscious/offline AI; defensive cybersecurity.",
+      "question_type": "define",
+      "pattern_source": "subject",
+      "pattern_type": "define",
+      "source_file": "Abhishek_M_G.pdf",
+      "page_or_id": "Page 1, Section 5"
+    }
+  ]
+}

@@ -262,6 +262,7 @@ python3 -m tools.assistant --benchmark
 ```
 
 See [`docs/IMPACT_REPORT.md`](./docs/IMPACT_REPORT.md) for the complete evaluation report and [`docs/PI_SETUP.md`](./docs/PI_SETUP.md) for the Raspberry Pi setup guide.
+See [`docs/TRAINING_AND_RETRIEVAL_GUIDE.md`](./docs/TRAINING_AND_RETRIEVAL_GUIDE.md) for chunking, JSON storage, model training, fast retrieval, and grounded explanations.
 
 ---
 

@@ -11,6 +11,22 @@ import argparse
 import os
 import sys
 
+
+def _use_project_python() -> None:
+    """Restart with the project's dependency environment when available."""
+    project_root = os.path.dirname(os.path.abspath(__file__))
+    python_path = os.path.join(
+        project_root,
+        "venv",
+        "Scripts" if sys.platform == "win32" else "bin",
+        "python.exe" if sys.platform == "win32" else "python",
+    )
+    if os.path.isfile(python_path) and sys.prefix == sys.base_prefix:
+        os.execv(python_path, [python_path, os.path.abspath(__file__), *sys.argv[1:]])
+
+
+_use_project_python()
+
 from tools.generate_sample_data import create_sample_curriculum_json, create_sample_textbook_pdf
 from qa_engine import OfflineQAModelRunner
 from data_loader import convert_pdf_folder_to_json, convert_pdf_folder_to_text

@@ -232,8 +232,8 @@ def extract_text_from_pdf(
     if report.likely_scanned and not chunks:
         raise RuntimeError(
             f"No selectable text found in '{pdf_path}'. "
-            "This PDF appears to be scanned/image-based. "
-            "Use OCR (e.g. 'ocrmypdf') to add a text layer first."
+            "This PDF may be scanned/image-based. Local OCR could not recover text; "
+            "check that PyMuPDF and Tesseract are installed."
         )
     return chunks
 
@@ -396,6 +396,64 @@ def extract_text_from_pdf_with_report(
                 "No selectable text was found. Install OCRmyPDF and Tesseract "
                 "for scanned/image-only PDFs."
             )
+
+    if not chunks and PYMUPDF_AVAILABLE:
+        try:
+            document = pymupdf.open(pdf_path)
+            recovered_pages = 0
+            for page_num, page in enumerate(document, start=1):
+                page_text = ""
+                try:
+                    page_text = _normalize_pdf_text(page.get_text("text") or "").strip()
+                except Exception as exc:
+                    warnings_list.append(
+                        f"Page {page_num}: local text extraction failed ({exc})."
+                    )
+
+                if not page_text and OCR_AVAILABLE:
+                    try:
+                        pixmap = page.get_pixmap(
+                            matrix=pymupdf.Matrix(2, 2), alpha=False
+                        )
+                        image = Image.frombytes(
+                            "RGB", [pixmap.width, pixmap.height], pixmap.samples
+                        )
+                        page_text = _normalize_pdf_text(
+                            pytesseract.image_to_string(image, config="--psm 6")
+                        ).strip()
+                    except Exception as exc:
+                        warnings_list.append(f"Page {page_num}: local OCR failed ({exc}).")
+
+                if not page_text:
+                    continue
+                recovered_pages += 1
+                pages_with_text += 1
+                total_words += len(page_text.split())
+                words = page_text.split()
+                step = max(1, chunk_size - overlap)
+                for section, start in enumerate(range(0, len(words), step), start=1):
+                    chunk_words = words[start : start + chunk_size]
+                    if not chunk_words:
+                        continue
+                    chunks.append(
+                        KnowledgeChunk(
+                            source_file=file_name,
+                            source_type="pdf_ocr" if OCR_AVAILABLE else "pdf_text",
+                            page_or_id=(
+                                f"Page {page_num}"
+                                if len(words) <= chunk_size
+                                else f"Page {page_num}, Section {section}"
+                            ),
+                            text=" ".join(chunk_words),
+                        )
+                    )
+            document.close()
+            if recovered_pages:
+                warnings_list.append(
+                    "Text was recovered with local PyMuPDF/Tesseract extraction."
+                )
+        except Exception as exc:
+            warnings_list.append(f"Local PDF recovery failed: {exc}")
 
     likely_scanned = total_pages > 0 and (
         pages_with_text == 0
@@ -1362,16 +1420,42 @@ def export_text_knowledge_json(
         for number, page in enumerate(extracted_pages, start=1)
         if page
     ]
-    chunks = [
-        KnowledgeChunk(
-            source_file=source_file,
-            source_type="pdf_text",
-            page_or_id=f"Page {number}",
-            text=page,
-        )
-        for number, page in enumerate(extracted_pages, start=1)
-        if page
-    ]
+    chunks: List[KnowledgeChunk] = []
+    chunk_records: List[Dict[str, Any]] = []
+    chunk_size = 120
+    overlap = 25
+    step = chunk_size - overlap
+    for number, page in enumerate(extracted_pages, start=1):
+        words = page.split()
+        if not words:
+            continue
+        page_chunks = [
+            " ".join(words[start : start + chunk_size])
+            for start in range(0, len(words), step)
+            if words[start : start + chunk_size]
+        ]
+        for section, chunk_text in enumerate(page_chunks, start=1):
+            page_or_id = (
+                f"Page {number}"
+                if len(page_chunks) == 1
+                else f"Page {number}, Section {section}"
+            )
+            chunks.append(
+                KnowledgeChunk(
+                    source_file=source_file,
+                    source_type="pdf_text_chunk",
+                    page_or_id=page_or_id,
+                    text=chunk_text,
+                )
+            )
+            chunk_records.append(
+                {
+                    "page_or_id": page_or_id,
+                    "text": chunk_text,
+                    "source_file": source_file,
+                    "document_metadata": metadata,
+                }
+            )
 
     qa_pairs = _metadata_question_answers(metadata, source_file, "Page 1")
     for chunk in chunks:
@@ -1399,6 +1483,12 @@ def export_text_knowledge_json(
         "extraction_report": {
             "total_pages": len(extracted_pages),
             "pages_with_text": sum(bool(page) for page in extracted_pages),
+            "total_chunks": len(chunks),
+            "chunking": {
+                "chunk_size_words": chunk_size,
+                "overlap_words": overlap,
+                "step_words": step,
+            },
             "total_words": len(complete_text.split()),
             "warnings": (extraction_report or {}).get("warnings", []),
             "text_file": text_path,
@@ -1410,6 +1500,7 @@ def export_text_knowledge_json(
             "detector": "offline_source_and_evidence_rules",
         },
         "pages": page_records,
+        "chunks": chunk_records,
         "qa_pairs": qa_pairs,
     }
     os.makedirs(os.path.dirname(json_path) or ".", exist_ok=True)
@@ -1628,14 +1719,17 @@ def load_qa_from_json(json_path: str) -> List[KnowledgeChunk]:
                         answer=answer,
                     )
                 )
-    elif isinstance(data, dict) and ("pages" in data or "qa_pairs" in data):
+    elif isinstance(data, dict) and (
+        "pages" in data or "chunks" in data or "qa_pairs" in data
+    ):
         source_file = data.get("source_file") or file_name
-        for page in data.get("pages", []):
+        stored_chunks = data.get("chunks") or data.get("pages", [])
+        for page in stored_chunks:
             if isinstance(page, dict) and page.get("text"):
                 chunks.append(
                     KnowledgeChunk(
                         source_file=source_file,
-                        source_type="pdf_json",
+                        source_type=page.get("source_type", "pdf_json_chunk"),
                         page_or_id=page.get("page_or_id", "Unknown page"),
                         text=page["text"].strip(),
                     )

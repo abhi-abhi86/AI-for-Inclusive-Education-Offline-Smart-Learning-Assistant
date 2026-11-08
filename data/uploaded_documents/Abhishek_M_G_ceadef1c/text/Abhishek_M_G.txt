@@ -1,0 +1,51 @@
+===== DOCUMENT METADATA =====
+
+title: ABHISHEK M G
+
+===== PAGE 1 =====
+
+ABHISHEK M G
+MCA STUDENT  |  STUDENT RESEARCHER
+Bengaluru, Karnataka  |  abhishekmgabhishekmg726@gmail.com
+GitHub: github.com/abhi-abhi86   |   LinkedIn: linkedin.com/in/abhishekmg76
+PROFESSIONAL PROFILE
+Research-oriented MCA student and BCA graduate with hands-on project work in Python, machine learning, computer 
+vision, and information retrieval. Interested in building practical, privacy-conscious tools and investigating how AI 
+methods can support real-world problems. Public GitHub work includes a multi-species image-based disease-detection 
+application, data-analysis and ML experiments, desktop utilities, and cybersecurity tooling. Project work spans image 
+validation, model training and evaluation, confidence-based predictions, research retrieval, and desktop interfaces. Brings 
+a foundation in software development, clear technical documentation, and version-controlled collaboration.
+EDUCATION
+Master of Computer Applications (MCA)  |  Acharya Institute of Technology, Bengaluru
+Currently pursuing
+Bachelor of Computer Applications (BCA)  |  Kuvempu University
+Completed
+SELECTED RESEARCH & DEVELOPMENT PROJECTS
+Multi-Species Disease Detection and Management System  |  Python, PyTorch, PySide6, computer vision
+• Desktop application for exploring image-based disease analysis across plant, human, and animal use cases. The 
+repository documents a MobileNetV2 model, custom training, confidence scoring, image validation, and offline-first 
+operation. It also describes disease-information search, Wikipedia and PubMed research integration, and PDF/HTML 
+report generation. The project brings together computer vision, model experimentation, retrieval, and user-facing reporting 
+in one workflow.
+Data Analysis & Machine-Learning Experiments  |  Pandas, scikit-learn, PyTorch
+• GitHub profile describes scripts and notebooks for data cleaning, model training, and evaluation using Pandas, scikit-
+learn, and PyTorch. This work supports iterative experimentation, comparison of model behavior, and structured 
+presentation of results.
+Spiffy Cybersecurity Framework  |  Python, C++, optional Rust
+• Security-tooling project whose repository describes defensive modules for MITM detection, SSL/TLS auditing, packet 
+analysis, and Bluetooth security, alongside encrypted storage and peer-to-peer messaging. The project also documents 
+modular tooling and automation. Relevant interests include network security, defensive monitoring, and responsible 
+security research.
+GUI & Productivity Utilities  |  PyQt6, Pillow, Django
+• Public profile describes desktop utilities for image processing and report generation, developed with PyQt6 and Pillow, 
+as well as a Django portfolio website for presenting projects and contact information. These projects complement the ML 
+work with interface design and practical software delivery.
+TECHNICAL SKILLS
+Programming: Python, Rust
+Machine learning & data: PyTorch, scikit-learn, NumPy, Pandas, Matplotlib, Transformers
+NLP & retrieval: Hugging Face, BM25 / Rank-BM25, fuzzy matching
+Computer vision & interfaces: OpenCV, PySide6, PyQt6, Pillow
+Web & development: Django, Git, documentation, model experimentation
+RESEARCH INTERESTS
+Applied machine learning; computer vision; AI-supported health and agriculture tools; NLP and information retrieval; 
+privacy-conscious/offline AI; defensive cybersecurity.
