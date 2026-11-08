@@ -344,6 +344,12 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
               <div class="metric-val" id="up-json" style="font-size: 0.7rem;">waiting</div>
             </div>
           </div>
+          <button class="btn" id="btn-view-generated-questions" onclick="toggleGeneratedQuestions()" style="display:none; margin-top: 14px;">
+            📖 View generated questions
+          </button>
+          <div id="generated-questions-panel" style="display:none; margin-top: 12px; max-height: 280px; overflow-y: auto; padding: 12px; background: rgba(15, 23, 42, 0.5); border-radius: 8px;">
+            <ol id="generated-questions-list" style="margin: 0; padding-left: 24px;"></ol>
+          </div>
 
           <div style="margin-top: 18px; padding: 14px; background: rgba(56, 189, 248, 0.08); border-radius: 8px;">
             <p id="training-confirmation" style="color: #fff; font-weight: bold; margin-bottom: 8px;">TXT and JSON are ready. Start AI training?</p>
@@ -563,6 +569,7 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
           document.getElementById('up-qa').innerText = data.generated_qa_pairs;
           document.getElementById('up-json').innerText = data.json_path;
           document.getElementById('up-time').innerText = 'processed';
+          renderGeneratedQuestions(data.generated_questions || []);
           statusText.innerText = 'TXT extracted and JSON created. Training has not started.';
           document.getElementById('upload-pipeline-status').innerText =
             '✓ PDF uploaded → ✓ TXT created → ✓ JSON created → ⏸ AI training waiting for confirmation';
@@ -618,6 +625,33 @@ I can answer curriculum questions, explain concepts in-depth, and help you study
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#039;');
+    }
+
+    function renderGeneratedQuestions(questions) {
+      const list = document.getElementById('generated-questions-list');
+      const button = document.getElementById('btn-view-generated-questions');
+      const panel = document.getElementById('generated-questions-panel');
+      if (!list || !button || !panel) return;
+
+      list.innerHTML = '';
+      questions.forEach((question) => {
+        const item = document.createElement('li');
+        item.style.marginBottom = '8px';
+        item.innerText = question;
+        list.appendChild(item);
+      });
+      panel.style.display = 'none';
+      button.style.display = questions.length ? 'inline-block' : 'none';
+      button.innerText = `📖 View generated questions (${questions.length})`;
+    }
+
+    function toggleGeneratedQuestions() {
+      const panel = document.getElementById('generated-questions-panel');
+      const button = document.getElementById('btn-view-generated-questions');
+      if (!panel || !button) return;
+      const isHidden = panel.style.display === 'none';
+      panel.style.display = isHidden ? 'block' : 'none';
+      button.innerText = isHidden ? '📕 Hide generated questions' : '📖 View generated questions';
     }
 
     function clearChat() {
@@ -1038,6 +1072,11 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                     for chunk in generated_chunks
                     if chunk.question
                 ][:8]
+                generated_questions = [
+                    chunk.question
+                    for chunk in generated_chunks
+                    if chunk.question
+                ]
                 if not suggested_questions:
                     suggested_questions = [
                         "What is the main topic covered in this textbook?",
@@ -1053,6 +1092,7 @@ class OfflineLearningHTTPHandler(BaseHTTPRequestHandler):
                     "extracted_pages": extraction["pages"],
                     "extracted_words": extraction["words"],
                     "generated_qa_pairs": extraction["qa_pairs"],
+                    "generated_questions": generated_questions,
                     "suggested_questions": suggested_questions,
                     "pipeline": [
                         {"stage": "pdf_upload", "status": "complete"},
