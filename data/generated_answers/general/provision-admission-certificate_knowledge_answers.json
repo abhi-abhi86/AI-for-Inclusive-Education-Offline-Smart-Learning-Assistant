@@ -1,0 +1,281 @@
+[
+  {
+    "answer": "PROVISIONAL ADMISSION CERTIFICATE",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "PROVISIONAL ADMISSION CERTIFICATE Congratulations Abhishek M G !!",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What is the main idea of PROVISIONAL ADMISSION CERTIFICATE Congratulations Abhishek M G?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "PROVISIONAL ADMISSION CERTIFICATE Congratulations Abhishek M G !!",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What does PROVISIONAL ADMISSION CERTIFICATE Congratulations Abhishek M G mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "31-08-2026 We are pleased to inform you that your Provisional Admission has been completed.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "Which detail identifies Provisional Admission?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11"
+  },
+  {
+    "answer": "31-08-2026 We are pleased to inform you that your Provisional Admission has been completed.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What does Provisional Admission mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Below are the relevant details: Institute ACHARYA INSTITUTE OF TECHNOLOGY Program Master of Computer Applications Specialization Master of Computer Application Academic Year 2026-2027 Unique Identification (AUID) : Your AUID is AIT26MCAV029.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What is the main idea related to relevant details?",
+    "question_type": "main_idea_01",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_01"
+  },
+  {
+    "answer": "Below are the relevant details: Institute ACHARYA INSTITUTE OF TECHNOLOGY Program Master of Computer Applications Specialization Master of Computer Application Academic Year 2026-2027 Unique Identification (AUID) : Your AUID is AIT26MCAV029.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "Which detail about relevant details is important?",
+    "question_type": "detail_01",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_01"
+  },
+  {
+    "answer": "Below are the relevant details: Institute ACHARYA INSTITUTE OF TECHNOLOGY Program Master of Computer Applications Specialization Master of Computer Application Academic Year 2026-2027 Unique Identification (AUID) : Your AUID is AIT26MCAV029.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What is the main idea of relevant details?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Below are the relevant details: Institute ACHARYA INSTITUTE OF TECHNOLOGY Program Master of Computer Applications Specialization Master of Computer Application Academic Year 2026-2027 Unique Identification (AUID) : Your AUID is AIT26MCAV029.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What does relevant details mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Please ensure that you reference this AUID in all future communication and transactions with the institution.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "Which detail about AUID is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "Please ensure that you reference this AUID in all future communication and transactions with the institution.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "Which detail identifies AUID?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03"
+  },
+  {
+    "answer": "Please ensure that you reference this AUID in all future communication and transactions with the institution.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What is the main idea of AUID?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Please ensure that you reference this AUID in all future communication and transactions with the institution.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1",
+    "question": "What does AUID mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "information and communicating with the college.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What conclusion can be drawn about communicating?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18"
+  },
+  {
+    "answer": "information and communicating with the college.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What does communicating mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Your email will become active within 2 working days from the date of admission.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What is the main idea related to email?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02"
+  },
+  {
+    "answer": "Your email will become active within 2 working days from the date of admission.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "Which detail about email is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "Your email will become active within 2 working days from the date of admission.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What is the main idea of email?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Your email will become active within 2 working days from the date of admission.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What does email mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Email ID abhishekg_26mcav@acharya.ac.in Student ERP User ID AIT26MCAV029 Passsword for Student Email and ERP Login acharya1234 Parent ERP User ID 8431342419 ERP Web Access Link https://www.acharyaerptech.in The ERP provides you access to your programme details, information on your teachers, timetable, attendance, pay fee and most importantly connect with your Mentor.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What function does Student ERP User ID serve?",
+    "question_type": "function_12",
+    "pattern_source": "catalog",
+    "pattern_type": "function_12"
+  },
+  {
+    "answer": "Email ID abhishekg_26mcav@acharya.ac.in Student ERP User ID AIT26MCAV029 Passsword for Student Email and ERP Login acharya1234 Parent ERP User ID 8431342419 ERP Web Access Link https://www.acharyaerptech.in The ERP provides you access to your programme details, information on your teachers, timetable, attendance, pay fee and most importantly connect with your Mentor.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What method is described for Student ERP User ID?",
+    "question_type": "method_12",
+    "pattern_source": "catalog",
+    "pattern_type": "method_12"
+  },
+  {
+    "answer": "Email ID abhishekg_26mcav@acharya.ac.in Student ERP User ID AIT26MCAV029 Passsword for Student Email and ERP Login acharya1234 Parent ERP User ID 8431342419 ERP Web Access Link https://www.acharyaerptech.in The ERP provides you access to your programme details, information on your teachers, timetable, attendance, pay fee and most importantly connect with your Mentor.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What evidence supports the explanation of Student ERP User ID?",
+    "question_type": "evidence_12",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_12"
+  },
+  {
+    "answer": "Email ID abhishekg_26mcav@acharya.ac.in Student ERP User ID AIT26MCAV029 Passsword for Student Email and ERP Login acharya1234 Parent ERP User ID 8431342419 ERP Web Access Link https://www.acharyaerptech.in The ERP provides you access to your programme details, information on your teachers, timetable, attendance, pay fee and most importantly connect with your Mentor.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "How can Student ERP User ID be applied in practice?",
+    "question_type": "application_12",
+    "pattern_source": "catalog",
+    "pattern_type": "application_12"
+  },
+  {
+    "answer": "Email ID abhishekg_26mcav@acharya.ac.in Student ERP User ID AIT26MCAV029 Passsword for Student Email and ERP Login acharya1234 Parent ERP User ID 8431342419 ERP Web Access Link https://www.acharyaerptech.in The ERP provides you access to your programme details, information on your teachers, timetable, attendance, pay fee and most importantly connect with your Mentor.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What is the main idea of Student ERP User ID?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Email ID abhishekg_26mcav@acharya.ac.in Student ERP User ID AIT26MCAV029 Passsword for Student Email and ERP Login acharya1234 Parent ERP User ID 8431342419 ERP Web Access Link https://www.acharyaerptech.in The ERP provides you access to your programme details, information on your teachers, timetable, attendance, pay fee and most importantly connect with your Mentor.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2",
+    "question": "What does Student ERP User ID mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The portal allows multiple logins, allowing parents to use the same to be updated on their ward's academic progress.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3",
+    "question": "What function does multiple logins serve?",
+    "question_type": "function_19",
+    "pattern_source": "catalog",
+    "pattern_type": "function_19"
+  },
+  {
+    "answer": "The portal allows multiple logins, allowing parents to use the same to be updated on their ward's academic progress.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3",
+    "question": "What does multiple logins mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Counsellor Assistance: Should you require any further details or assistance, please feel free to contact Bindu L, your desig- nated counsellor and they would be glad to help you navigate any queries or concerns.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3",
+    "question": "What is the main idea of Counsellor Assistance?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Counsellor Assistance: Should you require any further details or assistance, please feel free to contact Bindu L, your desig- nated counsellor and they would be glad to help you navigate any queries or concerns.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3",
+    "question": "What does Counsellor Assistance mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We look forward to welcoming you and wish you every success in your studies.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3",
+    "question": "What is the main idea of every success?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We look forward to welcoming you and wish you every success in your studies.",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3",
+    "question": "What does every success mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  }
+]

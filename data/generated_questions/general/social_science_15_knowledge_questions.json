@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What effect does principle have?",
+    "question_type": "effect_13",
+    "pattern_source": "catalog",
+    "pattern_type": "effect_13",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What caused principle, and what resulted from it?",
+    "question_type": "cause_effect_13",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_13",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What is the main idea of principle?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does principle mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does syllabi mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What is the main idea related to rote learning?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Which detail about rote learning is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What is the main idea of rote learning?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does rote learning mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Which detail identifies measures?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "What does measures mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1"
+  },
+  {
+    "question": "Which detail identifies direction?",
+    "question_type": "identify_10",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_10",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does direction mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about success?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "Where is success found or described?",
+    "question_type": "location_08",
+    "pattern_source": "catalog",
+    "pattern_type": "location_08",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "Who is connected with success?",
+    "question_type": "person_08",
+    "pattern_source": "catalog",
+    "pattern_type": "person_08",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does success mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to success?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "Which detail identifies space?",
+    "question_type": "identify_12",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_12",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What is the main idea of space?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does space mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What is the main idea of prescribed?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What does prescribed mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2"
+  },
+  {
+    "question": "What solution is suggested for Inculcating creativity?",
+    "question_type": "solution_10",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_10",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does Inculcating creativity mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What function does considerable change serve?",
+    "question_type": "function_10",
+    "pattern_source": "catalog",
+    "pattern_type": "function_10",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does considerable change mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the main idea related to Flexibility?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "Which detail about Flexibility is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the main idea of Flexibility?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does Flexibility mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "Why does Flexibility have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "Which detail about methods is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "Which detail identifies methods?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What does methods mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3"
+  },
+  {
+    "question": "What is the main idea related to Syllabus designers?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "Which detail about Syllabus designers is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea of Syllabus designers?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does Syllabus designers mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea of endeavour?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does endeavour mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea of hard work?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does hard work mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea related to Chairperson?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "Which detail about Chairperson is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What is the main idea of Chairperson?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What does Chairperson mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4"
+  },
+  {
+    "question": "What method is described for Chief Advisor?",
+    "question_type": "method_08",
+    "pattern_source": "catalog",
+    "pattern_type": "method_08",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does Chief Advisor mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to Chief Advisor?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What conclusion can be drawn about Several teachers?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What is the main idea of Several teachers?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does Several teachers mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to Several teachers?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "Which detail identifies institutions?",
+    "question_type": "identify_20",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_20",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What is the main idea of institutions?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "What does institutions mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5"
+  },
+  {
+    "question": "Which detail about Monitoring Committee is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "Which detail identifies Monitoring Committee?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What is the main idea of Monitoring Committee?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What does Monitoring Committee mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to Monitoring Committee?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What does Deshpande mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What is the main idea related to organisation?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "Which detail about organisation is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What is the main idea of organisation?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What does organisation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4"
+  },
+  {
+    "question": "What conclusion can be drawn about Development Committee Brij Tankha?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What does Development Committee Brij Tankha mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What is the main idea related to Balachandran?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "Which detail about Balachandran is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What is the main idea of Balachandran?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What does Balachandran mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about Dutta?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What does Dutta mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1"
+  },
+  {
+    "question": "What caused result, and what resulted from it?",
+    "question_type": "cause_effect_14",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_14",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What does result mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to result?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "Which detail identifies Each?",
+    "question_type": "identify_08",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_08",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What is the main idea of Each?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What does Each mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about discussions?",
+    "question_type": "evaluation_12",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_12",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What does discussions mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What is the main idea related to large?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "Which detail about large is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What claim is made about large?",
+    "question_type": "claim_19",
+    "pattern_source": "catalog",
+    "pattern_type": "claim_19",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What does large mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1"
+  },
+  {
+    "question": "What is the main idea of Venkiteswaran?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What does Venkiteswaran mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "Which detail identifies Ngun Quoc Anh?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What does Ngun Quoc Anh mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What is the main idea of help?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What does help mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What is the main idea of Giri National Institute?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What does Giri National Institute mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2"
+  },
+  {
+    "question": "What is the main idea of Kolkata?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What does Kolkata mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about Giri National Institute?",
+    "question_type": "evaluation_16",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_16",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What does Giri National Institute mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What is the main idea of Jyotindra?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What does Jyotindra mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "Which detail identifies Prabhu Mohapatra?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What does Prabhu Mohapatra mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What is the main idea of Shalini Advani?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What does Shalini Advani mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3"
+  },
+  {
+    "question": "What is the main idea related to Shalini Advani?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "Which detail about Shalini Advani is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What is the main idea of Shalini Advani?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What does Shalini Advani mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about total involvement?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What does total involvement mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What is the main idea of every effort?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What does every effort mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4"
+  },
+  {
+    "question": "What is the main idea related to Institutions?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1"
+  },
+  {
+    "question": "Which detail about Institutions is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1"
+  },
+  {
+    "question": "What is the main idea of Institutions?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1"
+  },
+  {
+    "question": "What does Institutions mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1"
+  },
+  {
+    "question": "Which detail identifies Giri National Institute?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1"
+  },
+  {
+    "question": "What does Giri National Institute mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about world?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What does world mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What is the main idea of nations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What does nations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to nations?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What method is described for countries?",
+    "question_type": "method_02",
+    "pattern_source": "catalog",
+    "pattern_type": "method_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "How can countries be applied in practice?",
+    "question_type": "application_02",
+    "pattern_source": "catalog",
+    "pattern_type": "application_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What does countries mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What is the main idea of countries?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What is the main idea related to time capsule?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "Which detail about time capsule is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1"
+  },
+  {
+    "question": "What is the main idea of nations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What does nations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What is the main idea related to nationality?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "Which detail about nationality is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "Which detail identifies nationality?",
+    "question_type": "identify_04",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_04",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What does nationality mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to nationality?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What does time mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What is the main idea related to kingdoms?",
+    "question_type": "main_idea_04",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_04",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "Which detail about kingdoms is important?",
+    "question_type": "detail_04",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_04",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What is the main idea of kingdoms?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What does kingdoms mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2"
+  },
+  {
+    "question": "What conclusion can be drawn about sense?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What does sense mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What might happen next based on two chapters?",
+    "question_type": "prediction_17",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_17",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about two chapters?",
+    "question_type": "evaluation_17",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_17",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What is the main idea of two chapters?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What does two chapters mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What might happen next based on nationalism?",
+    "question_type": "prediction_07",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_07",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What conclusion can be drawn about nationalism?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What is the main idea of nationalism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What does nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "Which detail about many decades is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "Which detail identifies many decades?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3"
+  },
+  {
+    "question": "What is the main idea of growth?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What does growth mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What is the main idea related to nationalism?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "Which detail about nationalism is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What is the main idea of nationalism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What does nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What is the main idea of course?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What does course mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4"
+  },
+  {
+    "question": "What conclusion can be drawn about events?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "What does events mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "Who is connected with aspirations?",
+    "question_type": "person_22",
+    "pattern_source": "catalog",
+    "pattern_type": "person_22",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "What does aspirations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to aspirations?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "What is the main idea related to nationalism?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "Which detail about nationalism is important?",
+    "question_type": "detail_16",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_16",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "What does nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to nationalism?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "What does nation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "Who is mentioned or involved in relation to nation?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5"
+  },
+  {
+    "question": "Which detail identifies nationalist sensibilities?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What does nationalist sensibilities mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What might happen next based on focus?",
+    "question_type": "prediction_01",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_01",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What conclusion can be drawn about focus?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What is the main idea of focus?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What does focus mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What is the main idea of social groups?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What does social groups mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What is the main idea of developments?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What does developments mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What is the main idea related to global world?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "Which detail about global world is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6"
+  },
+  {
+    "question": "What is the main idea related to global world?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7"
+  },
+  {
+    "question": "Which detail about global world is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7"
+  },
+  {
+    "question": "What is the main idea of global world?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7"
+  },
+  {
+    "question": "What does global world mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7"
+  },
+  {
+    "question": "What conclusion can be drawn about ancient times?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7"
+  },
+  {
+    "question": "What does ancient times mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7"
+  },
+  {
+    "question": "What is the main idea of Items?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What does Items mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What is the main idea of Western powers?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What does Western powers mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What is the main idea related to history?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "Which detail about history is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What is the main idea of history?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What does history mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What is the main idea of things?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What does things mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What is the main idea of will?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What does will mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1"
+  },
+  {
+    "question": "What is the main idea of print?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2"
+  },
+  {
+    "question": "What does print mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2"
+  },
+  {
+    "question": "What is the main idea of history?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2"
+  },
+  {
+    "question": "What does history mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2"
+  },
+  {
+    "question": "Which detail identifies printing?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2"
+  },
+  {
+    "question": "What does printing mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2"
+  },
+  {
+    "question": "What is the main idea of Rise?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What does Rise mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What is the main idea related to Nationalism?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What does Nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "Which detail about Making is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "Which detail identifies Making?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What is the main idea of Making?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What does Making mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What conclusion can be drawn about Industrialisation?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What does Industrialisation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11"
+  },
+  {
+    "question": "What might happen next based on Extended Learning?",
+    "question_type": "prediction_25",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_25",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12"
+  },
+  {
+    "question": "What conclusion can be drawn about Extended Learning?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12"
+  },
+  {
+    "question": "What is the main idea of Extended Learning?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12"
+  },
+  {
+    "question": "What does Extended Learning mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12"
+  }
+]

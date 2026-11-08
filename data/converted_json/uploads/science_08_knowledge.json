@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "source_file": "science_08.pdf",
+  "document_metadata": {},
+  "question_generation": {
+    "subject": "general",
+    "pattern_file": "data/question_patterns/general.json",
+    "catalog_file": "data/question_patterns/catalog.json",
+    "catalog_pattern_count": 1000,
+    "questions_path": "/Users/abhi/Downloads/AI-for-Inclusive-Education-Offline-Smart-Learning-Assistant/data/generated_questions/general/science_08_knowledge_questions.json",
+    "answers_path": "/Users/abhi/Downloads/AI-for-Inclusive-Education-Offline-Smart-Learning-Assistant/data/generated_answers/general/science_08_knowledge_answers.json"
+  },
+  "extraction_report": {
+    "total_pages": 1,
+    "pages_with_text": 1,
+    "total_words": 15,
+    "warnings": [
+      "pypdf not installed; using raw binary stream fallback."
+    ],
+    "text_file": "/Users/abhi/Downloads/AI-for-Inclusive-Education-Offline-Smart-Learning-Assistant/data/converted_text/uploads/science_08.txt",
+    "document_metadata": {}
+  },
+  "question_quality": {
+    "accepted": 0,
+    "rules_file": "data/question_quality/quality_examples.json",
+    "detector": "offline_source_and_evidence_rules"
+  },
+  "pages": [
+    {
+      "page_or_id": "Page 1",
+      "text": "Reprint 2026-27 Reprint 2026-27 Reprint 2026-27 ¿Oô)ó\u0005à?Üù\u001aO½O\nÄ\u0007Û¿\u000bôÿ\b\u0003ð Reprint 2026-27 Reprint 2026-27 Reprint 2026-27",
+      "source_file": "science_08.pdf",
+      "document_metadata": {}
+    }
+  ],
+  "qa_pairs": []
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1"
+  },
+  {
+    "question": "What is the main idea of PROVISIONAL ADMISSION CERTIFICATE Congratulations Abhishek M G?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does PROVISIONAL ADMISSION CERTIFICATE Congratulations Abhishek M G mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail identifies Provisional Admission?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does Provisional Admission mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea related to relevant details?",
+    "question_type": "main_idea_01",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_01",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail about relevant details is important?",
+    "question_type": "detail_01",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_01",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea of relevant details?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does relevant details mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail about AUID is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "Which detail identifies AUID?",
+    "question_type": "identify_03",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_03",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What is the main idea of AUID?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What does AUID mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 1"
+  },
+  {
+    "question": "What conclusion can be drawn about communicating?",
+    "question_type": "evaluation_18",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_18",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does communicating mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea related to email?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "Which detail about email is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea of email?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does email mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What function does Student ERP User ID serve?",
+    "question_type": "function_12",
+    "pattern_source": "catalog",
+    "pattern_type": "function_12",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What method is described for Student ERP User ID?",
+    "question_type": "method_12",
+    "pattern_source": "catalog",
+    "pattern_type": "method_12",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What evidence supports the explanation of Student ERP User ID?",
+    "question_type": "evidence_12",
+    "pattern_source": "catalog",
+    "pattern_type": "evidence_12",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "How can Student ERP User ID be applied in practice?",
+    "question_type": "application_12",
+    "pattern_source": "catalog",
+    "pattern_type": "application_12",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What is the main idea of Student ERP User ID?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What does Student ERP User ID mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 2"
+  },
+  {
+    "question": "What function does multiple logins serve?",
+    "question_type": "function_19",
+    "pattern_source": "catalog",
+    "pattern_type": "function_19",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does multiple logins mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of Counsellor Assistance?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does Counsellor Assistance mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What is the main idea of every success?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3"
+  },
+  {
+    "question": "What does every success mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define",
+    "source_file": "provision-admission-certificate.pdf",
+    "page_or_id": "Page 1, Section 3"
+  }
+]

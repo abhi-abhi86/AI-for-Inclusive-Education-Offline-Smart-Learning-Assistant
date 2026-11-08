@@ -1,0 +1,2027 @@
+[
+  {
+    "answer": "ALL RIGHTS RESERVED",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 1",
+    "question": "What is the title of the story?",
+    "question_type": "document_title",
+    "pattern_source": "document_metadata",
+    "pattern_type": "document_title"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What effect does principle have?",
+    "question_type": "effect_13",
+    "pattern_source": "catalog",
+    "pattern_type": "effect_13"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What caused principle, and what resulted from it?",
+    "question_type": "cause_effect_13",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_13"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What is the main idea of principle?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What does principle mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "This principle marks a departure from the legacy of bookish learning which continues to shape our system and causes a gap between the school, home and community.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "Why does principle have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why"
+  },
+  {
+    "answer": "The syllabi and textbooks developed on the basis of NCF signify an attempt to implement this basic idea.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What does syllabi mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What is the main idea related to rote learning?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02"
+  },
+  {
+    "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "Which detail about rote learning is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What is the main idea of rote learning?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "They also attempt to discourage rote learning and the maintenance of sharp boundaries between different subject areas.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What does rote learning mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We hope these measures will take us significantly further in the direction of a child-centred system of education outlined in the National Policy on Education (1986).",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "Which detail identifies measures?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07"
+  },
+  {
+    "answer": "We hope these measures will take us significantly further in the direction of a child-centred system of education outlined in the National Policy on Education (1986).",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 1",
+    "question": "What does measures mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "direction of a child-centred system of education outlined in the National Policy on Education (1986).",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "Which detail identifies direction?",
+    "question_type": "identify_10",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_10"
+  },
+  {
+    "answer": "direction of a child-centred system of education outlined in the National Policy on Education (1986).",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What does direction mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What conclusion can be drawn about success?",
+    "question_type": "evaluation_08",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_08"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "Where is success found or described?",
+    "question_type": "location_08",
+    "pattern_source": "catalog",
+    "pattern_type": "location_08"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "Who is connected with success?",
+    "question_type": "person_08",
+    "pattern_source": "catalog",
+    "pattern_type": "person_08"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What does success mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The success of this effort depends on the steps that school principals and teachers will take to encourage children to reflect on their own learning and to pursue imaginative activities and questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "Who is mentioned or involved in relation to success?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "Which detail identifies space?",
+    "question_type": "identify_12",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_12"
+  },
+  {
+    "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What is the main idea of space?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We must recognise that, given space, time and freedom, children generate new knowledge by engaging with the information passed on to them by adults.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What does space mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Treating the prescribed textbook as the sole basis of examination is one of the key reasons why other resources and sites of learning are ignored.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What is the main idea of prescribed?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Treating the prescribed textbook as the sole basis of examination is one of the key reasons why other resources and sites of learning are ignored.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 2",
+    "question": "What does prescribed mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Inculcating creativity and initiative is possible if we perceive and treat children as participants in learning, not as receivers of a fixed body of knowledge.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What solution is suggested for Inculcating creativity?",
+    "question_type": "solution_10",
+    "pattern_source": "catalog",
+    "pattern_type": "solution_10"
+  },
+  {
+    "answer": "Inculcating creativity and initiative is possible if we perceive and treat children as participants in learning, not as receivers of a fixed body of knowledge.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What does Inculcating creativity mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "These aims imply considerable change in school routines and mode of functioning.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What function does considerable change serve?",
+    "question_type": "function_10",
+    "pattern_source": "catalog",
+    "pattern_type": "function_10"
+  },
+  {
+    "answer": "These aims imply considerable change in school routines and mode of functioning.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What does considerable change mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Flexibility in the daily time-table is as necessary as rigour in implementing the annual calendar so that the required number of teaching days are actually devoted to teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What is the main idea related to Flexibility?",
+    "question_type": "main_idea_10",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_10"
+  },
+  {
+    "answer": "Flexibility in the daily time-table is as necessary as rigour in implementing the annual calendar so that the required number of teaching days are actually devoted to teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "Which detail about Flexibility is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10"
+  },
+  {
+    "answer": "Flexibility in the daily time-table is as necessary as rigour in implementing the annual calendar so that the required number of teaching days are actually devoted to teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What is the main idea of Flexibility?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Flexibility in the daily time-table is as necessary as rigour in implementing the annual calendar so that the required number of teaching days are actually devoted to teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What does Flexibility mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Flexibility in the daily time-table is as necessary as rigour in implementing the annual calendar so that the required number of teaching days are actually devoted to teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "Why does Flexibility have this effect?",
+    "question_type": "why",
+    "pattern_source": "evidence",
+    "pattern_type": "why"
+  },
+  {
+    "answer": "The methods used for teaching and evaluation will also determine how effective this textbook proves for making children’s life at school a happy experience, rather than a source of stress or boredom.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "Which detail about methods is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06"
+  },
+  {
+    "answer": "The methods used for teaching and evaluation will also determine how effective this textbook proves for making children’s life at school a happy experience, rather than a source of stress or boredom.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "Which detail identifies methods?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07"
+  },
+  {
+    "answer": "The methods used for teaching and evaluation will also determine how effective this textbook proves for making children’s life at school a happy experience, rather than a source of stress or boredom.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 3",
+    "question": "What does methods mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Syllabus designers have tried to address the problem of curricular burden by restructuring and reorienting knowledge at different stages with greater consideration for child psychology and the time available for teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What is the main idea related to Syllabus designers?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "Syllabus designers have tried to address the problem of curricular burden by restructuring and reorienting knowledge at different stages with greater consideration for child psychology and the time available for teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "Which detail about Syllabus designers is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "Syllabus designers have tried to address the problem of curricular burden by restructuring and reorienting knowledge at different stages with greater consideration for child psychology and the time available for teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What is the main idea of Syllabus designers?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Syllabus designers have tried to address the problem of curricular burden by restructuring and reorienting knowledge at different stages with greater consideration for child psychology and the time available for teaching.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What does Syllabus designers mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The textbook attempts to enhance this endeavour by giving higher priority and space to opportunities for contemplation and wondering, discussion in small groups, and activities requiring hands-on experience.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What is the main idea of endeavour?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The textbook attempts to enhance this endeavour by giving higher priority and space to opportunities for contemplation and wondering, discussion in small groups, and activities requiring hands-on experience.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What does endeavour mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "NCERT appreciates the hard work done by the textbook development committee responsible for this book.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What is the main idea of hard work?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "NCERT appreciates the hard work done by the textbook development committee responsible for this book.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What does hard work mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We wish to thank the Chairperson of the Advisory Group on Social Science, Professor Hari Vasudevan and the Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What is the main idea related to Chairperson?",
+    "question_type": "main_idea_22",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_22"
+  },
+  {
+    "answer": "We wish to thank the Chairperson of the Advisory Group on Social Science, Professor Hari Vasudevan and the Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "Which detail about Chairperson is important?",
+    "question_type": "detail_22",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_22"
+  },
+  {
+    "answer": "We wish to thank the Chairperson of the Advisory Group on Social Science, Professor Hari Vasudevan and the Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What is the main idea of Chairperson?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We wish to thank the Chairperson of the Advisory Group on Social Science, Professor Hari Vasudevan and the Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 4",
+    "question": "What does Chairperson mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What method is described for Chief Advisor?",
+    "question_type": "method_08",
+    "pattern_source": "catalog",
+    "pattern_type": "method_08"
+  },
+  {
+    "answer": "Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What does Chief Advisor mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Chief Advisor for this book, Professor Neeladri Bhattacharya for guiding the work of this committee.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "Who is mentioned or involved in relation to Chief Advisor?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "Several teachers contributed to the development of this textbook; we are grateful to their principals for making this possible.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What conclusion can be drawn about Several teachers?",
+    "question_type": "evaluation_20",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_20"
+  },
+  {
+    "answer": "Several teachers contributed to the development of this textbook; we are grateful to their principals for making this possible.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What is the main idea of Several teachers?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Several teachers contributed to the development of this textbook; we are grateful to their principals for making this possible.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What does Several teachers mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Several teachers contributed to the development of this textbook; we are grateful to their principals for making this possible.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "Who is mentioned or involved in relation to Several teachers?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "We are indebted to the institutions and organisations which have generously permitted us to draw upon their resources, material and personnel.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "Which detail identifies institutions?",
+    "question_type": "identify_20",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_20"
+  },
+  {
+    "answer": "We are indebted to the institutions and organisations which have generously permitted us to draw upon their resources, material and personnel.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What is the main idea of institutions?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We are indebted to the institutions and organisations which have generously permitted us to draw upon their resources, material and personnel.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 3, Section 5",
+    "question": "What does institutions mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Monitoring Committee, appointed by the Department of Secondary and Higher Education, Ministry of Human Resource Development under the Chairpersonship of Professor Mrinal Miri and Professor G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "Which detail about Monitoring Committee is important?",
+    "question_type": "detail_10",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_10"
+  },
+  {
+    "answer": "Monitoring Committee, appointed by the Department of Secondary and Higher Education, Ministry of Human Resource Development under the Chairpersonship of Professor Mrinal Miri and Professor G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "Which detail identifies Monitoring Committee?",
+    "question_type": "identify_11",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_11"
+  },
+  {
+    "answer": "Monitoring Committee, appointed by the Department of Secondary and Higher Education, Ministry of Human Resource Development under the Chairpersonship of Professor Mrinal Miri and Professor G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea of Monitoring Committee?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Monitoring Committee, appointed by the Department of Secondary and Higher Education, Ministry of Human Resource Development under the Chairpersonship of Professor Mrinal Miri and Professor G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "What does Monitoring Committee mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Monitoring Committee, appointed by the Department of Secondary and Higher Education, Ministry of Human Resource Development under the Chairpersonship of Professor Mrinal Miri and Professor G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "Who is mentioned or involved in relation to Monitoring Committee?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "Deshpande, for their valuable time and contribution.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "What does Deshpande mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "As an organisation committed to systemic reform and continuous improvement in the quality of its products, NCERT welcomes comments and suggestions which will enable us to undertake further revision and refinement.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea related to organisation?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  },
+  {
+    "answer": "As an organisation committed to systemic reform and continuous improvement in the quality of its products, NCERT welcomes comments and suggestions which will enable us to undertake further revision and refinement.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "Which detail about organisation is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": "As an organisation committed to systemic reform and continuous improvement in the quality of its products, NCERT welcomes comments and suggestions which will enable us to undertake further revision and refinement.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "What is the main idea of organisation?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "As an organisation committed to systemic reform and continuous improvement in the quality of its products, NCERT welcomes comments and suggestions which will enable us to undertake further revision and refinement.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 4",
+    "question": "What does organisation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Textbook Development Committee Brij Tankha, Professor, Department of East Asian Studies, University of Delhi G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What conclusion can be drawn about Development Committee Brij Tankha?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "Textbook Development Committee Brij Tankha, Professor, Department of East Asian Studies, University of Delhi G.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What does Development Committee Brij Tankha mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Balachandran, Professor, Graduate Institute of International Studies, Geneva Janaki Nair, Professor, Centre for Studies in Social Sciences, Kolkata Monica Juneja, Professor, Maria-Goeppert-Mayer Guest Professor, Historisches Seminar, University of Hanover, Germany P.K.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What is the main idea related to Balachandran?",
+    "question_type": "main_idea_18",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_18"
+  },
+  {
+    "answer": "Balachandran, Professor, Graduate Institute of International Studies, Geneva Janaki Nair, Professor, Centre for Studies in Social Sciences, Kolkata Monica Juneja, Professor, Maria-Goeppert-Mayer Guest Professor, Historisches Seminar, University of Hanover, Germany P.K.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "Which detail about Balachandran is important?",
+    "question_type": "detail_18",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_18"
+  },
+  {
+    "answer": "Balachandran, Professor, Graduate Institute of International Studies, Geneva Janaki Nair, Professor, Centre for Studies in Social Sciences, Kolkata Monica Juneja, Professor, Maria-Goeppert-Mayer Guest Professor, Historisches Seminar, University of Hanover, Germany P.K.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What is the main idea of Balachandran?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Balachandran, Professor, Graduate Institute of International Studies, Geneva Janaki Nair, Professor, Centre for Studies in Social Sciences, Kolkata Monica Juneja, Professor, Maria-Goeppert-Mayer Guest Professor, Historisches Seminar, University of Hanover, Germany P.K.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What does Balachandran mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Dutta, Professor, Centre for Studies in Social Sciences, Kolkata Rashmi Paliwal, Eklavya, Hoshangabad Rekha Krishnan, Head of Senior School, Vasant Valley School, New Delhi Sekhar Bandyopadhyay, Professor, Faculty of Humanities and Social Sciences, Victoria University of Wellington, New Zealand Shukla Sanyal, Reader, Department of History, Calcutta University, Kolkata Tanika Sarkar, Professor, Centre for Historical Studies, Jawaharlal Nehru University, New Delhi Udaya Kumar, Professor, Centre for Studies in Social Sciences, Kolkata MEMBER-COORDINATOR Kiran Devendra, Professor,",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What conclusion can be drawn about Dutta?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  },
+  {
+    "answer": "Dutta, Professor, Centre for Studies in Social Sciences, Kolkata Rashmi Paliwal, Eklavya, Hoshangabad Rekha Krishnan, Head of Senior School, Vasant Valley School, New Delhi Sekhar Bandyopadhyay, Professor, Faculty of Humanities and Social Sciences, Victoria University of Wellington, New Zealand Shukla Sanyal, Reader, Department of History, Calcutta University, Kolkata Tanika Sarkar, Professor, Centre for Historical Studies, Jawaharlal Nehru University, New Delhi Udaya Kumar, Professor, Centre for Studies in Social Sciences, Kolkata MEMBER-COORDINATOR Kiran Devendra, Professor,",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 5, Section 1",
+    "question": "What does Dutta mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "This book is the result of a collective effort of a large number of historians, teachers and educationists.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What caused result, and what resulted from it?",
+    "question_type": "cause_effect_14",
+    "pattern_source": "catalog",
+    "pattern_type": "cause_effect_14"
+  },
+  {
+    "answer": "This book is the result of a collective effort of a large number of historians, teachers and educationists.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What does result mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "This book is the result of a collective effort of a large number of historians, teachers and educationists.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "Who is mentioned or involved in relation to result?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "Each chapter has been written, discussed and revised over many months.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "Which detail identifies Each?",
+    "question_type": "identify_08",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_08"
+  },
+  {
+    "answer": "Each chapter has been written, discussed and revised over many months.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What is the main idea of Each?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Each chapter has been written, discussed and revised over many months.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What does Each mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We would like to acknowledge all those who have participated in these discussions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What conclusion can be drawn about discussions?",
+    "question_type": "evaluation_12",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_12"
+  },
+  {
+    "answer": "We would like to acknowledge all those who have participated in these discussions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What does discussions mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "A large number of people have read chapters of the book and provided support.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What is the main idea related to large?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19"
+  },
+  {
+    "answer": "A large number of people have read chapters of the book and provided support.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "Which detail about large is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19"
+  },
+  {
+    "answer": "A large number of people have read chapters of the book and provided support.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What claim is made about large?",
+    "question_type": "claim_19",
+    "pattern_source": "catalog",
+    "pattern_type": "claim_19"
+  },
+  {
+    "answer": "A large number of people have read chapters of the book and provided support.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 1",
+    "question": "What does large mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Venkiteswaran and Sahana helped with Chapter VIII.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What is the main idea of Venkiteswaran?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Venkiteswaran and Sahana helped with Chapter VIII.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What does Venkiteswaran mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Ngun Quoc Anh translated Vietnamese texts for Chapter III.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "Which detail identifies Ngun Quoc Anh?",
+    "question_type": "identify_21",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_21"
+  },
+  {
+    "answer": "Ngun Quoc Anh translated Vietnamese texts for Chapter III.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What does Ngun Quoc Anh mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Illustrating the book would have been impossible without the help of many institutions and individuals: the Library of Congress Prints and Photographs Division; Rabindra Bhawan Photo Archives, Viswabharati University, Shantiniketan; Photo Archives, American Embassy, New Delhi; Indira Gandhi National Centre for the Arts, New Delhi; National Manuscript Mission Library, New Delhi; Centre for Studies in Social Sciences, Kolkata; Ashutosh Collection of the National Library, Kolkata; Roja Muthaiah Research Library Trust, Chennai; India Collection, India International Centre; Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What is the main idea of help?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Illustrating the book would have been impossible without the help of many institutions and individuals: the Library of Congress Prints and Photographs Division; Rabindra Bhawan Photo Archives, Viswabharati University, Shantiniketan; Photo Archives, American Embassy, New Delhi; Indira Gandhi National Centre for the Arts, New Delhi; National Manuscript Mission Library, New Delhi; Centre for Studies in Social Sciences, Kolkata; Ashutosh Collection of the National Library, Kolkata; Roja Muthaiah Research Library Trust, Chennai; India Collection, India International Centre; Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What does help mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Giri National Institute of Labour, New Delhi; Photo",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What is the main idea of Giri National Institute?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Giri National Institute of Labour, New Delhi; Photo",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 2",
+    "question": "What does Giri National Institute mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Kolkata; Roja Muthaiah Research Library Trust, Chennai; India Collection, India International Centre; Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What is the main idea of Kolkata?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Kolkata; Roja Muthaiah Research Library Trust, Chennai; India Collection, India International Centre; Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What does Kolkata mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Giri National Institute of Labour, New Delhi; Photo Archives, University of West Indies, Trinidad.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What conclusion can be drawn about Giri National Institute?",
+    "question_type": "evaluation_16",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_16"
+  },
+  {
+    "answer": "Giri National Institute of Labour, New Delhi; Photo Archives, University of West Indies, Trinidad.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What does Giri National Institute mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Jyotindra and Juta Jain allowed generous access to their vast collection of visual images now stored at the CIVIC Archives; Parthiv Shah provided several photographs from his collection.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What is the main idea of Jyotindra?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Jyotindra and Juta Jain allowed generous access to their vast collection of visual images now stored at the CIVIC Archives; Parthiv Shah provided several photographs from his collection.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What does Jyotindra mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Prabhu Mohapatra supplied visuals of indentured labourers; Muzaffar Alam procured material from the Library of Chicago; Pratik Chakrabarty scanned images from the Kent University Library; Anish Vanaik and Parth Shil did photo research in New Delhi.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "Which detail identifies Prabhu Mohapatra?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15"
+  },
+  {
+    "answer": "Prabhu Mohapatra supplied visuals of indentured labourers; Muzaffar Alam procured material from the Library of Chicago; Pratik Chakrabarty scanned images from the Kent University Library; Anish Vanaik and Parth Shil did photo research in New Delhi.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What does Prabhu Mohapatra mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Shalini Advani did many rounds of editing with care and ensured that the texts were accessible to children.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What is the main idea of Shalini Advani?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Shalini Advani did many rounds of editing with care and ensured that the texts were accessible to children.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 3",
+    "question": "What does Shalini Advani mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Shalini Advani did many rounds of editing with care and ensured that the texts were accessible to children.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What is the main idea related to Shalini Advani?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "Shalini Advani did many rounds of editing with care and ensured that the texts were accessible to children.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "Which detail about Shalini Advani is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03"
+  },
+  {
+    "answer": "Shalini Advani did many rounds of editing with care and ensured that the texts were accessible to children.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What is the main idea of Shalini Advani?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Shalini Advani did many rounds of editing with care and ensured that the texts were accessible to children.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What does Shalini Advani mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We thank them both for their total involvement in the project.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What conclusion can be drawn about total involvement?",
+    "question_type": "evaluation_03",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_03"
+  },
+  {
+    "answer": "We thank them both for their total involvement in the project.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What does total involvement mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We have made every effort to acknowledge credits , but we apologise in advance for any omission that may have inadvertently taken place.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What is the main idea of every effort?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We have made every effort to acknowledge credits , but we apologise in advance for any omission that may have inadvertently taken place.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 7, Section 4",
+    "question": "What does every effort mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Credits Photographs and pictures We would like to acknowledge the following: Institutions and Photo Archives Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1",
+    "question": "What is the main idea related to Institutions?",
+    "question_type": "main_idea_19",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_19"
+  },
+  {
+    "answer": "Credits Photographs and pictures We would like to acknowledge the following: Institutions and Photo Archives Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1",
+    "question": "Which detail about Institutions is important?",
+    "question_type": "detail_19",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_19"
+  },
+  {
+    "answer": "Credits Photographs and pictures We would like to acknowledge the following: Institutions and Photo Archives Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1",
+    "question": "What is the main idea of Institutions?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Credits Photographs and pictures We would like to acknowledge the following: Institutions and Photo Archives Archives of Indian Labour, V.V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1",
+    "question": "What does Institutions mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Giri National Institute of Labour (IV: 18, 19) Ashutosh Collection of the National Library, Kolkata Collection Jyotindra and Juta Jain, Civic Archives (II: 11, 13, 14; IV: 25, 26a, 26b, 27; V: 17) Cultural Heritage Administration (CHA), Cheongju Early Printing Museum, Republic of Korea (V: 2b, 4b) Library of Congress Prints and Photography Division (III: 20; V: 40) Manuscript Mission Collection (V: 14, 15, 16) Photo Archive, American Library, New Delhi (III: 21, 23) Photo Archives, University of West Indies, Trinidad (III: 14, 15, 16) Publications Division, Ministry of Information and Broadcasting (images for Chapter II photographs) Roja Muthaiah Research",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1",
+    "question": "Which detail identifies Giri National Institute?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "Giri National Institute of Labour (IV: 18, 19) Ashutosh Collection of the National Library, Kolkata Collection Jyotindra and Juta Jain, Civic Archives (II: 11, 13, 14; IV: 25, 26a, 26b, 27; V: 17) Cultural Heritage Administration (CHA), Cheongju Early Printing Museum, Republic of Korea (V: 2b, 4b) Library of Congress Prints and Photography Division (III: 20; V: 40) Manuscript Mission Collection (V: 14, 15, 16) Photo Archive, American Library, New Delhi (III: 21, 23) Photo Archives, University of West Indies, Trinidad (III: 14, 15, 16) Publications Division, Ministry of Information and Broadcasting (images for Chapter II photographs) Roja Muthaiah Research",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 8, Section 1",
+    "question": "What does Giri National Institute mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Introduction We live in a world where the existence of nations is taken for granted.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What conclusion can be drawn about world?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01"
+  },
+  {
+    "answer": "Introduction We live in a world where the existence of nations is taken for granted.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What does world mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We see people as belonging to nations and having a nationality, and we assume that this sense of belonging has existed from time immemorial.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What is the main idea of nations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "We see people as belonging to nations and having a nationality, and we assume that this sense of belonging has existed from time immemorial.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What does nations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We see people as belonging to nations and having a nationality, and we assume that this sense of belonging has existed from time immemorial.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "Who is mentioned or involved in relation to nations?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "We consider countries as the same as nations, and use the two terms as synonyms, making little distinction between them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What method is described for countries?",
+    "question_type": "method_02",
+    "pattern_source": "catalog",
+    "pattern_type": "method_02"
+  },
+  {
+    "answer": "We consider countries as the same as nations, and use the two terms as synonyms, making little distinction between them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "How can countries be applied in practice?",
+    "question_type": "application_02",
+    "pattern_source": "catalog",
+    "pattern_type": "application_02"
+  },
+  {
+    "answer": "We consider countries as the same as nations, and use the two terms as synonyms, making little distinction between them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What does countries mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We think of countries as unified entities, each with a demarcated international boundary, a defined territory, a national language, and a central government.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What is the main idea of countries?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Yet if we were to travel in a time capsule to the mid-eighteenth century and look for nations as we know them today, we would not find them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "What is the main idea related to time capsule?",
+    "question_type": "main_idea_23",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_23"
+  },
+  {
+    "answer": "Yet if we were to travel in a time capsule to the mid-eighteenth century and look for nations as we know them today, we would not find them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 1",
+    "question": "Which detail about time capsule is important?",
+    "question_type": "detail_23",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_23"
+  },
+  {
+    "answer": "century and look for nations as we know them today, we would not find them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What is the main idea of nations?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "century and look for nations as we know them today, we would not find them.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What does nations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "If we were to ask people about their nationality, about their national identity, they would not understand our questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What is the main idea related to nationality?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "If we were to ask people about their nationality, about their national identity, they would not understand our questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "Which detail about nationality is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03"
+  },
+  {
+    "answer": "If we were to ask people about their nationality, about their national identity, they would not understand our questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "Which detail identifies nationality?",
+    "question_type": "identify_04",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_04"
+  },
+  {
+    "answer": "If we were to ask people about their nationality, about their national identity, they would not understand our questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What does nationality mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "If we were to ask people about their nationality, about their national identity, they would not understand our questions.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "Who is mentioned or involved in relation to nationality?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "For at that time, nations did not exist in their modern form.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What does time mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "People lived within kingdoms, small states, principalities, chiefdoms and duchies, not within nations.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What is the main idea related to kingdoms?",
+    "question_type": "main_idea_04",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_04"
+  },
+  {
+    "answer": "People lived within kingdoms, small states, principalities, chiefdoms and duchies, not within nations.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "Which detail about kingdoms is important?",
+    "question_type": "detail_04",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_04"
+  },
+  {
+    "answer": "People lived within kingdoms, small states, principalities, chiefdoms and duchies, not within nations.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What is the main idea of kingdoms?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "People lived within kingdoms, small states, principalities, chiefdoms and duchies, not within nations.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 2",
+    "question": "What does kingdoms mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The sense of belonging to a nation developed only over a period of time.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What conclusion can be drawn about sense?",
+    "question_type": "evaluation_05",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_05"
+  },
+  {
+    "answer": "The sense of belonging to a nation developed only over a period of time.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What does sense mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The first two chapters (in Section I) of this book will trace this history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What might happen next based on two chapters?",
+    "question_type": "prediction_17",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_17"
+  },
+  {
+    "answer": "The first two chapters (in Section I) of this book will trace this history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What conclusion can be drawn about two chapters?",
+    "question_type": "evaluation_17",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_17"
+  },
+  {
+    "answer": "The first two chapters (in Section I) of this book will trace this history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What is the main idea of two chapters?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The first two chapters (in Section I) of this book will trace this history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What does two chapters mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "You will see how the idea of nationalism emerged in Europe, how territories were unified, and national governments formed.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What might happen next based on nationalism?",
+    "question_type": "prediction_07",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_07"
+  },
+  {
+    "answer": "You will see how the idea of nationalism emerged in Europe, how territories were unified, and national governments formed.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What conclusion can be drawn about nationalism?",
+    "question_type": "evaluation_07",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_07"
+  },
+  {
+    "answer": "You will see how the idea of nationalism emerged in Europe, how territories were unified, and national governments formed.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What is the main idea of nationalism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "You will see how the idea of nationalism emerged in Europe, how territories were unified, and national governments formed.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "What does nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "It was a process that took many decades, involved many wars and revolutions, many ideological battles and political conflicts.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "Which detail about many decades is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": "It was a process that took many decades, involved many wars and revolutions, many ideological battles and political conflicts.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 3",
+    "question": "Which detail identifies many decades?",
+    "question_type": "identify_22",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_22"
+  },
+  {
+    "answer": "growth of nationalism in India (Chapter II), where nationalism was shaped by the experience of colonialism and the anti-imperialist movement.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What is the main idea of growth?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "growth of nationalism in India (Chapter II), where nationalism was shaped by the experience of colonialism and the anti-imperialist movement.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What does growth mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "It will help you understand how nationalism in colonial countries can develop in a variety of ways, glorify contrasting ideals, and be linked to different modes of struggle.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What is the main idea related to nationalism?",
+    "question_type": "main_idea_03",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_03"
+  },
+  {
+    "answer": "It will help you understand how nationalism in colonial countries can develop in a variety of ways, glorify contrasting ideals, and be linked to different modes of struggle.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "Which detail about nationalism is important?",
+    "question_type": "detail_03",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_03"
+  },
+  {
+    "answer": "It will help you understand how nationalism in colonial countries can develop in a variety of ways, glorify contrasting ideals, and be linked to different modes of struggle.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What is the main idea of nationalism?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "It will help you understand how nationalism in colonial countries can develop in a variety of ways, glorify contrasting ideals, and be linked to different modes of struggle.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What does nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "You will of course read about great leaders like Giuseppe Mazzini and Mahatma Gandhi.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What is the main idea of course?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "You will of course read about great leaders like Giuseppe Mazzini and Mahatma Gandhi.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 4",
+    "question": "What does course mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "events they led and participated in.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "What conclusion can be drawn about events?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  },
+  {
+    "answer": "events they led and participated in.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "What does events mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We have to also look at the aspirations and activities of ordinary people, see how nationalism is expressed in small events of everyday life, and shaped by a variety of seemingly dissimilar and unrelated social movements.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "Who is connected with aspirations?",
+    "question_type": "person_22",
+    "pattern_source": "catalog",
+    "pattern_type": "person_22"
+  },
+  {
+    "answer": "We have to also look at the aspirations and activities of ordinary people, see how nationalism is expressed in small events of everyday life, and shaped by a variety of seemingly dissimilar and unrelated social movements.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "What does aspirations mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "We have to also look at the aspirations and activities of ordinary people, see how nationalism is expressed in small events of everyday life, and shaped by a variety of seemingly dissimilar and unrelated social movements.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "Who is mentioned or involved in relation to aspirations?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "To understand how nationalism spreads, we need to know not only what the leaders said, but also how their words were understood and interpreted by people.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "What is the main idea related to nationalism?",
+    "question_type": "main_idea_16",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_16"
+  },
+  {
+    "answer": "To understand how nationalism spreads, we need to know not only what the leaders said, but also how their words were understood and interpreted by people.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "Which detail about nationalism is important?",
+    "question_type": "detail_16",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_16"
+  },
+  {
+    "answer": "To understand how nationalism spreads, we need to know not only what the leaders said, but also how their words were understood and interpreted by people.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "What does nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "To understand how nationalism spreads, we need to know not only what the leaders said, but also how their words were understood and interpreted by people.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "Who is mentioned or involved in relation to nationalism?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "If we are to think about how people begin to identify with a nation, we must see not only the political events that are critical to the process, but also how nationalist sensibilities are nurtured by artists and writers, and through art and literature, songs and tales.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "What does nation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "If we are to think about how people begin to identify with a nation, we must see not only the political events that are critical to the process, but also how nationalist sensibilities are nurtured by artists and writers, and through art and literature, songs and tales.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 5",
+    "question": "Who is mentioned or involved in relation to nation?",
+    "question_type": "who",
+    "pattern_source": "evidence",
+    "pattern_type": "who"
+  },
+  {
+    "answer": "process, but also how nationalist sensibilities are nurtured by artists and writers, and through art and literature, songs and tales.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "Which detail identifies nationalist sensibilities?",
+    "question_type": "identify_15",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_15"
+  },
+  {
+    "answer": "process, but also how nationalist sensibilities are nurtured by artists and writers, and through art and literature, songs and tales.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What does nationalist sensibilities mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "In Section II, we will shift our focus to economies and livelihoods.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What might happen next based on focus?",
+    "question_type": "prediction_01",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_01"
+  },
+  {
+    "answer": "In Section II, we will shift our focus to economies and livelihoods.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What conclusion can be drawn about focus?",
+    "question_type": "evaluation_01",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_01"
+  },
+  {
+    "answer": "In Section II, we will shift our focus to economies and livelihoods.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What is the main idea of focus?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "In Section II, we will shift our focus to economies and livelihoods.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What does focus mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Last year you read about those social groups — pastoralists and forest dwellers — who are often seen as survivors from past times when in fact they are very much part of the modern world we live in.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What is the main idea of social groups?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Last year you read about those social groups — pastoralists and forest dwellers — who are often seen as survivors from past times when in fact they are very much part of the modern world we live in.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What does social groups mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "This year we will focus on developments that are seen as symbolising modernity – globalisation and industrialisation – and see the many sides of the history of these developments.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What is the main idea of developments?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "This year we will focus on developments that are seen as symbolising modernity – globalisation and industrialisation – and see the many sides of the history of these developments.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What does developments mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "In Chapter III you will see how the global world has emerged out of a long and complicated history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "What is the main idea related to global world?",
+    "question_type": "main_idea_02",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_02"
+  },
+  {
+    "answer": "In Chapter III you will see how the global world has emerged out of a long and complicated history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 6",
+    "question": "Which detail about global world is important?",
+    "question_type": "detail_02",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_02"
+  },
+  {
+    "answer": "In Chapter III you will see how the global world has emerged out of a long and complicated history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7",
+    "question": "What is the main idea related to global world?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  },
+  {
+    "answer": "In Chapter III you will see how the global world has emerged out of a long and complicated history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7",
+    "question": "Which detail about global world is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": "In Chapter III you will see how the global world has emerged out of a long and complicated history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7",
+    "question": "What is the main idea of global world?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "In Chapter III you will see how the global world has emerged out of a long and complicated history.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7",
+    "question": "What does global world mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "From ancient times, pilgrims, traders, travelers have traversed distances, carrying goods, information and skills, linking societies in ways that often had contradictory consequences.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7",
+    "question": "What conclusion can be drawn about ancient times?",
+    "question_type": "evaluation_24",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_24"
+  },
+  {
+    "answer": "From ancient times, pilgrims, traders, travelers have traversed distances, carrying goods, information and skills, linking societies in ways that often had contradictory consequences.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 9, Section 7",
+    "question": "What does ancient times mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Items of food and species of plants spread from one region to another, transferring information and taste, as well as disease and death.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What is the main idea of Items?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Items of food and species of plants spread from one region to another, transferring information and taste, as well as disease and death.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What does Items mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "As Western powers carried the flag of ‘civilisation’ deep into different parts of Africa, precious metals and slaves were taken away to Europe and America.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What is the main idea of Western powers?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "As Western powers carried the flag of ‘civilisation’ deep into different parts of Africa, precious metals and slaves were taken away to Europe and America.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What does Western powers mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Section III will introduce you to the history of print culture.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What is the main idea related to history?",
+    "question_type": "main_idea_21",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_21"
+  },
+  {
+    "answer": "Section III will introduce you to the history of print culture.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "Which detail about history is important?",
+    "question_type": "detail_21",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_21"
+  },
+  {
+    "answer": "Section III will introduce you to the history of print culture.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What is the main idea of history?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Section III will introduce you to the history of print culture.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What does history mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Surrounded by things that appear in print, we might find it difficult today to imagine a time when printing was still unknown.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What is the main idea of things?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Surrounded by things that appear in print, we might find it difficult today to imagine a time when printing was still unknown.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What does things mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Chapter V will trace how the",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What is the main idea of will?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Chapter V will trace how the",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 1",
+    "question": "What does will mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "that appear in print, we might find it difficult today to imagine a time when printing was still unknown.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2",
+    "question": "What is the main idea of print?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "that appear in print, we might find it difficult today to imagine a time when printing was still unknown.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2",
+    "question": "What does print mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Chapter V will trace how the history of the contemporary world is intimately connected with the growth of print.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2",
+    "question": "What is the main idea of history?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "Chapter V will trace how the history of the contemporary world is intimately connected with the growth of print.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2",
+    "question": "What does history mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "You will see how printing made possible the spread of information and ideas, debates and discussions, advertising and propaganda, and a variety of new forms of literature.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2",
+    "question": "Which detail identifies printing?",
+    "question_type": "identify_02",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_02"
+  },
+  {
+    "answer": "You will see how printing made possible the spread of information and ideas, debates and discussions, advertising and propaganda, and a variety of new forms of literature.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 10, Section 2",
+    "question": "What does printing mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The Rise of Nationalism in Europe 3 II.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What is the main idea of Rise?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The Rise of Nationalism in Europe 3 II.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What does Rise mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "Nationalism in India 29 Section II: Livelihoods, Economies and Societies III.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What is the main idea related to Nationalism?",
+    "question_type": "main_idea_13",
+    "pattern_source": "catalog",
+    "pattern_type": "main_idea_13"
+  },
+  {
+    "answer": "Nationalism in India 29 Section II: Livelihoods, Economies and Societies III.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What does Nationalism mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The Making of a Global World 53 IV.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "Which detail about Making is important?",
+    "question_type": "detail_06",
+    "pattern_source": "catalog",
+    "pattern_type": "detail_06"
+  },
+  {
+    "answer": "The Making of a Global World 53 IV.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "Which detail identifies Making?",
+    "question_type": "identify_07",
+    "pattern_source": "catalog",
+    "pattern_type": "identify_07"
+  },
+  {
+    "answer": "The Making of a Global World 53 IV.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What is the main idea of Making?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "The Making of a Global World 53 IV.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What does Making mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "The Age of Industrialisation 79 Section III: Everyday Life, Culture and Politics V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What conclusion can be drawn about Industrialisation?",
+    "question_type": "evaluation_19",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_19"
+  },
+  {
+    "answer": "The Age of Industrialisation 79 Section III: Everyday Life, Culture and Politics V.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 11",
+    "question": "What does Industrialisation mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  },
+  {
+    "answer": "For Extended Learning You may access the following chapters through QR Code : ♦ The Nationalist Movement in Indo-China.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12",
+    "question": "What might happen next based on Extended Learning?",
+    "question_type": "prediction_25",
+    "pattern_source": "catalog",
+    "pattern_type": "prediction_25"
+  },
+  {
+    "answer": "For Extended Learning You may access the following chapters through QR Code : ♦ The Nationalist Movement in Indo-China.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12",
+    "question": "What conclusion can be drawn about Extended Learning?",
+    "question_type": "evaluation_25",
+    "pattern_source": "catalog",
+    "pattern_type": "evaluation_25"
+  },
+  {
+    "answer": "For Extended Learning You may access the following chapters through QR Code : ♦ The Nationalist Movement in Indo-China.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12",
+    "question": "What is the main idea of Extended Learning?",
+    "question_type": "what",
+    "pattern_source": "subject",
+    "pattern_type": "what"
+  },
+  {
+    "answer": "For Extended Learning You may access the following chapters through QR Code : ♦ The Nationalist Movement in Indo-China.",
+    "source_file": "social_science_15.pdf",
+    "page_or_id": "Page 12",
+    "question": "What does Extended Learning mean?",
+    "question_type": "define",
+    "pattern_source": "subject",
+    "pattern_type": "define"
+  }
+]
