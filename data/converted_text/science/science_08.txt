@@ -1,0 +1,114 @@
+===== DOCUMENT METADATA =====
+
+title: sy (e<ss| Heredity
+
+===== PAGE 1 =====
+
+Science128
+Figure 8.1Figure 8.1Figure 8.1Figure 8.1Figure 8.1
+Creation of diversity over succeeding
+generations. The original organism at the top
+will give rise to, say, two individuals, similar
+in body design, but with subtle differences.
+Each of them, in turn, will give rise to two
+individuals in the next generation. Each of
+the four individuals in the bottom row will
+be different fr om each other . While some of
+these differences will be unique, others will
+be inherited from their respective parents,
+who were different from each other .
+Heredity
+8CHAPTER
+W
+e have seen that reproductive processes give rise to new individuals
+that are similar, but subtly different. We have discussed how some
+amount of variation is produced even during asexual reproduction. And
+the number of successful variations are maximised by the process of
+sexual reproduction. If we observe a field of sugarcane we find very little
+variations among the individual plants. But in a number of animals
+including human beings, which reproduce sexually, quite distinct
+variations are visible among different individuals. In this chapter, we
+shall be studying the mechanism by which variations are created and
+inherited.
+8.18.18.1
+8.18.1 A AA AACCUMUL CCUMULCCUMUL CCUMULCCUMUL AAA AATION OF VTION OF VTION OF VTION OF VTION OF V ARIA ARIAARIA ARIAARIA TION TIONTION TIONTION
+DURING REPRODUCTIONDURING REPRODUCTIONDURING REPRODUCTIONDURING REPRODUCTIONDURING REPRODUCTION
+Inheritance from the previous generation provides
+both a common basic body design, and subtle
+changes in it, for the next generation. Now think
+about what would happen when this new generation,
+in its turn, reproduces. The second generation will
+have differences that they inherit from the first
+generation, as well as newly created differences
+(Fig. 8.1).
+Figure 8.1 would represent the situation if a
+single individual reproduces, as happens in asexual
+reproduction. If one bacterium divides, and then the
+resultant two bacteria divide again, the four
+individual bacteria generated would be very similar.
+There would be only very minor differences between
+them, generated due to small inaccuracies in DNA
+copying. However, if sexual reproduction is involved,
+even greater diversity will be generated, as we will
+see when we discuss the rules of inheritance.
+Do all these variations in a species have equal
+chances of surviving in the environment in which they
+find themselves? Obviously not. Depending on the
+nature of variations, different individuals would have
+Reprint 2026-27
+
+===== PAGE 2 =====
+
+Heredity 129
+8.2 HEREDITY8.2 HEREDITY8.2 HEREDITY8.2 HEREDITY8.2 HEREDITY
+The most obvious outcome of the reproductive process still remains the
+generation of individuals of similar design. The rules of heredity determine
+the process by which traits and characteristics are reliably inherited. Let
+us take a closer look at these rules.
+8.2.1 Inherited Traits
+What exactly do we mean by similarities and differences? We know that
+a child bears all the basic features of a human being. However, it does
+not look exactly like its parents, and human populations show a great
+deal of variation.
+QUESTIONS
+?
+1. If a trait A exists in 10% of a population of an asexually reproducing
+species and a trait B exists in 60% of the same population, which trait
+is likely to have arisen earlier?
+2. How does the creation of variations in a species promote survival?
+Activity 8.1Activity 8.1Activity 8.1Activity 8.1Activity 8.1
+/square6 Observe the ears of all the students in the class. Prepare a list of
+students having free or attached earlobes and calculate the
+percentage of students having each (Fig. 8.2). Find out about the
+earlobes of the parents of each student in the class. Correlate the
+earlobe type of each student with that of their parents. Based on
+this evidence, suggest a possible rule for the inheritance of earlobe
+types.
+8.2.2 Rules for the Inheritance of T raits  – –– ––
+Mendel’s Contributions
+The rules for inheritance of such traits in human beings are related to
+the fact that both the father and the mother contribute practically equal
+amounts of genetic material to the child. This means that each trait can
+be influenced by both paternal and maternal DNA. Thus, for each trait
+there will be two versions in each child. What will, then, the trait seen in
+the child be? Mendel (see box) worked out the main rules of such
+inheritance, and it is interesting to look at some of his experiments from
+more than a century ago.
+Figure 8.2Figure 8.2Figure 8.2Figure 8.2Figure 8.2
+(a) Free and (b) attached
+earlobes. The lowest part
+of the ear , called the
+earlobe, is closely attached
+to the side of the head in
+some of us, and not
+in others. Free and
+attached earlobes are two
+variants found in human
+populations.
+different kinds of advantages. Bacteria that can withstand heat will survive
+better in a heat wave, as we have discussed earlier. Selection of variants
+by environmental factors forms the basis for evolutionary processes, as
+we will discuss in later sections.
+(a)
+(b)
+Reprint 2026-27

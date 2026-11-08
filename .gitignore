@@ -16,6 +16,5 @@ build/
 .vercel
 
 # Source and converted document data (JSON and .pth files remain trackable)
-*.txt
-!requirements*.txt
+*.pdf
 uploads/

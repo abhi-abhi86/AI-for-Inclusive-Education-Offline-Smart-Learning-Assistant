@@ -1,0 +1,355 @@
+===== DOCUMENT METADATA =====
+
+title: ALL RIGHTS RESERVED
+author: Social Science
+
+===== PAGE 1 =====
+
+Social Science
+India and the Contemporary World – II
+Textbook in History for Class X
+Reprint 2026-27
+
+===== PAGE 2 =====
+
+ALL RIGHTS RESERVED
+q No part of this publication may be reproduced, stored in a retrieval system or
+transmitted, in any form or by any means, electronic, mechanical, photocopying,
+recording or otherwise without the prior permission of the publisher.
+q This book is sold subject to the condition that it shall not, by way of trade,  be lent,
+re-sold, hired out or otherwise disposed of without the publisher’s consent, in any
+form of binding or cover other than that in which it is published.
+q The correct price of this publication is the price printed on this page, Any revised
+price indicated by a rubber stamp or by a sticker or by any other means is incorrect
+and should be unacceptable.
+OFFICES OF THE PUBLICATION
+DIVISION, NCERT
+NCERT Campus
+Sri Aurobindo Marg
+New  Delhi 110 016 Phone :  011-26562708
+108, 100 Feet Road
+Hosdakere Halli Extension
+Banashankari III Stage
+Bengaluru 560 085 Phone : 080-26725740
+Navjivan Trust Building
+P.O.Navjivan
+Ahmedabad 380 014 Phone :  079-27541446
+CWC Campus
+Opp. Dhankal Bus Stop
+Panihati
+Kolkata 700 114 Phone :  033-25530454
+CWC Complex
+Maligaon
+Guwahati 781 021 Phone :  0361-2674869
+First Edition
+March 2007 Chaitra 1928
+Reprinted
+January 2008 Pausa 1929
+January 2009 Magha 1930
+January 2010 Magha 1931
+January 2011 Magha 1932
+January 2012 Magha 1933
+November 2012 Kartika 1934
+November 2013 Kartika 1935
+December 2014 Pausha 1936
+February 2016 Magha 1937
+December 2016 Pausa 1938
+December 2017 Pausa 1939
+February 2019 Magha 1940
+August 2019 Shravana 1941
+January 2021 Pausa 1942
+November 2021 Agrahayana 1943
+October 2022 Kartika 1944
+March 2024 Chaitra 1946
+June 2024 Jyaishtha 1946
+December 2024 Agrahayana 1946
+January 2026 Magha 1947
+PD 335T SM
+© National Council of Educational
+Research and Training, 2007
+` 105.00
+ISBN 81-7450-707-81066 – INDIA AND THE CONTEMPORARY WORLD – IITextbook for Class X
+Publication Team
+Head, Publication : M.V Srinivasan
+Division
+Chief Editor : Bijnan Sutar
+Chief Business Manager : Amitabh Kumar
+Chief Production : Deepak  Jaiswal
+Officer (In charge)
+Assistant Production : Deepak Kumar
+Officer
+Cover and Layout
+Parthiv Shah assisted by Shraboni Roy
+and Shivraj Patra
+Cartography
+K. Varghese
+Printed on 80 GSM paper with NCERT
+watermark
+Published at the Publication Division by
+the Secretary, National Council of
+Educational Research and Training,
+Sri Aurobindo Marg, New Delhi 110 016
+and printed at Shriji Enterprises Plot No.
+160A, Sector Ecotech-03, Udyog Kundra,
+Extension-1, G reater N oida, UP–201306
+Reprint 2026-27
+
+===== PAGE 3 =====
+
+Foreword
+The National Curriculum Framework  (NCF) 2005 recommends that children’s life
+at school must be linked to their life outside the school. This principle marks a
+departure from the legacy of bookish learning which continues to shape our system
+and causes a gap between the school, home and community. The syllabi and textbooks
+developed on the basis of NCF signify an attempt to implement this basic idea.
+They also attempt to discourage rote learning and the maintenance of sharp boundaries
+between different subject areas. We hope these measures will take us significantly
+further in the direction of a child-centred system of education outlined in the National
+Policy on Education (1986).
+The success of this effort depends on the steps that school principals and teachers
+will take to encourage children to reflect on their own learning and to pursue
+imaginative activities and questions. We must recogni se that, given space, time and
+freedom, children generate new knowledge by engaging with the information passed
+on to them by adults. Treating the prescribed textbook as the sole basis of examination
+is one of the key reasons why other resources and sites of learning are ignored.
+Inculcating creativity and initiative is possible if we perceive and treat children as
+participants in learning, not as receivers of a fixed body of knowledge.
+These aims imply considerable change in school routines and mode of functioning.
+Flexibility in the daily time-table is as necessary as rigour in implementing the annual calendar
+so that the r
+equired number of teaching days are actually devoted to teaching. The methods
+used for teaching and evaluation will also deter mine how effective this textbook proves
+for making children’s life at school a happy experience , rather than a source of  stress or
+boredom. Syllabus designers have tried to address the problem of curricular burden by
+restructuring and reorienting knowledge at different stages with greater consideration for
+child psychology and the time available for teaching. The textbook attempts to enhance
+this endeavo ur by giving higher priority and space to opportunities for contemplation
+and wondering, discussion in small groups, and activities requiring hands-on
+experience.
+NCERT appreciates the hard work done by the textbook development committee
+responsible for this book. We wish to thank the Chairperson of the Advisory Group
+on Social Science, Professor Hari Vasudevan and the Chief Advis or for this book,
+Professor Neeladri Bhattacharya for guiding the  work of this committee. Several
+teachers contributed to the development of this textbook; we are grateful to their
+principals for making this possible. We are indebted to the institutions and
+organi sations which have generously permitted us to draw upon their resources,
+material and personnel. We are especially grateful to the members of the National
+Reprint 2026-27
+
+===== PAGE 4 =====
+
+Monitoring Committee, appointed by the Department of Secondary and Higher
+Education, Ministry of Human Resource Development under the
+Chairpersonship of Professor Mrinal Miri and Professor G. P. Deshpande, for
+their valuable time and contribution. As an organi sation committed to systemic
+reform and continuous improvement in the quality of its products, NCERT
+welcomes comments and suggestions which will enable us to undertake further
+revision and refinement.
+Director
+New Delhi National Council of Educational
+20 November  200 6 Research and Training
+iv
+Reprint 2026-27
+
+===== PAGE 5 =====
+
+Textbook De velopment Committee
+Brij Tankha, Professor, Department of East Asian Studies, University of Delhi
+G. Balachandran, Professor, Graduate Institute of International Studies, Geneva
+Janaki Nair, Professor, Centre for Studies in Social Sciences, Kolkata
+Monica Juneja, Professor, Maria-Goeppert-Mayer Guest Professor, Historisches Seminar,
+University of Hanover, Germany
+P.K. Dutta, Professor, Centre for Studies in Social Sciences, Kolkata
+Rashmi Paliwal, Eklavya, Hoshangabad
+Rekha Krishnan, Head of Senior School, 
+Vasant Valley School, New Delhi
+Sekhar Bandyopadhyay,  Professor, Faculty of Humanities and Social Sciences,
+Victoria University of Wellington, New Zealand
+Shukla Sanyal, Reader, Department of History, Calcutta University, Kolkata
+Tanika Sarkar, Professor, Centre for Historical Studies, Jawaharlal Nehru University,
+New Delhi
+Udaya Kumar, Professor, Centre for Studies in Social Sciences, Kolkata
+MEMBER-COORDINATOR
+Kiran Devendra, Professor, Department of Elementary Education, NCERT,
+New Delhi
+CHAIRPERSON, A DVISORY C OMMITTEE FOR T EXTBOOKS IN SOCIAL SCIENCE FOR
+THE S ECONDARY S TAGE
+Hari Vasudevan, Professor, Department of History, Calcutta University, Kolkata
+CHIEF A DVISOR
+Neeladri Bhattacharya,  Professor,  Centre for Historical Studies, School of Social
+Sciences, Jawaharlal Nehru University, New Delhi
+Members
+Reprint 2026-27
+
+===== PAGE 6 =====
+
+Reprint 2026-27
+
+===== PAGE 7 =====
+
+This book is the result of a collective effort of a large number of historians, teachers and
+educationists. Each chapter has been written, discussed and revised over many months.
+ We
+would like to acknowledge all those who have participated in these discussions.
+A large number of people have read chapters of the book and provided support. We
+thank in particular the members of the Monitoring Committee who commented on an
+earlier draft ; Kumkum Roy suggested many changes in the text; G. Arunima, Gautam
+Bhadra, Supriya Chaudhuri, Jayanti Chattopadhyay,  Sangeetha Raj, Sambuddha Sen,
+Lakshmi Subramaniam, A.R. Venkatachalapathy, T.R. Ramesh Bairy, C.S. Venkiteswaran
+and Sahana  helped with Chapter VIII. Purushottam Agarwal helped write the sections
+on the Hindi novel.  Ngun Quoc Anh translated Vietnamese texts for Chapter III.
+Illustrating the book would have been impossible without the help of many institutions
+and individuals: the Library of Congress Prints and Photographs Division; Rabindra
+Bhawan Photo Archives, Viswabharati University, Shantiniketan; Photo Archives,
+American Embassy, New Delhi;  Indira Gandhi National Centre for the Arts,
+New Delhi ; National  Manuscript Mission Library,  New Delh i ; Centre for Studies in
+Social Sciences, Kolkata;  Ashutosh Collection of the National Library, Kolkata;
+Roja Muthaiah Research Library Trust, Chennai;  India Collection, India International
+Centre; Archives of Indian Labour, V.V. Giri National Institute of Labour, New Delhi;
+Photo Archives, University of West Indies, Trinidad. Jyotindra and Juta Jain allowed
+generous access to their vast collection of visual images now stored at the CIVIC Archives;
+Parthiv Shah provided several photographs from his collection. Prabhu Mohapatra
+supplied visuals of indentured labourers;  Muzaffar Alam procured material from the
+Library of Chicago; Pratik Chakrabarty scanned images from the Kent University
+Library; Anish Vanaik and Parth Shil did photo research in New Delhi.
+Shalini Advani did many rounds of editing with care and ensured that the texts were
+accessible to children. Shyama Warner’s sharp eye picked up innumerable slips and lapses
+in the text. We thank them both for their total involvement in the project.
+We have made every effort to acknowledge credits , but we apologise in advance for any
+omission that may have inadvertently taken place.
+Acknowledgements
+Reprint 2026-27
+
+===== PAGE 8 =====
+
+Credits
+ Photographs and pictures
+We would like to ac knowledge the f ollowing:
+Institutions and Photo Archives
+Archives of  Indian Labour, V.V. Giri National Institute of  Labour (IV: 18, 19)
+Ashutosh Collection of  the National Library
+, Kolkata
+Collection Jyotindra  and Juta Jain, Civic Archives (II: 11, 13, 14; IV: 25, 26a,
+26b, 27; V: 17)
+Cultural Heritage Administration (CHA), Cheongju Early Printing Museum, Republic of Korea
+(V: 2b, 4b)
+Library of  Congress Prints and Photography Division (III: 20; V: 40)
+Manuscript Mission Collection (V: 14, 15, 16)
+Photo Archive, American Library, New Delhi (III: 21, 23)
+Photo Archives, University of  West Indies, Trinidad (III: 14, 15, 16)
+Publications Division, Ministry of  Information and Broadcasting (images for
+Chapter II photographs)
+Roja Muthaiah Research Library Trust, Chennai
+Journals
+The Illustrated London News  (III: 4, 6, 7,
+ 8, 9, 11, 12, 13; IV: 4, 5, 6, 8, 12)
+Illustrated Times (IV: 12)
+Indian Charivari (V: 18)
+Graphic: (III: 13)
+Books
+Breman, Jan and Parthiv Shah, Working the Mill No More (IV: 21)
+Chaudhuri, K.N., Trade and Civilization in the Indian Ocean (map in Chapter III)
+Dwivedi, Sharda and Rahul Mehrotra, Bombay: The City W ithin (II: 1)
+Goswami, B.N.,
+ The Word is Sacr ed; Sacred is the Word (V: 14, 15, 16)
+Ruhe, Peter, Gandhi (II: 2, 3, 5, 8)
+Reprint 2026-27
+
+===== PAGE 9 =====
+
+Introduction
+We live in a world where the existence of nations is taken for granted. We see people as
+belonging to nations and having a nationality, and we assume that this sense of belonging
+has existed from time immemorial. We consider countries as the same as nations, and use
+the two terms as synonyms, making little distinction between them. We think of countries
+as unified entities, each with a demarcated international boundary, a defined territory, a
+national language, and a central government.
+Yet if we were to travel in a time capsule to the mid-eighteenth century and look for nations
+as we know them today
+, we would not find them. If  we were to ask people a bout their
+nationality, about their national identity, they would not understand our questions. For at that
+time, nations did not exist in their modern form. People lived within kingdoms, small states,
+principalities, chiefdoms and duchies, not within nations. As Eric Hobsbawm, a famous historian,
+once said, the most remarkable fact about the modern nation is its modernity. The history of
+its existence is no more than 250 years old.
+How did the modern nation come into being? How did people begin to see themselves as
+belonging to a nation?
+The sense of belonging to a nation developed only over a period of time. The first two
+chapters (in Section I) of this book will trace this history. You will see how the idea of nationalism
+emerged in Europe, how territories were unified, and national governments formed. It was a
+process that took many decades, involved many wars and revolutions, many ideological battles
+and political conflicts. From a discussion of Europe (Chapter I) we will shift our focus to the
+growth of nationalism in India (Chapter II), where nationalism was shaped by the experience
+of colonialism and the anti-imperialist movement. It will help you understand how nationalism
+in colonial countries can develop in a variety  of ways, glorify contrasting ideals, and be  linked
+to different modes of struggle.
+The story of nationalism in these chapters will move at several levels. You will of course read
+about great leaders like Giuseppe Mazzini and Mahatma Gandhi. But we cannot understand
+nationalism only by knowing about the words and deeds of important leaders, and the big
+and dramatic events they led and participated in. We have to also look at the aspirations and
+activities of ordinary people, see how nationalism is expressed in small events of everyday life,
+and shaped by a variety of seemingly dissimilar and unrelated social movements.  To understand
+how nationalism spreads, we need to know not only what the leaders said, but also how their
+words were understood and interpreted by people. If we are to think about how people
+begin to identify with a nation, we must see not only the political events that are critical to the
+process, but also how nationalist sensibilities are nurtured by artists and writers, and through
+art and literature, songs and tales.
+In Section II, we will shift our focus to economies and livelihoods. Last year you read about
+those social groups — pastoralists and forest dwellers — who are often seen as survivors
+from past times when in fact they are very much part of the modern world we live in. This
+year we will focus on developments that are seen as symbolising modernity – globalisation
+and  industrialisation –  and see the many sides of the history of these developments.
+In Chapter III you will see how the global world has emerged out of a long and complicated
+history. From ancient times, pilgrims, traders, travelers have traversed distances, carrying goods,
+information and skills, linking societies in ways that often had contradictory consequences.
+Reprint 2026-27
+
+===== PAGE 10 =====
+
+Items of food and species of plants spread from one region to another, transferring
+information and taste, as well as disease and death. As Western powers carried the flag of
+‘civilisation’ deep into different parts of Africa, precious metals and slaves were taken
+away to Europe and America. When coffee and sugar were grown in the Caribbean
+plantations for the world market, an oppressive system of indentured labour came into
+being in India and China to supply workers for the plantations.
+Section III will introduce you to the history of print culture. Surrounded by things that
+appear in print, we might find it difficult today to imagine a time when printing was still
+unknown. Chapter V will trace how the history of the contemporary world is intimately
+connected with the growth of print. You will see how printing made possible the spread
+of  information and ideas, debates and discussions, advertising and pr
+opaganda, and a
+variety of new forms of literature.
+When we discuss such themes of everyday life, we begin to see how history can help us
+reflect on even the seemingly ordinary things in the world.
+NEELADRI  B HATTACHARYA
+Chief Advisor – History
+x
+Reprint 2026-27
+
+===== PAGE 11 =====
+
+Contents
+xi
+Section I: Events and Processes
+I. The Rise of Nationalism in Europe 3
+II. Nationalism in India 29
+Section II: Livelihoods, Economies and Societies
+III. The Making of  a Global World 53
+IV. The Age of Industrialisation 79
+Section III: Ever yday Life, Cultur e and P olitics
+V
+. Print Culture and the Moder n World 105
+Foreword iii
+Introduction ix
+Reprint 2026-27
+
+===== PAGE 12 =====
+
+For Extended Learning
+You may  access the f ollowing chapters through QR Code :
+♦ The Nationalist Movement in Indo-China.
+♦ Work, Life and Leisure.
+♦ Novels, Society and History
+These chapters were printed in the previous textbooks; the same
+are being provided in digital mode for extended learning.
+Reprint 2026-27
