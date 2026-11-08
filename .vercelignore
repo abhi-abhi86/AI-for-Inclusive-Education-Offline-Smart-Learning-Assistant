@@ -1,0 +1,18 @@
+.git/
+.DS_Store
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local training and source-document data
+pdfs_to_train/
+uploads/
+data/reference_pdfs/
+data/uploaded_documents/
+data/converted_text/
+data/generated_questions/
+data/generated_answers/
+data/trained_models/
+models/offline_model.pth
+models/uploaded_documents/

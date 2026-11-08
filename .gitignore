@@ -9,24 +9,14 @@ env/
 models/*.pte
 models/*.bin
 models/*.safetensors
-models/test_*.pth
 sample_data/test_*
 cmake-out/
 build/
 
 .vercel
 
-# Student-uploaded PDFs (not committed to git)
+# Source and converted document data (JSON and .pth files remain trackable)
+*.pdf
+*.txt
+!requirements*.txt
 uploads/
-
-# Generated PDF knowledge archives
-data/converted_json/*.json
-data/converted_json/*/*.json
-data/converted_json/**/*.json
-data/converted_text/*.txt
-data/converted_text/*/*.txt
-data/converted_text/**/*.txt
-data/generated_questions/**/*.json
-data/generated_answers/**/*.json
-models/folder_trained_model.pth
-data/trained_models/*.pth

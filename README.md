@@ -130,7 +130,7 @@ the dependency and model once while online; question generation then runs fully
 offline:
 
 ```bash
-./venv/bin/pip install -r requirements.txt
+./venv/bin/pip install -r requirements-local.txt
 ./venv/bin/python -m spacy download en_core_web_sm
 ```
 
@@ -143,7 +143,7 @@ stored as `document_metadata` in the JSON archive. Install the Python packages
 and the local Tesseract executable once:
 
 ```bash
-./venv/bin/pip install -r requirements.txt
+./venv/bin/pip install -r requirements-local.txt
 brew install tesseract
 ```
 
